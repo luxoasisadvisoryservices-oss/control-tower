@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Control Tower">
+  <defs>
+    <linearGradient id="bg" x1="96" x2="430" y1="72" y2="444" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#17201c"/>
+      <stop offset="0.62" stop-color="#1f8a5b"/>
+      <stop offset="1" stop-color="#d9a441"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="url(#bg)"/>
+  <path fill="#ffffff" d="M146 158h220v50h-84v170h-52V208h-84v-50Z"/>
+  <path fill="#eaf7f1" d="M156 334h76v44h-76v-44Zm124 0h76v44h-76v-44Z"/>
+  <path fill="#ffffff" opacity=".86" d="M134 116h244v24H134v-24Z"/>
+</svg>
