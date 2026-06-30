@@ -111,6 +111,23 @@
       justify-content: flex-end;
     }
 
+    .nav-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 2px;
+      min-width: 142px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.25;
+    }
+
+    .nav-meta strong {
+      color: var(--ink);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
     button {
       border: 1px solid var(--line);
       background: var(--panel);
@@ -557,6 +574,7 @@
       .wrap { width: min(100% - 22px, 1180px); }
       .nav { min-height: 62px; padding: 10px 0; }
       .nav-actions { display: none; }
+      .nav-meta { min-width: 0; align-items: flex-start; }
       .hero-main { padding: 18px; }
       .score-row { grid-template-columns: 1fr; }
       .lane dl { grid-template-columns: 1fr; }
@@ -607,6 +625,10 @@
         <button type="button" data-tab="execution">Execution</button>
         <button type="button" data-tab="timeline">Timeline</button>
         <button type="button" data-tab="people">People</button>
+      </div>
+      <div class="nav-meta" aria-label="Last published update">
+        <strong>Updated</strong>
+        <span data-publish-stamp>30 Jun 2026 17:40 Dubai</span>
       </div>
     </div>
   </header>
