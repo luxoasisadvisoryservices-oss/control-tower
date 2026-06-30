@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Damiano Control Tower</title>
+  <meta name="description" content="COO cockpit for Lux Oasis, Conviva, Oasis Revenue Lab, Nest Match and founder execution." />
+  <meta name="theme-color" content="#17201c" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Control Tower" />
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --panel-soft: #f0f4f3;
+      --ink: #17201c;
+      --muted: #62716b;
+      --line: #dce4e0;
+      --green: #1f8a5b;
+      --amber: #b7791f;
+      --red: #b42318;
+      --blue: #2563eb;
+      --shadow: 0 12px 30px rgba(23, 32, 28, 0.08);
+      --radius: 8px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.94);
+      backdrop-filter: blur(12px);
+    }
+
+    .wrap {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .nav {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      min-width: 0;
+    }
+
+    .brand strong {
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .brand span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    button {
+      border: 1px solid var(--line);
+      background: var(--panel);
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 9px 12px;
+      font: inherit;
+      font-size: 13px;
+      cursor: pointer;
+      min-height: 38px;
+      touch-action: manipulation;
+    }
+
+    button:hover { border-color: #b8c6c0; }
+    button.active { background: #17201c; color: #fff; border-color: #17201c; }
+
+    main {
+      padding: 28px 0 44px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+      align-items: stretch;
+      margin-bottom: 18px;
+    }
+
+    .hero-main,
+    .hero-side,
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-main {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 260px;
+    }
+
+    .eyebrow {
+      color: var(--green);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 10px 0 10px;
+      font-size: clamp(32px, 4vw, 56px);
+      line-height: 1.02;
+      letter-spacing: 0;
+      max-width: 780px;
+    }
+
+    .hero-main p {
+      color: var(--muted);
+      font-size: 16px;
+      max-width: 760px;
+      margin: 0;
+    }
+
+    .score-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      margin-top: 22px;
+    }
+
+    .score {
+      border: 1px solid var(--line);
+      background: var(--panel-soft);
+      border-radius: var(--radius);
+      padding: 12px;
+      min-height: 82px;
+    }
+
+    .score b {
+      display: block;
+      font-size: 22px;
+      margin-bottom: 3px;
+    }
+
+    .score span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .hero-side {
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .brief-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .brief-title h2,
+    .section-title h2 {
+      margin: 0;
+      font-size: 18px;
+      letter-spacing: 0;
+    }
+
+    .stamp {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .brief-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .brief-list li {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 11px 12px;
+      background: #fbfcfc;
+      font-size: 13px;
+    }
+
+    .brief-list strong {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .brief-list span {
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.75fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      padding: 18px;
+      margin-bottom: 18px;
+    }
+
+    .section-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .lane-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .lane {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 14px;
+      background: #fff;
+      min-height: 238px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .lane-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .lane h3 {
+      margin: 0;
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+
+    .pill {
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .pill.green { color: #0f5132; background: #dff3e8; }
+    .pill.amber { color: #7a4b00; background: #fff0cf; }
+    .pill.red { color: #842029; background: #f8d7da; }
+    .pill.blue { color: #1d4ed8; background: #dbeafe; }
+    .pill.grey { color: #53605b; background: #edf1ef; }
+
+    .lane dl {
+      display: grid;
+      grid-template-columns: 84px 1fr;
+      gap: 7px 10px;
+      margin: 0;
+      font-size: 13px;
+    }
+
+    .lane dt {
+      color: var(--muted);
+    }
+
+    .lane dd {
+      margin: 0;
+      min-width: 0;
+    }
+
+    .task-columns {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+    }
+
+    .task-col {
+      background: #fbfcfc;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 12px;
+      min-height: 260px;
+    }
+
+    .task-col h3 {
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+
+    .task {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 10px;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+
+    .task small {
+      display: block;
+      color: var(--muted);
+      margin-top: 5px;
+    }
+
+    .metric-list,
+    .owner-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .metric-list li,
+    .owner-list li {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 11px 12px;
+      background: #fbfcfc;
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    .metric-list span,
+    .owner-list span {
+      color: var(--muted);
+    }
+
+    .timeline {
+      border-left: 2px solid var(--line);
+      padding-left: 14px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .event {
+      position: relative;
+      font-size: 13px;
+    }
+
+    .event::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+      background: var(--green);
+      position: absolute;
+      left: -20px;
+      top: 4px;
+    }
+
+    .event strong {
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    .event span {
+      color: var(--muted);
+    }
+
+    .roadmap {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      align-items: start;
+    }
+
+    .roadmap-col {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfc;
+      padding: 12px;
+      min-height: 360px;
+    }
+
+    .roadmap-col h3 {
+      margin: 0 0 10px;
+      font-size: 14px;
+    }
+
+    .road-item {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      padding: 10px;
+      margin-bottom: 8px;
+      font-size: 13px;
+    }
+
+    .road-item strong {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    .road-item span {
+      color: var(--muted);
+      display: block;
+    }
+
+    .road-item small {
+      display: block;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      background: #fff;
+      padding: 18px 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    [data-view] { display: none; }
+    [data-view].visible {
+      display: block;
+      scroll-margin-top: 88px;
+    }
+
+    @media (max-width: 920px) {
+      .hero,
+      .grid,
+      .lane-grid,
+      .task-columns,
+      .roadmap {
+        grid-template-columns: 1fr;
+      }
+
+      .score-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 620px) {
+      .wrap { width: min(100% - 22px, 1180px); }
+      .nav { align-items: flex-start; flex-direction: column; padding: 12px 0; }
+      .nav-actions {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+      }
+      button {
+        width: 100%;
+        min-height: 46px;
+        padding: 11px 10px;
+        font-size: 14px;
+      }
+      .hero-main { padding: 18px; }
+      .score-row { grid-template-columns: 1fr; }
+      .lane dl { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand">
+        <strong>Damiano Control Tower</strong>
+        <span>COO cockpit for money, blockers, owners and execution.</span>
+      </div>
+      <div class="nav-actions" aria-label="Dashboard views">
+        <button class="active" type="button" data-tab="overview">Overview</button>
+        <button type="button" data-tab="execution">Execution</button>
+        <button type="button" data-tab="timeline">Timeline</button>
+        <button type="button" data-tab="people">People</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-main">
+        <div>
+          <div class="eyebrow">Mission control</div>
+          <h1>What makes money, what is blocked, who owns the next move.</h1>
+          <p>This is the front page for Lux Oasis Holiday Homes, Conviva, Oasis Revenue Lab, Nest Match, renovation advisory, Lin delegation and founder leverage.</p>
+        </div>
+        <div class="score-row">
+          <div class="score"><b>AED 50k</b><span>LOHH monthly operating profit target by 31 Dec 2026</span></div>
+          <div class="score"><b>1</b><span>Current managed property baseline</span></div>
+          <div class="score"><b>5</b><span>Interim apartment milestone</span></div>
+          <div class="score"><b>10</b><span>Conviva first paying operator target</span></div>
+        </div>
+      </div>
+
+      <aside class="hero-side">
+        <div class="brief-title">
+          <h2>Today</h2>
+          <span class="stamp" id="todayStamp">Dubai time</span>
+        </div>
+        <ul class="brief-list">
+          <li><strong>Highest-value move</strong><span>Push Lux Oasis property acquisition and Revenue Lab proof, while keeping Conviva sales-ready.</span></li>
+          <li><strong>Main blocker</strong><span>Live access and current inputs: replies, Trello, repo status, PriceLabs/Hostaway data, Lin task list.</span></li>
+          <li><strong>Agent rule</strong><span>Do internal work automatically. Ask only for external sends, spending, pricing, legal, access or reputation risk.</span></li>
+          <li><strong>Founder focus</strong><span>Decisions, relationships, approvals and sales conversations only you can handle.</span></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section data-view="overview" class="visible">
+      <div class="grid">
+        <div>
+          <section class="panel">
+            <div class="section-title">
+              <h2>Business Lanes</h2>
+              <span class="stamp">Source of truth</span>
+            </div>
+            <div class="lane-grid">
+              <article class="lane">
+                <div class="lane-head"><h3>Lux Oasis Holiday Homes</h3><span class="pill green">Priority 1</span></div>
+                <dl>
+                  <dt>Target</dt><dd>AED 50k/month operating profit after costs by 31 Dec 2026.</dd>
+                  <dt>Now</dt><dd>Find property #2 and build repeatable owner/agent acquisition.</dd>
+                  <dt>Owner</dt><dd>Damiano + COO agent + Lin.</dd>
+                  <dt>Blocked</dt><dd>Needs live replies, unit economics, commercial structure and cash safety.</dd>
+                  <dt>Money</dt><dd>Direct path to replacing 9-to-5 income.</dd>
+                </dl>
+              </article>
+
+              <article class="lane">
+                <div class="lane-head"><h3>Conviva</h3><span class="pill blue">Commercial push</span></div>
+                <dl>
+                  <dt>Target</dt><dd>First 10 paying Dubai STR operators.</dd>
+                  <dt>Now</dt><dd>Sell supervised co-pilot pilot, not autonomous guest messaging.</dd>
+                  <dt>Owner</dt><dd>Damiano + Zuhair + COO agent.</dd>
+                  <dt>Blocked</dt><dd>Needs current repo status, blocker list, demo proof and QA fixes.</dd>
+                  <dt>Money</dt><dd>Recurring SaaS-style revenue plus operator relationships.</dd>
+                </dl>
+              </article>
+
+              <article class="lane">
+                <div class="lane-head"><h3>Oasis Revenue Lab</h3><span class="pill amber">Proof first</span></div>
+                <dl>
+                  <dt>Target</dt><dd>First 5 paying clients and 25-30 managed listings.</dd>
+                  <dt>Now</dt><dd>Manual revenue service now, hybrid AI later, proof dashboard first.</dd>
+                  <dt>Owner</dt><dd>Damiano + COO agent.</dd>
+                  <dt>Blocked</dt><dd>Needs validated PriceLabs/Hostaway data and deterministic report checks.</dd>
+                  <dt>Money</dt><dd>Fast advisory cashflow while product matures.</dd>
+                </dl>
+              </article>
+
+              <article class="lane">
+                <div class="lane-head"><h3>Nest Match</h3><span class="pill grey">Controlled beta</span></div>
+                <dl>
+                  <dt>Target</dt><dd>Dubai STR B2B marketplace liquidity.</dd>
+                  <dt>Now</dt><dd>Finish and QA product before serious outreach.</dd>
+                  <dt>Owner</dt><dd>Damiano + COO agent.</dd>
+                  <dt>Blocked</dt><dd>Needs clean product, first seeded users and Inventory Board activity.</dd>
+                  <dt>Money</dt><dd>Marketplace and network layer after core businesses move.</dd>
+                </dl>
+              </article>
+            </div>
+          </section>
+        </div>
+
+        <aside>
+          <section class="panel">
+            <div class="section-title"><h2>Money Metrics</h2></div>
+            <ul class="metric-list">
+              <li><strong>LOHH portfolio</strong><span>1 property</span></li>
+              <li><strong>Next milestone</strong><span>5 properties</span></li>
+              <li><strong>Revenue-share target</strong><span>Preferred</span></li>
+              <li><strong>Sublease risk</strong><span>Selective only</span></li>
+              <li><strong>Revenue Lab MRR</strong><span>First AED 5k-6k</span></li>
+            </ul>
+          </section>
+
+          <section class="panel">
+            <div class="section-title"><h2>Operating Rhythm</h2></div>
+            <div class="timeline">
+              <div class="event"><strong>09:30 Dubai briefing</strong><span>Done, waiting, blocked, mistakes, next actions.</span></div>
+              <div class="event"><strong>During day</strong><span>Route inputs, update board, draft replies, escalate decisions.</span></div>
+              <div class="event"><strong>End of day</strong><span>Close loops, log outcomes, prepare tomorrow's top moves.</span></div>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </section>
+
+    <section data-view="execution">
+      <section class="panel">
+        <div class="section-title">
+          <h2>Execution Board</h2>
+          <span class="stamp">Every item needs owner + next action</span>
+        </div>
+        <div class="task-columns" style="margin-bottom: 12px;">
+          <div class="task-col">
+            <h3>Today's Execution Pool</h3>
+            <div class="task">Outreached 3 agents today.<small>Channel: Lin sent WhatsApp messages.</small></div>
+            <div class="task">Sent JBR acquisition emails to additional people / routes.<small>Channel: email, monitor replies.</small></div>
+            <div class="task">Prepared Conviva operator list for first outreach batch.<small>Status: ready to start outreach after approval.</small></div>
+            <div class="task">Prepared Oasis Revenue Lab operator list for first outreach batch.<small>Status: ready to start outreach after approval.</small></div>
+          </div>
+          <div class="task-col">
+            <h3>Live Follow-Up Queue</h3>
+            <div class="task">Check whether any of the 3 WhatsApp agents replied.<small>Owner: Lin / COO agent.</small></div>
+            <div class="task">Move any interested JBR agent to availability and owner-interest gate.<small>Owner: COO agent.</small></div>
+            <div class="task">Prepare next message only after reply context is known.<small>No blind external send.</small></div>
+          </div>
+          <div class="task-col">
+            <h3>Ready To Activate</h3>
+            <div class="task">Conviva first operator outreach batch.<small>Target: small Dubai STR operators with 5-10 units.</small></div>
+            <div class="task">Oasis Revenue Lab first operator outreach batch.<small>Target: revenue leak audit / manual revenue management offer.</small></div>
+            <div class="task">Control Tower live deployment.<small>Put this file in GitHub and deploy on Vercel.</small></div>
+          </div>
+        </div>
+        <div class="task-columns">
+          <div class="task-col">
+            <h3>Now</h3>
+            <div class="task">Push property #2 lead engine.<small>Owner: COO agent + Damiano</small></div>
+            <div class="task">Prepare Revenue Lab proof and client-acquisition lane.<small>Owner: COO agent</small></div>
+            <div class="task">Turn Conviva into sellable supervised pilot.<small>Owner: Zuhair + Damiano</small></div>
+          </div>
+          <div class="task-col">
+            <h3>Waiting</h3>
+            <div class="task">JBR replies or forwarded agent responses.<small>Waiting on: Gmail/replies</small></div>
+            <div class="task">Trello board export or access.<small>Waiting on: Damiano</small></div>
+            <div class="task">Conviva repo, blockers and ETA.<small>Waiting on: Zuhair</small></div>
+          </div>
+          <div class="task-col">
+            <h3>Blocked / Parked</h3>
+            <div class="task">Nest Match broad outreach.<small>Blocked until product QA is clean</small></div>
+            <div class="task">Automated public posting and ads.<small>Blocked until approval/access</small></div>
+            <div class="task">Production API work.<small>Blocked until secure access method</small></div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section data-view="timeline">
+      <section class="panel">
+        <div class="section-title">
+          <h2>To-Do Timeline</h2>
+          <span class="stamp">Track done, active, ready and waiting</span>
+        </div>
+        <div class="roadmap">
+          <div class="roadmap-col">
+            <h3>Done So Far</h3>
+            <div class="road-item">
+              <strong>JBR acquisition outreach launched</strong>
+              <span>13 public agent / agency routes contacted for Murjan, Sadaf, Rimal, Shams and Bahar opportunities.</span>
+              <small>Status: done, monitor replies.</small>
+            </div>
+            <div class="road-item">
+              <strong>Next JBR batch prepared and sent</strong>
+              <span>6 follow-up acquisition emails sent after approval: Bahar 6 and Sadaf 7 priority routes.</span>
+              <small>Status: done, waiting on agent responses.</small>
+            </div>
+            <div class="road-item">
+              <strong>Control Tower v1 created</strong>
+              <span>Static dashboard file prepared for GitHub and Vercel deployment.</span>
+              <small>Status: ready to deploy.</small>
+            </div>
+          </div>
+
+          <div class="roadmap-col">
+            <h3>Ongoing Today</h3>
+            <div class="road-item">
+              <strong>3 agents outreached today</strong>
+              <span>Lin sent WhatsApp messages to 3 agents for Lux Oasis acquisition conversations.</span>
+              <small>Status: live follow-up queue.</small>
+            </div>
+            <div class="road-item">
+              <strong>JBR email outreach sent</strong>
+              <span>Additional JBR people / routes received acquisition emails.</span>
+              <small>Status: monitor replies and qualify interest.</small>
+            </div>
+            <div class="road-item">
+              <strong>Property manager + Eman meeting</strong>
+              <span>Calendar moved to 3:00 PM-4:00 PM Dubai time.</span>
+              <small>Status: scheduled.</small>
+            </div>
+            <div class="road-item">
+              <strong>PriceLabs API webinar follow-up</strong>
+              <span>Check whether PriceLabs sent the Friday API webinar recording and materials. Follow up if missing.</span>
+              <small>Status: to check.</small>
+            </div>
+            <div class="road-item">
+              <strong>Lux Oasis acquisition watch</strong>
+              <span>Monitor JBR replies and move interested agents into availability, owner-interest and economics gating.</span>
+              <small>Status: active.</small>
+            </div>
+          </div>
+
+          <div class="roadmap-col">
+            <h3>Ready To Go</h3>
+            <div class="road-item">
+              <strong>Conviva outreach</strong>
+              <span>Operator list is prepared for the first supervised co-pilot outreach batch.</span>
+              <small>Status: list-ready, send only after approval.</small>
+            </div>
+            <div class="road-item">
+              <strong>Oasis Revenue Lab outreach</strong>
+              <span>Operator list is prepared for the first revenue leak audit / manual revenue management outreach batch.</span>
+              <small>Status: list-ready, send only after approval.</small>
+            </div>
+            <div class="road-item">
+              <strong>Nest Match beta preparation</strong>
+              <span>Finish and QA the product before any serious outreach or traffic push.</span>
+              <small>Status: product-first.</small>
+            </div>
+          </div>
+
+          <div class="roadmap-col">
+            <h3>Waiting / Blocked</h3>
+            <div class="road-item">
+              <strong>Trello cleanup</strong>
+              <span>Needs board access, JSON export, screenshots or copied card text.</span>
+              <small>Waiting on: access/export.</small>
+            </div>
+            <div class="road-item">
+              <strong>Conviva build clarity</strong>
+              <span>Needs current repo, stack, blocker list, ETA and Zuhair notes.</span>
+              <small>Waiting on: Zuhair/current code state.</small>
+            </div>
+            <div class="road-item">
+              <strong>Lin delegation system</strong>
+              <span>Needs recurring task list or enough repeated work to infer and formalise SOPs.</span>
+              <small>Waiting on: real task examples.</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section data-view="people">
+      <div class="grid">
+        <section class="panel">
+          <div class="section-title"><h2>Owners And Waiting List</h2></div>
+          <ul class="owner-list">
+            <li><strong>Damiano</strong><span>Approvals, strategic decisions, warm intros, relationship calls.</span></li>
+            <li><strong>COO Agent</strong><span>Routing, trackers, drafts, QA, reminders, daily briefings.</span></li>
+            <li><strong>Lin</strong><span>Admin, onboarding support, operational follow-ups, task completion reporting.</span></li>
+            <li><strong>Zuhair</strong><span>Conviva engineering, blockers, build estimates and implementation status.</span></li>
+            <li><strong>External parties</strong><span>Agents, landlords, suppliers, clients, PriceLabs, building management.</span></li>
+          </ul>
+        </section>
+
+        <aside class="panel">
+          <div class="section-title"><h2>Approval Rules</h2></div>
+          <ul class="brief-list">
+            <li><strong>Green</strong><span>Read, summarise, draft, track, classify, prepare, research.</span></li>
+            <li><strong>Yellow</strong><span>Send externally, change prices, share files, publish, commit reputation.</span></li>
+            <li><strong>Red</strong><span>Money movement, bank details, legal commitments, hiring/firing, passwords.</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <span>Damiano Control Tower · Static Vercel-ready v1</span>
+      <span>No backend, no domain required, no environment variables.</span>
+    </div>
+  </footer>
+
+  <script>
+    const stamp = document.getElementById("todayStamp");
+    const formatter = new Intl.DateTimeFormat("en-GB", {
+      timeZone: "Asia/Dubai",
+      weekday: "short",
+      day: "2-digit",
+      month: "short",
+      hour: "2-digit",
+      minute: "2-digit"
+    });
+    stamp.textContent = formatter.format(new Date()) + " Dubai";
+
+    const buttons = Array.from(document.querySelectorAll("[data-tab]"));
+    const views = Array.from(document.querySelectorAll("[data-view]"));
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const tab = button.dataset.tab;
+        buttons.forEach((item) => item.classList.toggle("active", item === button));
+        views.forEach((view) => view.classList.toggle("visible", view.dataset.view === tab));
+        const activeView = document.querySelector(`[data-view="${tab}"]`);
+        if (activeView) {
+          activeView.scrollIntoView({ block: "start", behavior: "smooth" });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
