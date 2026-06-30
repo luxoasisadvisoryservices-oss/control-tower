@@ -641,7 +641,7 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>30 Jun 2026 17:48 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>30 Jun 2026 17:52 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
@@ -653,7 +653,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>30 Jun 2026 17:48 Dubai</span>
+        <span data-publish-stamp>30 Jun 2026 17:52 Dubai</span>
       </div>
     </div>
   </header>
@@ -1015,9 +1015,40 @@
 
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("./sw.js").catch(() => {});
+        navigator.serviceWorker.register("./sw.js").then((registration) => {
+          registration.update().catch(() => {});
+        }).catch(() => {});
       });
     }
+
+    const currentPublishStamp = document.querySelector("[data-publish-stamp]")?.textContent?.trim() || "";
+    let latestCheckInFlight = false;
+
+    function checkForLatestDashboard() {
+      if (latestCheckInFlight) return;
+      latestCheckInFlight = true;
+
+      fetch(`./index.html?fresh=${Date.now()}`, { cache: "no-store" })
+        .then((response) => (response.ok ? response.text() : ""))
+        .then((html) => {
+          if (!html) return;
+          const match = html.match(/<span data-publish-stamp>(.*?)<\/span>/);
+          const latestStamp = match ? match[1].trim() : "";
+          if (latestStamp && currentPublishStamp && latestStamp !== currentPublishStamp) {
+            window.location.reload();
+          }
+        })
+        .catch(() => {})
+        .finally(() => {
+          latestCheckInFlight = false;
+        });
+    }
+
+    window.addEventListener("pageshow", checkForLatestDashboard);
+    window.addEventListener("focus", checkForLatestDashboard);
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "visible") checkForLatestDashboard();
+    });
 
     const buttons = Array.from(document.querySelectorAll("[data-tab]"));
     const views = Array.from(document.querySelectorAll("[data-view]"));
