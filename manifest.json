@@ -2,7 +2,7 @@
   "name": "Damiano Control Tower",
   "short_name": "Control Tower",
   "description": "COO cockpit for Lux Oasis execution, money, blockers and next moves.",
-  "start_url": "./index.html?app=v17",
+  "start_url": "./index.html?app=v18",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
