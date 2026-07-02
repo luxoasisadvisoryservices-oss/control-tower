@@ -641,7 +641,7 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>02 Jul 2026 11:20 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>02 Jul 2026 11:35 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
@@ -653,7 +653,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>02 Jul 2026 11:20 Dubai</span>
+        <span data-publish-stamp>02 Jul 2026 11:35 Dubai</span>
       </div>
     </div>
   </header>
@@ -692,7 +692,7 @@
         <ul class="brief-list">
           <li><strong>Highest-value move</strong><span>Keep LOHH property #2 work moving, watch the verified JBR tracker for live reply movement, and track replies from the six warm LinkedIn candidates Lin messaged today.</span></li>
           <li><strong>Operating fix</strong><span>Mission Control had gone stale and the watchdog was noisy. Mission Control is now agent-owned, and the watchdog verifies delivery through cron history or SQLite before contacting Damiano.</span></li>
-          <li><strong>Today’s work slots</strong><span>Trello cleanup at 10:30 if access/export exists. Revenue Lab at 11:30: finish Step 5, Step 6 and the monthly PDF before adding the visibility/bookability layer.</span></li>
+          <li><strong>Today’s work slots</strong><span>Trello cleanup remains blocked without access/export. Revenue Lab 11:30 identified Step 5 and Step 6, but build/test is blocked until product code plus PriceLabs/Hostaway data or current report output are available.</span></li>
           <li><strong>Agent rule</strong><span>Do internal work automatically. Ask only for external sends, spending, pricing, legal, access or reputation risk.</span></li>
           <li><strong>Founder focus</strong><span>Decisions, relationships, approvals and sales conversations only you can handle.</span></li>
         </ul>
@@ -731,12 +731,12 @@
               </article>
 
               <article class="lane">
-                <div class="lane-head"><h3>Oasis Revenue Lab</h3><span class="pill amber">Proof first</span></div>
+                <div class="lane-head"><h3>Oasis Revenue Lab</h3><span class="pill red">Code/data needed</span></div>
                 <dl>
                   <dt>Target</dt><dd>Step 5, Step 6 and monthly PDF stable before broader client testing.</dd>
-                  <dt>Now</dt><dd>Finish Step 5, Step 6 and the monthly PDF first. Then add Booking.com/Airbnb visibility/bookability externally and OTAChannelState internally.</dd>
+                  <dt>Now</dt><dd>Step 5 is shared RevenueState. Step 6 routes chat, daily brief, PDF, booking/pricing checks and recommendation tracker through RevenueState. Monthly PDF follows after those pass.</dd>
                   <dt>Owner</dt><dd>Damiano + COO agent.</dd>
-                  <dt>Blocked</dt><dd>Needs code/data access or latest report output, API-cost control, core reliability, validated PriceLabs / Hostaway data, and deterministic checks.</dd>
+                  <dt>Blocked</dt><dd>Needs product repository/server path plus one PriceLabs/listing or Hostaway export, or the latest generated PDF/report output if it already exists.</dd>
                   <dt>Money</dt><dd>Testing and client acquisition only after cost and answer quality are controlled.</dd>
                 </dl>
               </article>
@@ -807,7 +807,7 @@
             <div class="task">Daily briefing watchdog patched and tested.<small>Job a53da785 now verifies the 09:30 briefing through cron tools or SQLite run logs. Manual test confirmed delivered=1 and stayed silent.</small></div>
             <div class="task">Today execution pool set.<small>1 LOHH property #2 and BD-plus-ops follow-up, 2 JBR reply watch, 3 Fiorigi review-risk containment, 4 Trello cleanup if access/export exists, 5 Revenue Lab Step 5 / Step 6 / monthly PDF, 6 Conviva only if Zuhair notes are available.</small></div>
             <div class="task">Trello cleanup slot preserved.<small>10:30 Dubai: only run the cleanup if access/export, screenshots or copied card text exist. Otherwise keep it blocked.</small></div>
-            <div class="task">Revenue Lab slot preserved.<small>11:30 Dubai: finish Step 5, Step 6 and monthly PDF first, then add visibility/bookability and OTAChannelState. Do not invent progress without code or data access.</small></div>
+            <div class="task">Revenue Lab slot inspected and blocked honestly.<small>11:30 Dubai: saved files show Step 5 = shared RevenueState and Step 6 = route chat, daily brief, PDF, booking/pricing checks and recommendation tracker through it. No product repo/server code, PriceLabs/Hostaway export, or latest report output is present locally.</small></div>
             <div class="task">Revenue Lab dashboard path captured.<small>Dashboard V1 still comes after the monthly PDF works: RevenueState, OTAChannelState, media/video score, OTA health score, diagnosis, confidence, missing inputs and recommendation ledger.</small></div>
             <div class="task">JBR tracker refreshed.<small>Latest verified strongest lane is Bahar 6 1BR, with Sadaf 7 2BR and Murjan 2 still in the queue. No new reply has been claimed.</small></div>
             <div class="task">LinkedIn warm-candidate messages sent.<small>Lin confirmed at 11:17 Dubai that she messaged Kazem Ahmed, Syed Imran, Ali Murtaza, Nikhil Kuchur, Shakila Dissanayake and Dragos Bejan. Wait for replies, serious candidates and suggested call times.</small></div>
@@ -857,7 +857,7 @@
             <div class="task">PriceLabs / price-level recording.<small>Reminder set for 1 Jul 10:30 Dubai to check again.</small></div>
             <div class="task">Trello board export or access.<small>Waiting on: Damiano</small></div>
             <div class="task">Conviva dashboard build ETA and feature breakdown.<small>Waiting on: Zuhair</small></div>
-            <div class="task">Revenue Lab code/data or latest report output.<small>Needed for Step 5, Step 6 and monthly PDF validation.</small></div>
+            <div class="task">Revenue Lab code/data or latest report output.<small>Exact input needed: product repository/server folder path plus one PriceLabs/listing or Hostaway export, or the latest generated PDF/report output if it already exists.</small></div>
             <div class="task">Trello access or export.<small>Needed for today’s cleanup: connector access, board JSON export, screenshots, or copied board/list/card text.</small></div>
           </div>
           <div class="task-col">
@@ -949,8 +949,8 @@
             </div>
             <div class="road-item">
               <strong>Oasis Revenue Lab build sequence</strong>
-              <span>Validate inputs, complete the deterministic checks, then test the pasted full agent logic.</span>
-              <small>Status: tomorrow core finish push.</small>
+              <span>Step 5 and Step 6 are identified, but cannot be built or tested from specs alone.</span>
+              <small>Status: blocked on product code/data or current report output.</small>
             </div>
             <div class="road-item">
               <strong>Nest Match beta preparation</strong>
