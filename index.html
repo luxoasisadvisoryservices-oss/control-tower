@@ -430,6 +430,37 @@
       margin-top: 5px;
     }
 
+    .archive-log { display: none; }
+
+    .task.now { border-left: 4px solid var(--green); }
+    .task.waiting { border-left: 4px solid var(--amber); }
+    .task.closed { border-left: 4px solid var(--line); background: #f8faf9; }
+
+    .sharp-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+
+    .sharp-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfc;
+      padding: 12px;
+      min-height: 122px;
+      font-size: 13px;
+    }
+
+    .sharp-card strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .sharp-card span {
+      color: var(--muted);
+      display: block;
+    }
+
     .metric-list,
     .owner-list {
       display: grid;
@@ -570,6 +601,7 @@
       .hero,
       .grid,
       .lane-grid,
+      .sharp-grid,
       .task-columns,
       .roadmap {
         grid-template-columns: 1fr;
@@ -648,7 +680,7 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>04 Jul 2026 10:35 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>04 Jul 2026 10:49 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
@@ -660,7 +692,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>04 Jul 2026 10:35 Dubai</span>
+        <span data-publish-stamp>04 Jul 2026 10:49 Dubai</span>
       </div>
     </div>
   </header>
@@ -697,16 +729,28 @@
           <span class="stamp" id="todayStamp">Dubai time</span>
         </div>
         <ul class="brief-list">
-          <li><strong>Highest-value move</strong><span>Keep LOHH property #2 moving, watch the Syed Imran 11:00 Dubai call window, and use the staffing model correctly: 20% acquisition upside is on LOHH retained net profit, not full property net profit.</span></li>
-          <li><strong>Operating fix</strong><span>Booking emails now feed an internal booking-to-checkout journey: Lin readiness checks, 48-hour in-stay check, checkout, cleaning arrival and 15:00-15:30 readiness confirmation.</span></li>
-          <li><strong>Today’s work slots</strong><span>PriceLabs seasonal min-stay reminder is due at 09:30 Dubai. The next useful blocks are the Syed and Ali call windows, JBR reply watch, property-forward scan, and Trello or Revenue Lab only if the missing inputs exist.</span></li>
-          <li><strong>Agent rule</strong><span>Do internal work automatically. Ask only for external sends, spending, pricing, legal, access or reputation risk.</span></li>
-          <li><strong>Founder focus</strong><span>Decisions, relationships, approvals and sales conversations only you can handle.</span></li>
+          <li><strong>Now</strong><span>LOHH property #2, JBR reply watch, Syed hiring/screening path, ORL 11:30 bug-check block, Jake Cohen reminder, and owner-acquisition marketing drafts.</span></li>
+          <li><strong>Waiting</strong><span>JBR agent replies, Trello access/export, ORL repo/data or current report output, Zuhair Conviva ETA, and Lin completion reports.</span></li>
+          <li><strong>Closed / watch only</strong><span>Fiorigi cleaning is closed. Keep only review-thread risk visible; do not show it as ongoing work again.</span></li>
+          <li><strong>Sharpness rule</strong><span>Every live item needs owner, next action, waiting party, and last verified source. Closed work moves to closed/watch, not Ongoing Today.</span></li>
+          <li><strong>Founder focus</strong><span>Sales calls, approvals, candidate judgement, owner/agent relationships and decisions only you can handle.</span></li>
         </ul>
       </aside>
     </section>
 
     <section data-view="overview" class="visible">
+      <section class="panel">
+        <div class="section-title">
+          <h2>Sharp Control State</h2>
+          <span class="stamp">No stale active items</span>
+        </div>
+        <div class="sharp-grid">
+          <div class="sharp-card"><strong>Active now</strong><span>Property #2, JBR reply watch, Syed hiring screen, ORL bug-check block, Jake Cohen reminder, owner-acquisition marketing drafts.</span></div>
+          <div class="sharp-card"><strong>Waiting on others</strong><span>JBR replies, Trello export/access, ORL repo/data/report output, Zuhair Conviva details, Lin done/blocker reports.</span></div>
+          <div class="sharp-card"><strong>Closed / watch</strong><span>Fiorigi cleaning is closed since Lin confirmed done on 2 Jul at 17:07 Dubai. Review-risk watch only.</span></div>
+          <div class="sharp-card"><strong>Update discipline</strong><span>Source file, Control Tower, phone dashboard, cache bump, publish and live verification must move before work is called done.</span></div>
+        </div>
+      </section>
       <div class="grid">
         <div>
           <section class="panel">
@@ -830,6 +874,32 @@
           <span class="stamp">Every item needs owner + next action</span>
         </div>
         <div class="task-columns" style="margin-bottom: 12px;">
+          <div class="task-col">
+            <h3>Active Now</h3>
+            <div class="task now">LOHH property #2 and JBR reply watch.<small>Owner: COO agent. Next action: monitor live replies, qualify only real agent/owner interest, prepare next move after reply context.</small></div>
+            <div class="task now">Syed and hiring/screening path.<small>Owner: Damiano + COO agent + Lin. Next action: finish final Monday LinkedIn batch, then stop broad outreach and screen serious candidates. Syed remains the most interested and available.</small></div>
+            <div class="task now">ORL bug-check block at 11:30 Dubai.<small>Owner: COO agent where workspace access allows. Scope: RevenueState, Step 6 routing, daily brief, monthly PDF, listing health, recommendation ledger, fallback behaviour and cost control.</small></div>
+            <div class="task now">Jake Cohen / PriceLabs reminder.<small>Owner: Damiano. Next action: contact Jake on Facebook and join his group using the saved warm opener.</small></div>
+            <div class="task now">Owner-acquisition marketing engine.<small>Owner: COO agent + Lin. Green work only: SEO copy, ad drafts, content calendar, landing copy and lead-intake questions. No spend or public posting without approval.</small></div>
+          </div>
+          <div class="task-col">
+            <h3>Waiting / Blocked</h3>
+            <div class="task waiting">JBR replies or forwarded agent responses.<small>Waiting on: Gmail / agents. No new human replies were found in the latest 09:00 Dubai monitor run.</small></div>
+            <div class="task waiting">Trello cleanup.<small>Waiting on: connector access, board JSON export, screenshots, or copied board/list/card text.</small></div>
+            <div class="task waiting">ORL implementation validation.<small>Waiting on: product repo/server path plus one PriceLabs/listing or Hostaway export, or the latest generated PDF/report output.</small></div>
+            <div class="task waiting">Conviva build clarity.<small>Waiting on: Zuhair ETA, repo/stack confirmation, dashboard feature split and blocker list.</small></div>
+            <div class="task waiting">Lin recurring-task system.<small>Waiting on: enough real repeated task examples or Lin completion/blocker reports.</small></div>
+          </div>
+          <div class="task-col">
+            <h3>Closed / Watch Only</h3>
+            <div class="task closed">Fiorigi cleaning incident closed.<small>Lin confirmed cleaning done and all good on 2 Jul at 17:07 Dubai. No cleaning blocker remains. Keep only light review-thread risk watch.</small></div>
+            <div class="task closed">DHCM app-access follow-up closed.<small>DHCM acknowledged the 3 Jul permit/app-access thread and Damiano confirmed follow-up done. Keep only expected update watch within two business days.</small></div>
+            <div class="task closed">Final LinkedIn candidate batch handed to Lin.<small>Slack #linkedin message ID 1783144449.632699. Monday is the last broad outreach batch before hiring/screening.</small></div>
+            <div class="task closed">Oussama Farhi parked.<small>Later senior BD/acquisition lever for exponential growth after Lux Oasis has more base, proof and credibility. Not a near-term hiring dependency.</small></div>
+            <div class="task closed">Partner Operator Network path captured.<small>Use this framing instead of franchise until proof, systems and legal review exist.</small></div>
+          </div>
+        </div>
+        <div class="task-columns archive-log" style="margin-bottom: 12px;">
           <div class="task-col">
             <h3>Today's Execution Pool</h3>
             <div class="task">Mission Control and Control Tower were updated together this morning.<small>Mission Control had stale state; the phone dashboard now mirrors the verified source notes again.</small></div>
