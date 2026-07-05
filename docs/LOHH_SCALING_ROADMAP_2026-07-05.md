@@ -549,6 +549,36 @@ Rules:
 
 ## 10. Hiring Roadmap
 
+### Business Development / Acquisition Figure
+
+Syed or a similar business-development figure is part of the scaling roadmap, but should be treated as a proof-gated acquisition/operations partner first, not as a guaranteed fixed employee.
+
+Purpose of the role:
+
+- bring owner, landlord, agent and investor routes;
+- help source revenue-share or approved hybrid units;
+- help move deals from conversation to viewing, economics, documents and signature;
+- support onboarding and operations only if clearly assigned;
+- reduce Damiano's daily workload rather than creating more follow-up.
+
+Correct first structure:
+
+- 60-day commercial proof period;
+- no automatic visa/support before proof where legally possible;
+- no fixed salary unless separately approved;
+- weekly pipeline report;
+- target 5-10 real owner/agent routes;
+- target 1-2 units reaching serious owner-interest, economics, viewing or document stage.
+
+Step-up logic:
+
+- If he only introduces a lead and disappears: referral or acquisition-only economics.
+- If he sources and helps close: acquisition-only partner, around 20% of Lux Oasis retained net profit from that unit.
+- If he sources, closes, onboards and actively manages: acquisition-plus-operations partner, around 25%.
+- If he proves genuine A-to-Z performance across multiple units: possible step-up toward 30%, but only after proof.
+
+This role is important because Lux Oasis needs a repeatable growth engine. It is also risky if the business gives visa, title, salary or high percentage before real property access is proven.
+
 ### First Hire Type
 
 Best first hire is not pure admin.
