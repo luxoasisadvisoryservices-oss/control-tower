@@ -1,11 +1,12 @@
-const CACHE_NAME = "control-tower-v145";
+const CACHE_NAME = "control-tower-v146";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.json",
   "./icon.svg",
   "./docs/LOHH_Revenue_Share_Staffing_Model_2026-07-02.pdf",
-  "./docs/LOHH_Acquisition_Ops_Partner_Term_Sheet_2026-07-03.pdf"
+  "./docs/LOHH_Acquisition_Ops_Partner_Term_Sheet_2026-07-03.pdf",
+  "./docs/LOHH_SCALING_ROADMAP_2026-07-05.md"
 ];
 
 self.addEventListener("install", (event) => {
