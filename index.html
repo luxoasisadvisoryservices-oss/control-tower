@@ -461,6 +461,88 @@
       display: block;
     }
 
+    .action-board {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+
+    .action-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      padding: 13px;
+      min-height: 210px;
+      font-size: 13px;
+      border-top: 4px solid var(--line);
+    }
+
+    .action-card ul {
+      margin: 10px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+      display: grid;
+      gap: 7px;
+    }
+
+    .action-head {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+    }
+
+    .action-index {
+      width: 28px;
+      height: 28px;
+      border-radius: 999px;
+      display: grid;
+      place-items: center;
+      background: #17201c;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 800;
+      flex: 0 0 auto;
+    }
+
+    .action-user { border-top-color: var(--red); }
+    .action-agent { border-top-color: var(--green); }
+    .action-waiting { border-top-color: var(--amber); }
+    .action-watch { border-top-color: var(--blue); }
+
+    .queue-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .queue-item {
+      display: grid;
+      grid-template-columns: 42px minmax(120px, 0.36fr) 1fr;
+      gap: 10px;
+      align-items: center;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfc;
+      padding: 10px 12px;
+      font-size: 13px;
+    }
+
+    .queue-item span {
+      color: var(--green);
+      font-weight: 900;
+      font-size: 12px;
+    }
+
+    .queue-item strong {
+      min-width: 0;
+    }
+
+    .queue-item em {
+      color: var(--muted);
+      font-style: normal;
+      min-width: 0;
+    }
+
     .metric-list,
     .owner-list {
       display: grid;
@@ -602,6 +684,7 @@
       .grid,
       .lane-grid,
       .sharp-grid,
+      .action-board,
       .task-columns,
       .roadmap {
         grid-template-columns: 1fr;
@@ -639,6 +722,14 @@
       .score { min-height: 86px; padding: 11px; }
       .score b { font-size: 20px; }
       .lane dl { grid-template-columns: 1fr; }
+      .action-card { min-height: auto; }
+      .queue-item {
+        grid-template-columns: 34px 1fr;
+        align-items: start;
+      }
+      .queue-item em {
+        grid-column: 2;
+      }
       h1 { font-size: 33px; }
       .brand span { display: none; }
       .brand-update {
@@ -680,19 +771,19 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>05 Jul 2026 10:44 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>05 Jul 2026 10:48 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
       <div class="nav-actions" aria-label="Dashboard views">
         <button class="active" type="button" data-tab="overview">Overview</button>
-        <button type="button" data-tab="execution">Execution</button>
-        <button type="button" data-tab="timeline">Timeline</button>
+        <button type="button" data-tab="execution">To Do</button>
+        <button type="button" data-tab="timeline">Follow-Up</button>
         <button type="button" data-tab="people">People</button>
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>05 Jul 2026 10:44 Dubai</span>
+        <span data-publish-stamp>05 Jul 2026 10:48 Dubai</span>
       </div>
     </div>
   </header>
@@ -710,8 +801,8 @@
       <div class="hero-main">
         <div>
           <div class="eyebrow">Mission Control · North Star</div>
-          <h1>Mission Control for money, blockers and next moves.</h1>
-          <p>Live operating screen for Lux Oasis Holiday Homes, Conviva, Oasis Revenue Lab, Nest Match, product readiness, schedule, tasks and decisions.</p>
+          <h1>What needs action, what is waiting, what is done.</h1>
+          <p>Simple operating screen for Lux Oasis tasks, follow-ups, approvals, blockers and product lanes.</p>
         </div>
         <div class="score-row">
           <div class="score"><b>AED 50k</b><span>LOHH monthly operating profit target by 31 Dec 2026</span></div>
@@ -729,11 +820,11 @@
           <span class="stamp" id="todayStamp">Dubai time</span>
         </div>
         <ul class="brief-list">
-          <li><strong>Now</strong><span>LOHH property #2, JBR reply watch, today’s Jake Cohen Facebook / group reminder, broader Syed hiring/screening path, Oasis2 review reply approval, dispenser upgrade follow-up, PriceLabs API reply watch, Control Tower watcher, active specialist-agent workers, and owner-acquisition marketing drafts.</span></li>
-          <li><strong>Waiting</strong><span>JBR agent replies, Airbnb public-reply approval, PriceLabs/Eriel reply, Trello access/export, ORL repo/data or current report output, Zuhair Conviva ETA, and Lin completion reports.</span></li>
-          <li><strong>Closed / watch only</strong><span>Oasis2 has a positive 5-star review. Fiorigi cleaning is closed. Keep only real review-thread risk visible.</span></li>
-          <li><strong>Sharpness rule</strong><span>Control Tower is the most updated dashboard, not a memory log. If a task is logically past or confirmed all good, close it or move it to watch-only immediately.</span></li>
-          <li><strong>Founder focus</strong><span>Sales calls, approvals, candidate judgement, owner/agent relationships and decisions only you can handle.</span></li>
+          <li><strong>Your action</strong><span>Jake Cohen Facebook/group, Oasis2 public reply approval, ORL acceptance checks, Syed contract review prep.</span></li>
+          <li><strong>I handle</strong><span>JBR reply watch, owner-acquisition drafts, Control Tower cleanup, PriceLabs reply watch, tracker updates.</span></li>
+          <li><strong>Waiting</strong><span>JBR replies, PriceLabs/Eriel, Zuhair Conviva ETA, Lin reports, Trello access/export.</span></li>
+          <li><strong>Done / watch</strong><span>Oasis2 positive review logged. Fiorigi cleaning closed. ORL outreach parked until website/product gates move.</span></li>
+          <li><strong>Rule</strong><span>Top screen shows only current action state. Detail and history live in the lower tabs.</span></li>
         </ul>
       </aside>
     </section>
@@ -741,14 +832,59 @@
     <section data-view="overview" class="visible">
       <section class="panel">
         <div class="section-title">
-          <h2>Sharp Control State</h2>
-          <span class="stamp">No stale active items</span>
+          <h2>Action Board</h2>
+          <span class="stamp">Read this first</span>
         </div>
-        <div class="sharp-grid">
-          <div class="sharp-card"><strong>Active now</strong><span>Property #2, JBR reply watch, today’s Jake Cohen Facebook / group reminder, broader Syed hiring screen, Oasis2 public-reply approval, dispenser upgrade follow-up, PriceLabs API reply watch, specialist-agent workers, owner-acquisition marketing drafts.</span></div>
-          <div class="sharp-card"><strong>Waiting on others</strong><span>JBR replies, Airbnb reply approval, PriceLabs/Eriel reply, Trello export/access, ORL repo/data/report output, Zuhair Conviva details, Lin done/blocker reports.</span></div>
-          <div class="sharp-card"><strong>Closed / watch</strong><span>Oasis2: 5-star review logged as positive outcome. Fiorigi cleaning is closed since Lin confirmed done on 2 Jul at 17:07 Dubai.</span></div>
-          <div class="sharp-card"><strong>Control watcher</strong><span>A dedicated worker checks the board every 30 minutes from 08:00-22:00 Dubai and updates only material state changes so active, waiting and closed items stay sharp.</span></div>
+        <div class="action-board">
+          <article class="action-card action-user">
+            <div class="action-head"><span class="action-index">1</span><strong>You</strong></div>
+            <ul>
+              <li>Contact Jake Cohen on Facebook and join his group.</li>
+              <li>Approve or edit the Oasis2 public Airbnb reply.</li>
+              <li>Run ORL empty-nights and thread-memory checks.</li>
+              <li>Review Syed contract structure before 7 Jul.</li>
+            </ul>
+          </article>
+          <article class="action-card action-agent">
+            <div class="action-head"><span class="action-index">2</span><strong>COO Agent</strong></div>
+            <ul>
+              <li>Watch JBR replies and qualify real owner/agent interest.</li>
+              <li>Keep owner-acquisition marketing drafts internal.</li>
+              <li>Watch PriceLabs/Eriel API reply.</li>
+              <li>Keep Control Tower and source files current.</li>
+            </ul>
+          </article>
+          <article class="action-card action-waiting">
+            <div class="action-head"><span class="action-index">3</span><strong>Waiting</strong></div>
+            <ul>
+              <li>JBR agent replies or forwarded responses.</li>
+              <li>PriceLabs/Eriel reply.</li>
+              <li>Zuhair Conviva ETA and blocker list.</li>
+              <li>Trello access/export and Lin done/blocker reports.</li>
+            </ul>
+          </article>
+          <article class="action-card action-watch">
+            <div class="action-head"><span class="action-index">4</span><strong>Done / Watch</strong></div>
+            <ul>
+              <li>Oasis2 5-star review logged.</li>
+              <li>Fiorigi cleaning closed, review-thread watch only.</li>
+              <li>ORL outreach parked behind website and product gates.</li>
+              <li>Control watcher checks stale state every 30 minutes.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+      <section class="panel">
+        <div class="section-title">
+          <h2>Ordered Work Queue</h2>
+          <span class="stamp">Money-first</span>
+        </div>
+        <div class="queue-list">
+          <div class="queue-item"><span>01</span><strong>Property #2</strong><em>JBR replies, owner-acquisition marketing, Syed/BD screening.</em></div>
+          <div class="queue-item"><span>02</span><strong>Guest / Review Risk</strong><em>Oasis2 public reply approval and dispenser upgrade follow-up.</em></div>
+          <div class="queue-item"><span>03</span><strong>Oasis Revenue Lab</strong><em>Acceptance tests, website update, sellable product explanation before outreach.</em></div>
+          <div class="queue-item"><span>04</span><strong>Conviva</strong><em>Zuhair ETA, dashboard-first build clarity, then controlled beta.</em></div>
+          <div class="queue-item"><span>05</span><strong>Back Office</strong><em>Trello cleanup only if access/export arrives; otherwise stays blocked.</em></div>
         </div>
       </section>
       <div class="grid">
@@ -1187,8 +1323,8 @@
 
   <nav class="mobile-tabbar" aria-label="Mobile dashboard views">
     <button class="active" type="button" data-tab="overview">Overview</button>
-    <button type="button" data-tab="execution">Execution</button>
-    <button type="button" data-tab="timeline">Timeline</button>
+    <button type="button" data-tab="execution">To Do</button>
+    <button type="button" data-tab="timeline">Follow-Up</button>
     <button type="button" data-tab="people">People</button>
   </nav>
 
