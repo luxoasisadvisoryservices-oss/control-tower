@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v149";
+const CACHE_NAME = "control-tower-v150";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,7 +7,9 @@ const APP_SHELL = [
   "./docs/LOHH_Revenue_Share_Staffing_Model_2026-07-02.pdf",
   "./docs/LOHH_Acquisition_Ops_Partner_Term_Sheet_2026-07-03.pdf",
   "./docs/LOHH_Scaling_Roadmap_2026-07-05.pdf",
-  "./docs/LOHH_SCALING_ROADMAP_2026-07-05.md"
+  "./docs/LOHH_SCALING_ROADMAP_2026-07-05.md",
+  "./docs/ORL_Execution_List_Week_2026-07-05.pdf",
+  "./docs/ORL_EXECUTION_LIST_WEEK_2026-07-05.md"
 ];
 
 self.addEventListener("install", (event) => {
