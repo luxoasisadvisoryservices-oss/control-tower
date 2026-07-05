@@ -696,6 +696,75 @@
       min-height: 146px;
     }
 
+    .business-todo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      align-items: start;
+    }
+
+    .biz-todo-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      padding: 13px;
+      border-top: 5px solid var(--line);
+      display: flex;
+      flex-direction: column;
+      gap: 11px;
+      min-height: 332px;
+    }
+
+    .biz-todo-card.lohh { border-top-color: var(--green); }
+    .biz-todo-card.conviva { border-top-color: var(--blue); }
+    .biz-todo-card.orl { border-top-color: var(--red); }
+    .biz-todo-card.nest { border-top-color: var(--amber); }
+    .biz-todo-card.support { border-top-color: var(--violet); }
+
+    .biz-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .biz-title h3 {
+      margin: 0;
+      font-size: 17px;
+      letter-spacing: 0;
+    }
+
+    .biz-lanes {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .biz-lane {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fbfcfc;
+      padding: 9px;
+      font-size: 12px;
+      min-height: 112px;
+    }
+
+    .biz-lane strong {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .biz-lane ul {
+      margin: 0;
+      padding-left: 16px;
+      color: var(--muted);
+      display: grid;
+      gap: 4px;
+    }
+
     .metric-list,
     .owner-list {
       display: grid;
@@ -843,6 +912,8 @@
       .subbrand-grid,
       .agent-summary,
       .agent-grid,
+      .business-todo-grid,
+      .biz-lanes,
       .task-columns,
       .roadmap {
         grid-template-columns: 1fr;
@@ -929,7 +1000,7 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>05 Jul 2026 10:58 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>05 Jul 2026 11:22 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
@@ -942,7 +1013,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>05 Jul 2026 10:58 Dubai</span>
+        <span data-publish-stamp>05 Jul 2026 11:22 Dubai</span>
       </div>
     </div>
   </header>
@@ -1206,6 +1277,78 @@
     </section>
 
     <section data-view="execution">
+      <section class="panel">
+        <div class="section-title">
+          <h2>Business-by-Business To Do</h2>
+          <span class="stamp">No mixed task pile</span>
+        </div>
+        <div class="business-todo-grid">
+          <article class="biz-todo-card lohh">
+            <div class="biz-title"><h3>Lux Oasis Holiday Homes</h3><span class="pill green">Money first</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>To Do</strong><ul><li>Property #2 lead engine.</li><li>Syed / BD-plus-ops screening.</li><li>Owner-acquisition page and ad drafts.</li></ul></div>
+              <div class="biz-lane"><strong>Follow-Up</strong><ul><li>JBR agent replies.</li><li>Lin Monday LinkedIn/social handoff.</li><li>Oasis2 public reply approval.</li></ul></div>
+              <div class="biz-lane"><strong>Waiting</strong><ul><li>Real owner/agent interest.</li><li>Candidate replies.</li><li>Unit economics and owner terms.</li></ul></div>
+              <div class="biz-lane"><strong>Done / Watch</strong><ul><li>Oasis2 5-star review logged.</li><li>Fiorigi cleaning closed.</li><li>JBR tracker refreshed.</li></ul></div>
+            </div>
+          </article>
+
+          <article class="biz-todo-card conviva">
+            <div class="biz-title"><h3>Conviva</h3><span class="pill blue">Build proof</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>To Do</strong><ul><li>Get Zuhair repo/stack/blocker list.</li><li>Keep dashboard-first build path.</li><li>Define reliable demo flow.</li></ul></div>
+              <div class="biz-lane"><strong>Follow-Up</strong><ul><li>Zuhair ETA.</li><li>Reservation dashboard details.</li><li>Structured information slots.</li></ul></div>
+              <div class="biz-lane"><strong>Waiting</strong><ul><li>Engineering notes.</li><li>QA evidence.</li><li>Core reliability proof.</li></ul></div>
+              <div class="biz-lane"><strong>Done / Watch</strong><ul><li>Locked plan captured.</li><li>Outreach parked.</li><li>Utopia-style video later.</li></ul></div>
+            </div>
+          </article>
+
+          <article class="biz-todo-card orl">
+            <div class="biz-title"><h3>Oasis Revenue Lab</h3><span class="pill red">Product first</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>To Do</strong><ul><li>Empty-nights acceptance check.</li><li>Thread-memory pushback test.</li><li>Website and sellable explanation.</li></ul></div>
+              <div class="biz-lane"><strong>Follow-Up</strong><ul><li>PriceLabs / Eriel reply.</li><li>June PDF verdict.</li><li>Repo OS setup result.</li></ul></div>
+              <div class="biz-lane"><strong>Waiting</strong><ul><li>Repo/data/report output.</li><li>ORL website update.</li><li>Sellable-product gate.</li></ul></div>
+              <div class="biz-lane"><strong>Done / Watch</strong><ul><li>Prospect list parked.</li><li>Product direction clarified.</li><li>Cache of build prompts saved.</li></ul></div>
+            </div>
+          </article>
+
+          <article class="biz-todo-card nest">
+            <div class="biz-title"><h3>Nest Match</h3><span class="pill amber">Controlled beta</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>To Do</strong><ul><li>Finish signup/dashboard QA.</li><li>Clarify Inventory Board wedge.</li><li>Prepare founding-access route.</li></ul></div>
+              <div class="biz-lane"><strong>Follow-Up</strong><ul><li>Product state.</li><li>Seed users / inventory source.</li><li>Privacy and marketplace trust checks.</li></ul></div>
+              <div class="biz-lane"><strong>Waiting</strong><ul><li>Clean product state.</li><li>Liquidity path.</li><li>Launch QA.</li></ul></div>
+              <div class="biz-lane"><strong>Done / Watch</strong><ul><li>Broad outreach parked.</li><li>Contracts hub captured.</li><li>Mid-Aug target visible.</li></ul></div>
+            </div>
+          </article>
+
+          <article class="biz-todo-card support">
+            <div class="biz-title"><h3>Mission Control / Renovation / Admin</h3><span class="pill violet">Support lanes</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>To Do</strong><ul><li>Shape Mission Control product scope.</li><li>Keep Renovation tied to real owner/unit leads.</li><li>Trello cleanup only if access arrives.</li></ul></div>
+              <div class="biz-lane"><strong>Follow-Up</strong><ul><li>Control Tower product feedback.</li><li>Renovation offer sheet later.</li><li>Trello export/screenshots.</li></ul></div>
+              <div class="biz-lane"><strong>Waiting</strong><ul><li>First beta-user profile.</li><li>Renovation pilot lead.</li><li>Board data.</li></ul></div>
+              <div class="biz-lane"><strong>Done / Watch</strong><ul><li>Control Tower visual split added.</li><li>Agents page added.</li><li>Admin lanes parked when empty.</li></ul></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-title">
+          <h2>Holiday Homes LinkedIn / Acquisition List</h2>
+          <span class="stamp">Bigger list, but ordered</span>
+        </div>
+        <div class="queue-list">
+          <div class="queue-item"><span>01</span><strong>Syed Imran</strong><em>Most interested active candidate. Prepare contract review around 60-day trial and retained-profit share.</em></div>
+          <div class="queue-item"><span>02</span><strong>Monday LinkedIn Batch</strong><em>Lin to execute/check Oussama Farhi, Salman Irshad, Lidya Belmokhtar, Joseph Maksoud, Fahim Makhool, MD Ahmed, Nikunj Bajpai, Ahmed Al-Khalefa, Mohsen Sabry.</em></div>
+          <div class="queue-item"><span>03</span><strong>Warm Network Already Sent</strong><em>Kazem Ahmed, Syed Imran, Ali Murtaza, Nikhil Kuchur, Shakila Dissanayake, Dragos Bejan. Watch replies only.</em></div>
+          <div class="queue-item"><span>04</span><strong>JBR Agent Routes</strong><em>Bahar 6, Murjan 1, Sadaf 7, Murjan 2, Rimal 3, Jumeirah Gate / La Vie routes. Move only real replies to economics gate.</em></div>
+          <div class="queue-item"><span>05</span><strong>Owner Marketing Funnel</strong><em>SEO owner page, Google Ads draft, Meta calendar, owner intake questions. Approval needed before public spend or posting.</em></div>
+        </div>
+      </section>
+
       <section class="panel">
         <div class="section-title">
           <h2>Execution Board</h2>
