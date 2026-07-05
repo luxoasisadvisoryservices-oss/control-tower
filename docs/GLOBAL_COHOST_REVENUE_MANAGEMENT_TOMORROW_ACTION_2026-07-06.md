@@ -4,6 +4,8 @@ Created: 2026-07-05 21:46 Dubai
 Owner: Damiano + COO agent  
 Status: tomorrow execution checklist
 
+Correction at 2026-07-05 21:49 Dubai: this is **not a Nest Match task**. It belongs to Lux Oasis Holiday Homes and Oasis Revenue Lab. The purpose is to use Airbnb Co-Host / host-community channels to earn money and grow the Lux Oasis portfolio or revenue-management client base, not to position Nest Match.
+
 ## Decision
 
 Yes, this channel should be used.
