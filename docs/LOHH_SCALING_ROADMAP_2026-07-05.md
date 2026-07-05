@@ -28,7 +28,7 @@ Current known baseline:
 - Live managed portfolio: 1 property.
 - Working overhead baseline: about AED 6,000/month before new fixed hires.
 - Current example average from Murjan 2 / Murjan 3: about AED 2,525/month Lux Oasis retained profit per unit before partner share.
-- With 25% acquisition-plus-operations partner share, current-style unit contribution falls to about AED 1,894/month.
+- With the updated 15/20/25 partner structure, current-style unit contribution changes depending on the role and property quality. Use 25% as the normal ceiling for source-plus-operate unless Damiano approves an exception.
 - Scaling software and operations tools may add roughly AED 100-200 per unit/month at larger portfolio size.
 
 Important implication:
@@ -525,11 +525,13 @@ Measured by:
 
 ## 9. Partner Economics
 
-Default structure:
+Updated working structure from Damiano's 2026-07-05 clarification:
 
-- Acquisition-only: 20% of Lux Oasis retained net profit from units personally sourced/helped closed.
-- Acquisition plus active operations: 25% of Lux Oasis retained net profit from units personally sourced, closed, onboarded and actively managed.
-- Proven A-to-Z operator: up to 30% only after proof.
+- 15% of Lux Oasis retained net profit: lighter acquisition/referral route or lower-margin property.
+- 20% of Lux Oasis retained net profit: stronger acquisition-only contribution or mixed support.
+- 25% of Lux Oasis retained net profit: source-plus-operate role where the person sources, helps close, manages guest communication/check-in/check-out, schedules maintenance/cleaning and takes responsibility for operating follow-up.
+
+30% is no longer the normal roadmap tier. Keep it only as a future exception if Damiano explicitly approves it for an unusually strong A-to-Z operator or property structure.
 
 Rules:
 
@@ -572,10 +574,10 @@ Correct first structure:
 
 Step-up logic:
 
-- If he only introduces a lead and disappears: referral or acquisition-only economics.
-- If he sources and helps close: acquisition-only partner, around 20% of Lux Oasis retained net profit from that unit.
-- If he sources, closes, onboards and actively manages: acquisition-plus-operations partner, around 25%.
-- If he proves genuine A-to-Z performance across multiple units: possible step-up toward 30%, but only after proof.
+- If he only introduces a lead and disappears: referral or lighter acquisition economics, usually around 15% or less depending on property quality and final contract.
+- If he sources and helps close: acquisition-only partner, around 15-20% of Lux Oasis retained net profit from that unit.
+- If he sources, helps close, manages key/check-in/check-out and guest communication, schedules maintenance/cleaning and takes responsibility for operating follow-up: source-plus-operate partner, around 25%.
+- 30% is not the standard tier after this correction; use only if Damiano separately approves a special case.
 
 This role is important because Lux Oasis needs a repeatable growth engine. It is also risky if the business gives visa, title, salary or high percentage before real property access is proven.
 
