@@ -41,7 +41,9 @@ Approved options from the build report:
 - Decodo residential, about USD 3.50 for the entry gigabyte.
 - IPRoyal pay-as-you-go, about USD 4.90 per gigabyte, no subscription.
 
-Budget line: under USD 5 per month. Usage at the intended politeness caps should be tiny, so one gigabyte should last months.
+Original budget line: under USD 5 per month. Current 2026-07-06 public price check suggests the smallest normal purchase may be slightly higher: IPRoyal 1 GB is about USD 7, while Decodo's visible monthly residential entry starts around 3 GB / USD 11.25 plus VAT. Use the approval card in `ORL_RESIDENTIAL_PROXY_APPROVAL_CARD_2026-07-06.md` before buying.
+
+Usage at the intended politeness caps should be tiny, so one gigabyte should be enough for initial tests and may last beyond the first proof run depending on provider expiry rules.
 
 After purchase, collect:
 
@@ -144,7 +146,7 @@ Completion condition: rank stability verdict recorded and the next build brief i
 
 One item only this week:
 
-- Residential proxy, under USD 5 per month.
+- Residential proxy, smallest sensible test package. Original target was under USD 5/month, but current public pricing appears closer to about USD 7 for IPRoyal 1 GB or USD 11.25 plus VAT for Decodo 3 GB. Purchase remains approval-gated.
 
 No other purchases are approved or needed this week.
 
