@@ -8,13 +8,41 @@ Status: internal proposal and tomorrow action brief. No external action approved
 
 Do Airbnb setup first, then use a light co-hosting offer to capture low-effort revenue-management and listing-optimisation clients.
 
-The offer should not be full physical co-hosting by default. The low-effort product is:
+The offer should not be full physical co-hosting by default. Co-hosting is the door opener. Revenue management is the product.
+
+The low-effort product is:
 
 > Remote Revenue + Listing Optimisation Co-Host Lite
 
 The hook:
 
-> We help hosts make their Airbnb listing more bookable, priced properly and easier to manage, without taking over their whole operation.
+> We help hosts price better, fill calendar gaps and make their Airbnb listing more bookable, without taking over their whole operation.
+
+## Revenue Management Core
+
+This offer should be built around revenue management first, then listing conversion, then light co-hosting support.
+
+Core service:
+
+- price and calendar review;
+- minimum-stay and gap-night logic;
+- weekend/weekday and seasonality checks;
+- occupancy, ADR and RevPAR-style performance notes where data is available;
+- event/holiday and demand-window suggestions;
+- promotion and discount review;
+- listing conversion review: title, photos, amenities, cancellation/settings, house rules and guest messaging templates;
+- monthly owner-style action report;
+- simple recommendation ledger: what we suggested, what changed, what happened.
+
+What this is not:
+
+- not full property management by default;
+- not cleaner/maintenance coordination by default;
+- not 24/7 guest operations by default;
+- not guaranteed income;
+- not autopilot price changes without approval.
+
+This makes the service scalable: one operator can review many listings remotely, then only move strong Dubai opportunities into Lux Oasis full management.
 
 ## Important Airbnb Reality Check
 
@@ -80,17 +108,19 @@ Low effort:
 - no cleaning;
 - no check-in handling.
 
-### Package 2 - Revenue + Listing Co-Host Lite
+### Package 2 - Revenue Management + Listing Co-Host Lite
 
 Best for hosts who want ongoing help but already have cleaner/check-in/maintenance covered.
 
 Services:
 
-- weekly price/calendar review;
-- monthly performance note;
+- weekly price/calendar review with clear recommended actions;
+- gap-night, minimum-stay, weekend and event/seasonality checks;
+- monthly revenue-management note covering occupancy, ADR, weak dates, pricing errors and next actions where data is available;
 - listing optimisation and promotion suggestions;
 - booking gap analysis;
 - owner/host action list;
+- recommendation ledger so the host can see what advice was given and whether it improved performance;
 - optional Airbnb co-host access with limited permissions if useful and approved.
 
 Pricing idea:
@@ -127,15 +157,18 @@ Low effort:
 
 Profile line:
 
-> Revenue-focused Airbnb co-host support for hosts who want better pricing, listing conversion and owner-style reporting without handing over the whole operation.
+> Revenue-management focused Airbnb co-host support for hosts who want better pricing, stronger calendar strategy, better listing conversion and owner-style reporting without handing over the whole operation.
 
 Short bio:
 
-> I run Lux Oasis Holiday Homes in Dubai and build Oasis Revenue Lab, a supervised revenue-management system for short-term-rental operators. I help hosts improve pricing, listing presentation, calendar strategy and guest-ready operations. My best fit is a host who already has cleaning and local access covered, but wants stronger revenue decisions and a more bookable Airbnb listing.
+> I run Lux Oasis Holiday Homes in Dubai and build Oasis Revenue Lab, a supervised revenue-management system for short-term-rental operators. I help hosts improve pricing, calendar strategy, listing presentation, booking conversion and owner-style reporting. My best fit is a host who already has cleaning and local access covered, but wants stronger revenue decisions and a more bookable Airbnb listing.
 
 Service list:
 
 - pricing and availability review;
+- revenue-management action plan;
+- minimum-stay / gap-night review;
+- monthly performance note;
 - listing setup and optimisation;
 - guest messaging templates;
 - owner-style monthly revenue report;
