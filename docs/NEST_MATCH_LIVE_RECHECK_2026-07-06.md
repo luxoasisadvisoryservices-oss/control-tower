@@ -6,7 +6,19 @@ Status: live browser QA, not just HTTP check.
 
 ## Verdict
 
-Do not tell Oval/Lovable to deliver the app yet.
+Correction after Damiano's 16:48 clarification: the first score below was a strict app-delivery / launch-readiness score, and it unfairly penalised the product for no inventory before marketing, owner outreach or social media promotion.
+
+For **product depth / beta skeleton quality**, the fair score is:
+
+**78 / 100**
+
+This means: the product is good enough to treat as a controlled beta skeleton and continue improving with first users. It is not yet a public marketplace launch, but it is not a failed app just because Browse has no inventory.
+
+Recommended message to Oval/Lovable:
+
+> The beta product skeleton is good and the current product-depth score is 78/100. Do not call it a finished marketplace yet, but continue delivery as a controlled beta. Before final acceptance, please provide test credentials for landlord, operator/host, service provider and admin, and tighten the payment-success route gating / pricing CTA proof.
+
+Strict launch/delivery score remains lower:
 
 Overall app-delivery score: **58 / 100**
 
@@ -17,7 +29,7 @@ Breakdown:
 - Core product readiness: **42 / 100**
 - Paid / authenticated flow confidence: **35 / 100**
 
-The site is much cleaner as a public private-beta/waitlist page, but it is not yet a deliverable app. It can be used carefully for controlled early-access collection, but not as a finished marketplace/product handoff.
+The site is much cleaner as a public private-beta/waitlist page. It can be used carefully for controlled early-access collection and first-user beta work. It should not yet be presented as a finished public marketplace.
 
 ## What Was Checked
 
@@ -118,7 +130,7 @@ Audit evidence folder:
 
 `No live listings yet. We're onboarding landlords and agencies in Dubai. Listings will appear here as they go live.`
 
-This is honest, but it means the marketplace is not yet demonstrable as a working inventory product.
+This is honest and acceptable for pre-marketing beta. It should not reduce the product-depth score heavily. It only reduces the launch/liquidity score.
 
 2. Inventory Board is still not a working board.
 
@@ -171,7 +183,7 @@ Footer on early-access page shows `© 2025 Nest Match`, while the main site foot
 
 ## Exact Message To Oval / Lovable
 
-Do not deliver the app yet. Current score is 58/100.
+Revised framing: continue delivery as a controlled beta. Product-depth score is 78/100. Strict public launch/delivery score is 58/100.
 
 Please fix these blockers before delivery:
 
@@ -184,4 +196,3 @@ Please fix these blockers before delivery:
 7. Keep public positioning as private beta until Browse, Inventory Board, messaging, contracts and admin moderation pass end-to-end testing.
 
 After these are done, rerun a logged-in acceptance test before calling the app deliverable.
-
