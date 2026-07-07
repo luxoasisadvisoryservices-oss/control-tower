@@ -110,6 +110,20 @@ Retest these first before continuing B-J:
 6. `how much i made last month?`
 7. Pushback: `that's wrong, June was around 11k`
 
+## Tomorrow Continuation - 2026-07-08
+
+Damiano confirmed at 2026-07-07 17:01 Dubai that tomorrow will continue testing Oasis Revenue Lab / ORL.
+
+Run order:
+
+1. Apply/run the RevenueState fix prompt inside the live ORL repo/runtime if access is available.
+2. Retest Section A only, using the order above.
+3. Score each reply `P / W / F`.
+4. Stop again if revenue-state consistency, live price, June revenue or forward secured revenue still fails.
+5. Continue B-J only after Section A core facts are stable.
+
+Important: do not restart from the full 50-question pack tomorrow. Resume from the failed/wobbly Section A paths first.
+
 ## Next Test Decision
 
 Pause deeper Section B-J QA until the June revenue, live-price and forward-booking paths are fixed or at least instrumented. Continue only A4 and A6 if Damiano wants to finish Section A before fixes.
