@@ -39,6 +39,16 @@ Simple candidate reply:
 
 `We are looking for a development / growth manager for Lux Oasis Holiday Homes. The role is focused on sourcing and opening relationships with owners, landlords, agents, investors, developers or portfolio holders who may want short-term rental management or revenue-share management for their apartments. The first stage would be a compliant trial/proof period, subject to the correct UAE work-permit route. We are mainly testing whether the person can bring real opportunities, help qualify units, support onboarding and work on performance upside tied to units they personally help source, close and operate.`
 
+### Fahim LinkedIn Reply Draft
+
+`Hi Fahim, yes of course. To explain clearly, this is not a normal employment role with a visa package or standard salary contract at this stage. Lux Oasis Holiday Homes is looking for a development / growth partner who can help us grow the holiday-home portfolio through real owner, landlord, agent, developer and investor relationships.`
+
+`We started with the fixed-rent / sublease model, but after reviewing the numbers properly we want to move more toward revenue-share and management structures. The idea is to reduce fixed rent risk and build a healthier model where owners, operators and Lux Oasis all win from performance.`
+
+`The role would be to help source suitable Dubai apartments, qualify the opportunity, open the owner/agent conversation, support the closing/onboarding process and then participate in upside from units you personally help bring and operate. So it is more of a partnership / performance model than a normal employee job.`
+
+`At the beginning I would like to discuss a trial/proof period, but only in a compliant way, depending on the correct UAE work-permit or freelance route. If this sounds aligned, we can have a short call tomorrow and I can explain the vision properly.`
+
 ## Current Known Context
 
 ### Fahim Makhool
