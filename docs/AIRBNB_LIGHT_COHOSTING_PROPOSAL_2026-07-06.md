@@ -227,7 +227,21 @@ Tomorrow's prep worker should return:
 4. Exact profile copy.
 5. Which services to select.
 6. Recommended package to offer first.
-7. Approval card before any submission/post/DM.
+7. Syed-ready proposal angle: whether Syed can help source hosts/owners/listings for the light co-hosting channel, and what proof/KPI should be required before any deeper role or visa/support discussion.
+8. Approval card before any submission/post/DM/proposal send.
+
+## Syed Proposal Angle
+
+After the Airbnb setup check, prepare a proposal for Syed that ties him to measurable acquisition output, not a vague role.
+
+Use this structure:
+
+- first channel: hosts/owners who need revenue-management and listing-optimisation help;
+- second channel: Dubai units that can graduate from light co-hosting into Lux Oasis Holiday Homes full management or revenue-share;
+- first proof period: 60 days;
+- proof targets: real owner/host conversations, live listing access where possible, paid light co-hosting/revenue-management clients, or units reaching serious proposal stage;
+- commercial logic: any upside must be based on Lux Oasis retained net profit or agreed fee share from clients he materially brings and helps close;
+- boundary: no passive forever commission for a lead-only introduction, no visa/support commitment before proof, and no client-facing proposal sent without Damiano approval.
 
 ## Approval Boundary
 
