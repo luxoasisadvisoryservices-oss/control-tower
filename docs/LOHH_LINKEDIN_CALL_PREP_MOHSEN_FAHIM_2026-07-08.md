@@ -51,15 +51,21 @@ Simple candidate reply:
 
 ### Fahim WhatsApp Reply Draft
 
-`Hi Fahim, yes sure. To explain the idea briefly, this is not a normal employment role with visa/salary package at this stage. We are looking more for a development / growth partner for Lux Oasis Holiday Homes.`
+Earlier draft was too weak. Use this corrected version instead:
 
-`Until now we tested the fixed-rent / sublease model, but after reviewing the numbers properly we want to shift toward a healthier revenue-share / management model. Less fixed rent risk, more performance-based upside, and better alignment between the owner, the operator and Lux Oasis.`
+`Hi Fahim, yes sure. To explain clearly, this is not a normal employee role or visa/salary package. I am looking for a development / growth partner for Lux Oasis Holiday Homes.`
 
-`The role would be to help us grow the portfolio by opening real relationships with owners, landlords, agents, developers, investors or portfolio holders. We are mainly looking for someone who can bring serious opportunities, help qualify the units, support the owner conversation and assist with onboarding when a property is signed.`
+`We started the business with one property and were preparing to grow further, including through fixed-rent / sublease and serviced-apartment style opportunities. Then the market situation changed, including the regional war/uncertainty and summer conditions, so we decided not to force expansion at the wrong time. We kept the operation lean with one property through summer and used that period to rethink the model properly.`
 
-`So the structure I have in mind is more partnership/performance-based than a standard job. First we can explore a compliant trial/proof period, depending on the right UAE work-permit or freelance route, then if there is real traction we can build a long-term structure around the units you personally help bring and operate.`
+`Now I want to rebuild the business under a stronger revenue-share / hybrid model. The goal is to grow with owners, landlords and developers where the structure is based on performance and net profit, not just taking fixed rent risk blindly.`
 
-`If this is aligned with what you are looking for, let us have a short call tomorrow and I can explain the vision properly.`
+`What I am looking for is someone who can help bring real properties, owner relationships, agent relationships or even area-level opportunities. Depending on the role, the structure can be: if you bring a property only, there can be an acquisition upside; if you bring, help close, onboard and operate the unit, then the upside can be much stronger, based on Lux Oasis retained net profit from that unit after owner payout and direct costs.`
+
+`As a working idea, acquisition-only can sit around 15-20% of Lux Oasis retained net profit from units you personally bring that close. If you source, help close, onboard and stay involved in operating the unit, it can be around 25%, with higher area/portfolio upside possible if someone genuinely opens a full area or channel for us.`
+
+`So this is more of a partner/performance model than a normal job. First we can discuss the vision and see if there is fit, then we check the correct UAE route for any trial or formal structure.`
+
+`If this sounds aligned, let us do a short call tomorrow and I can explain properly.`
 
 ## Current Known Context
 
