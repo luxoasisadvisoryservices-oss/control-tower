@@ -73,7 +73,7 @@ Earlier draft was too weak. Use this corrected version instead:
 
 `Hi Fahim, yes sure. To explain clearly, this is not a normal employee role or visa/salary package. I am looking for a development / growth partner for Lux Oasis Holiday Homes.`
 
-`We started the business with one property and were preparing to grow further, including through fixed-rent / sublease and serviced-apartment style opportunities. We also built a good operating system around the first property, so the base is there. Then, as you know, the market situation changed with the regional war/uncertainty and summer conditions, so we decided not to force expansion at the wrong time. Also, the property we enrolled back in 2024 was reaching the end of its contract, so it made sense to keep the operation lean with one property through summer and use this period to rebuild the model properly.`
+`We started the business with one property and then scaled into more properties through fixed-rent / sublease and serviced-apartment style opportunities. We also built a good operating system around the business, so the base is there. Then, as you know, the market situation changed with the regional war/uncertainty and summer conditions. Luckily, during that period, most of the contracts were reaching the end of their term, so instead of renewing and forcing expansion in an unstable market, we decided to keep the operation lean with one property through summer and use this period to rebuild the model properly.`
 
 `Now I want to rebuild the business under a stronger revenue-share / hybrid model. Subleasing can still come later where the numbers make sense, but for now the main direction is revenue-share properties, management and performance-based partnerships.`
 
