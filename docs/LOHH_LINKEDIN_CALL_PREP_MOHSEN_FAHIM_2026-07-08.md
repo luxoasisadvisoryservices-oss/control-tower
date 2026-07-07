@@ -69,6 +69,24 @@ Earlier draft was too weak. Use this corrected version instead:
 
 `If this sounds aligned, let us do a short call tomorrow and I can explain properly.`
 
+### Final Fahim WhatsApp Message
+
+`Hi Fahim, yes sure. To explain clearly, this is not a normal employee role or visa/salary package. I am looking for a development / growth partner for Lux Oasis Holiday Homes.`
+
+`We started the business with one property and were preparing to grow further, including through fixed-rent / sublease and serviced-apartment style opportunities. We also built a good operating system around the first property, so the base is there. Then, as you know, the market situation changed with the regional war/uncertainty and summer conditions, so we decided not to force expansion at the wrong time. Also, the property we enrolled back in 2024 was reaching the end of its contract, so it made sense to keep the operation lean with one property through summer and use this period to rebuild the model properly.`
+
+`Now I want to rebuild the business under a stronger revenue-share / hybrid model. Subleasing can still come later where the numbers make sense, but for now the main direction is revenue-share properties, management and performance-based partnerships.`
+
+`What I am looking for is someone who can help bring real properties, owner relationships, landlord relationships, agent relationships or even area-level opportunities. The structure depends on the responsibility. If you bring the property, help close the owner and manage the landlord relationship, there is one level of upside. If you also help onboard the property and keep the owner relationship smooth, the upside is higher. If you take care of the full operating side as well, then the percentage can be higher again because you are helping build and run the portfolio, not just bringing a lead.`
+
+`As a working idea, this can start around 15-20% of Lux Oasis retained net profit for units you personally bring and help close, move toward around 25% when you also help onboard and manage the owner relationship, and be discussed higher for someone who can genuinely operate a full area or portfolio inside the company.`
+
+`The idea is not a fixed salary ceiling. It is performance-based upside from the net profit of the units you help create and manage. So the more good units you can build and handle, the more you can earn.`
+
+`So it is more of a partner/performance model than a normal job. First we can discuss the vision and see if there is fit, then we check the correct UAE route for any trial or formal structure.`
+
+`If this sounds aligned, let us do a short call tomorrow and I can explain properly.`
+
 ## Current Known Context
 
 ### Fahim Makhool
