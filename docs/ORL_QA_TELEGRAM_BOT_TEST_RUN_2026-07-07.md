@@ -8,6 +8,10 @@ Target bot: `@OasisRevenuelab_bot`
 
 Manual relay active.
 
+Fix phase started at 2026-07-07 16:28 Dubai.
+
+Live bot patch is blocked in this OpenClaw workspace because the actual ORL product repo/runtime is not exposed here. The repo-ready fix prompt is saved as `ORL_REVENUESTATE_SECTION_A_FIX_PROMPT_2026-07-07.md`. Paste it into Claude Code from inside the live ORL repo, run the acceptance tests, then retest Section A manually through Telegram.
+
 Attempted first test message to `@OasisRevenuelab_bot`:
 
 ```text
@@ -80,6 +84,31 @@ The bot has useful tone and can explain simple numbers, but it fails the main OR
 6. Market claims must include source/date/confidence, or be softened to directional language without pretending precision.
 7. Add a contradiction guard: if a user says a number is wrong, the bot must re-check canonical state and report which data source it used rather than repeating the same stale figure.
 8. Add `live_rate_for_date` / `calendar_rate_today` as a dedicated retrieval path. Do not substitute ADR when the user asks for a live calendar price.
+
+## Fix Pack Created
+
+Source: `ORL_REVENUESTATE_SECTION_A_FIX_PROMPT_2026-07-07.md`
+
+The fix pack instructs Claude Code to:
+
+- inspect the live repo before editing;
+- identify the Telegram bot entrypoint, router, RevenueState/data snapshot and test harness;
+- implement canonical answer paths for occupancy, ADR, current MTD revenue, last closed month revenue, secured next-30-day revenue, live tonight price, market direction and contradiction handling;
+- add tests for the exact failed/wobbly Section A prompts;
+- prevent metric substitution between MTD, last month, forward secured revenue, ADR and live calendar price;
+- avoid Telegram sends, live pricing changes, OTA/PMS changes or service restarts unless explicitly documented and verified.
+
+## Retest Order After Fix
+
+Retest these first before continuing B-J:
+
+1. `what's my occupancy right now?`
+2. `what's my ADR?`
+3. `how much have I made this month?`
+4. `how much revenue is secured for the next 30 days?`
+5. `what price am I live at tonight?`
+6. `how much i made last month?`
+7. Pushback: `that's wrong, June was around 11k`
 
 ## Next Test Decision
 
