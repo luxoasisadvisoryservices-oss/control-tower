@@ -68,7 +68,8 @@ Priority:
 - Check replies from the latest LinkedIn batch only.
 - Prioritise candidates who can bring owners, landlords, agents, investors or units, and who can also support onboarding/operations.
 - Park pure operations-only candidates unless they have a clear acquisition angle.
-- Send me the profile link, reply text and your recommendation for each serious candidate.
+- Send me the profile link and exact reply text for each serious candidate.
+- The COO agent will decide who is worth calling and bring Damiano the recommendation.
 - Do not search for or add new candidates unless Damiano reopens sourcing.
 
 Please reply done with the shortlist, or tag me with any blocker.
