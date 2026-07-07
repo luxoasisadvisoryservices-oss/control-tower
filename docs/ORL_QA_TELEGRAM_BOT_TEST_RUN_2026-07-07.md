@@ -22,7 +22,7 @@ USER_BOT_TO_BOT_DISABLED
 
 Meaning: this agent is operating through a Telegram bot identity, and Telegram blocks bot-to-bot direct messages.
 
-Damiano relayed screenshots from the bot conversation at 15:37 Dubai. The first slice shows enough to score Section A partially and log core fixes before continuing.
+Damiano relayed screenshots from the bot conversation at 15:37 and 15:42 Dubai. The first slice shows enough to score most of Section A and log core fixes before continuing.
 
 ## Fallback QA Workflow
 
@@ -45,7 +45,7 @@ Damiano relayed screenshots from the bot conversation at 15:37 Dubai. The first 
 | A5 | how much revenue is secured for the next 30 days? | Scored from screenshot | F | Bot confused forward secured revenue with backward-looking July MTD realised revenue, then corrected only after pushback. If forward bookings are missing it must return a precise missing-input response, not answer with realised revenue. |
 | A6 | when was my last booking? | Pending |  |  |
 | A7 | what's the market doing? | Scored from screenshot | W | Bot gave a clear market direction, but the `Dubai STR occupancy is 23%` claim needs source, date, comp set and confidence. Market claims must not be unsupported. |
-| A8 | what price am I live at tonight? | Waiting for visible answer |  | Damiano asked it, but no bot answer is visible in the provided screenshots. |
+| A8 | what price am I live at tonight? | Scored from screenshot | F | Bot said it does not have tonight's live price, then substituted rolling ADR and told the user to check PriceLabs/Airbnb/Booking.com manually. For ORL, live tonight price must be a first-class field or a precise missing-input response. |
 
 ## Additional Relayed Question
 
@@ -79,10 +79,11 @@ The bot has useful tone and can explain simple numbers, but it fails the main OR
 5. Forward-looking questions must use forward booking schedule and confirmed reservation values only. If missing, answer `I do not have forward booked revenue because [missing fields]`, not realised MTD revenue.
 6. Market claims must include source/date/confidence, or be softened to directional language without pretending precision.
 7. Add a contradiction guard: if a user says a number is wrong, the bot must re-check canonical state and report which data source it used rather than repeating the same stale figure.
+8. Add `live_rate_for_date` / `calendar_rate_today` as a dedicated retrieval path. Do not substitute ADR when the user asks for a live calendar price.
 
 ## Next Test Decision
 
-Pause deeper Section B-J QA until the June revenue and forward-booking paths are fixed or at least instrumented. Continue only A4, A6 and A8 if Damiano wants to finish Section A before fixes.
+Pause deeper Section B-J QA until the June revenue, live-price and forward-booking paths are fixed or at least instrumented. Continue only A4 and A6 if Damiano wants to finish Section A before fixes.
 
 ## Current Next Question
 
