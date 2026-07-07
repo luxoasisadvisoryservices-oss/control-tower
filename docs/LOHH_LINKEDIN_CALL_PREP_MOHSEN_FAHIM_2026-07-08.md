@@ -61,7 +61,9 @@ Earlier draft was too weak. Use this corrected version instead:
 
 `What I am looking for is someone who can help bring real properties, owner relationships, agent relationships or even area-level opportunities. Depending on the role, the structure can be: if you bring a property only, there can be an acquisition upside; if you bring, help close, onboard and operate the unit, then the upside can be much stronger, based on Lux Oasis retained net profit from that unit after owner payout and direct costs.`
 
-`As a working idea, acquisition-only can sit around 15-20% of Lux Oasis retained net profit from units you personally bring that close. If you source, help close, onboard and stay involved in operating the unit, it can be around 25%, with higher area/portfolio upside possible if someone genuinely opens a full area or channel for us.`
+`The structure depends on how much responsibility you take. If you bring the property, help close the owner and manage the landlord relationship, there is one level of upside. If you also help onboard the property and keep the owner relationship smooth, the upside is higher. If you take care of the full operating side as well, then the percentage can be higher again because you are not just bringing a lead, you are helping build and run the portfolio.`
+
+`As a working idea, this can start around 15-20% of Lux Oasis retained net profit for units you personally bring and help close, move toward around 25% when you also help onboard and manage the owner relationship, and be discussed higher for someone who can genuinely operate a full area or portfolio inside the company. The idea is not a fixed salary ceiling. It is performance-based upside from the net profit of the units you help create and manage, so the more good units you can build and handle, the more you can earn.`
 
 `So this is more of a partner/performance model than a normal job. First we can discuss the vision and see if there is fit, then we check the correct UAE route for any trial or formal structure.`
 
