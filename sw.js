@@ -1,9 +1,10 @@
-const CACHE_NAME = "control-tower-v194";
+const CACHE_NAME = "control-tower-v195";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./manifest.json",
   "./icon.svg",
+  "./docs/ACTIVE_WORK_SNAPSHOT_2026-07-07_1655.md",
   "./docs/LOHH_Revenue_Share_Staffing_Model_2026-07-02.pdf",
   "./docs/LOHH_Acquisition_Ops_Partner_Term_Sheet_2026-07-03.pdf",
   "./docs/LOHH_Scaling_Roadmap_2026-07-05.pdf",
