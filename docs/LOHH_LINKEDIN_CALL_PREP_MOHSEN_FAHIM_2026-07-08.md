@@ -1,13 +1,15 @@
-# LOHH LinkedIn Call Prep - Mohsen / Development Manager / Fahim
+# LOHH LinkedIn Call Prep - Mohsen / Development Manager / Fahim Reply-Watch
 
 Created: 2026-07-07 16:40 Dubai  
 Call target date: Wednesday 2026-07-08  
 Business: Lux Oasis Holiday Homes LLC  
 Status: internal prep only. No external contact, calendar invite or message sent.
 
+Update 2026-07-07 21:06 Dubai: remove Fahim from the live Wednesday call queue because Damiano already texted him. Keep Fahim as reply-watch only. If Fahim replies positively, prepare the next step; do not treat him as a scheduled call unless Damiano gives a time.
+
 ## Purpose
 
-Damiano wants calls tomorrow with Mohsen, a development manager contact, and Fahim from LinkedIn.
+Original plan was calls tomorrow with Mohsen, a development manager contact, and Fahim from LinkedIn. Current live plan is Mohsen and the development-manager contact only, subject to exact call times and contact details. Fahim is parked as reply-watch only.
 
 The purpose is not a generic hiring interview. The purpose is to find out who can materially help Lux Oasis Holiday Homes grow from one active unit toward property #2/#3 through owner, landlord, agent, investor, developer or portfolio access, while still understanding holiday-home operations enough not to create unqualified leads.
 
@@ -149,9 +151,9 @@ Need from Damiano before calendar invite or external message: exact name/profile
 
 ## Call Priority
 
-1. Fahim - highest priority if 40+ STR agreement signal is real/current.
-2. Mohsen - strong second if he has actual live owner/agent access and holiday-home operations capability.
-3. Development manager - potentially valuable if they can create developer/owner channels, but needs identity and scope.
+1. Mohsen - useful if he has actual live owner/agent access and holiday-home operations capability.
+2. Development manager - potentially valuable if they can create developer/owner channels, but needs identity and scope.
+3. Fahim - reply-watch only after Damiano texted him; react if he replies positively.
 
 ## Call Structure
 
