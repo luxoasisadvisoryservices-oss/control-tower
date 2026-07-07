@@ -87,6 +87,22 @@ Earlier draft was too weak. Use this corrected version instead:
 
 `If this sounds aligned, let us do a short call tomorrow and I can explain properly.`
 
+### Fahim Reply To Salary / Hybrid Response
+
+Fahim replied that he is not open to pure profit-share / no salary given his experience, but is open to fixed base plus commission or profit-share.
+
+Suggested reply:
+
+`Thanks Fahim, I understand your point, and I appreciate you being clear. Your experience is exactly why I wanted to speak with you.`
+
+`At this stage I am not looking to jump straight into a full salary/employment structure before we prove the first units together. But I am open to discussing a freelance / per-unit agreement where, for any property you personally bring and help close, you receive an agreed share of Lux Oasis retained net profit from that unit for 12 months.`
+
+`So instead of a normal salary from day one, the first step could be a performance agreement linked to the actual units you bring in. If the first units work and we see strong traction, then we can discuss whether a bigger hybrid structure makes sense later.`
+
+`Would that kind of 12-month per-unit upside arrangement be something you would be open to discussing on the call tomorrow?`
+
+`Of course, any structure would need to be done properly and compliantly depending on the correct UAE freelance/work-permit route.`
+
 ## Current Known Context
 
 ### Fahim Makhool
