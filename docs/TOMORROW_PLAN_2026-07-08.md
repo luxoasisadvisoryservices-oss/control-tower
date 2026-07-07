@@ -26,7 +26,8 @@ Live Wednesday people queue:
 - Convert it into durable workflow through Skill Workshop, not scattered notes.
 
 3. LOHH operations readiness
-- Karri N / Oasis2 checkout cleaning on 2026-07-08: keep access, cleaning and checkout-readiness impact watched until done/blocker.
+- Karri / Oasis2 extension: live Gmail confirmed Hostaway direct reservation `62601082`, direct stay 2026-07-08 to 2026-07-10, checkout 11:00. Keep Lin follow-up open until done/blocker on Hostaway/calendar/direct paperwork/DTCM, keyless access through 10 Jul 11:00, guest checkout reminders, cleaning moved to 10 Jul after 11:00, and same-day readiness before Harry/Ciara 16:00 check-in.
+- Follow-up at 09:15 on 2026-07-08: check Slack done/blocker status across `#hostaway`, `#keyless-app`, `#guests`, `#murjan-2-up01`, `#maiantance-murjan2-up01`, and `#cleaning-elite-superstart`.
 - Harry / Ciara long stay check-in on 2026-07-10: keep rental agreement, guest guide, passports/DTCM, Bed Setup and final readiness visible.
 - Hostaway/Bed Setup monitor continues every 10 minutes.
 
