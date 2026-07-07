@@ -63,6 +63,8 @@ Live Wednesday people queue:
 9. Property #2 / JBR acquisition watch
 - Continue JBR reply monitor and property #2 routes.
 - Move only real human replies or real owner/agent interest into next-action mode.
+- Include the evening Junk/All-Mail property recovery result: Betterhomes Bahar 6 1BR is the strongest JBR follow-up; Sadaf 7 2BR is draft-only backup.
+- Open the Downtown / Old Town expansion lane from Junk alerts, especially Burj Views C / Burj Crown / South Ridge / Old Town Zaafaran-style units, but use draft/approval mode until a valid agent contact route is visible.
 - No broad new LinkedIn candidate sourcing.
 
 10. Nest Match logged-in QA
