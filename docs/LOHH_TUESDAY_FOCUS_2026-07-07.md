@@ -54,19 +54,22 @@ Tomorrow task:
 
 ## Lin Follow-Up
 
-Lin should continue the candidate push, but with a focused checklist, not broad random outreach.
+2026-07-07 14:23 correction: Damiano said enough LinkedIn candidates have been found. Stop adding new candidates and stop broad LinkedIn candidate research for now.
+
+Lin should monitor replies and interested candidates only.
 
 Draft Lin checklist:
 
 ```text
-Lin, tomorrow please continue the Lux Oasis Holiday Homes LinkedIn candidate push.
+Lin, please stop adding new Lux Oasis Holiday Homes LinkedIn candidates for now. We have enough people in the pool.
 
 Priority:
 - Syed: keep him as the main active candidate and wait for contract/terms review.
-- Check replies from the latest LinkedIn batch.
+- Check replies from the latest LinkedIn batch only.
 - Prioritise candidates who can bring owners, landlords, agents, investors or units, and who can also support onboarding/operations.
 - Park pure operations-only candidates unless they have a clear acquisition angle.
 - Send me the profile link, reply text and your recommendation for each serious candidate.
+- Do not search for or add new candidates unless Damiano reopens sourcing.
 
 Please reply done with the shortlist, or tag me with any blocker.
 ```
@@ -101,4 +104,3 @@ Output:
 - LinkedIn/Lin action;
 - acquisition/operator pipeline action;
 - approvals/blockers.
-
