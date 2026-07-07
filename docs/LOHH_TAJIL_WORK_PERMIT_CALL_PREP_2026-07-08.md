@@ -31,6 +31,23 @@ Sources checked on 2026-07-07:
 - UAE Government employment contracts / probation page: `https://u.ae/en/information-and-services/jobs/employment-in-the-private-sector/job-offers-and-work-permits-and-contracts/employment-contracts-duration-and-models-in-the-private-sector`
 - UAE Government free-zone work page: `https://u.ae/en/information-and-services/jobs/working-in-free-zones`
 
+## Recheck Result - 2026-07-07
+
+Official recheck supports the same conclusion:
+
+- Do not run a working trial informally if the person is actually doing work for Lux Oasis.
+- Best legal fit to ask Tajil about first: temporary work permit for a defined short task/project.
+- Also ask about part-time work permit if the candidate already has an employer or residence status that allows it, including whether current-employer approval/NOC is required.
+- Ask about flexible work / mission work where available for short-term or project-based work.
+- If the candidate has a freelance permit, Tajil must confirm whether that permit covers business-development / holiday-home acquisition work for Lux Oasis and what contract/invoice structure is allowed.
+- If the person is only introducing owners as an independent referrer and not doing ongoing management work, ask whether a referral agreement can be used separately from employment. Do not assume this is safe without Tajil confirming.
+- If the person is on a visit visa, treat paid or unpaid work as unsafe unless Tajil confirms a lawful route before any work starts.
+- Probation is not a no-permit workaround. It belongs inside an employment relationship after the proper offer/contract/permit process.
+
+Practical answer for Damiano:
+
+The likely compliant options are temporary permit, part-time permit, flexible/mission/project route, or pure referral-only agreement with no operational work. The unsafe option is "try him for 30-60 days informally and pay later".
+
 ## Call Goal
 
 Come out with one clear answer:
