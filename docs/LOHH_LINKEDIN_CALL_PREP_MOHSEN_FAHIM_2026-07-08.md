@@ -49,6 +49,18 @@ Simple candidate reply:
 
 `At the beginning I would like to discuss a trial/proof period, but only in a compliant way, depending on the correct UAE work-permit or freelance route. If this sounds aligned, we can have a short call tomorrow and I can explain the vision properly.`
 
+### Fahim WhatsApp Reply Draft
+
+`Hi Fahim, yes sure. To explain the idea briefly, this is not a normal employment role with visa/salary package at this stage. We are looking more for a development / growth partner for Lux Oasis Holiday Homes.`
+
+`Until now we tested the fixed-rent / sublease model, but after reviewing the numbers properly we want to shift toward a healthier revenue-share / management model. Less fixed rent risk, more performance-based upside, and better alignment between the owner, the operator and Lux Oasis.`
+
+`The role would be to help us grow the portfolio by opening real relationships with owners, landlords, agents, developers, investors or portfolio holders. We are mainly looking for someone who can bring serious opportunities, help qualify the units, support the owner conversation and assist with onboarding when a property is signed.`
+
+`So the structure I have in mind is more partnership/performance-based than a standard job. First we can explore a compliant trial/proof period, depending on the right UAE work-permit or freelance route, then if there is real traction we can build a long-term structure around the units you personally help bring and operate.`
+
+`If this is aligned with what you are looking for, let us have a short call tomorrow and I can explain the vision properly.`
+
 ## Current Known Context
 
 ### Fahim Makhool
