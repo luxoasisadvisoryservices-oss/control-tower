@@ -61,6 +61,8 @@ Live Wednesday people queue:
 - No public post, DM, boosted post, ad spend, private asset, guest data, revenue claim or sensitive SaaS claim without approval.
 
 9. Property #2 / JBR acquisition watch
+- 08:00 approved send task: send outreach only to interesting property leads with valid direct email addresses. Job `c4b25056-a4ab-4b5f-8c3d-84a360b414dc`.
+- Exclude portal-only, WhatsApp-only, phone-only, contact-form-only, bounced/invalid, Greens sale/renovation and weak-economics leads.
 - Continue JBR reply monitor and property #2 routes.
 - Move only real human replies or real owner/agent interest into next-action mode.
 - Include the evening Junk/All-Mail property recovery result: Betterhomes Bahar 6 1BR is the strongest JBR follow-up; Sadaf 7 2BR is draft-only backup.
