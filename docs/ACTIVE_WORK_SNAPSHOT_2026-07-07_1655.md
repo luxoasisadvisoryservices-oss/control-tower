@@ -90,7 +90,8 @@ Boundary:
 Current state:
 
 - Harry/Ciara booking readiness: rental agreement signed, online check-in complete, passports uploaded, digital guest guide requested.
-- Bed Setup / DTCM / final readiness status still needs Lin done/blocker if not already closed.
+- Harry Birks-Nicola Bed Setup confirmed by Lin at 2026-07-07 16:53 Dubai: Bed Setup is done; sofa beds are set as sofa.
+- DTCM / remaining final readiness status still needs Lin done/blocker if not already closed.
 - Karri checkout cleaning on 2026-07-08 remains watch item.
 
 ### 6. Property #2 / JBR Acquisition
