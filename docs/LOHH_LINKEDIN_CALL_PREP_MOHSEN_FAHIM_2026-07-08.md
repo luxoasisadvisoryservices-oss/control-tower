@@ -11,6 +11,34 @@ Damiano wants calls tomorrow with Mohsen, a development manager contact, and Fah
 
 The purpose is not a generic hiring interview. The purpose is to find out who can materially help Lux Oasis Holiday Homes grow from one active unit toward property #2/#3 through owner, landlord, agent, investor, developer or portfolio access, while still understanding holiday-home operations enough not to create unqualified leads.
 
+## Role Definition To Share
+
+Use this if a candidate asks what role Lux Oasis is offering:
+
+We are looking at a development / growth manager role for Lux Oasis Holiday Homes. The focus is to help us source, qualify and close suitable Dubai apartments for holiday-home management, mainly through owner, landlord, agent, investor, developer and portfolio relationships.
+
+It is not a standard office sales job at the beginning. We want to test whether the person can help us bring real units, support onboarding, understand short-term rental operations and work on a performance-linked structure. The first stage should be a compliant trial or proof period, subject to the correct UAE work-permit route.
+
+Main responsibilities:
+
+- find and open conversations with owners, landlords, agents, investors, developers and portfolio holders;
+- bring suitable apartments in JBR, Marina, Palm and other strong short-term rental areas;
+- help explain Lux Oasis revenue-share / management model;
+- support property qualification, inspection, owner expectations and onboarding;
+- coordinate with operations on launch readiness where needed;
+- report pipeline clearly and honestly.
+
+What we are not offering at this stage:
+
+- no fixed salary promise before proof of fit;
+- no vague partnership or equity promise;
+- no commission on gross revenue without responsibility;
+- no work starting without the correct legal/work-permit route.
+
+Simple candidate reply:
+
+`We are looking for a development / growth manager for Lux Oasis Holiday Homes. The role is focused on sourcing and opening relationships with owners, landlords, agents, investors, developers or portfolio holders who may want short-term rental management or revenue-share management for their apartments. The first stage would be a compliant trial/proof period, subject to the correct UAE work-permit route. We are mainly testing whether the person can bring real opportunities, help qualify units, support onboarding and work on performance upside tied to units they personally help source, close and operate.`
+
 ## Current Known Context
 
 ### Fahim Makhool
