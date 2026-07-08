@@ -20,13 +20,14 @@ He also asked for clarity before starting:
 
 ## Damiano Direction
 
-Damiano will travel on Friday, 10 July 2026, and will be in Italy, so an in-person Saturday meeting may not work.
+Damiano will travel on Friday, 10 July 2026, and will be in Italy, so an in-person Saturday meeting will not work. He can send the proposal while away and can meet Syed toward the end of July 2026 when he is back.
 
 Reply direction:
 
 - thank Syed for the clear and transparent message;
 - say Damiano is travelling on Friday and will be in Italy;
 - say Damiano will send a structured proposal / trial outline instead of rushing an informal arrangement;
+- say an in-person meeting can be arranged toward the end of July when Damiano is back;
 - confirm Lux Oasis is preparing the practical tools needed, including company portal accounts for Property Finder and Dubizzle;
 - mention Bayut can also be considered if it fits the plan and budget;
 - keep compliance tight: no promise that he can work on a visit visa until the correct route is confirmed;
@@ -40,7 +41,7 @@ Hi Syed,
 
 Thank you for the clear and honest message. I appreciate you laying everything out properly before you arrive.
 
-I am travelling on Friday and will be in Italy, so meeting in person on Saturday may be difficult. Rather than rush the arrangement, I will send you a clear proposal outlining what I have in mind for the trial, the expectations from both sides, and the tools/resources we can provide.
+I am travelling on Friday and will be in Italy, so meeting in person on Saturday will not work from my side. Rather than rush the arrangement, I will send you a clear proposal outlining what I have in mind for the trial, the expectations from both sides, and the tools/resources we can provide.
 
 I agree with you that if we test this properly, we need the right setup. We are already looking at creating company accounts for Property Finder and Dubizzle under Lux Oasis, and we can also review Bayut or other lead sources depending on the plan. The proposal will also cover inventory, marketing material, communication setup, reporting, and reasonable travel/meeting expenses where approved.
 
@@ -48,7 +49,7 @@ On the visa/compliance side, I want to keep everything clean. Since you are arri
 
 My idea is to structure this first as a 60-day proof period, with clear targets around owner/agent/property sourcing, weekly pipeline reporting, and a clear review at the end. If the pipeline and working relationship are strong, we can then discuss the next step properly.
 
-I will send you the proposal idea so you can review it, and then we can discuss it by call while I am away.
+I will send you the proposal idea so you can review it, and then we can discuss it by call while I am away. We can also arrange an in-person meeting toward the end of July when I am back in Dubai.
 ```
 
 ## Proposal Outline To Prepare
