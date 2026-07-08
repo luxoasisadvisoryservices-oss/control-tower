@@ -1,71 +1,61 @@
 # ORL Commercial Direction Claude Brief - 2026-07-08
 
-Use this as the commercial direction brief for Oasis Revenue Lab.
+Use this as the upgraded commercial/product direction brief for Oasis Revenue Lab.
 
 ```text
-Oasis Revenue Lab commercial direction:
+We should NOT build ORL around PriceLabs. We should build ORL around the client dashboard.
 
-Do not position ORL as an AI PriceLabs chatbot. That part is partially killed because PriceLabs can now answer many questions about its own data through API/MCP.
+New ORL direction:
 
-ORL must become the operator revenue-intelligence layer above all pricing tools, OTAs and PMS systems.
+- one dashboard per client / listing / portfolio
+- pricing software is only an input, not the product
+- PriceLabs is connector 1, but later we can plug in Beyond, Wheelhouse, manual CSV, PMS rates or any other pricing API
+- ORL owns the decision layer: revenue management, PMS truth, OTA ranking, market/news impact and owner-ready action plans
 
-Commercial position:
-ORL helps STR operators understand how their listing is performing, why revenue is moving up or down, what is hurting bookings, and what action to take next.
+What makes us different from PriceLabs:
 
-We are not stuck on PriceLabs.
-PriceLabs is only one input. If available, ORL should be able to connect to any pricing software API or data source:
-- PriceLabs
-- Beyond
-- Wheelhouse
-- Hostaway rates
-- PMS pricing tables
-- manual CSV
-- future pricing APIs
+PriceLabs tells you pricing recommendations.
 
-The value is not the pricing API itself. The value is joining multiple signals into one operator decision layer.
+ORL tells the operator/owner what is happening across the whole business and what to do next.
 
-ORL should combine:
-1. Pricing software data
-2. PMS/Hostaway booking and revenue truth
-3. Airbnb and Booking.com live listing checks
-4. OTA ranking, visibility and bookability checks
-5. Competitor/listing performance signals
-6. Market conditions
-7. Live content/news/events that can affect demand positively or negatively
-8. Restrictions, promotions, rate plans, min-stay and calendar issues
-9. Reviews, photos, amenities, title/description and conversion issues
-10. Recommendation memory and outcome tracking
+PriceLabs sees pricing data.
 
-Commercial wedge:
-Most tools tell the operator one piece of the story. ORL tells the operator what is happening, why it is happening, and what to do.
+ORL joins pricing + Hostaway/PMS + Airbnb/Booking.com page/ranking + news/events + recommendation history.
 
-Example client questions ORL should answer:
-- How is my listing doing?
-- Why am I not getting bookings?
-- Is the problem price, ranking, visibility, photos, reviews, restrictions, rate plans, promotions or market demand?
-- Am I losing because of my OTA page, or because the market is weak?
-- What changed in Dubai this week that affects demand?
-- What should I change this week?
-- What did we recommend last month, was it implemented, and did it work?
+Dashboard modules we should build:
 
-This is closer to a myDataValue-style listing and market diagnosis layer, but for STR revenue management.
+1. Revenue State
+Realised revenue, secured future revenue, occupancy, ADR, RevPAR, pacing, gap nights, source freshness.
 
-ORL should sell:
-- revenue health checks
-- listing performance diagnosis
-- OTA visibility and ranking checks
-- market condition monitoring
-- owner-ready reports
-- action plans
-- Damiano-led revenue-management consultancy supported by AI
+2. Pricing Input Layer
+Connector-agnostic. PriceLabs first, but not locked to PriceLabs.
 
-ORL should not sell:
-- generic AI chat over PriceLabs
-- autonomous price changing
-- PriceLabs replacement
-- vague dashboard with no action
+3. PMS Truth Layer
+Hostaway first. Reservations, cancellations, revenue, channel source, mismatches between pricing tool and actual PMS truth.
 
-Short positioning:
-ORL is a supervised revenue-intelligence and listing-performance desk for STR operators. It connects pricing data, PMS truth, OTA visibility, market signals and operator judgement into clear revenue actions.
+4. OTA Ranking / Listing Health
+Airbnb and Booking.com page checks, ranking/search visibility, bookability, restrictions, min-stay, promotions, photos, reviews, amenities. This is a big moat because PriceLabs is not the operator's OTA page auditor.
+
+5. Daily Market / News Intelligence
+Dubai events, tourism/flight/news signals, weather disruptions, school holidays, city announcements, demand spikes/drops. The agent explains if the news means rate opportunity, restriction change, promo risk, or no action.
+
+6. Recommendation Ledger
+Every recommendation, why we made it, whether approved, whether implemented, and what happened after 7/14/30 days.
+
+7. Owner Report / Scenario Desk
+Owner-ready monthly report and scenario plan: "to reach AED X, here are rates, assumptions, sensitivity and risk."
+
+Build order:
+
+1. Finish Section A RevenueState consistency.
+2. Design the first client dashboard data model.
+3. Build the neutral connector structure: pricing source, PMS source, OTA source, market/news source.
+4. Add PriceLabs only as first read-only pricing connector.
+5. Add Hostaway/PMS reconciliation as truth layer.
+6. Build OTAChannelState for Airbnb/Booking.com page/ranking checks.
+7. Add daily Dubai market/news brief module.
+8. Add recommendation ledger.
+9. Turn dashboard into Revenue Health Check report.
+10. Sell consultancy first, dashboard as delivery layer, AI client-facing later.
 ```
 
