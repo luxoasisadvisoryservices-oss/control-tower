@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v228";
+const CACHE_NAME = "control-tower-v229";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -28,6 +28,7 @@ const APP_SHELL = [
   "./docs/ORL_PRICELABS_CUSTOMER_API_EXTRACTION_2026-07-08.md",
   "./docs/ORL_POST_PRICELABS_PIVOT_RECOMMENDATION_2026-07-08.md",
   "./docs/ORL_CONSULTANCY_FIRST_PIVOT_2026-07-08.md",
+  "./docs/ORL_CLIENT_DASHBOARD_REVENUE_OS_DIRECTION_2026-07-08.md",
   "./docs/Nest_Match_Product_Readiness_Prompt_2026-07-05.pdf",
   "./docs/NEST_MATCH_PRODUCT_READINESS_PROMPT_2026-07-05.md",
   "./docs/Nest_Match_Full_Website_Readiness_Audit_2026-07-05.pdf",
