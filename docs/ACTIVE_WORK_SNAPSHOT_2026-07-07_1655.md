@@ -16,6 +16,10 @@ Source files:
 - `GLOBAL_COHOST_REVENUE_MANAGEMENT_ACTION_2026-07-07.md`
 - `AIRBNB_LIGHT_COHOSTING_PROPOSAL_2026-07-06.md`
 
+Status:
+
+- Waiting on Damiano account eligibility/profile screen.
+
 Current next action:
 
 - Damiano opens/checks Airbnb Co-Host Network eligibility/profile route.
@@ -40,14 +44,14 @@ Source files:
 - `ORL_QA_TELEGRAM_BOT_TEST_RUN_2026-07-07.md`
 - `ORL_REVENUESTATE_SECTION_A_FIX_PROMPT_2026-07-07.md`
 
+Status:
+
+- Blocked until live ORL repo/runtime path or Claude Code execution inside that repo is available.
+
 Current next action:
 
 - Run fix prompt inside the live ORL repo, because this OpenClaw workspace does not expose the actual ORL bot runtime.
 - Retest Section A only after canonical RevenueState paths are fixed.
-
-Blocked by:
-
-- live ORL repo/runtime path or Claude Code execution inside that repo.
 
 ### 3. Wednesday LinkedIn BD Calls
 
@@ -60,6 +64,10 @@ Targets:
 - Fahim Makhool;
 - Mohsen Sabry;
 - unnamed development-manager contact.
+
+Status:
+
+- Waiting on exact call times and live contact details.
 
 Current next action:
 
