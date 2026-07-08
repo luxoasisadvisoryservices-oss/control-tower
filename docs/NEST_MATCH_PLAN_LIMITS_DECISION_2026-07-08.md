@@ -22,7 +22,7 @@ Nest Match is a marketplace. If chat messages are limited after a connection exi
   - landlords/owners: 2;
   - agents/agencies: 3.
 
-### Premium
+### Pro
 
 - Existing chat replies: unlimited.
 - New contacts per month: 25.
@@ -31,7 +31,7 @@ Nest Match is a marketplace. If chat messages are limited after a connection exi
 - Can send attachments.
 - Good for normal active users.
 
-### Pro
+### Premium
 
 - Existing chat replies: unlimited.
 - New contacts/connections: unlimited, with fair-use anti-spam protection.
@@ -47,5 +47,23 @@ Use clear copy:
 
 `Messages are unlimited once connected. Plans only limit how many new people you can contact each month.`
 
-Free users should be able to actually test the product. Premium should support normal active users. Pro should be for serious users who want broad market access.
+Free users should be able to actually test the product. Pro should support normal active users. Premium should be the highest tier for serious users who want broad market access.
 
+## Pricing Page Plan Section Copy
+
+Add these lines inside the plan cards:
+
+### Free
+
+- Messages: unlimited after connection.
+- New contacts/month: limited by role.
+
+### Pro
+
+- Messages: unlimited after connection.
+- New contacts/month: 25.
+
+### Premium
+
+- Messages: unlimited after connection.
+- New contacts/connections: unlimited, with fair-use anti-spam protection.
