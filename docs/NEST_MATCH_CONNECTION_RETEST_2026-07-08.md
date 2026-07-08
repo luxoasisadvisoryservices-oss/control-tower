@@ -2,7 +2,7 @@
 
 ## Verdict
 
-Mostly fixed for the basic provider-to-operator message loop. The service-provider account can now find `Lux Oasis Holiday Homes LLC` in the New Message search and send a message, and Damiano confirmed on 2026-07-08 that the operator side received it.
+Partly fixed, but not accepted. The service-provider account can now find `Lux Oasis Holiday Homes LLC` in the New Message search, select it as `Host`, and make the sender-side UI show a sent QA message. Damiano later reported on 2026-07-08 that he did not see the message on the operator side, so recipient-side delivery remains unconfirmed and the full provider-to-operator message loop is still a blocker.
 
 It is not fully polished yet because the conversation identity and thread list still show broken states after sending.
 
@@ -15,15 +15,15 @@ It is not fully polished yet because the conversation identity and thread list s
   `QA test from Lux Oasis service-provider account: testing Nest Match provider-to-operator messaging after the fix.`
 - The app showed a success toast: `New match! You connected with a new partner`.
 - The sent message was visible in the conversation pane after send.
-- Damiano confirmed from the operator side that the message arrived and the flow is working.
+- Recipient-side delivery did not pass: Damiano later reported that he did not see the message on the operator side.
 
 ## Remaining Bugs
 
 1. The conversation header shows `User` and `??` instead of `Lux Oasis Holiday Homes LLC` or the real operator profile name.
 2. The left conversation list still showed `No conversations yet` after the message was sent, so the sender-side thread list does not appear to refresh/index correctly.
 3. The send button is icon-only with no accessible text label, which makes the flow weaker for accessibility and automation.
-4. Operator-side receipt is now confirmed by Damiano.
-5. Normal browser automation login hit a Supabase auth fetch issue in Playwright; the QA session was completed through a transient in-memory Supabase session. No password or session state was saved.
+4. Operator-side receipt is not confirmed. Treat the message as sender-side only until the operator inbox visibly shows it.
+5. Normal browser automation login hit a Supabase auth fetch issue in Playwright; the QA session was completed through a transient in-memory Supabase session. No password or session state was saved, so a fresh login/token is needed for another send attempt.
 
 ## Next Fixes For Oval / Lovable
 
