@@ -2,59 +2,64 @@
 
 ## Verdict
 
-Not accepted as delivered yet.
+Improved, but not accepted as fully delivered yet.
 
-The live site has evidence that parts of the new feature set are being implemented, especially the collaboration-completion review logic, but the full product flow cannot be passed today because fresh test accounts cannot complete email confirmation. The Supabase email edge function used after registration returned `401`, and login then fails with `Email not confirmed`.
+After Damiano asked to try the agent Gmail inbox, I retested with real reachable email aliases under the connected Gmail account. This corrected the earlier email-confirmation finding: the app still shows a Supabase `send-email` edge function `401` warning in the browser console, but the confirmation email does arrive in Gmail and the confirmation link works.
 
-This blocks end-to-end QA for role dashboards, role-aware browse pages, messaging, connections, mutual collaboration confirmation, review submission, attachments, Contracts Hub, Inventory Board posting, and admin moderation.
+The confirmed host and confirmed service-provider accounts can log in. Two-sided text messaging now works. Inventory Board posting also works for a basic host-side availability post.
 
-## Main Blocker
+However, the full live-today feature set is still not accepted because the mutual review path does not unlock end to end, attachments fail, service-provider browse crashes for hosts, pricing role tabs are wrong, and payment success routes are still unsafe by direct URL.
 
-- Host registration reaches `/auth/check-email`.
-- The app says a confirmation link was sent.
-- Browser console shows the Supabase `send-email` edge function returning `401`.
-- Login with the newly-created test account fails with: `Please confirm your email first. Check your inbox or resend the link.`
+## What Now Passes
 
-Until this is fixed or confirmed test credentials are provided, the authenticated product cannot be fully accepted.
+### Email Confirmation
 
-## What Was Tested
+- Host registration reached `/auth/check-email`.
+- Confirmation email arrived from `Nest-Match <noreply@send.nest-match.com>`.
+- Confirmation link opened and activated the host account.
+- Service-provider registration also produced a confirmation email.
+- Service-provider confirmation link opened and activated the service-provider account.
+- Both accounts logged into their dashboards.
 
-- Public home page.
-- Pricing page.
-- Registration routes:
-  - `/register/host`
-  - `/register/landlord`
-  - `/register/service-provider`
-  - `/register/agency`
-- Login route.
-- Protected dashboard and product routes after attempted registration.
-- Public and gated browse routes.
-- Inventory Board public routes.
-- Contracts Hub route.
-- Payment success/cancel routes.
-- Current live app bundle for review/collaboration implementation evidence.
+Note: the browser console still logs `send-email` returning `401`, but the email arrives anyway. This should be cleaned up because it creates false QA noise.
 
-## Feature Results
+### Role-Based Accounts
 
-### 1. Role-Based Accounts For 4 Player Types
+- Host/operator account creation works with confirmation.
+- Service-provider account creation works with confirmation.
+- Dashboards load with role-aware navigation.
+- Landlord/owner, agency and admin were not fully retested in this pass.
 
-Status: partial, not accepted.
+### Direct Messaging
 
-Registration forms exist for host, landlord, service provider and agency. However, account activation is blocked by failed email confirmation, so I could not prove role dashboards or real role-specific navigation with fresh accounts.
+Status: text messaging passes for host to service provider.
 
-### 2. Browse Pages Per Role Sorted Premium, Pro, Free
+Test completed:
 
-Status: not proven.
+1. Host opened Messages.
+2. Host searched `Nest Provider QA`.
+3. Host selected the provider.
+4. Host sent a text message.
+5. Provider logged in and saw the message in inbox.
+6. Provider opened the conversation and replied.
+7. Host logged in and saw the provider reply.
 
-Protected browse pages redirect to login. Public `/browse` loads but does not show a usable marketplace list. `/browse-operators` is still 404. I could not verify sorting by Premium, Pro, Free.
+### Inventory Board
 
-### 3. Public Profiles With Portfolio, Photos, Ratings, Reviews
+Status: basic host-side flow passes.
 
-Status: not proven.
+Test completed:
 
-Profile routes exist in the bundle, but I could not verify a real public profile with portfolio, property photos, star ratings and reviews from the live UI.
+1. Host opened `/inventory-board/post`.
+2. Host selected `I have a unit`.
+3. Posted a JBR 1BR test availability at AED 450.
+4. App created a detail page for the post.
+5. Post appeared in `/inventory-board/my-postings`.
+6. Test post was withdrawn afterwards so fake active supply is not left live.
 
-### 4. Verified Mutual-Confirmation Review System
+## What Still Fails Or Is Not Accepted
+
+### Verified Mutual-Confirmation Review System
 
 Status: code evidence present, end-to-end not accepted.
 
@@ -68,98 +73,111 @@ The live bundle contains implementation evidence for:
 - `Leave review`
 - blind review copy: `Your review is blind... until both are submitted (or 7 days pass).`
 
-This is the right direction. However, I could not complete the two-user flow because new users cannot confirm email and log in. Also, the live bundle does not contain the word `simultaneous`, so the "simultaneous reveal" claim is not visibly proven by UI copy.
+But the real UI test did not reach review unlock:
 
-Acceptance still needed:
+- Host and provider could message each other.
+- `/connections` still showed `Connections 0` for both accounts.
+- No `Mark as completed`, `Confirm collaboration` or `Leave review` controls appeared in the live connection page.
 
-1. User A and User B connect.
-2. User A marks work/collaboration completed.
-3. User B confirms collaboration.
-4. Both users can leave blind reviews.
-5. Reviews stay hidden until both submit, or until the intended release rule.
-6. Both reviews appear on the correct public profiles.
-7. A user cannot review without a confirmed collaboration.
-8. A user cannot review the same connection twice.
+Current issue: messaging creates a conversation/match toast, but it does not appear to create or expose an accepted `connection` record needed by the review system.
 
-### 5. Direct Messaging With File And Photo Attachments
+### Attachments
+
+Status: fails.
+
+The message composer has a hidden file input, but sending a photo attachment failed.
+
+Observed error:
+
+`Failed to send null value in column "content" of relation "messages" violates not-null constraint`
+
+Provider did not receive the image preview. Attachments are not accepted yet.
+
+### Browse Service Providers
+
+Status: fails/crashes.
+
+Host route `/browse-service-providers` crashes with:
+
+`cannot add postgres_changes callbacks for realtime:connections-... after subscribe()`
+
+Alternative route `/service-providers` loads but says:
+
+- `Error Failed to fetch service providers`
+- `No service providers found`
+
+This happened even after creating and confirming a service-provider account.
+
+### Browse Pages Sorted Premium, Pro, Free
 
 Status: not proven.
 
-The bundle contains attachment-related code strings, but `/messages` is login-gated and fresh account login is blocked. I could not prove two-sided send/reply or attachment persistence from the live product.
+Because service-provider browse crashes and directory fetch fails, I could not verify role browse sorting by Premium, Pro, Free.
 
-### 6. Monthly Contact Limits
+### Pricing Role Tabs
 
-Status: partial.
+Status: wrong.
 
-Pricing page shows the correct broad plan concept:
+Pricing page shows correct broad plan language, including Pro 25 new contacts/month, Premium unlimited new contacts with fair-use anti-spam, and messages unlimited once connected.
 
-- Free: new contact limits.
-- Pro: 25 new contacts/month.
-- Premium: unlimited new contacts with fair-use anti-spam.
-- Copy present: `Messages are unlimited once connected. Free, Pro and Premium only change how many new people you can contact each month.`
+But clicking Operators, Service Providers and Agents still keeps showing Host plan cards:
 
-Issue: the pricing role tabs for Operators, Service Providers and Agents did not visibly change the card copy in my test. They all kept showing `Host Free`, `Host Pro`, `Host Premium`.
+- `Host Free`
+- `Host Pro`
+- `Host Premium`
 
-### 7. Stripe-Powered Subscriptions
+### Stripe / Subscription Success Routes
 
 Status: unsafe until fixed.
 
-Pricing cards exist, but direct success routes are still reachable:
+Direct success routes are still reachable:
 
 - `/purchase/success` shows `Purchase Successful` by direct URL.
 - `/checkout-success` shows `Payment Successful` by direct URL.
 - `/boost/success` correctly redirects to login.
 
-The false-success routes should be session-gated before acceptance.
+`/purchase/success` and `/checkout-success` must be session-gated.
 
-### 8. Contracts Hub
+### Contracts Hub
 
-Status: gated, not tested end to end.
+Status: partial.
 
-`/contracts` redirects to login. I could not verify templates, access tiering or document generation with fresh users because login is blocked.
+Logged-in host can open Contracts Hub and see template-library/legal copy. Full generation, tier limits and document output were not fully retested in this pass.
 
-### 9. Inventory Board
+### Public Profiles With Portfolio, Photos, Ratings, Reviews
 
-Status: partial, not accepted.
+Status: not fully proven.
 
-`/inventory-board`, `/inventory-board/post` and `/inventory-board/my-postings` load, but while logged out they show the same public private-beta text. I could not prove post, find, edit, mark booked/matched or my-postings flow.
+Service-provider portfolio data was entered during signup, but the provider did not appear in the browse/service-provider directory, so I could not verify a public profile with portfolio photos, ratings and reviews from normal discovery.
 
-### 10. Global Market System And City Isolation
+### City Isolation
 
 Status: partial, not proven.
 
-Registration market selector shows Dubai active and Abu Dhabi/other cities as broader market options, but I could not verify city-isolated listings because browse/inventory workflows are not accessible with a confirmed account.
+Inventory Board shows Dubai market and JBR posting flow. City-isolated browsing across Dubai/Abu Dhabi was not proven.
 
-### 11. Admin Moderation Panel
+### Admin Moderation
 
-Status: gated, not tested.
+Status: not tested.
 
-Admin routes redirect to login. No admin credentials were available, so moderation is not accepted.
+No admin account was available in this pass.
 
-### 12. Role-Aware Navigation
+## Fix Order For Lovable/Oval
 
-Status: partial, not accepted.
+1. Fix `/browse-service-providers` realtime crash.
+2. Make confirmed service providers appear in the directory/search with correct profile links.
+3. Make messaging-created relationships create or expose the accepted connection required for `/connections`.
+4. Prove the review flow from accepted connection through completed collaboration, confirmation, blind review and profile reveal.
+5. Fix attachment send so photo/file messages can be inserted without violating `messages.content` not-null constraints.
+6. Fix pricing role tabs so Service Providers and Agents do not show Host card labels.
+7. Gate `/purchase/success` and `/checkout-success` behind a real checkout session.
+8. Re-test landlord/owner, agency and admin accounts.
 
-Role-specific registration forms and protected routes exist. Real logged-in role navigation could not be proven because email confirmation blocks fresh accounts.
+## Correct Current Product Status
 
-## Required Fix Before Acceptance
+Nest Match is no longer just a public skeleton. Confirmed signup, role dashboards, two-sided text messaging and basic Inventory Board posting are now working in a real browser test.
 
-1. Fix Supabase email confirmation / `send-email` edge function `401`.
-2. Provide confirmed QA accounts for:
-   - host/operator;
-   - service provider;
-   - landlord/owner;
-   - agent/agency;
-   - admin.
-3. Re-test full two-sided collaboration and review flow.
-4. Re-test messaging with photo and file attachments.
-5. Re-test role browse pages and tier sorting.
-6. Re-test Inventory Board end to end.
-7. Gate `/purchase/success` and `/checkout-success` so they cannot show success without a real checkout session.
+But the key new trust feature is not accepted yet:
 
-## Current Product Direction
-
-The mutual-confirmation review system is a strong differentiator and should remain central. But the correct QA status is:
-
-`Review system implementation appears started in the live app bundle, but it is not end-to-end accepted yet.`
+`The mutual-confirmation review system exists in code, but the live user path does not yet reach an accepted connection where both sides can complete collaboration and leave reviews.`
 
