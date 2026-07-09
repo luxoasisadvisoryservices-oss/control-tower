@@ -33,3 +33,11 @@ Superhost status is a useful signal, but the real work is the daily operating di
 ## Approval Boundary
 
 Ask Lin to prepare the profile update and post draft/screenshots first. Do not publish new LinkedIn content or make owner-facing claims until Damiano approves the exact text and visual.
+
+## Ongoing Cadence
+
+Use old Instagram content as the content bank so Lin does not need to create everything from zero.
+
+Starting this weekend or next week, publish or prepare one LinkedIn post every 2-3 days from existing material, especially landlord/owner posts, how Lux Oasis prepares apartments, apartment setup and styling, renovation/refresh work, Superhost, reviews and service recovery.
+
+Adapt captions for LinkedIn. Keep the tone professional, owner/landlord-facing and credibility-building.
