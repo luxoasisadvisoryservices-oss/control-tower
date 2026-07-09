@@ -99,6 +99,7 @@ Translation:
 
 - test whether translation works end to end before live use;
 - verify guest language detection, translated suggested reply, original-language message preview and escalation for uncertain translation;
+- confirm how translated messages are written: AI draft, operator edit, original/translated preview, saved template or one-off reply, then approve/send;
 - translation should have a human-review toggle for high-risk or unclear messages.
 
 ## 5. Conviva Live Readiness
@@ -127,7 +128,7 @@ Ask Zuhair to answer:
 5. Can Hostaway provide the data needed for automation?
 6. Are scheduled/committed Hostaway messages accessible, or must Conviva create its own journey rules?
 7. Can the AI suggest a reply after escalation and let the user approve/send it safely?
-8. Does translation work end to end, including original/translated preview and high-risk review?
+8. Does translation work end to end, including how translated messages are written, previewed, edited, saved and approved/sent?
 9. What is the next 7-day build list?
 10. What does Lin need to fill in before more testing?
 11. What is the demo-ready date?
@@ -141,5 +142,5 @@ Ask Zuhair to answer:
 5. Confirm Hostaway read-only data fields.
 6. Build draft-only journey message generator from reservation events.
 7. Add AI suggested-reply approve/send flow after escalation.
-8. Test translation end to end with human-review toggle for risky messages.
+8. Test translated-message writing end to end: AI draft, operator edit, original/translated preview, save-as-template if needed, and human-review toggle for risky messages.
 9. Prepare dashboard demo script only after the flow is stable.
