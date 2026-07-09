@@ -2,6 +2,22 @@
 
 Last updated: 9 July 2026, 16:30 Dubai time
 
+## 9 Jul outbound recovery, 17:13 Dubai
+
+Live Gmail sweep at 17:10 found two new Property Finder alert forwards in Spam, both portal-only:
+
+- `FW: 39 new properties you'll love` for JBR 1-bed search
+- `FW: 6 new properties you'll love` for Sparkle Towers, which remains parked
+
+No new direct-email lead came from the alerts themselves, so the outbound worker used the refreshed public-route lane instead. Two clean approved-pattern direct emails were sent:
+
+| Building | Lead | Email | Gmail message ID | Thread ID | Status |
+|---|---|---|---|---|---|
+| Bahar 6 | Furnished 1BR, AED 95,000/year, Royal Home Real Estate public route | info@royalhome.ae | 19f4702b0a45073f | 19f4702b0a45073f | Sent 9 Jul 2026 17:13 Dubai |
+| Murjan 1 | Furnished 1BR, AED 120,000/year, Allsopp & Allsopp public route | info.uae@allsoppandallsopp.com | 19f4702b36879e81 | 19f4702b36879e81 | Sent 9 Jul 2026 17:13 Dubai |
+
+Worker state updated in `memory/jbr-agent-outbound-state.json`. Control Tower refresh queued after this write.
+
 ## 9 Jul recovery / outbound engine restored
 
 Damiano correctly flagged that no property-agent email had been sent since 3 July and that the task had drifted into passive reply-watch. Recovery action: created a dedicated outbound Gmail worker at `scripts/jbr_outbound_agent_email_worker.mjs`, sent one clean approved-pattern JBR agent email, and created recurring outbound cron `9ff8ca01-3791-4ee3-b477-7decb922a508` for 09:10, 13:10 and 17:10 Dubai.
