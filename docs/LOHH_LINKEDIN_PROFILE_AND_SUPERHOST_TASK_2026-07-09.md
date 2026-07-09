@@ -1,6 +1,8 @@
 # LOHH LinkedIn Profile And Superhost Task - 2026-07-09
 
-Status: urgent Lin task. Slack send was not possible from the current Telegram-only runtime; send when Slack access is available.
+Status: urgent Lin task. Slack send was not possible from the current Telegram-only runtime; send in Slack `#linkedin` when Slack access is available.
+
+Slack destination: `#linkedin` / `C09MKPB3P8D`.
 
 Business: Lux Oasis Holiday Homes LLC.
 
@@ -19,6 +21,8 @@ Important:
 3. Position it as operating credibility, not just celebration.
 4. Keep the tone professional and owner/landlord-facing.
 5. After this, Lux Oasis Holiday Homes LinkedIn should be updated more regularly, not left inactive.
+
+Please keep updates in `#linkedin` so the LinkedIn work stays visible in the correct channel.
 
 ## Draft Post Direction
 
