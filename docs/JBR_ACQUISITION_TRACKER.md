@@ -1,6 +1,23 @@
 # JBR Acquisition Tracker
 
-Last updated: 9 July 2026, 16:30 Dubai time
+Last updated: 10 July 2026, 09:00 Dubai time
+
+## 10 Jul reply sweep and public-source refresh
+
+Live Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch found no new external acquisition replies from the tracked contact list or subject filters. The only new matches were internal Lux Oasis ops, Hostaway, DHCM, and Airbnb/Superhost traffic, which stays out of the acquisition reply queue.
+
+Public-source JBR checks still show the same live comparison lanes:
+
+| Building | Public signal | Fit |
+|---|---|---|
+| Bahar 6 | Fresh Property Finder routes remain active, including fully furnished 1BRs around AED 85k-90k with Marina-view / fully furnished presentation | Strongest current 1BR lane |
+| Murjan 1 | Fresh Property Finder routes remain active, including a fully furnished 1BR around AED 230k and a lower-rent fully furnished route around AED 115k in the live search set | Premium 1BR comparison lane |
+| Murjan 2 | Fresh Property Finder routes remain active, including fully furnished / vacant 1BR stock around AED 100k-105k | Strong backup 1BR lane |
+| Rimal 1 | Fresh Property Finder and Bayut routes remain active for furnished 2BR stock around AED 150k-165k | Strong 2BR comparison lane |
+| Sadaf 7 | Fresh Property Finder routes remain active for furnished 2BR stock around AED 120k-145k, with upgraded and sea-view presentation | Main 2BR comparison lane |
+| Jumeirah Gate Tower 1 / Address JBR | Fresh Property Finder routes remain active for premium furnished 1BR stock with Marina view / high-floor presentation | Premium exception lane only |
+
+No notification was sent to Damiano because there was no new reply and no newly qualified lead requiring immediate action.
 
 ## 9 Jul outbound recovery, 17:13 Dubai
 
