@@ -40,7 +40,14 @@ Try launching the Conviva beta only after:
 
 These are future items after the dashboard launch, not blockers for the immediate dashboard launch:
 
+- operator policy and tone controls for guest replies, including consumables, courtesy exceptions, paid-service boundaries, house rules, escalation owner and preferred tone;
 - guest message automation;
 - AI suggested replies;
 - translation workflow;
 - Shadow Mode, where Conviva suggests and tracks before anything is sent automatically.
+
+## 11 Jul Product Direction - Policy And Tone
+
+Damiano's latest guest-message example clarified a key Conviva requirement: operators must be able to define policies and tone so the AI knows how to answer boundary requests. Example: for long-stay consumables, the operator may want a warm but firm reply that says an extra courtesy refill is possible today, but ongoing consumables are not included in holiday homes and the guest should buy further items themselves.
+
+This should not distract from the immediate dashboard launch. Capture it as a structured knowledge-base / Shadow Mode requirement: saved policy, free-versus-paid boundary, courtesy exception, escalation owner and preferred tone should guide AI suggested replies before any automation is trusted.
