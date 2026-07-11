@@ -1,6 +1,14 @@
 # JBR Acquisition Tracker
 
-Last updated: 10 July 2026, 09:00 Dubai time
+Last updated: 11 July 2026, 17:10 Dubai time
+
+## 11 Jul outbound engine blocker, 17:10 Dubai
+
+Fresh Gmail/Spam/All Mail checks at the 17:10 Dubai outbound pass surfaced only portal-style Property Finder forwards and already-sent JBR outreach threads. The new portal noise did not expose any fresh clean direct-email route, and the configured worker queue was already exhausted, so no live send was made on this pass.
+
+No Damiano notification was sent because there was no sendable direct-email lead. Current JBR outbound remains focused on fresh public-agent email routes only, not portal-only, owner-direct, WhatsApp-only, phone-only, contact-form-only, bounced, or weak-economics leads.
+
+Last updated: 11 July 2026, 17:10 Dubai time
 
 ## 10 Jul reply sweep and public-source refresh
 
