@@ -4,6 +4,12 @@ Status: internal draft for Damiano. Not sent.
 Business: Lux Oasis Holiday Homes LLC.
 Person: Syed Imran.
 
+## Today Action - 2026-07-13
+
+Add this back to today's active reply queue: Damiano should send Syed a short WhatsApp reply based on the safe draft below, or approve the COO agent to send it externally. Keep the reply aligned with Italy travel timing: call while Damiano is away, in-person meeting only toward the end of July / after return to Dubai if still useful.
+
+Approval needed before any external send.
+
 ## Context
 
 Syed replied that he will arrive in Dubai on Saturday morning, 11 July 2026. He already has a 60-day visit visa and prefers to use that period. He understands the compliance concern and suggested remote work while both sides evaluate fit.
