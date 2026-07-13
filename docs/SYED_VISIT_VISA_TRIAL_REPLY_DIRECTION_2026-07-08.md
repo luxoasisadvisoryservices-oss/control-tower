@@ -6,9 +6,47 @@ Person: Syed Imran.
 
 ## Today Action - 2026-07-13
 
-Add this back to today's active reply queue: Damiano should send Syed a short WhatsApp reply based on the safe draft below, or approve the COO agent to send it externally. Keep the reply aligned with Italy travel timing: call while Damiano is away, in-person meeting only toward the end of July / after return to Dubai if still useful.
+Latest message from Syed is a commercial counter, not only a timing reply. He says he likes the Lux Oasis vision but wants stronger economics:
+
+- acquisition only: around 35% of the company's management share;
+- acquisition plus complete management: 50:50 split of the company's management share;
+- comfortable using his own visa during the first 60 days, but expects company sponsorship if the collaboration works;
+- asks how commission works if he personally sources bookings or rental business under the Lux Oasis platform;
+- accepts reasonable confidentiality and non-circumvention terms.
+
+Recommended stance: answer warmly, but do not accept 35%, 50:50, fixed salary, visa sponsorship, or a broad revenue-share promise now. Keep the commercial principle on unit-specific Lux Oasis retained profit after owner payout and direct costs. Offer to discuss a step-up model after proof, with the saved range as the anchor: acquisition-only around 15-20%, acquisition plus active operations around 25%, and 30% only as a future exception for true A-to-Z execution after proof and if unit economics support it.
+
+Booking/revenue point: separate owner/property acquisition from short-term booking generation. For bookings he personally generates, discuss a small, trackable booking-source commission or agreed case-by-case split only where the booking is incremental, directly attributable, collected, and does not conflict with OTA/channel rules or Lux Oasis costs. Do not offer 70:30, 60:40 or 50:50 as a default.
 
 Approval needed before any external send.
+
+## Recommended Reply To Latest Counter
+
+```text
+Hi Syed,
+
+Thank you for the detailed and transparent reply. I appreciate the way you are thinking about this, and I do not take it as criticism. It is exactly the kind of discussion we should have before starting.
+
+I understand your point about the difference between acquisition-only and acquisition plus operations. I also understand that in your previous role the structure was salary plus 5% of rental revenue for properties acquired, with no day-to-day operating responsibility after acquisition.
+
+For Lux Oasis, I need to be careful because our model is different. We are not keeping the full rental revenue. We have owner payouts, platform/channel costs, cleaning, maintenance, guest support, operating risk, cash-flow timing and company overhead. So I cannot structure the upside on total rental revenue or on a broad 50:50 of the management share from the start, because that can become commercially heavy before the property is proven.
+
+The principle I want to keep is this: the upside should be linked to the Lux Oasis retained profit from the specific units you personally bring and help convert, after owner payout and direct operating costs. That keeps it fair to you, but also keeps the company protected.
+
+For the first 60 days, I would prefer to keep this as a proof period. If you bring real owner/agent/property opportunities and we can move them toward signed units, then we can step the structure up based on your actual role:
+
+- acquisition/referral only: lower percentage, because the operating work stays with Lux Oasis;
+- acquisition plus close support: stronger percentage;
+- acquisition plus real ongoing operations: higher percentage, because you are carrying more responsibility.
+
+I am open to discussing a middle ground, but I would not want to agree to 35% or 50:50 before we have tested the pipeline, unit economics and working relationship. If after the proof period you are genuinely sourcing, closing, onboarding and helping operate units, then we can discuss a stronger structure for those units.
+
+On the visa point, I understand your expectation. I am open to considering company sponsorship if the 60-day proof period shows real value and if the legal/commercial route is clear. I just do not want to promise it before we have evidence.
+
+On bookings you personally generate through your own network, I agree this should be clarified separately. My view is that if a booking is genuinely incremental, directly attributable to you, collected, and does not conflict with platform or owner rules, then we can agree a booking-source commission or case-by-case structure. I would not want to set a broad 70:30, 60:40 or 50:50 rule before seeing the type of booking, margin and responsibility involved.
+
+Let’s discuss this properly by call. I think there is a structure that can work, but it has to protect both sides: good upside for you when you bring real business and take responsibility, while keeping Lux Oasis commercially sustainable.
+```
 
 ## Context
 
@@ -40,7 +78,7 @@ Reply direction:
 - frame the first stage as a clear 60-day proof arrangement, subject to the legal route and written scope;
 - say the proposal will cover role, expected lead targets, reporting, tools, expenses, commercial structure and what happens after the trial.
 
-## Safe Reply Draft
+## Earlier Generic Reply Draft - Superseded By Latest Counter Draft
 
 ```text
 Hi Syed,
