@@ -1,6 +1,24 @@
 # JBR Acquisition Tracker
 
-Last updated: 11 July 2026, 17:10 Dubai time
+Last updated: 14 July 2026, 15:08 Dubai time
+
+## 14 Jul reply sweep, 15:08 Dubai
+
+Fresh Gmail/OAuth sweep across the June 19-20 outreach set and the 3 Jul forwarded-alert batch found no new human replies. The only candidate thread remained the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce, which stays excluded from lead notifications.
+
+No new actionable lead emerged, so no reply draft or external send is needed on this pass.
+
+## 14 Jul public-source refresh
+
+Fresh public-source refresh keeps the current JBR comparison lanes alive:
+
+- Bahar 6 remains the strongest 1BR JBR lane: fully furnished Marina-view stock is still live and fits holiday-home inventory.
+- Murjan 2 remains the best backup 1BR lane: furnished, sea/marina-view, beach-close routes are still live.
+- Jumeirah Gate Tower 1 remains a premium exception only: still live with fully furnished Marina-view 1BR routes.
+- Sadaf 7 remains the active 2BR comparison lane: upgraded, fully furnished, sea/palm or marina-view routes are still live.
+- Rimal 1 stays a secondary live comparison lane.
+- Murjan 3 / Murjan 4 surfaced as backup JBR 2BR routes, but stay secondary to the main lanes above.
+- Quality filter stays strict: prioritise proper holiday-home inventory with good furnishing, clean presentation, balcony/view, and strong guest appeal; downgrade weakly furnished or poor-layout units unless economics are exceptional.
 
 ## 11 Jul outbound engine blocker, 17:10 Dubai
 
