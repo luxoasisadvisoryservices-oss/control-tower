@@ -506,7 +506,20 @@ WhatsApp: +971 56 390 3074
 | Rimal 4 | Fully furnished 1BR, sea view, 1,296 sqft, AED 154,000/year | Property Finder agent page for Figo Fernandes; Bayut live route also surfaced a matching furnished sea-view 1BR | Fresh premium JBR 1BR route, not contacted | Keep as a premium fallback route if the owner wants higher-end stock and the economics still work |
 # JBR Acquisition Tracker
 
-Last updated: 16 July 2026, 11:06 Dubai time
+Last updated: 16 July 2026, 13:36 Dubai time
+
+## 16 Jul outbound lane pass, 13:36 Dubai
+
+Fresh Gmail/OAuth sweep across Inbox, Spam and All Mail found two new Property Finder portal forwards at 09:34 and 09:36 Dubai:
+
+- `FW: 4 new properties you'll love` for Lake Terrace, JLT Cluster D, JLT subleasing
+- `FW: 12 new properties you'll love` for The Fairways 1/2 Bed, The Views
+
+The separate JBR search queries only surfaced the already-known Oasis2 Hostaway export-fail / export-success chain for listing `413328` and no fresh JBR agent route. No clean JBR furnished 1-2BR direct-email route or equivalent holiday-home management lead was recoverable on this pass, so no outbound email was sent.
+
+Checked Gmail message IDs: `19f6a48a3dcf867a`, `19f6a47065485a4f`, `19f65c3e80b08eed`, `19f65c1bfae4e8f`, `19f6529320d1493b`, `19f652717711aa9f`, `19f6519dbcb2022b`, `19f6513e6363d648`, `19f64fdf7ea2a43d`, `19f64fa34b68bfd5`.
+
+The exact blocker reason on this pass is that the live Gmail sweep found only non-JBR portal alerts plus internal Hostaway export noise, while the JBR public route set remained exhausted or already-contacted.
 
 ## 16 Jul reply sweep, 11:06 Dubai
 
