@@ -504,3 +504,30 @@ WhatsApp: +971 56 390 3074
 |---|---|---|---|---|
 | Amwaj 4 | Furnished 1BR, marina view, near beach, 1,170 sqft, AED 100,000/year | Property Finder agent page for Natalia Rogovaya; Bayut live route also surfaced a matching furnished marina-view 1BR | Sent 9 Jul 2026 via `info@prive-re.com`, Gmail `19f46d98c8b07e04` | Monitor reply and move to availability / owner-interest gate if positive |
 | Rimal 4 | Fully furnished 1BR, sea view, 1,296 sqft, AED 154,000/year | Property Finder agent page for Figo Fernandes; Bayut live route also surfaced a matching furnished sea-view 1BR | Fresh premium JBR 1BR route, not contacted | Keep as a premium fallback route if the owner wants higher-end stock and the economics still work |
+# JBR Acquisition Tracker
+
+Last updated: 16 July 2026, 11:06 Dubai time
+
+## 16 Jul reply sweep, 11:06 Dubai
+
+Fresh Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch found no new human replies after the current watermark. The only in-scope thread was the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce on the Luiza / Sadaf 7 thread, which stays excluded from lead notifications. `memory/jbr-acquisition-replies.json` lastScan refreshed to `2026-07-16T07:06:11Z`.
+
+No reply draft or external send is needed on this pass.
+
+## 16 Jul public-source refresh
+
+Fresh public search keeps the current JBR comparison lanes live:
+
+- Bahar 6 remains the strongest 1BR JBR lane: Property Finder now shows `Marina View 1BR | Fully Furnished | Bahar 6 JBR` via DDA Real Estate, plus a Dubizzle `Marina View 1BR | Amazing Views | Unfurnished` fallback. The live signal still favours the clean furnished Marina-view route.
+- Murjan 2 remains the best backup 1BR lane: current public search shows `Open Marina Views | Huge Layout | Fully Furnished` via Exclusive Links Real Estate, plus a Murjan 2 furnished renovated Marina-view route on Dubizzle and a live Property Finder monthly search with ARBAB / Deluxe / Elite LUX holiday-home routes.
+- Murjan 1 remains a strong premium 1BR comparison lane: current live results show `Sea View | Fully Furnished | Spacious 1BR` on Property Finder and a fäm properties route at AED 95,000 for a 1,105 sqft sea-and-marina-view unit.
+- Sadaf 7 remains the active 2BR comparison lane: current live search shows furnished, vacant and sea-view routes, including `Fully Furnished | Marina View | JBR Beach Access` and `Furnished | Full Sea Views | Vacant Now`, plus a Dubizzle 2BR at AED 110,000.
+- Jumeirah Gate Tower 1 remains a premium exception only: current Property Finder search shows `1BR | Marina View | High Floor | The Address JBR` with Agent Manuel Bitar, and the broader 1BR sale page still shows EQT Real Estate on a high-floor marina-view route.
+- Rimal 1 remains a secondary comparison lane: current live search shows `High Floor | Full Marina View | Fully Furnished` on Property Finder.
+- Sparkle Tower stays parked and non-JBR routes stay excluded unless clearly relevant.
+
+## 15 Jul outbound lane pass, 15:20 Dubai
+
+Fresh Gmail/OAuth sweep across Inbox, Spam and All Mail surfaced a new forwarded Property Finder alert `FW: 31 new properties you'll love` with JBR 1BR options in Bahar 6, Murjan 2, Sadaf 7 and Rimal 2, plus a separate Sparkle Towers alert that stays parked. The public Property Finder listing pages were still CloudFront-blocked on fetch and browser fallback, so no clean public-agent direct email or phone route was recoverable for any of the fresh JBR cards. No outbound email was sent.
+
+The exact blocker reason on this pass is: the new JBR listing alert was real and relevant, but it did not expose a fresh sendable direct route, and the only live JBR routes already tracked remained either previously sent or not newly recoverable from the blocked pages.
