@@ -82,6 +82,13 @@ Immediate next tasks:
 6. Define recommendation ledger schema.
 7. Make the first one-listing Revenue Health Check template.
 
+Daily report QA update from 2026-07-17:
+- Do not let repeated market benchmarks become lazy conclusions.
+- If `Dubai market occupancy` or any market metric is exactly unchanged from the prior report, classify it as `fresh_unchanged`, `stale_or_frozen`, or `unverified`.
+- Daily briefs must show market source, source/fetch timestamp, prior values where available and whether the benchmark was included in the pricing decision.
+- If freshness cannot be proven, exclude the market benchmark from the recommendation and say so.
+- Chat must not ask Damiano to manually check the market dashboard for a source ORL is supposed to validate.
+
 Boundaries:
 - Read-only/reporting first.
 - No live pricing changes without approval.
@@ -90,4 +97,3 @@ Boundaries:
 - No PriceLabs replacement language.
 - Use ORL internally for consultancy delivery first, then expose client AI after stability.
 ```
-
