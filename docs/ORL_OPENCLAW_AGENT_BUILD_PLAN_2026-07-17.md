@@ -45,6 +45,73 @@ It needs five parts:
    - Shows RevenueState, source freshness, tasks, approvals, recommendation ledger and weekly owner update.
    - The agent should use it; the client should not have to inspect it manually every day.
 
+6. Agent Intelligence Layer
+   - This is the missing "super agent" layer.
+   - It connects conversation, RevenueState, memory, tools, tasks, approvals and follow-ups.
+   - It decides whether to answer, ask for data, create a task, request approval, escalate, or wait.
+   - It is not just a prompt. It is an operating loop.
+
+The intelligence layer is what makes ORL feel agentic instead of like a bot.
+
+## The Missing Intelligence Connection
+
+The product needs an agent orchestrator between the chat interface and ORL Core.
+
+Call it:
+
+**ORL Agent Orchestrator**
+
+It should run this loop:
+
+1. Understand the message
+   - Is the user asking for a number, diagnosis, action, task, owner update, report, or approval?
+
+2. Load context
+   - Tenant.
+   - Listing/portfolio.
+   - Current RevenueState.
+   - Past recommendations.
+   - Open tasks.
+   - Approval rules.
+   - Team roles.
+   - Client memory.
+
+3. Choose the next move
+   - Answer now.
+   - Ask for missing data.
+   - Run a tool.
+   - Create a task.
+   - Create an approval card.
+   - Draft an owner/team message.
+   - Escalate to human review.
+   - Do nothing and keep watching.
+
+4. Use tools
+   - Read RevenueState.
+   - Read source traces.
+   - Read recommendation ledger.
+   - Create/update tasks.
+   - Generate command card.
+   - Generate owner update.
+   - Run QA checks.
+   - Pull fresh data when available.
+
+5. Write state back
+   - Save the answer.
+   - Save new task/approval.
+   - Save recommendation.
+   - Save waiting status.
+   - Save what evidence was used.
+
+6. Follow up
+   - If a task is waiting, check later.
+   - If data is stale, mark stale.
+   - If someone replies, continue the thread.
+
+This is the layer that makes it feel like a real agent.
+
+Without this layer, ORL is just a chat wrapper around reports.
+
 ## The First Demo Conversation
 
 The demo must show the agent doing real operating work.
@@ -199,6 +266,7 @@ orl/
   packages/
     core/
     agent/
+    orchestrator/
     connectors/
   legacy/
     hetzner-bot/
@@ -221,12 +289,13 @@ First sprint tasks:
 3. Create the Lux Oasis client workspace.
 4. Add fixture RevenueState for 3-5 listings.
 5. Promote only the useful tested pieces from `legacy/` into the new clean packages.
-6. Build the question-answer handler against RevenueState.
-7. Build daily command card output.
-8. Build task/approval-card state.
-9. Build weekly owner update output.
-10. Add regression tests for stale market data, occupancy windows and unsupported claims.
-11. Record a demo conversation.
+6. Build the Agent Orchestrator: intent detection, context loading, next-action decision, tool routing, state write-back and follow-up status.
+7. Build the question-answer handler against RevenueState.
+8. Build daily command card output.
+9. Build task/approval-card state.
+10. Build weekly owner update output.
+11. Add regression tests for stale market data, occupancy windows, unsupported claims and incorrect tool choice.
+12. Record a demo conversation.
 
 ## Minimum Sellable Demo
 
@@ -268,3 +337,5 @@ Start with operators who already feel revenue-management pain and have enough li
 Use this as the implementation brief for Claude Code inside the ORL repo:
 
 Build the Lux Oasis ORL agent workspace first. Import the existing Hetzner bot/work into `legacy/hetzner-bot/`, then promote useful tested pieces into the clean ORL architecture. Use fixture/export data first. Do not touch production. Do not build the whole SaaS yet. The first milestone is a working agent conversation that uses RevenueState, creates tasks, requests approval, remembers status and produces a weekly owner update.
+
+The key missing layer is `packages/orchestrator`: the agent intelligence loop that reads tenant context, selects tools, creates tasks/approvals, writes state, and follows up. Build this before over-investing in dashboard polish or connectors.
