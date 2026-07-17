@@ -198,6 +198,36 @@ One ORL platform
   -> human review queues
 ```
 
+In plain terms:
+
+**One super brain, many isolated client workspaces.**
+
+The shared "brain" is:
+
+- orchestrator code;
+- ORL policies;
+- tool definitions;
+- QA rules;
+- supervisor scoring;
+- Claude decision pattern;
+- product improvements learned across clients.
+
+The separated client layer is:
+
+- memory;
+- RevenueState;
+- listings;
+- tasks;
+- approvals;
+- connector credentials;
+- channel history;
+- source traces;
+- audit logs.
+
+So the product gets smarter centrally, but client data stays isolated.
+
+Do not build one shared memory across all clients.
+
 For 1-5 clients:
 
 - Damiano can be the human revenue lead;
