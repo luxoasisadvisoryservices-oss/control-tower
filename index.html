@@ -1000,7 +1000,7 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>17 Jul 2026 13:23 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>17 Jul 2026 14:07 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
@@ -1013,7 +1013,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>17 Jul 2026 13:23 Dubai</span>
+        <span data-publish-stamp>17 Jul 2026 14:07 Dubai</span>
       </div>
     </div>
   </header>
@@ -1404,6 +1404,7 @@
             <div class="task now">ORL implementation status pending handoff.<small>Damiano clarified on 7 Jul 12:34 that ORL/myDataValue-style work is partially built, but exact current state will be shared soon. Do not infer absent implementation from this workspace alone. Next action: ingest real files/features/tests/blockers from the ORL environment and update the implementation map.</small></div>
             <div class="task now">ORL Telegram bot QA first slice scored.<small>Owner: Damiano + COO agent. Source: docs/ORL_QA_TELEGRAM_BOT_TEST_RUN_2026-07-07.md. Scores from screenshots: A1 occupancy W, A2 ADR W, A3 current-month revenue F, A5 next-30-days secured revenue F, A7 market W, A8 live-tonight price F, plus June/last-month revenue F. Verdict: not ready for client-facing autonomous use until canonical RevenueState fixes stop month/date-window, live-price and forward-vs-realised revenue contradictions. Next optional Section A question: what's my cost floor?</small></div>
             <div class="task now">ORL occupancy-window QA correction added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_OCCUPANCY_WINDOW_QA_FIX_2026-07-15.md" target="_blank" rel="noopener">docs/ORL_OCCUPANCY_WINDOW_QA_FIX_2026-07-15.md</a>. Damiano challenged the bot's `83% occupancy` explanation on 15 Jul. Verdict: the bot answered visibility/ranking before defining the metric. Fix rule: every occupancy answer must include exact date window, booked nights / total nights where available, source, formula and market benchmark basis; if missing, return `NEEDS_REVIEW_OCCUPANCY_WINDOW`.</small></div>
+            <div class="task now">ORL OpenClaw-style agent build plan added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_OPENCLAW_AGENT_BUILD_PLAN_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_OPENCLAW_AGENT_BUILD_PLAN_2026-07-17.md</a>. Build one bounded Lux Oasis/test-client ORL agent workspace first: fixture/export RevenueState, client memory/state, Telegram-style Q&A, daily command card, task/approval memory, weekly owner update, stale-source guard and tests. Then add read-only connectors, multi-tenant isolation, supervised pilots and productised onboarding/dashboard/billing.</small></div>
             <div class="task now">ORL OpenClaw-style agent direction added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_OPENCLAW_STYLE_AGENT_PRODUCT_DIRECTION_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_OPENCLAW_STYLE_AGENT_PRODUCT_DIRECTION_2026-07-17.md</a>. Direction: ORL should become a tenant-isolated STR revenue operator agent, not just a report bot or dashboard. It should hold useful client/team conversations, remember listing context, create tasks/approval cards, produce daily command cards, and answer only from validated RevenueState. First sellable version: supervised agent + advisory pilots.</small></div>
             <div class="task now">ORL stale-market QA correction added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_DAILY_REPORT_STALE_MARKET_QA_FIX_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_DAILY_REPORT_STALE_MARKET_QA_FIX_2026-07-17.md</a>. Damiano challenged the repeated `Dubai 24%` market occupancy line on 17 Jul. Fix rule: repeated market benchmarks must be classified as `fresh_unchanged`, `stale_or_frozen` or `unverified`; if freshness cannot be proven, exclude the benchmark from the pricing recommendation and do not ask Damiano to check the source manually.</small></div>
             <div class="task now">ORL Pro-tier direction saved.<small>Owner: COO agent. Source: docs/ORL_PRO_TIER_DIRECTION_2026-07-07.md. Direction: Basic answers, Premium diagnoses and tracks, Pro builds the plan. Pro Scenario Builder should create forwardable Excel/Word-style pricing plans only from real data with visible assumptions: cost floor, occupancy curve, market benchmark, PriceLabs recommendations, secured revenue, remaining nights, source freshness, gross/net basis and sensitivity. Do not expose open-ended client document generation.</small></div>
