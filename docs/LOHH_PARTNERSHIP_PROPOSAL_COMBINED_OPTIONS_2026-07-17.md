@@ -63,11 +63,15 @@ Because earnings begin once units are live and generating collected revenue, Lux
 
 This route is for people who can introduce suitable property opportunities but do not want salary, visa sponsorship, employment, daily operations or a long-term role inside Lux Oasis.
 
-For qualified freelancer introductions in our priority areas, the structure is:
+For qualified freelancer introductions, the standard structure is:
+
+**15% of Lux Oasis retained net profit for 12 months from the unit launch date.**
+
+For prime-location opportunities, the freelancer commission can increase to:
 
 **18% of Lux Oasis retained net profit for 12 months from the unit launch date.**
 
-This applies to suitable properties in:
+The prime-location rate applies to suitable properties in:
 
 - Palm Jumeirah;
 - JBR;
