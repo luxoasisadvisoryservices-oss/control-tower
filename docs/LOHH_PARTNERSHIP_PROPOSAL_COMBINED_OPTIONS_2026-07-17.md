@@ -63,21 +63,19 @@ Because earnings begin once units are live and generating collected revenue, Lux
 
 This route is for people who can introduce suitable property opportunities but do not want salary, visa sponsorship, employment, daily operations or a long-term role inside Lux Oasis.
 
-For a pure freelancer / finder role, the recommended structure is:
+For qualified freelancer introductions in our priority areas, the structure is:
 
-**15% of Lux Oasis retained net profit for 12 months from the unit launch date.**
+**18% of Lux Oasis retained net profit for 12 months from the unit launch date.**
 
-This gives the freelancer real upside while keeping the company protected. The freelancer is not taking salary risk, visa responsibility, owner-retention responsibility, guest operations, daily maintenance, pricing, reporting or compliance workload.
+This applies to suitable properties in:
 
-For exceptional cases, Lux Oasis may extend the commission period to **18 months**, but only when:
+- Palm Jumeirah;
+- JBR;
+- Downtown Dubai.
 
-- the lead is a direct owner or unusually strong owner route;
-- the opportunity was not already known to Lux Oasis;
-- the property is in a priority area;
-- the freelancer materially helps move the owner to signature; and
-- the final unit economics support the longer commission period.
+For selected high-quality introductions, Lux Oasis may agree a longer commission period case by case where the opportunity is strong, direct and commercially attractive.
 
-The default is 12 months. A 24-month term should not be offered to a pure finder by default, because that is too close to the acquisition-partner structure without the same responsibility.
+This gives freelancers a clear way to earn from properties they introduce, without needing to become employees, take a salary, move under our visa, or manage daily operations.
 
 ### When Freelancer Commission Starts
 
@@ -106,7 +104,7 @@ The freelancer does not have authority to:
 
 ## 5. Focus Areas
 
-The primary territory is JBR and Palm Jumeirah. Dubai Marina may be considered selectively. Downtown Dubai may be added later only where the property economics are clearly strong.
+The primary territory is Palm Jumeirah, JBR and Downtown Dubai. Dubai Marina may be considered selectively where the property and owner relationship are strong.
 
 Ideal opportunities include:
 
