@@ -1000,7 +1000,7 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>17 Jul 2026 15:07 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>17 Jul 2026 15:11 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
@@ -1013,7 +1013,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>17 Jul 2026 15:07 Dubai</span>
+        <span data-publish-stamp>17 Jul 2026 15:11 Dubai</span>
       </div>
     </div>
   </header>
@@ -1407,6 +1407,7 @@
             <div class="task now">ORL dedicated runtime decision added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_DEDICATED_OPENCLAW_RUNTIME_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_DEDICATED_OPENCLAW_RUNTIME_2026-07-17.md</a>. Direction: one shared ORL super brain/codebase for all clients, with separate tenant workspaces, memory, RevenueState, tasks, approvals, credentials, traces and audit logs. Claude sits underneath as the reasoning engine, but the ORL runtime controls context, allowed actions, state write-back and escalation.</small></div>
             <div class="task now">ORL dedicated runtime build sequence added.<small>Owner: Damiano + Claude Code. Source: <a href="./docs/ORL_DEDICATED_RUNTIME_BUILD_SEQUENCE_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_DEDICATED_RUNTIME_BUILD_SEQUENCE_2026-07-17.md</a>. Build first Lux Oasis runtime locally: import Hetzner into legacy, create tenant workspace, ORL-only tools, context loader, Claude structured decision, policy validator, tool router, state writer, tasks/approvals, follow-up worker and demo conversations before real connectors or a large dashboard.</small></div>
             <div class="task now">ORL server deployment path added.<small>Owner: Damiano + Claude Code. Source: <a href="./docs/ORL_SERVER_ORCHESTRATOR_DEPLOYMENT_PATH_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_SERVER_ORCHESTRATOR_DEPLOYMENT_PATH_2026-07-17.md</a>. Build local fixture runtime first, then staging server, then import Hetzner legacy, read-only connectors, Lux Oasis Telegram pilot, supervisor console, client pilot template and production multi-tenant runtime. Server services: orl-api, orl-worker, orl-supervisor, database and queue.</small></div>
+            <div class="task now">ORL Claude architecture prompt ready.<small>Owner: Damiano + Claude. Source: <a href="./docs/ORL_CLAUDE_SECURE_ORCHESTRATOR_ARCHITECTURE_PROMPT_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_CLAUDE_SECURE_ORCHESTRATOR_ARCHITECTURE_PROMPT_2026-07-17.md</a>. Copy/paste prompt asks Claude to compare OpenClaw, Hermes, custom lightweight orchestrator and alternatives for a secure multi-client ORL runtime with one shared super brain, isolated tenant workspaces, ORL-only tools, approval gates, prompt-injection resistance, audit logs and supervisor console.</small></div>
             <div class="task now">ORL hybrid-mode supervision plan added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_AGENT_SUPERVISION_HYBRID_MODE_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_AGENT_SUPERVISION_HYBRID_MODE_2026-07-17.md</a>. Add ORL Supervisor Console and supervisor-agent layer: client agents handle routine work; supervisor audits quality, risk, source freshness, unsupported claims, tool choice, QA score, open approvals and human-review needs. Damiano/revenue manager reviews yellow/red exceptions only.</small></div>
             <div class="task now">ORL orchestrator scope and scale plan added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_AGENT_ORCHESTRATOR_SCOPE_AND_SCALE_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_AGENT_ORCHESTRATOR_SCOPE_AND_SCALE_2026-07-17.md</a>. Scope by code, not prompt: one ORL domain, one tenant at a time, allowlisted ORL tools, context loader, intent router, decision policy, state writer, follow-up worker, audit log and approval gates. Scales through one stateless orchestrator service over tenant-scoped data.</small></div>
             <div class="task now">ORL OpenClaw-style agent build plan added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_OPENCLAW_AGENT_BUILD_PLAN_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_OPENCLAW_AGENT_BUILD_PLAN_2026-07-17.md</a>. Missing layer identified: ORL Agent Orchestrator / packages/orchestrator. It sits between chat and ORL Core, detects intent, loads tenant/listing/memory/tasks/approval context, chooses next move, routes tools, writes state and follows up. Reuse Hetzner work under legacy/hetzner-bot, but prioritise the orchestrator before dashboard polish or connector depth.</small></div>
