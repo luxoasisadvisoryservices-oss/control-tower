@@ -14,7 +14,11 @@ Build a private internal pilot called:
 
 **Oasis Revenue Agent - Lux Oasis Workspace**
 
-It needs five parts:
+It needs its own bounded OpenClaw-style runtime, not just a prompt inside the main COO agent.
+
+The main COO agent stays outside the product as founder/operator supervisor. The sellable ORL agent gets its own workspace, memory, ORL-only tools, policy rules, audit log, follow-up worker and channel adapter.
+
+It needs six parts:
 
 1. Client Workspace
    - One tenant: Lux Oasis / test operator.
@@ -52,6 +56,15 @@ It needs five parts:
    - It is not just a prompt. It is an operating loop.
 
 The intelligence layer is what makes ORL feel agentic instead of like a bot.
+
+7. Dedicated ORL Runtime
+   - A separate ORL OpenClaw-style runtime for the product.
+   - One isolated workspace per client/tenant.
+   - ORL-only tools and memory.
+   - No broad access to Damiano's main workspace.
+   - Supervisor logs for hybrid human review.
+
+The product should feel like OpenClaw, but it should not expose full OpenClaw.
 
 ## The Missing Intelligence Connection
 
@@ -261,21 +274,25 @@ Create an ORL repo structure:
 orl/
   apps/
     api/
-    telegram-agent/
+    channel-adapters/
     dashboard/
+    supervisor-console/
   packages/
     core/
-    agent/
     orchestrator/
+    tools/
+    policy/
+    qa/
     connectors/
   legacy/
     hetzner-bot/
-  clients/
+  tenants/
     lux-oasis/
       workspace.md
       revenue_state.json
       tasks.json
       recommendation_ledger.json
+      memory.md
   docs/
     product/
     architecture/
@@ -289,13 +306,15 @@ First sprint tasks:
 3. Create the Lux Oasis client workspace.
 4. Add fixture RevenueState for 3-5 listings.
 5. Promote only the useful tested pieces from `legacy/` into the new clean packages.
-6. Build the Agent Orchestrator: intent detection, context loading, next-action decision, tool routing, state write-back and follow-up status.
-7. Build the question-answer handler against RevenueState.
-8. Build daily command card output.
-9. Build task/approval-card state.
-10. Build weekly owner update output.
-11. Add regression tests for stale market data, occupancy windows, unsupported claims and incorrect tool choice.
-12. Record a demo conversation.
+6. Build the dedicated ORL runtime skeleton: tenant workspace, ORL-only tool registry, policy gates, audit log and channel adapter.
+7. Build the Agent Orchestrator: intent detection, context loading, next-action decision, tool routing, state write-back and follow-up status.
+8. Build the question-answer handler against RevenueState.
+9. Build daily command card output.
+10. Build task/approval-card state.
+11. Build weekly owner update output.
+12. Add supervisor logs and `needs_human_review` flags.
+13. Add regression tests for stale market data, occupancy windows, unsupported claims, cross-tenant access and incorrect tool choice.
+14. Record a demo conversation.
 
 ## Minimum Sellable Demo
 
@@ -338,4 +357,4 @@ Use this as the implementation brief for Claude Code inside the ORL repo:
 
 Build the Lux Oasis ORL agent workspace first. Import the existing Hetzner bot/work into `legacy/hetzner-bot/`, then promote useful tested pieces into the clean ORL architecture. Use fixture/export data first. Do not touch production. Do not build the whole SaaS yet. The first milestone is a working agent conversation that uses RevenueState, creates tasks, requests approval, remembers status and produces a weekly owner update.
 
-The key missing layer is `packages/orchestrator`: the agent intelligence loop that reads tenant context, selects tools, creates tasks/approvals, writes state, and follows up. Build this before over-investing in dashboard polish or connectors.
+The key missing layer is `packages/orchestrator` inside a dedicated ORL OpenClaw-style runtime: the agent intelligence loop that reads tenant context, selects ORL-only tools, creates tasks/approvals, writes state, and follows up. Build this before over-investing in dashboard polish or connectors.

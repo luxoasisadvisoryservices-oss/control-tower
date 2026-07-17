@@ -4,7 +4,7 @@
 
 The ORL orchestrator should not be a general agent.
 
-It should be a scoped revenue-operations orchestrator with:
+It should live inside its own dedicated ORL OpenClaw-style runtime and be a scoped revenue-operations orchestrator with:
 
 - one domain: short-term-rental revenue operations;
 - one tenant at a time;
@@ -17,6 +17,8 @@ It should be a scoped revenue-operations orchestrator with:
 - no price/write/send action without approval.
 
 The prompt gives it personality and judgement. The code gives it boundaries.
+
+The product should not use Damiano's main COO agent workspace as the client runtime. The COO agent supervises the ORL product, but each ORL client agent runs in its own bounded ORL workspace with its own memory, state, tools, policy, audit log and follow-up queue.
 
 ## Step By Step Build
 
@@ -71,6 +73,43 @@ Give it only ORL tools:
 - `runRevenueQA(tenant_id, payload)`
 
 No shell. No global Gmail. No broad Slack. No file system. No cross-tenant search.
+
+### Step 2A - Build The Dedicated ORL Runtime
+
+Create the product runtime before adding more conversation polish:
+
+```text
+orl-runtime/
+  apps/
+    api/
+    channel-adapters/
+    supervisor-console/
+  packages/
+    orchestrator/
+    core/
+    tools/
+    policy/
+    qa/
+    connectors/
+  tenants/
+    lux-oasis/
+```
+
+Each tenant workspace stores:
+
+- client profile;
+- users and roles;
+- listing records;
+- RevenueState;
+- tasks;
+- approvals;
+- recommendation ledger;
+- memory;
+- channel mappings;
+- connector configuration;
+- audit log.
+
+This is the ORL version of OpenClaw. It gives the agent a home, memory and tools, while keeping it narrow enough to sell safely.
 
 ### Step 3 - Build The Context Loader
 

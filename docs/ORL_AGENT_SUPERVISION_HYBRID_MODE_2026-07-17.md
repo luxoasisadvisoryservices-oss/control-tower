@@ -32,6 +32,8 @@ Hybrid mode means:
 
 Works inside the client's Telegram/Slack/WhatsApp.
 
+It runs in its own dedicated ORL OpenClaw-style workspace, not inside Damiano's main COO workspace.
+
 It:
 
 - answers revenue questions;
@@ -44,6 +46,8 @@ It:
 ### 2. ORL Supervisor Agent
 
 Watches all client revenue agents.
+
+This is a separate supervisor runtime above the client runtimes.
 
 It:
 
@@ -213,14 +217,15 @@ With 20+ clients:
 
 ## Build Order
 
-1. Add audit log to every orchestrator turn.
-2. Add `needs_human_review` flag.
-3. Build approval queue.
-4. Build QA queue.
-5. Build agent health page.
-6. Build daily supervisor summary.
-7. Add QA scoring.
-8. Add weekly client outcome summary.
+1. Create the dedicated ORL runtime template for one tenant.
+2. Add audit log to every orchestrator turn.
+3. Add `needs_human_review` flag.
+4. Build approval queue.
+5. Build QA queue.
+6. Build agent health page.
+7. Build daily supervisor summary.
+8. Add QA scoring.
+9. Add weekly client outcome summary.
 
 ## First Version For Lux Oasis Pilot
 
