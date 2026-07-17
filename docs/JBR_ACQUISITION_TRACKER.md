@@ -1,6 +1,6 @@
 # JBR Acquisition Tracker
 
-# 17 Jul JBR acquisition filter widened after Damiano correction, 13:24 Dubai
+# 17 Jul JBR acquisition filter widened after Damiano correction, 13:13 Dubai
 
 Damiano clarified that JBR acquisition should not be limited to one exact Murjan or Sadaf tower. Murjan 1-6, Sadaf buildings, Bahar, Rimal, Amwaj, Shams and comparable proper JBR buildings are eligible when the specific listing is a good deal and has a good view. The send filter is now:
 
