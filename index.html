@@ -1000,7 +1000,7 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>17 Jul 2026 14:41 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>17 Jul 2026 14:43 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
@@ -1013,7 +1013,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>17 Jul 2026 14:41 Dubai</span>
+        <span data-publish-stamp>17 Jul 2026 14:43 Dubai</span>
       </div>
     </div>
   </header>
@@ -1404,6 +1404,7 @@
             <div class="task now">ORL implementation status pending handoff.<small>Damiano clarified on 7 Jul 12:34 that ORL/myDataValue-style work is partially built, but exact current state will be shared soon. Do not infer absent implementation from this workspace alone. Next action: ingest real files/features/tests/blockers from the ORL environment and update the implementation map.</small></div>
             <div class="task now">ORL Telegram bot QA first slice scored.<small>Owner: Damiano + COO agent. Source: docs/ORL_QA_TELEGRAM_BOT_TEST_RUN_2026-07-07.md. Scores from screenshots: A1 occupancy W, A2 ADR W, A3 current-month revenue F, A5 next-30-days secured revenue F, A7 market W, A8 live-tonight price F, plus June/last-month revenue F. Verdict: not ready for client-facing autonomous use until canonical RevenueState fixes stop month/date-window, live-price and forward-vs-realised revenue contradictions. Next optional Section A question: what's my cost floor?</small></div>
             <div class="task now">ORL occupancy-window QA correction added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_OCCUPANCY_WINDOW_QA_FIX_2026-07-15.md" target="_blank" rel="noopener">docs/ORL_OCCUPANCY_WINDOW_QA_FIX_2026-07-15.md</a>. Damiano challenged the bot's `83% occupancy` explanation on 15 Jul. Verdict: the bot answered visibility/ranking before defining the metric. Fix rule: every occupancy answer must include exact date window, booked nights / total nights where available, source, formula and market benchmark basis; if missing, return `NEEDS_REVIEW_OCCUPANCY_WINDOW`.</small></div>
+            <div class="task now">ORL hybrid-mode supervision plan added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_AGENT_SUPERVISION_HYBRID_MODE_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_AGENT_SUPERVISION_HYBRID_MODE_2026-07-17.md</a>. Add ORL Supervisor Console and supervisor-agent layer: client agents handle routine work; supervisor audits quality, risk, source freshness, unsupported claims, tool choice, QA score, open approvals and human-review needs. Damiano/revenue manager reviews yellow/red exceptions only.</small></div>
             <div class="task now">ORL orchestrator scope and scale plan added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_AGENT_ORCHESTRATOR_SCOPE_AND_SCALE_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_AGENT_ORCHESTRATOR_SCOPE_AND_SCALE_2026-07-17.md</a>. Scope by code, not prompt: one ORL domain, one tenant at a time, allowlisted ORL tools, context loader, intent router, decision policy, state writer, follow-up worker, audit log and approval gates. Scales through one stateless orchestrator service over tenant-scoped data.</small></div>
             <div class="task now">ORL OpenClaw-style agent build plan added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_OPENCLAW_AGENT_BUILD_PLAN_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_OPENCLAW_AGENT_BUILD_PLAN_2026-07-17.md</a>. Missing layer identified: ORL Agent Orchestrator / packages/orchestrator. It sits between chat and ORL Core, detects intent, loads tenant/listing/memory/tasks/approval context, chooses next move, routes tools, writes state and follows up. Reuse Hetzner work under legacy/hetzner-bot, but prioritise the orchestrator before dashboard polish or connector depth.</small></div>
             <div class="task now">ORL OpenClaw-style agent direction added.<small>Owner: Damiano + COO agent. Source: <a href="./docs/ORL_OPENCLAW_STYLE_AGENT_PRODUCT_DIRECTION_2026-07-17.md" target="_blank" rel="noopener">docs/ORL_OPENCLAW_STYLE_AGENT_PRODUCT_DIRECTION_2026-07-17.md</a>. Direction: ORL should become a tenant-isolated STR revenue operator agent, not just a report bot or dashboard. It should hold useful client/team conversations, remember listing context, create tasks/approval cards, produce daily command cards, and answer only from validated RevenueState. First sellable version: supervised agent + advisory pilots.</small></div>
