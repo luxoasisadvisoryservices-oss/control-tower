@@ -183,6 +183,59 @@ Every tool call must require `tenant_id`.
 
 Every answer must log the RevenueState version and source traces used.
 
+## Scaling To 60 / 100 / 200 Clients
+
+The scalable product is not 60, 100 or 200 manually managed agents.
+
+It is one multi-tenant ORL runtime:
+
+```text
+One ORL platform
+  -> many isolated tenant workspaces
+  -> one shared orchestrator codebase
+  -> tenant-scoped data and tools
+  -> shared supervisor console
+  -> human review queues
+```
+
+For 1-5 clients:
+
+- Damiano can be the human revenue lead;
+- every yellow/red item can be reviewed manually;
+- the priority is product proof and demo-quality conversations.
+
+For 5-20 clients:
+
+- add one trained revenue ops reviewer;
+- supervisor console handles daily triage;
+- Damiano reviews only red/high-value cases and product quality.
+
+For 20-60 clients:
+
+- split clients by portfolio size or market;
+- add reviewer queues by priority;
+- automate routine green answers, daily cards and weekly drafts;
+- keep price writes and owner sends approval-gated.
+
+For 60-200 clients:
+
+- agents must be managed by exception only;
+- use background queues for data refresh, follow-ups, weekly updates and QA;
+- supervisor agent pre-scores turns as green/yellow/red;
+- revenue managers work only the yellow/red queues;
+- Damiano reviews enterprise clients, product QA and commercial strategy.
+
+The core scaling metric is not number of agents. It is:
+
+- percentage of turns handled green;
+- number of yellow/red items per reviewer per day;
+- data freshness rate;
+- approval turnaround time;
+- revenue impact per client;
+- churn risk / client trust.
+
+If too many turns become yellow/red, the product is not ready to scale.
+
 ## First Build Order
 
 1. Create the Lux Oasis ORL workspace as tenant 001.
@@ -195,6 +248,21 @@ Every answer must log the RevenueState version and source traces used.
 8. Add supervisor log and QA flags.
 9. Run a 7-day internal Lux Oasis pilot.
 10. Use the best conversations as the sales demo.
+
+## Infrastructure Needed Before 60+ Clients
+
+Before serious scale, ORL needs:
+
+- database with strict `tenant_id` isolation;
+- encrypted connector credentials per tenant;
+- idempotent background jobs;
+- queue system for data refresh and follow-ups;
+- audit log for every turn and tool call;
+- supervisor console;
+- rate limits per tenant;
+- alerting for failed connectors and stale data;
+- billing tied to tenant/listing count;
+- onboarding flow that provisions a workspace without custom engineering each time.
 
 ## Product Rule
 
