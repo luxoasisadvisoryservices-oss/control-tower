@@ -67,6 +67,38 @@ This is the product moment. Not the PDF.
 
 ## Build Sequence
 
+### Phase 0 - Import The Hetzner Work Safely
+
+Yes, include the work already done on Hetzner.
+
+But do it as a controlled migration, not by continuing to patch the live bot.
+
+Use the existing Hetzner work as source material:
+
+- current Telegram bot logic;
+- existing prompts;
+- daily brief code;
+- report generation code;
+- PriceLabs / PMS parsing work;
+- data fixtures and exports;
+- known bugs and fixes;
+- working message flows;
+- useful utilities;
+- prior Claude Code work;
+- deployment lessons.
+
+Migration method:
+
+1. Copy the current Hetzner ORL code into the new repo under `legacy/`.
+2. Do not treat `legacy/` as the final architecture.
+3. Identify useful modules and promote them one by one into `packages/core`, `packages/connectors`, `apps/telegram-agent` or `apps/dashboard`.
+4. Add tests before trusting each promoted piece.
+5. Keep the live production bot locked until the new dev/staging path proves itself.
+
+The principle:
+
+Use the Hetzner work as the raw material and proof of learning. Do not use the patched Hetzner bot as the product foundation.
+
 ### Phase 1 - Fake The Connectors, Prove The Conversation
 
 Use exports or fixture data first.
@@ -168,6 +200,8 @@ orl/
     core/
     agent/
     connectors/
+  legacy/
+    hetzner-bot/
   clients/
     lux-oasis/
       workspace.md
@@ -182,14 +216,17 @@ orl/
 
 First sprint tasks:
 
-1. Create the Lux Oasis client workspace.
-2. Add fixture RevenueState for 3-5 listings.
-3. Build the question-answer handler against RevenueState.
-4. Build daily command card output.
-5. Build task/approval-card state.
-6. Build weekly owner update output.
-7. Add regression tests for stale market data, occupancy windows and unsupported claims.
-8. Record a demo conversation.
+1. Copy the current Hetzner ORL bot/code into `legacy/hetzner-bot/`.
+2. Inventory what is reusable: prompts, parsers, report code, Telegram handlers, validators, exports and fixtures.
+3. Create the Lux Oasis client workspace.
+4. Add fixture RevenueState for 3-5 listings.
+5. Promote only the useful tested pieces from `legacy/` into the new clean packages.
+6. Build the question-answer handler against RevenueState.
+7. Build daily command card output.
+8. Build task/approval-card state.
+9. Build weekly owner update output.
+10. Add regression tests for stale market data, occupancy windows and unsupported claims.
+11. Record a demo conversation.
 
 ## Minimum Sellable Demo
 
@@ -230,4 +267,4 @@ Start with operators who already feel revenue-management pain and have enough li
 
 Use this as the implementation brief for Claude Code inside the ORL repo:
 
-Build the Lux Oasis ORL agent workspace first. Use fixture/export data. Do not touch production. Do not build the whole SaaS yet. The first milestone is a working agent conversation that uses RevenueState, creates tasks, requests approval, remembers status and produces a weekly owner update.
+Build the Lux Oasis ORL agent workspace first. Import the existing Hetzner bot/work into `legacy/hetzner-bot/`, then promote useful tested pieces into the clean ORL architecture. Use fixture/export data first. Do not touch production. Do not build the whole SaaS yet. The first milestone is a working agent conversation that uses RevenueState, creates tasks, requests approval, remembers status and produces a weekly owner update.
