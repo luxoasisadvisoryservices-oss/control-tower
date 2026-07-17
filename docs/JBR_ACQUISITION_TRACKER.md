@@ -1,14 +1,125 @@
 # JBR Acquisition Tracker
 
-Last updated: 14 July 2026, 15:08 Dubai time
+# 17 Jul JBR acquisition filter widened after Damiano correction, 13:24 Dubai
 
-## 14 Jul reply sweep, 15:08 Dubai
+Damiano clarified that JBR acquisition should not be limited to one exact Murjan or Sadaf tower. Murjan 1-6, Sadaf buildings, Bahar, Rimal, Amwaj, Shams and comparable proper JBR buildings are eligible when the specific listing is a good deal and has a good view. The send filter is now:
+
+- Good deal for the building/size/view, with annual rent or owner economics that can plausibly work for holiday-home management.
+- Good view signal, especially Marina, sea, Palm, beach, high floor or unusually strong presentation.
+- Usable direct agent/agency route from Gmail, page source, public listing, or browser extraction.
+- No duplicate send to the same route/contact/listing.
+- Weak stock, poor view, overpriced premium stock, portal-only with no contact route, phone-only/WhatsApp-only without approved route, and non-JBR Dubai Marina remain parked.
+
+This means future Murjan/Sadaf alerts should be fetched and qualified across the tower families, not dismissed because the tower number is not the previous shortlist.
+
+# 17 Jul Murjan / Sadaf / fresh JBR alert acted, 13:03 Dubai
+
+Damiano flagged that Murjan/Sadaf emails were visible. Gmail/OAuth search across All Mail/Spam opened the newest relevant Property Finder alert `FW: 31 new properties you'll love`, Gmail message ID `19f6525acb879f11`, received 15 Jul 2026 13:39 Dubai.
+
+Resolved four visible listing pages, extracted agent contacts from page source, checked against already-sent tracker routes, and sent approved-pattern email outreach to four fresh non-duplicate contacts:
+
+- Sadaf 7, 1BR, 2 bath, 1,466 sqft, AED 109,999/year, title `High Floor 1BR | Huge Layout | Marina View`; agent Ramakant Chaturvedi / Yogi International, `yire@yogigroup.ae`, phone `+971581434080`; Gmail sent ID `19f6f4f48f70b170`.
+- Rimal 2, 1BR, 2 bath, 1,146 sqft, AED 99,000/year, title `Rimal 2 | Massive 1 Bed | Furnished`; agent Tanweer Khan / Discovery Homes, `tanweer@discoveryhomes.ae`, phone `+971569576399`; Gmail sent ID `19f6f4f4b425b508`.
+- Bahar 6, 1BR, 2 bath, 761 sqft, AED 77,000/year, title `1 Bed | JBR | Sea & Marina View`; agent Vinod Bhojwani / Homes4Life, `v.bhojwani@homes4life.ae`, phone `+971558694849`; Gmail sent ID `19f6f4f4dba22ae9`.
+- Murjan 2, 1BR, 2 bath, 1,101 sqft, AED 85,000/year, title `SPACIOUS ONE BEDROOM FOR RENT IN JBR`; agent Saeel Raghuvir Chari / Twinkle Real Estate, `saeel@twinklegroup.ae`, phone `+971503453045`; Gmail sent ID `19f6f4f4f7da6577`.
+
+Status: reply watch. No WhatsApp outreach sent.
+
+# 17 Jul The Fairways / Golf Tower view-gated exception, 12:58 Dubai
+
+Damiano approved outreach for The Fairways tower and Golf Tower properties only when the listing clearly shows a nice golf-course view and/or Marina skyline view. This is a narrow exception, not a general reopening of The Views or weak non-JBR stock.
+
+Fresh Gmail/OAuth recovery opened the Property Finder alert `FW: 12 new properties you'll love`, Gmail message ID `19f6a48a3dcf867a`. Four visible Fairways cards were resolved to Property Finder listing pages and contacts were extracted from page source.
+
+Sent approved-pattern email outreach for the three view-qualified leads:
+
+- The Fairways West, 1BR, 2 bath, 772 sqft, AED 110,000/year, title `Bright 1BR with Golf Course Views | Prime Location`; agent Abdul Fatah Joudi / Squadra, `Joudi@squadra.ae`, phone `+971502424390`; Gmail sent ID `19f6f4a5b1913310`.
+- The Fairways North, 1BR, 2 bath, 819 sqft, AED 105,000/year, title `Golf View | Chiller Free | Vacant`; agent Viktoriia Chukan / McCone, `viktoriia.c@mcconeproperties.com`, phone `+971585372962`; Gmail sent ID `19f6f4a5cc56ec62`.
+- The Fairways East, 1BR, 2 bath, 847 sqft, AED 104,999/year, title `Prime Location | Beautiful View | Vacant`; page description showed `Golf Course and Pool...`; agent Taylor Ann Davis / McCone, `taylor.d@mcconeproperties.com`, phone `+971525409757`; Gmail sent ID `19f6f4a5e4994247`.
+
+Parked: The Fairways East, `The Views | Vacant 1BR | Prime Location`, AED 105,000/year, agent Maksim Titov / Spica, because the page did not show a clear golf/Marina skyline view signal.
+
+Status: reply watch. No WhatsApp outreach sent.
+
+# 16 Jul outbound lane pass, 19:14 Dubai
+
+Fresh Gmail/OAuth delta after the 15:06 UTC watermark surfaced only two forwarded Property Finder portal alerts in Spam / All Mail:
+
+- `FW: 4 new properties you'll love` for Lake Terrace, JLT Cluster D, JLT subleasing, Gmail message ID `19f6a47065485a4f`
+- `FW: 12 new properties you'll love` for The Fairways 1/2 Bed, The Views, Gmail message ID `19f6a48a3dcf867a`
+
+Both alerts were portal noise rather than a clean JBR direct-email route, so no sendable holiday-home management lead was recoverable and no outbound email was sent. `memory/jbr-agent-outbound-state.json` lastRun refreshed to `2026-07-16T19:14:48+04:00`.
+
+# 16 Jul reply sweep and public-source refresh, 19:06 Dubai
+
+Fresh Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch found no new human replies after the current watermark. The only in-scope thread remained the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce on the Luiza / Sadaf 7 thread, which stays excluded from lead notifications. `memory/jbr-acquisition-replies.json` lastScan refreshed to `2026-07-16T15:06:15Z`.
+
+Fresh public-source search kept the same live JBR comparison lanes in view:
+
+- Bahar 6 remains the strongest 1BR lane, with live furnished Marina-view routes still visible via DDA Real Estate and Royal Home Real Estate.
+- Murjan 2 remains the best backup 1BR lane, with live furnished open-marina and sea-view routes still visible via Exclusive Links Real Estate and Reds Real Estate.
+- Sadaf 7 remains the active 2BR comparison lane, with furnished, vacant and walk-to-beach routes still visible in public search.
+- Jumeirah Gate Tower 1 remains a premium exception only, with furnished 1BR routes still visible via Morgan's International Realty and Newport Homes Real Estate.
+- Sparkle Tower stays parked and non-JBR remains excluded unless explicitly expanded.
+
+No Damiano notification was sent because there was no new reply or newly qualified lead requiring action.
+
+# 16 Jul outbound lane pass, 13:36 Dubai
+
+Fresh Gmail/OAuth sweep across Inbox, Spam and All Mail found two new Property Finder portal forwards at 09:34 and 09:36 Dubai:
+
+- `FW: 4 new properties you'll love` for Lake Terrace, JLT Cluster D, JLT subleasing
+- `FW: 12 new properties you'll love` for The Fairways 1/2 Bed, The Views
+
+The separate JBR search queries only surfaced the already-known Oasis2 Hostaway export-fail / export-success chain for listing `413328` and no fresh JBR agent route. No clean JBR furnished 1-2BR direct-email route or equivalent holiday-home management lead was recoverable on this pass, so no outbound email was sent.
+
+Checked Gmail message IDs: `19f6a48a3dcf867a`, `19f6a47065485a4f`, `19f65c3e80b08eed`, `19f65c1bfae4e8f`, `19f6529320d1493b`, `19f652717711aa9f`, `19f6519dbcb2022b`, `19f6513e6363d648`, `19f64fdf7ea2a43d`, `19f64fa34b68bfd5`.
+
+The exact blocker reason on this pass is that the live Gmail sweep found only non-JBR portal alerts plus internal Hostaway export noise, while the JBR public route set remained exhausted or already-contacted.
+
+# 15 Jul outbound lane pass, 15:20 Dubai
+
+Fresh Gmail/OAuth sweep across Inbox, Spam and All Mail surfaced a new forwarded Property Finder alert `FW: 31 new properties you'll love` with JBR 1BR options in Bahar 6, Murjan 2, Sadaf 7 and Rimal 2, plus a separate Sparkle Towers alert that stays parked. The public Property Finder listing pages were still CloudFront-blocked on fetch and browser fallback, so no clean public-agent direct email or phone route was recoverable for any of the fresh JBR cards. No outbound email was sent.
+
+The exact blocker reason on this pass is: the new JBR listing alert was real and relevant, but it did not expose a fresh sendable direct route, and the only live JBR routes already tracked remained either previously sent or not newly recoverable from the blocked pages.
+
+## 17 Jul 2026 draft-only public-source refresh
+
+Fresh public-source JBR opportunities were added as draft-only routes only. No direct outreach was sent and owner-direct contacts remain uncontacted until a later approval gate.
+
+- Bahar 6: Fully furnished 1BR, Marina view, vacant. Top priority: furnished, clean, strong Marina view.
+- Bahar 6: One bedroom, full Marina views, vacant now. Top priority: furnished, view-led and ready now.
+- Murjan 2: Partial Marina view from balcony, available from 15 Jul 2026. Strong fit: balcony plus Marina view, good timing.
+- Rimal 3: Furnished 2BR apartment, stunning view, vacant now. Strong fit: furnished 2BR with view-led presentation.
+- 1 JBR: 2BR plus maids, full Palm and Sea view, huge layout. Premium exception: large layout and strong view set.
+- The Address JBR / Jumeirah Gate Tower 1: Marina view, luxury living, furnished. Premium exception: furnished and view-led.
+- Shams 2: 2BR apartment, Ain Dubai and sea view. Strong fit: sea view plus landmark outlook.
+- Shams 4: Sea view, fully furnished, upgraded. Strong fit: furnished, upgraded, view-led.
+
+Draft-only route strings:
+
+- `Bahar 6 Marina View | Fully Furnished | Vacant`
+- `Bahar 6 One Bedroom | Full Marina Views | Vacant Now`
+- `Murjan 2 Partial Marina view from balcony available from 15 Jul 2026`
+- `Rimal 3 Furnished 2-BR Apartment/Stunning View/Vacant Now`
+- `1 JBR 2 BR+Maids | Full Palm and Sea View | Huge Layout`
+- `The Address JBR / Jumeirah Gate Tower 1 Marina View | Luxury Living | Furnished`
+- `Shams 2 2BR Apartment | Ain Dubai & Sea View`
+- `Shams 4 sea view fully furnished/upgraded`
+
+Priority order for the new draft-only set: Bahar 6 first, then Murjan 2, then Rimal 3 and 1 JBR, then The Address JBR / Jumeirah Gate Tower 1, then Shams 2 and Shams 4. Sparkle Tower was not added.
+
+# 14 Jul outbound lane pass, 21:40 Dubai
+
+Fresh Gmail/OAuth sweep after the last blocker surfaced only portal-style Property Finder forwards for The Views and Downtown/Old Town plus unrelated Slack/Airbnb ops mail. No clean JBR public-agent direct-email route or new human reply was exposed, so the outbound lane stays reply-watch only and no send was made.
+
+Checked message IDs this pass: `19f5ad23fa1d949c`, `19f5ad38e6809bce`, `19f5be42e795e26d`, `19f5be529d98dd19`, `19f5ff83742ba2b6`, `19f5ff8b6451d689`, `19f5ff926eb888fc`.
+
+# 14 Jul reply sweep, 15:08 Dubai
 
 Fresh Gmail/OAuth sweep across the June 19-20 outreach set and the 3 Jul forwarded-alert batch found no new human replies. The only candidate thread remained the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce, which stays excluded from lead notifications.
 
 No new actionable lead emerged, so no reply draft or external send is needed on this pass.
-
-## 14 Jul public-source refresh
 
 Fresh public-source refresh keeps the current JBR comparison lanes alive:
 
@@ -20,7 +131,67 @@ Fresh public-source refresh keeps the current JBR comparison lanes alive:
 - Murjan 3 / Murjan 4 surfaced as backup JBR 2BR routes, but stay secondary to the main lanes above.
 - Quality filter stays strict: prioritise proper holiday-home inventory with good furnishing, clean presentation, balcony/view, and strong guest appeal; downgrade weakly furnished or poor-layout units unless economics are exceptional.
 
-## 11 Jul outbound engine blocker, 17:10 Dubai
+# 13 Jul reply sweep, 15:06 UTC
+
+Fresh Gmail/OAuth follow-up on the June 19-20 outreach set and the 3 Jul forwarded-alert batch found no new human replies after the latest watermark. The only candidate thread remained the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce, which stays excluded from lead notifications.
+
+No new actionable lead emerged, so no reply draft or external send is needed on this pass.
+
+# 13 Jul reply sweep and public-source refresh, 15:05 Dubai
+
+Fresh Gmail/OAuth sweep after the 12 Jul 13:00 UTC watermark found no new human replies in the 19-20 Jun outreach set or the 3 Jul forwarded-alert batch. The only matching item remained the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce, which stays excluded from lead notifications.
+
+Fresh public-source research keeps the core JBR comparison lanes alive, with a cleaner split between proper holiday-home stock and premium-only exceptions:
+
+| Building | Current public signal | Public route / note |
+|---|---|---|
+| Bahar 6 | Still the strongest JBR 1BR lane | Property Finder live search shows fully furnished Marina-view stock at about AED 95,000-99,888/year, with vacant/ready and balcony variants via Linda's Real Estate, Luxbridge International Realty, DDA Real Estate, Prive Real Estate, Luxfolio and Tier One |
+| Murjan 1 | Fully furnished, sea and marina view, high-floor, upgraded 1BR lane | Current public search still surfaces upgraded Murjan 1 stock that fits proper holiday-home inventory, with the best routes pointing to clean sea/marina-view presentation rather than weak stock |
+| Murjan 2 | Still live and the best backup 1BR lane | Property Finder live search still shows furnished 1BR routes at about AED 90,000-110,000/year, including renovated marina-view and beach-close options through the current public route set already tracked via Royal Manor Real Estate LLC / Property Concierge-style routes |
+| Sadaf 7 | Still the active 2BR comparison lane | Property Finder live search shows multiple upgraded, fully furnished 2BR routes in the roughly AED 109,900-175,000/year band, with sea/palm or marina-view presentation from public agents including Andrew White, Ramakant Chaturvedi, Firdavs Kadamaliev, Akhil Dubal, Charlie Simmonds and others |
+| Jumeirah Gate Tower 1 | Premium exception only, but still live | Property Finder live search confirms fully furnished Marina-view, high-floor 1BR inventory around AED 119,900-120,000/year, with partial sea-view premium routes via Rustam Avazov / Jade Catherine Apollos and similar JBR agents |
+| Rimal 1 | Secondary comparison lane that remains live | Property Finder search still surfaces furnished 1-2BR routes with sea-view and brand-new furniture angles, so it remains a useful backup comparison lane when Bahar and Murjan are exhausted |
+
+Parked or downgraded for this pass: any weakly presented, poorly furnished, or non-JBR routes stay parked; premium-only lanes stay downgraded unless the economics are unusually strong. Sparkle Tower remains excluded.
+
+No Damiano notification was sent because there was no new reply and no newly qualified lead requiring immediate action.
+
+# 12 Jul reply sweep, 17:00 Dubai
+
+Fresh Gmail/OAuth sweep after the 09:01 UTC watermark found no new human replies in the 19-20 Jun outreach set or the 3 Jul forwarded-alert batch. The only matching item remained the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce, which stays excluded from lead notifications. `memory/jbr-acquisition-replies.json` lastScan refreshed to `2026-07-12T13:00:00Z`; no Damiano notification was sent.
+
+## 12 Jul outbound blocker, 13:10 Dubai
+
+Fresh Gmail recovery sweep across the current JBR property-alert queries found no new clean approved-pattern direct-email route. The live scan only surfaced historical sent threads and inbox noise, while the current public alert flow remained portal-only or already processed. No new direct public-agent email was safe to send on this pass, so the lane is blocked until a fresh qualifying route appears.
+
+No Damiano notification was sent because there was no outbound send and no new decision to approve. Current eligible routes already contacted remain in the sent history below, and owner-direct, portal-only, WhatsApp-only, phone-only, contact-form-only, bounced, weak-economics and non-JBR lanes stay excluded.
+
+## 12 Jul reply sweep, 13:01 Dubai
+
+Fresh Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch used 80 queries over 51 threads and found no new human replies after the latest watermark. The only candidate thread remained the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce, which stays excluded from lead notifications.
+
+Public-source comparison lanes remain Bahar 6, Murjan 2, Sadaf 7 and Jumeirah Gate Tower 1 / Address JBR. No new qualified lead emerged, so no Damiano notification was sent and no owner-direct outreach should be triggered from this pass.
+
+## 12 Jul outbound send, 09:12 Dubai
+
+Fresh Gmail/Spam/All Mail alerts checked at this pass were non-JBR portal alerts only, so the lane fell back to eligible tracker leads and sent two approved-pattern direct emails to current JBR routes after a clean dry-run:
+
+| Building | Lead | Email | Gmail message ID | Thread ID | Status |
+|---|---|---|---|---|---|
+| Bahar 6 | Luxbridge International Realty / Talin Nizam furnished 1BR route, around AED 105,000/year | talin@luxbridgerealty.com | 19f54bdd83840edd | 19f54bdd83840edd | Sent 12 Jul 2026 09:12 Dubai |
+| Sadaf 7 | Betterhomes / Urvashi Sidhapara furnished 2BR route, around AED 120,000/year | urvashi.s@bhomes.com | 19f54bddbc28dc3e | 19f54bddbc28dc3e | Sent 12 Jul 2026 09:12 Dubai |
+
+Worker state updated in `memory/jbr-agent-outbound-state.json`. Control Tower and Mission Control were refreshed to match the quiet pass.
+
+## 12 Jul reply sweep, 09:01 Dubai
+
+Fresh Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch used 78 queries over 59 threads and found no new human replies after the last scan watermark. The only in-scope activity remained routine operational noise and the already-known `prioritydubbaiuae@gmail.com` bounce, which stays excluded from lead notifications.
+
+Public-source refresh still shows the current JBR comparison lanes as Bahar 6, Murjan 2, Sadaf 7 and Jumeirah Gate Tower 1 / Address JBR. Bahar 6 remains the strongest 1BR route, Murjan 2 remains the best backup 1BR comparison lane, and Sadaf 7 remains the strongest 2BR lane with Jumeirah Gate Tower 1 as the premium exception lane.
+
+No Damiano notification was sent because there was no new reply and no newly qualified lead requiring immediate action.
+
+# 11 Jul outbound engine blocker, 17:10 Dubai
 
 Fresh Gmail/Spam/All Mail checks at the 17:10 Dubai outbound pass surfaced only portal-style Property Finder forwards and already-sent JBR outreach threads. The new portal noise did not expose any fresh clean direct-email route, and the configured worker queue was already exhausted, so no live send was made on this pass.
 
@@ -28,22 +199,85 @@ No Damiano notification was sent because there was no sendable direct-email lead
 
 Last updated: 11 July 2026, 17:10 Dubai time
 
-## 10 Jul reply sweep and public-source refresh
+## 11 Jul reply sweep, 17:00 Dubai
 
-Live Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch found no new external acquisition replies from the tracked contact list or subject filters. The only new matches were internal Lux Oasis ops, Hostaway, DHCM, and Airbnb/Superhost traffic, which stays out of the acquisition reply queue.
+Fresh Gmail/OAuth follow-up on the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch found no new human replies. The reply dedupe watermark was advanced in `memory/jbr-acquisition-replies.json`, and the current public JBR comparison lanes remain Bahar 6, Murjan 2, Murjan 1, Rimal 1, Sadaf 7 and Jumeirah Gate Tower 1 / Address JBR.
 
-Public-source JBR checks still show the same live comparison lanes:
+No Damiano notification was sent because there was no new reply and no newly qualified lead requiring immediate action.
+
+## 11 Jul outbound blocker, 13:10 Dubai
+
+Fresh Gmail/OAuth checks pulled the newest Property Finder forward `FW: 39 new properties you'll love`, but the visible JBR hits were portal-alert style only. The Bahar 6 listing opened cleanly, but the public page did not expose a usable direct agent email route; the Murjan 1 and Rimal/JBR page fetches were blocked by the Property Finder edge and returned `ERROR: The request could not be satisfied`. No clean new approved-pattern direct-email lead was available for outbound, so the worker was not run live on this pass.
+
+No Damiano notification was sent because there was no sendable direct-email lead. Current JBR outbound remains focused on fresh public-agent email routes only, not portal-only, owner-direct, WhatsApp-only, or phone-only leads.
+
+Last updated: 11 July 2026, 13:10 Dubai time
+
+## 11 Jul reply sweep, 13:00 Dubai
+
+Fresh Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch used 77 queries over 49 threads and found no new human replies. The only matching item was the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce, which stays excluded from lead notifications.
+
+No Damiano notification was sent because there was no new reply and no newly qualified lead requiring immediate action. Current public JBR comparison lanes remain unchanged: Bahar 6, Murjan 2, Murjan 1, Rimal 1, Sadaf 7 and Jumeirah Gate Tower 1 / Address JBR.
+
+## 11 Jul outbound send, 10:25 Dubai
+
+Damiano clarified the current instruction: contact any working property that is inside the Lux Oasis characteristics and email the real estate agent for a revenue-share opportunity. The outbound worker was expanded beyond the already-sent 9 July routes, dry-run checked, then sent two new Bahar 6 JBR 1BR revenue-share opener emails:
+
+| Building | Lead | Email | Gmail message ID | Thread ID | Status |
+|---|---|---|---|---|---|
+| Bahar 6 | Sygma Real Estate / Ebad Ghani furnished 1BR route, around AED 90,000/year | ebad@sygma.ae | 19f4fda4d5b9b487 | 19f4fda4d5b9b487 | Sent 11 Jul 2026 10:25 Dubai |
+| Bahar 6 | Sekenkoum Real Estate Bahar 6 / JBR furnished 1BR lower-rent route | info@sekenkoum.com | 19f4fda4e37b3276 | 19f4fda4e37b3276 | Sent 11 Jul 2026 10:25 Dubai |
+
+No email was sent to ALH / Andrew White for Sadaf 7 because the current public result exposed phone/portal contact rather than a clean direct email. No duplicate emails were sent to Prive, Royal Home, Allsopp or other already-sent routes.
+
+Last updated: 11 July 2026, 10:25 Dubai time
+
+## 11 Jul reply sweep and public-source spot check, 09:14 Dubai
+
+Live Gmail/OAuth scan after the 10 Jul 13:00 UTC watermark found no new human replies, no fresh bounces, and no new acquisition threads in the 19-20 Jun outreach set or the 3 Jul forwarded-alert batch. `memory/jbr-acquisition-replies.json` was advanced to the current scan watermark.
+
+Fresh public-source search still shows the same live JBR comparison lanes:
+
+| Building | Fresh signal | Fit |
+|---|---|---|
+| Bahar 6 | Property Finder still surfaces furnished 1BR routes, including 95,000/year and 90,000/year examples with balcony / upgraded presentation | Still the strongest 1BR JBR lane |
+| Murjan 2 | Property Finder still surfaces furnished / upgraded 1BR routes around the AED 100k-105k band | Backup 1BR lane, but keep quality-filtered |
+| Sadaf 7 | Property Finder still surfaces a furnished 2BR route at 109,900/year with vacant / walk-to-beach presentation | Main 2BR comparison lane |
+| Rimal 1 | Property Finder still surfaces furnished 2BR routes with sea-view / upgraded presentation | Strong secondary 2BR lane |
+| Jumeirah Gate Tower 2 / Address JBR | Property Finder still surfaces a premium furnished 1BR route at 149,000/year with marina / sea-view balcony | Premium exception lane only |
+
+No Damiano notification was sent because there was no new reply and no newly qualified lead requiring immediate action.
+
+## 10 Jul outbound lane blocker, 17:12 Dubai
+
+Fresh Gmail/Spam/All Mail recovery at the 17:12 Dubai outbound pass surfaced only portal alert spam and previously sent JBR outreach threads. No new clean JBR public-agent direct-email lead was available for approved outbound, so the worker was not run live and no agent email was sent on this pass.
+
+Checked message IDs this pass: `19f4c006add2405b`, `19f4b5e56d705b4d`, `19f4b5e327e2ea97`, `19f4b5e2d8e6ce8d`.
+
+Last updated: 10 July 2026, 17:12 Dubai time
+
+## 10 Jul outbound lane blocker, 17:00 Dubai
+
+Fresh Gmail/Spam/All Mail checks at the 17:00 Dubai outbound pass surfaced only portal alerts and one Downtown / Emaar Beachfront subleasing batch. No new clean JBR direct-agent email lead was available for approved outbound, and the current tracker pool already has the eligible JBR direct-email routes either sent or awaiting replies. No agent email was sent on this pass. The outbound engine should stay focused on fresh public-agent email routes only, not portal-only or owner-direct leads.
+
+Last updated: 10 July 2026, 17:00 Dubai time
+
+## 10 Jul midday reply sweep and public-source refresh
+
+Live Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch found no new external acquisition replies after the 05:00 UTC watermark. The follow-up query window only surfaced internal Lux Oasis ops, Hostaway, DHCM, and Airbnb/Superhost traffic, which stays out of the acquisition reply queue.
+
+Public-source JBR checks still point to the same live comparison lanes, with current furnished inventory visible in the expected buy/rent bands:
 
 | Building | Public signal | Fit |
 |---|---|---|
-| Bahar 6 | Fresh Property Finder routes remain active, including fully furnished 1BRs around AED 85k-90k with Marina-view / fully furnished presentation | Strongest current 1BR lane |
-| Murjan 1 | Fresh Property Finder routes remain active, including a fully furnished 1BR around AED 230k and a lower-rent fully furnished route around AED 115k in the live search set | Premium 1BR comparison lane |
-| Murjan 2 | Fresh Property Finder routes remain active, including fully furnished / vacant 1BR stock around AED 100k-105k | Strong backup 1BR lane |
-| Rimal 1 | Fresh Property Finder and Bayut routes remain active for furnished 2BR stock around AED 150k-165k | Strong 2BR comparison lane |
-| Sadaf 7 | Fresh Property Finder routes remain active for furnished 2BR stock around AED 120k-145k, with upgraded and sea-view presentation | Main 2BR comparison lane |
-| Jumeirah Gate Tower 1 / Address JBR | Fresh Property Finder routes remain active for premium furnished 1BR stock with Marina view / high-floor presentation | Premium exception lane only |
+| Bahar 6 | Live Property Finder routes remain active, including a fully furnished 1BR at about AED 90k/year with Marina-view presentation | Strongest current 1BR lane |
+| Murjan 1 | Live Property Finder routes remain active, including a fully furnished 1BR around AED 99.5k/year and other upgraded / vacant options | Premium 1BR comparison lane |
+| Murjan 2 | Live Property Finder routes remain active, including furnished / upgraded / sea-view 1BR stock around AED 100k-105k | Strong backup 1BR lane |
+| Rimal 1 | Live Property Finder routes remain active for furnished 2BR stock around AED 150k/year, including marina-view and large-layout options | Strong 2BR comparison lane |
+| Sadaf 7 | Live Property Finder routes remain active for furnished 2BR stock around AED 125k/year, including marina-view and ready-to-move-in presentation | Main 2BR comparison lane |
+| Jumeirah Gate Tower 1 / Address JBR | Live Property Finder routes remain active for premium furnished 1BR stock with marina-view / high-floor presentation, but mostly as sale routes | Premium exception lane only |
 
-No notification was sent to Damiano because there was no new reply and no newly qualified lead requiring immediate action.
+No notification was sent to Damiano because there was no new reply and no newly qualified lead requiring immediate action. A 17:00 Dubai public-source spot check reconfirmed the same live JBR lanes: Bahar 6, Murjan 1, Murjan 2, Rimal 1, Sadaf 7 and Jumeirah Gate Tower 1.
 
 ## 9 Jul outbound recovery, 17:13 Dubai
 
@@ -504,24 +738,20 @@ WhatsApp: +971 56 390 3074
 |---|---|---|---|---|
 | Amwaj 4 | Furnished 1BR, marina view, near beach, 1,170 sqft, AED 100,000/year | Property Finder agent page for Natalia Rogovaya; Bayut live route also surfaced a matching furnished marina-view 1BR | Sent 9 Jul 2026 via `info@prive-re.com`, Gmail `19f46d98c8b07e04` | Monitor reply and move to availability / owner-interest gate if positive |
 | Rimal 4 | Fully furnished 1BR, sea view, 1,296 sqft, AED 154,000/year | Property Finder agent page for Figo Fernandes; Bayut live route also surfaced a matching furnished sea-view 1BR | Fresh premium JBR 1BR route, not contacted | Keep as a premium fallback route if the owner wants higher-end stock and the economics still work |
+
+## 10 Jul 2026 outbound run
+
+Live Gmail/OAuth check at 09:15 Dubai found no new clean JBR direct-email lead ready for approved-pattern send. The new property-alert traffic in the last 3 days was either already-sent outbound, portal-forward noise, or out of scope for this lane:
+
+| Message ID | Subject | Why it did not trigger a send |
+|---|---|---|
+| `19f47c36e18962ed` | `FW: 255 new properties match Emaar Beach front Subleasing!` | Emaar Beach Front is not a current JBR send lane and is parked for this outbound engine |
+| `19f47a650299a9ed` | `FW: 23 new properties match Downtown Sub Leasing 130k!` | Downtown / subleasing is out of scope for the current JBR outbound lane |
+
+Result: no outbound email was sent, because no newly qualified public listing-agent or agency email for a clearly fitting JBR furnished 1-2BR opportunity was exposed in fresh Gmail/Spam/All Mail checks.
 # JBR Acquisition Tracker
 
-Last updated: 16 July 2026, 13:36 Dubai time
-
-## 16 Jul outbound lane pass, 13:36 Dubai
-
-Fresh Gmail/OAuth sweep across Inbox, Spam and All Mail found two new Property Finder portal forwards at 09:34 and 09:36 Dubai:
-
-- `FW: 4 new properties you'll love` for Lake Terrace, JLT Cluster D, JLT subleasing
-- `FW: 12 new properties you'll love` for The Fairways 1/2 Bed, The Views
-
-The separate JBR search queries only surfaced the already-known Oasis2 Hostaway export-fail / export-success chain for listing `413328` and no fresh JBR agent route. No clean JBR furnished 1-2BR direct-email route or equivalent holiday-home management lead was recoverable on this pass, so no outbound email was sent.
-
-Checked Gmail message IDs: `19f6a48a3dcf867a`, `19f6a47065485a4f`, `19f65c3e80b08eed`, `19f65c1bfae4e8f`, `19f6529320d1493b`, `19f652717711aa9f`, `19f6519dbcb2022b`, `19f6513e6363d648`, `19f64fdf7ea2a43d`, `19f64fa34b68bfd5`.
-
-The exact blocker reason on this pass is that the live Gmail sweep found only non-JBR portal alerts plus internal Hostaway export noise, while the JBR public route set remained exhausted or already-contacted.
-
-## 16 Jul reply sweep, 11:06 Dubai
+# 16 Jul reply sweep, 11:06 Dubai
 
 Fresh Gmail/OAuth sweep across the 19-20 Jun outreach set and the 3 Jul forwarded-alert batch found no new human replies after the current watermark. The only in-scope thread was the already-known `prioritydubbaiuae@gmail.com` mailer-daemon bounce on the Luiza / Sadaf 7 thread, which stays excluded from lead notifications. `memory/jbr-acquisition-replies.json` lastScan refreshed to `2026-07-16T07:06:11Z`.
 
