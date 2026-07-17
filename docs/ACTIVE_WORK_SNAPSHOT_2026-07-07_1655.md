@@ -37,21 +37,23 @@ Boundary:
 - no DM;
 - no income guarantee.
 
-### 2. ORL Bot RevenueState Fix And Retest
+### 2. ORL Milestone 1 Repo Discovery And Safe Dev Setup
 
 Source files:
 
-- `ORL_QA_TELEGRAM_BOT_TEST_RUN_2026-07-07.md`
-- `ORL_REVENUESTATE_SECTION_A_FIX_PROMPT_2026-07-07.md`
+- `ORL_CLAUDE_CODE_AGENTIC_REBUILD_PROMPT_2026-07-15.md`
+- `ORL_FIRST_SETUP_RUNBOOK_2026-07-15.md`
+- `ORL_CLAUDE_CODE_CONTEXT_PACK_2026-07-15.md`
 
 Status:
 
-- Blocked until live ORL repo/runtime path or Claude Code execution inside that repo is available.
+- Waiting on Damiano to run the Hetzner ORL context discovery step in Claude Code and bring back the safe dev setup proposal.
 
 Current next action:
 
-- Run fix prompt inside the live ORL repo, because this OpenClaw workspace does not expose the actual ORL bot runtime.
-- Retest Section A only after canonical RevenueState paths are fixed.
+- Open Claude Code on the Hetzner ORL context and inspect the current bot/server location, user and folder, installed tooling, and safe dev layout.
+- Propose the `/srv/orl-dev`, `/srv/orl-staging` and `/srv/orl-production` folders plus the exact files to create or copy.
+- Wait for approval before touching production or making changes.
 
 ### 3. Wednesday LinkedIn BD Calls
 
@@ -122,7 +124,7 @@ Current state:
 
 ## Waiting / Blocked
 
-- ORL live repo/runtime or Claude Code run result.
+- ORL server/repo context discovery result and approval for safe dev setup.
 - Airbnb Co-Host eligibility/profile screen from Damiano account.
 - Exact call times for Fahim/Mohsen/development manager.
 - Development manager name/profile/contact.
