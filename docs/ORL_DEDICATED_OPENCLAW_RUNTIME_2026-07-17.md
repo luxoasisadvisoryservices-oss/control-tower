@@ -6,12 +6,24 @@ The sellable ORL agent should have its own OpenClaw-style runtime and orchestrat
 
 It should not run as a loose prompt inside Damiano's main COO agent workspace.
 
+Claude can be the reasoning engine underneath, but Claude is not the product boundary.
+
+The ORL runtime controls:
+
+- what context Claude receives;
+- which ORL tools Claude can request;
+- which tenant Claude is operating inside;
+- what gets written back to state;
+- which actions require approval;
+- which turns are escalated to supervisor review.
+
 The product architecture is:
 
 ```text
 Client channel
   -> ORL client workspace
   -> ORL orchestrator
+  -> Claude / reasoning model inside ORL boundaries
   -> ORL-only tools
   -> tenant RevenueState / tasks / approvals / memory / audit log
   -> ORL supervisor console
@@ -88,6 +100,16 @@ It:
 - writes state back;
 - schedules follow-up.
 
+It should call Claude for judgement, explanation, drafting and conversation.
+
+It should not let Claude roam freely. Claude receives a prepared ORL context pack, chooses from ORL-only actions, and returns a structured decision that the runtime validates before anything is saved or sent.
+
+Simple loop:
+
+```text
+message -> context loader -> Claude reasoning call -> policy check -> ORL tool call -> state write-back -> response/follow-up
+```
+
 ### 3. ORL Tool Registry
 
 Only ORL tools are allowed:
@@ -103,6 +125,8 @@ Only ORL tools are allowed:
 - `generateDailyCommandCard`;
 - `generateWeeklyOwnerUpdate`;
 - `runRevenueQA`.
+
+Claude can request these tools. The runtime decides whether the request is valid.
 
 ### 4. ORL Supervisor Runtime
 
@@ -181,3 +205,5 @@ It is:
 **Dedicated ORL OpenClaw-style Revenue Operator Agent, tenant-isolated, supervised, and approval-gated.**
 
 This is how it can feel like the main COO agent while staying narrow enough to sell safely.
+
+Claude gives the intelligence. The ORL orchestrator gives the job description, memory, tools, boundaries, follow-up and supervision.
