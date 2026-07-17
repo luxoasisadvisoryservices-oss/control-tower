@@ -146,7 +146,7 @@ Certain decisions are always escalated to Lux Oasis before action: anything invo
 
 ## 8. Proof Period
 
-For the Acquisition & Operations Partner route, we begin with a proof period of approximately 60 to 90 days before long-term commitment on either side.
+For the Acquisition & Operations Partner route, including candidates moving toward a full-time role, we begin with a 60-day proof period before long-term commitment on either side.
 
 The goal during the proof period:
 
@@ -155,7 +155,7 @@ The goal during the proof period:
 - get at least 1 unit live or into onboarding;
 - confirm the working relationship, reporting discipline and operating fit.
 
-Strong performance during this period accelerates everything that follows. If the proof period goes well and both sides want to continue, we can move to the longer-term structure, including compliant work authorisation where required.
+Strong performance during this 60-day period accelerates everything that follows. If the proof period goes well and both sides want to continue, we can move to the longer-term structure, including compliant work authorisation where required.
 
 For the Freelancer Property Finder route, there is no salary, visa or employment proof period. The freelancer is assessed lead by lead.
 
