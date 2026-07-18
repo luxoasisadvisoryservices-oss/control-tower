@@ -51,7 +51,7 @@ Live Wednesday people queue:
 
 7. Oasis Revenue Lab retest
 - Do not restart the full 50-question pack.
-- After the RevenueState fix is applied or available to test, retest the failed/wobbly Section A paths: occupancy, ADR, current MTD revenue, next-30 secured revenue, live tonight price, last month/June revenue and the June correction pushback.
+- After the report-desk build brief is applied or available to test, retest the failed/wobbly Section A paths: occupancy, ADR, current MTD revenue, next-30 secured revenue, live tonight price, last month/June revenue and the June correction pushback.
 - Continue B-J only after Section A is stable.
 - Capture post-testing Pro-tier direction as product strategy: Basic answers, Premium diagnoses/tracks, Pro builds the plan. The Pro scenario builder must be named, templated and gated, with real-data inputs and visible assumptions. Do not build open-ended client document generation before testing proves the rails.
 
