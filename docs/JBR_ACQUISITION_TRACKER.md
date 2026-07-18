@@ -1,5 +1,17 @@
 # JBR Acquisition Tracker
 
+# 18 Jul reply sweep, 15:04 Dubai
+
+Fresh Gmail/OAuth sweep across the June 19-20 outreach set and the 3 Jul forwarded-alert batch searched the named public contacts and JBR subject terms again. No new human replies were found. The only candidate thread remained the existing bounce for `prioritydubbaiuae@gmail.com`, which stays excluded from lead notifications.
+
+Public-source spot check still shows live JBR furnished routes in the current comparison lanes:
+
+- Bahar 6: Royal Home Real Estate and related Bahar 6 broker pages still surface furnished 1BR stock with Marina/beach angle.
+- Murjan 2: A Squared Real Estate, REDS Real Estate Broker, and related broker pages still surface furnished 1BR routes.
+- Sadaf 7: City Star Real Estate Broker, Royal Home Real Estate, D P A Real Estate, and related broker pages still surface furnished 2BR routes.
+
+Sparkle Tower remains excluded, and non-JBR remains parked unless scope is explicitly expanded.
+
 # 17 Jul JBR acquisition filter widened after Damiano correction, 13:13 Dubai
 
 Damiano clarified that JBR acquisition should not be limited to one exact Murjan or Sadaf tower. Murjan 1-6, Sadaf buildings, Bahar, Rimal, Amwaj, Shams and comparable proper JBR buildings are eligible when the specific listing is a good deal and has a good view. The send filter is now:

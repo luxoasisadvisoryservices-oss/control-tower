@@ -7,16 +7,29 @@ Subject: whether to keep the current AED 180,000/year 2BR lease in The Sterling,
 
 ## Executive Verdict
 
-AED 180,000/year is market-valid for a strong 2BR in The Sterling if the apartment is large, guest-ready, high floor, and has a clear Burj Khalifa / Downtown / canal view. It is not a bargain.
+The Sterling unit should be presented as under control from a revenue-management point of view. The Wellspring June report shows that the unit performed OK for the period and current market situation. AED 180,000/year is market-valid for a strong 2BR in The Sterling if the apartment is large, guest-ready, high floor, and has a clear Burj Khalifa / Downtown / canal view, but it remains a high fixed-rent commitment.
 
 For Shajidah's August decision, the honest recommendation is:
 
 - Do not leave the apartment just for a small saving.
 - Since the landlord will not renegotiate, treat AED 180,000 as a stay-or-move decision rather than a negotiation target.
+- Frame any move as a margin and opportunity decision, not as a reaction to weak control.
 - Move only if a comparable or better-view 2BR can be secured around AED 150,000-165,000, or if a unit around AED 170,000 materially improves view, location, layout or revenue potential.
 - Keep AED 180,000 only if the current unit is clearly better than the available alternatives and avoids August moving/downtime friction.
 
 The short-term-rental market should still book through winter, but it may not repeat the exceptionally strong pricing of the previous two to three winters. If regional/geopolitical tension eases, winter demand should improve. If it does not fully ease, Dubai should still generate bookings, but rate power may be softer. That makes rent discipline important: the likely risk is not necessarily a loss-making winter, but a lower-margin winter if fixed rent is too high.
+
+## Sterling Performance Context
+
+The Wellspring June 2026 monthly report gives useful context:
+
+- Sterling / Luxury 2BR Downtown is a newer listing, so there is no clean same-unit June 2025 comparison.
+- June 2026 revenue was around AED 12.8k, which is acceptable for the period and market situation.
+- July forward occupancy was around 81%, above the Dubai market reference near 46% and ahead of the other Wellspring units shown in the report.
+- ADR was acceptable for the situation; this should not be presented as a weak or uncontrolled unit.
+- The lease decision should therefore be based on fixed-rent margin, winter risk, move cost and alternative unit quality.
+
+Client framing: Sterling has performed OK and is under revenue-management control. The decision is whether staying at AED 180k gives enough margin and upside compared with moving furniture into a better-value 2BR with similar or better guest appeal.
 
 ## Sterling Rent Position
 
@@ -110,20 +123,21 @@ Hidden move costs matter: agent commission, security deposit, moving labour, fur
 
 ## Recommended Message To Shajidah
 
-Shajidah, I checked the current Sterling, Business Bay and nearby Downtown 2BR market. AED 180k is not crazy for a strong Sterling 2BR with good view and good condition, but it is not a bargain either.
+Shajidah, I checked the current Sterling, Business Bay and nearby Downtown 2BR market together with the latest Wellspring performance context. The Sterling unit has performed OK for the period, and the July forward occupancy signal is strong, so the decision is strategic rather than reactive.
 
-My honest view is that AED 180k should be your ceiling, not your target. If the current apartment is large, has a strong Burj/Downtown/canal view and avoids moving friction, staying can still make sense. But if we can find a comparable or better 2BR where you can reuse your furniture around AED 150k-165k, or a very good option around AED 170k, it is worth considering before August.
+My honest view is that AED 180k is a high fixed-rent commitment, but it can still make sense if the current apartment is large, has a strong Burj/Downtown/canal view, photographs well and avoids moving friction. If we can find a comparable or better 2BR where you can reuse your furniture around AED 150k-165k, or a very good option around AED 170k, it is worth considering before August.
 
-For winter, I still expect Dubai to get booked, especially if regional tension eases. But I would not assume the same strong pricing as the last two to three winters. Since the landlord will not renegotiate, the safer strategy is to compare exact alternatives and move only if the saving or view/revenue upside is meaningful.
+For winter, I still expect Dubai to get booked, especially if regional tension eases. But I would not assume the same strong pricing as the last two to three winters. Since the landlord will not renegotiate, the decision is simple: stay if Sterling's quality and performance justify AED 180k, or move only if the saving or view/revenue upside is meaningful.
 
 ## Final Recommendation
 
 Recommended action:
 
 1. Accept that the current lease stays at AED 180,000 unless Shajidah leaves.
-2. Search actively for 7-10 days for Sterling / Burj Views / South Ridge / Downtown Views II / selected Peninsula 2BRs with good view.
-3. Shortlist only units that either save AED 20,000-30,000/year or give materially better revenue potential.
-4. Decide before August based on the exact unit, view, layout, rent, payment terms and expected downtime.
+2. Use the Wellspring report to show Sterling has performed OK and July forward occupancy is strong.
+3. Search actively for 7-10 days for Sterling / Burj Views / South Ridge / Downtown Views II / selected Peninsula 2BRs with good view.
+4. Shortlist only units that either save AED 20,000-30,000/year or give materially better revenue potential.
+5. Decide before August based on the exact unit, view, layout, rent, payment terms and expected downtime.
 
 Bottom line: do not move emotionally and do not overpay defensively. If the market gives Shajidah a cleaner 2BR around AED 150,000-165,000, moving furniture can be smart. If the best real alternatives are only slightly cheaper or weaker, staying at AED 180,000 may still be the cleaner decision.
 
