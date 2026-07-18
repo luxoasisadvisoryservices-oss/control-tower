@@ -12,7 +12,7 @@ AED 180,000/year is market-valid for a strong 2BR in The Sterling if the apartme
 For Shajidah's August decision, the honest recommendation is:
 
 - Do not leave the apartment just for a small saving.
-- Renegotiate first and use current market evidence to push the rent closer to AED 160,000-170,000.
+- Since the landlord will not renegotiate, treat AED 180,000 as a stay-or-move decision rather than a negotiation target.
 - Move only if a comparable or better-view 2BR can be secured around AED 150,000-165,000, or if a unit around AED 170,000 materially improves view, location, layout or revenue potential.
 - Keep AED 180,000 only if the current unit is clearly better than the available alternatives and avoids August moving/downtime friction.
 
@@ -57,7 +57,7 @@ The relevant replacement area is not only The Sterling. Shajidah should compare 
 | Burj Royale / central Downtown newer stock | Often AED 170,000-220,000+ | Strong tourist appeal if Burj/Fountain view | Consider only if revenue upside is clear |
 | Burj Khalifa / Fountain-view core Downtown | Often AED 240,000+ for strong 2BRs | Iconic view, but high rent burden | Usually not sensible for cost control |
 
-The main lesson: if Shajidah can get a clean 2BR with Burj/open skyline view in Sterling, Burj Views, South Ridge, Downtown Views II, or selected Peninsula stock around AED 150,000-170,000, that is worth serious review. If every comparable option is AED 175,000-190,000, staying and renegotiating may be cleaner than moving.
+The main lesson: if Shajidah can get a clean 2BR with Burj/open skyline view in Sterling, Burj Views, South Ridge, Downtown Views II, or selected Peninsula stock around AED 150,000-170,000, that is worth serious review. If every comparable option is AED 175,000-190,000, staying may be cleaner than moving.
 
 ## Furniture-Move Strategy
 
@@ -89,7 +89,7 @@ Current view:
 Recommended revenue posture:
 
 - Treat AED 180,000 as the ceiling, not the target.
-- Protect margin before winter by trying to reduce fixed rent now.
+- Protect margin before winter by moving only if the replacement unit has a real saving or stronger revenue case.
 - Do not chase the cheapest apartment if it weakens guest appeal.
 - Do not overpay for a premium view unless the expected ADR uplift is believable.
 
@@ -99,7 +99,7 @@ Use this rule before deciding whether to leave:
 
 | Outcome | Recommendation |
 |---|---|
-| Current landlord accepts AED 160,000-170,000 | Stay unless a clearly better unit appears |
+| Current rent remains AED 180,000 | Stay only if the unit is genuinely strong: size, view, floor, condition and low transition risk |
 | New comparable unit found at AED 150,000-165,000 | Move is worth serious review |
 | New unit saves only AED 5,000-10,000 | Usually not worth moving |
 | New unit saves AED 20,000-30,000 and view/quality is similar | Move is likely worth it |
@@ -114,21 +114,21 @@ Shajidah, I checked the current Sterling, Business Bay and nearby Downtown 2BR m
 
 My honest view is that AED 180k should be your ceiling, not your target. If the current apartment is large, has a strong Burj/Downtown/canal view and avoids moving friction, staying can still make sense. But if we can find a comparable or better 2BR where you can reuse your furniture around AED 150k-165k, or a very good option around AED 170k, it is worth considering before August.
 
-For winter, I still expect Dubai to get booked, especially if regional tension eases. But I would not assume the same strong pricing as the last two to three winters. The safer strategy is to protect margin now: renegotiate the current rent first, then move only if the saving or view/revenue upside is meaningful.
+For winter, I still expect Dubai to get booked, especially if regional tension eases. But I would not assume the same strong pricing as the last two to three winters. Since the landlord will not renegotiate, the safer strategy is to compare exact alternatives and move only if the saving or view/revenue upside is meaningful.
 
 ## Final Recommendation
 
 Recommended action:
 
-1. Use the current report to renegotiate the existing lease toward AED 160,000-170,000.
+1. Accept that the current lease stays at AED 180,000 unless Shajidah leaves.
 2. Search actively for 7-10 days for Sterling / Burj Views / South Ridge / Downtown Views II / selected Peninsula 2BRs with good view.
 3. Shortlist only units that either save AED 20,000-30,000/year or give materially better revenue potential.
 4. Decide before August based on the exact unit, view, layout, rent, payment terms and expected downtime.
 
-Bottom line: do not move emotionally and do not overpay defensively. If the market gives Shajidah a cleaner 2BR around AED 150,000-165,000, moving furniture can be smart. If the best real alternatives are only slightly cheaper or weaker, renegotiate and stay.
+Bottom line: do not move emotionally and do not overpay defensively. If the market gives Shajidah a cleaner 2BR around AED 150,000-165,000, moving furniture can be smart. If the best real alternatives are only slightly cheaper or weaker, staying at AED 180,000 may still be the cleaner decision.
 
 ## Sources And Limitations
 
 Sources reviewed included Property Finder listing/search signals for The Sterling and Downtown/Business Bay 2BRs, Dubizzle listing snippets, Propsearch Downtown Views II rental evidence, and broader public portal snippets for Business Bay and Downtown. Some portals were captcha-blocked on direct fetch, so blocked pages are not used as client-facing links or standalone proof.
 
-This is a market and revenue-management decision note, not a valuation certificate. Final decision should be made after reviewing the exact apartment size, view, floor, furnishing condition, payment terms, landlord flexibility, move cost, availability date, and expected short-term-rental revenue.
+This is a market and revenue-management decision note, not a valuation certificate. Final decision should be made after reviewing the exact apartment size, view, floor, furnishing condition, payment terms, move cost, availability date, and expected short-term-rental revenue.
