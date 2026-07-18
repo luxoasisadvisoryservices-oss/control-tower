@@ -44,14 +44,25 @@ Current Sterling evidence puts normal 2BR rent roughly in this band:
 
 The key difference is size and view. A 1,100-1,150 sqft 2BR at AED 180,000 is expensive unless the view and furnishing are excellent. A 1,650-1,700 sqft 2BR at AED 180,000 is much easier to justify.
 
-## Market Evidence Checked
+## Sterling Real Market Insight
 
-The previous Sterling note found:
+Use the portal price signal like a revenue manager: current rent is not wrong, but it is close to the top of the sensible band.
 
-- The Sterling East active listing signal around AED 190,000/year for a furnished 2BR, 1,123 sqft, high floor, Burj Khalifa view. This is top-end pricing, not the target price.
-- Property Finder average signals for The Sterling 2BRs around AED 178,000-195,000 depending on East/West tower and listing mix.
-- Recent transaction/listing signals around AED 155,000-180,000 for many 2BR units, with premium examples above that.
-- Secondary portal snippets showed Sterling East/West averages around AED 176,000 and some 2BR alternatives around AED 150,000-175,000. Some direct pages were captcha-blocked, so those points should be treated as market signals rather than client-facing proof links.
+| Market signal | Number | Revenue-management read |
+|---|---:|---|
+| Current Sterling rent | AED 180,000 | High fixed rent. It can be justified only if the unit has strong view, size, finish and low transition risk. |
+| Active asking signal | AED 190,000 | Property Finder showed a furnished, high-floor, Burj Khalifa view 2BR in Sterling East at this level. This is upper-benchmark evidence, not the target. |
+| Property Finder average shown | AED 166,919 | The AED 190k listing was shown around 14% above the listed average, confirming top-end positioning. |
+| Large-unit Sterling transactions | AED 170,000-180,000 | Supports AED 180k mainly for stronger 1,680-1,690 sqft Sterling stock. |
+| Smaller-unit replacement range | AED 155,000-170,000 | This is the strongest search band if Shajidah can reuse furniture and keep a good view. |
+
+Real market read:
+
+- AED 180k is market-valid for the right Sterling unit.
+- It is not a failure signal and should not be framed as poor performance.
+- It becomes risky if the unit is small or does not have a strong guest-facing view.
+- Stay if Sterling's view, photos, floor and performance justify the fixed rent.
+- Move only for a comparable or better 2BR around AED 150k-165k, or up to AED 170k with clear upside.
 
 Because some portals block direct reading with captcha, the client-facing conclusion should rely on the price bands and decision logic rather than asking Shajidah to open blocked pages.
 
