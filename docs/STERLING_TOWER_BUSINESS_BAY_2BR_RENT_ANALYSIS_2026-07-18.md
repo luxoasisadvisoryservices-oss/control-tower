@@ -1,6 +1,6 @@
 # Sterling / Downtown 2BR Rent Decision Report
 
-Prepared for: Shajidah / Wellspring Vacation Homes LLC  
+Prepared for: Shajidha / Wellspring Vacation Homes LLC  
 Prepared by: Oasis Revenue Lab  
 Date: 18 July 2026  
 Subject: whether to keep the current AED 180,000/year 2BR lease in The Sterling, Business Bay, or move before August
@@ -9,7 +9,7 @@ Subject: whether to keep the current AED 180,000/year 2BR lease in The Sterling,
 
 The Sterling unit should be presented as under control from a revenue-management point of view. The Wellspring June report shows that the unit performed OK for the period and current market situation. AED 180,000/year is market-valid for a strong 2BR in The Sterling if the apartment is large, guest-ready, high floor, and has a clear Burj Khalifa / Downtown / canal view, but it remains a high fixed-rent commitment.
 
-For Shajidah's August decision, the honest recommendation is:
+For Shajidha's August decision, the honest recommendation is:
 
 - Do not leave the apartment just for a small saving.
 - Since the landlord will not renegotiate, treat AED 180,000 as a stay-or-move decision rather than a negotiation target.
@@ -54,7 +54,7 @@ Use the portal price signal like a revenue manager: current rent is not wrong, b
 | Active asking signal | AED 190,000 | Property Finder showed a furnished, high-floor, Burj Khalifa view 2BR in Sterling East at this level. This is upper-benchmark evidence, not the target. |
 | Property Finder average shown | AED 166,919 | The AED 190k listing was shown around 14% above the listed average, confirming top-end positioning. |
 | Large-unit Sterling transactions | AED 170,000-180,000 | Supports AED 180k mainly for stronger 1,680-1,690 sqft Sterling stock. |
-| Smaller-unit replacement range | AED 155,000-170,000 | This is the strongest search band if Shajidah can reuse furniture and keep a good view. |
+| Smaller-unit replacement range | AED 155,000-170,000 | This is the strongest search band if Shajidha can reuse furniture and keep a good view. |
 
 Real market read:
 
@@ -64,11 +64,11 @@ Real market read:
 - Stay if Sterling's view, photos, floor and performance justify the fixed rent.
 - Move only for a comparable or better 2BR around AED 150k-165k, or up to AED 170k with clear upside.
 
-Because some portals block direct reading with captcha, the client-facing conclusion should rely on the price bands and decision logic rather than asking Shajidah to open blocked pages.
+Because some portals block direct reading with captcha, the client-facing conclusion should rely on the price bands and decision logic rather than asking Shajidha to open blocked pages.
 
 ## Nearby Comparison: Business Bay And Downtown
 
-The relevant replacement area is not only The Sterling. Shajidah should compare against nearby towers that can still perform well for short-term rental because of Downtown proximity, Burj Khalifa view, Dubai Mall access, canal view, or stronger building quality.
+The relevant replacement area is not only The Sterling. Shajidha should compare against nearby towers that can still perform well for short-term rental because of Downtown proximity, Burj Khalifa view, Dubai Mall access, canal view, or stronger building quality.
 
 | Area / tower type | Typical 2BR rent signal | View / STR logic | Decision use |
 |---|---:|---|---|
@@ -81,11 +81,11 @@ The relevant replacement area is not only The Sterling. Shajidah should compare 
 | Burj Royale / central Downtown newer stock | Often AED 170,000-220,000+ | Strong tourist appeal if Burj/Fountain view | Consider only if revenue upside is clear |
 | Burj Khalifa / Fountain-view core Downtown | Often AED 240,000+ for strong 2BRs | Iconic view, but high rent burden | Usually not sensible for cost control |
 
-The main lesson: if Shajidah can get a clean 2BR with Burj/open skyline view in Sterling, Burj Views, South Ridge, Downtown Views II, or selected Peninsula stock around AED 150,000-170,000, that is worth serious review. If every comparable option is AED 175,000-190,000, staying may be cleaner than moving.
+The main lesson: if Shajidha can get a clean 2BR with Burj/open skyline view in Sterling, Burj Views, South Ridge, Downtown Views II, or selected Peninsula stock around AED 150,000-170,000, that is worth serious review. If every comparable option is AED 175,000-190,000, staying may be cleaner than moving.
 
 ## Furniture-Move Strategy
 
-Moving existing furniture gives Shajidah leverage because she does not need to overpay for landlord-provided furnishing.
+Moving existing furniture gives Shajidha leverage because she does not need to overpay for landlord-provided furnishing.
 
 Best search brief:
 
@@ -132,9 +132,9 @@ Use this rule before deciding whether to leave:
 
 Hidden move costs matter: agent commission, security deposit, moving labour, furniture risk, setup/maintenance, new photos, listing changes and possible downtime. That is why AED 5,000-10,000/year saving is not enough.
 
-## Recommended Message To Shajidah
+## Recommended Message To Shajidha
 
-Shajidah, I checked the current Sterling, Business Bay and nearby Downtown 2BR market together with the latest Wellspring performance context. The Sterling unit has performed OK for the period, and the July forward occupancy signal is strong, so the decision is strategic rather than reactive.
+Shajidha, I checked the current Sterling, Business Bay and nearby Downtown 2BR market together with the latest Wellspring performance context. The Sterling unit has performed OK for the period, and the July forward occupancy signal is strong, so the decision is strategic rather than reactive.
 
 My honest view is that AED 180k is a high fixed-rent commitment, but it can still make sense if the current apartment is large, has a strong Burj/Downtown/canal view, photographs well and avoids moving friction. If we can find a comparable or better 2BR where you can reuse your furniture around AED 150k-165k, or a very good option around AED 170k, it is worth considering before August.
 
@@ -144,13 +144,13 @@ For winter, I still expect Dubai to get booked, especially if regional tension e
 
 Recommended action:
 
-1. Accept that the current lease stays at AED 180,000 unless Shajidah leaves.
+1. Accept that the current lease stays at AED 180,000 unless Shajidha leaves.
 2. Use the Wellspring report to show Sterling has performed OK and July forward occupancy is strong.
 3. Search actively for 7-10 days for Sterling / Burj Views / South Ridge / Downtown Views II / selected Peninsula 2BRs with good view.
 4. Shortlist only units that either save AED 20,000-30,000/year or give materially better revenue potential.
 5. Decide before August based on the exact unit, view, layout, rent, payment terms and expected downtime.
 
-Bottom line: do not move emotionally and do not overpay defensively. If the market gives Shajidah a cleaner 2BR around AED 150,000-165,000, moving furniture can be smart. If the best real alternatives are only slightly cheaper or weaker, staying at AED 180,000 may still be the cleaner decision.
+Bottom line: do not move emotionally and do not overpay defensively. If the market gives Shajidha a cleaner 2BR around AED 150,000-165,000, moving furniture can be smart. If the best real alternatives are only slightly cheaper or weaker, staying at AED 180,000 may still be the cleaner decision.
 
 ## Sources And Limitations
 
