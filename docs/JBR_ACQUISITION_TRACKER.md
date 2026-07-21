@@ -1,5 +1,11 @@
 # JBR Acquisition Tracker
 
+# 21 Jul 2026 Rimal 3 route verification
+
+Verified the fresh Rimal 3 lead from the public Property Finder route. Listing `107302602` is `Bright Elegant | Furnished Apartment | Vacant`: AED 110,000/year, 1BR, 2 baths, 928 sqft, furnished, available from 25 Jun 2026. Agent shown on the readable public page: Edgars Laucenieks, Inside Premium Properties. Status: approval-ready only; no outbound contact made. Next action after approval: send the short Lux Oasis DTCM-licensed JBR revenue-share opener and track response.
+
+Damiano approved sending on 2026-07-21. Direct send remains blocked because no direct email, WhatsApp number or usable contact-form route was recovered from the readable Property Finder page or raw fetch. Next action: recover direct route from portal/browser/manual contact path, then send the approved opener.
+
 # 18 Jul reply sweep, 15:04 Dubai
 
 Fresh Gmail/OAuth sweep across the June 19-20 outreach set and the 3 Jul forwarded-alert batch searched the named public contacts and JBR subject terms again. No new human replies were found. The only candidate thread remained the existing bounce for `prioritydubbaiuae@gmail.com`, which stays excluded from lead notifications.

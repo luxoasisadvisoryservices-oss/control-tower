@@ -2,11 +2,13 @@
 
 Created: 2026-07-21
 Owner: COO Agent
-Status: Draft / approval required before any external contact
+Status: Partly sent / partly blocked
 
 First batch: Rimal 3 JBR route plus Salman Irshad, Lidya Belmokhtar, Joseph Maksoud, Nikunj Bajpai and MD Ahmed.
 
-No LinkedIn DM, WhatsApp, email, call request or external message has been sent.
+Candidate batch was handed off to Lin in Slack `#linkedin` on 2026-07-21 after Damiano approval. Slack message ID: `1784625885.126519`.
+
+Rimal 3 direct outbound has not been sent because the readable public route exposes the agent name and agency, but not a direct email, WhatsApp number or usable contact form route in this runtime.
 
 ## Rimal 3
 
@@ -44,4 +46,4 @@ We are looking for people who can help source real owner, landlord or agent oppo
 Quick question: are you currently based in Dubai and actively working with owners, agents, landlords or holiday-home operators? And are you more focused on business development, operations, or both?
 ```
 
-Approval needed before any send.
+Sent to Lin in Slack `#linkedin` for LinkedIn execution. Slack message ID: `1784625885.126519`.
