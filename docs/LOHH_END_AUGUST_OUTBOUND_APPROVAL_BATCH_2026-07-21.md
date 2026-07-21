@@ -12,7 +12,7 @@ No LinkedIn DM, WhatsApp, email, call request or external message has been sent.
 
 Signal: furnished 1BR, marina view, AED 110,000/year.
 
-Status: public route exists in `JBR_ACQUISITION_TRACKER.md`; direct agent/contact still needs verification before send.
+Verified route: Property Finder listing `107302602`, agent Edgars Laucenieks, Inside Premium Properties. The readable public page shows AED 110,000/year, 1 bedroom, 2 baths, 928 sqft, furnished, available from 25 Jun 2026.
 
 Draft opener:
 
