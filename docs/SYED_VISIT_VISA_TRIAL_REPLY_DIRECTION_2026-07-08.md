@@ -59,6 +59,36 @@ I suggest we meet when I am back, review a few real unit examples together, and 
 On visa or formal setup, I am open to discussing the right route after we see real proof of pipeline and contribution. Before that, we should keep it as a clear trial / commercial discussion and make sure anything we do is compliant.
 ```
 
+## Freelance Versus Visa Commercial Rule - 2026-07-22
+
+Damiano asked for the purely commercial answer: if Lux Oasis agrees to higher Syed upside, should it be proposed as freelance/no visa, and should commission reduce if visa/sponsorship is involved?
+
+Commercial rule:
+
+- Freelance / no visa can carry higher upside because Lux Oasis pays only after collected unit profit and avoids fixed employment/sponsorship cost.
+- Visa / company sponsorship must carry lower commission, or the visa/admin/insurance cost must be recovered from future payouts, because Lux Oasis carries upfront fixed cost and commitment risk.
+
+Recommended commercial structure:
+
+1. Freelance / no visa:
+   - Acquisition-only: up to 35% of Lux Oasis retained net profit from that specific unit.
+   - Best sustainable version: 35% for the first 12 months, then step down to 20-25% if Syed is not actively operating the unit.
+   - A-to-Z acquisition plus management: up to 50% of Lux Oasis retained net profit while Syed actively manages that unit end to end.
+   - No fixed salary, no visa cost, no separate helper cost paid by Lux Oasis.
+
+2. Visa / company sponsorship:
+   - Acquisition-only: 20-25% of Lux Oasis retained net profit, not 35%.
+   - A-to-Z acquisition plus management: 35-40% of Lux Oasis retained net profit, not 50%.
+   - Visa/admin/insurance cost should either be recovered from future payouts or trigger the lower commission from day one.
+
+Current recommended proposal to Syed:
+
+- Start freelance / no visa.
+- Offer 35% acquisition-only on retained net profit.
+- Offer 50% only if he truly manages A-to-Z.
+- Reject 70:30.
+- Discuss visa only after proof; if visa happens, reduce to 20-25% acquisition-only or 35-40% A-to-Z.
+
 ## Latest Commercial Counter - 2026-07-22
 
 Syed sent a follow-up apologising for the delay and restating that he still believes his proposed structure is fair:
