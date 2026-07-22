@@ -4,6 +4,61 @@ Status: internal draft for Damiano. Not sent.
 Business: Lux Oasis Holiday Homes LLC.
 Person: Syed Imran.
 
+## Voice Correction From Damiano - 2026-07-22
+
+Damiano sent a voice note after pasting Syed's counter. Updated direction:
+
+- Keep pushing the structure.
+- Damiano may be open to 35% for property acquisition and 50:50 where Syed manages, because the main goal is to get properties.
+- Do not accept the additional 70:30 request.
+- Review the commercial maths properly against the current property numbers and the resignation/business-growth goal.
+- Consider whether the structure works as freelancer/no visa first, or whether a visa route is needed later.
+
+Updated judgement: a higher structure can be considered if it is framed tightly as **unit-specific Lux Oasis retained net profit** and if it buys real owner/property acquisition capacity. Do not frame it as a broad share of company management income, full property profit, gross rent, or the whole business.
+
+Commercial reading from current model:
+
+- Average current-style unit at AED 2,525 LOHH retained/month:
+  - 35% partner share leaves LOHH about AED 1,641/month.
+  - 50% partner share leaves LOHH about AED 1,263/month.
+- At 35%, the AED 50k/month operating-profit target needs about 31 average units before fixed payroll, or about 35 units after a AED 7k junior ops cost.
+- At 50%, average units become weak for the target: about 40 units before fixed payroll, or about 45 units after a AED 7k junior ops cost.
+- Therefore 50:50 only makes sense where Syed truly replaces an A-to-Z operator cost and/or brings strong units with materially higher retained contribution.
+
+Revised recommended stance:
+
+- Reject 70:30.
+- Offer a conditional high-upside path:
+  - Acquisition-only / property brought to signature: up to 35% of Lux Oasis retained net profit from that specific unit, preferably time-limited or with review after 12-24 months.
+  - Source + active A-to-Z management: up to 50% of Lux Oasis retained net profit from that specific unit while Syed is actively managing that unit end to end.
+  - No fixed salary, separate helper share, or visa sponsorship before proof unless Damiano separately approves.
+  - Any visa/sponsorship discussion comes after proof of signed units and a compliant route.
+  - All terms subject to written agreement, legal/compliance review, and unit economics.
+
+Revised draft reply for Damiano to send manually if approved:
+
+```text
+Hi Syed,
+
+Thank you for the detailed reply, and no problem on the delay.
+
+I understand your point. The main thing for me is that Lux Oasis needs real properties and real owner relationships, so I am open to a structure where you have strong upside if you are the person who brings those opportunities and helps turn them into signed, performing units.
+
+I cannot agree to the 70:30 structure as a general rule. Lux Oasis still carries the licence, brand, systems, compliance, payment/admin layer, owner responsibility, guest risk, operating costs and overhead, so the company must keep enough margin for the model to stay sustainable.
+
+Where I am open to discussion is a unit-specific structure based on Lux Oasis retained net profit from the properties you personally bring, after owner payout and direct unit costs.
+
+For example, if you personally source a property, build the landlord relationship, help negotiate and bring it to signature, we can discuss up to 35% of Lux Oasis retained net profit from that specific unit.
+
+If you also take real A-to-Z responsibility for that unit, including owner relationship, onboarding, operations coordination, guest/cleaning/maintenance follow-up and performance, then we can discuss a stronger structure, potentially up to 50% of Lux Oasis retained net profit from that specific unit while you are actively managing it.
+
+The key point is that it has to be linked to actual units, actual collected profit, and your active role. It cannot be a broad 70:30 split of the company’s management income or a share of the full property profit.
+
+I suggest we meet when I am back, review a few real unit examples together, and agree a structure that gives you strong upside for bringing and managing properties while keeping Lux Oasis commercially sustainable.
+
+On visa or formal setup, I am open to discussing the right route after we see real proof of pipeline and contribution. Before that, we should keep it as a clear trial / commercial discussion and make sure anything we do is compliant.
+```
+
 ## Latest Commercial Counter - 2026-07-22
 
 Syed sent a follow-up apologising for the delay and restating that he still believes his proposed structure is fair:
@@ -13,9 +68,11 @@ Syed sent a follow-up apologising for the delay and restating that he still beli
 - New / stronger ask: 70:30 on the company's earned commission / management income from properties he independently introduces through his own network, with 70% to him and 30% to Lux Oasis.
 - He is open to meeting when Damiano returns and wants the commercial structure agreed upfront.
 
-Judgement: professional tone, but commercially too aggressive for Lux Oasis at this stage. Do not accept 35%, 50:50 or 70:30. These terms transfer too much of the company's retained economics before proof, while Lux Oasis still carries licence, brand, compliance, systems, owner liability, guest risk, operating cash timing and overhead.
+Judgement before Damiano's voice correction: professional tone, but commercially too aggressive for Lux Oasis at this stage. Do not accept 35%, 50:50 or 70:30 as broad starting terms. These terms transfer too much of the company's retained economics before proof, while Lux Oasis still carries licence, brand, compliance, systems, owner liability, guest risk, operating cash timing and overhead.
 
-Recommended stance: warm but firm. Keep the meeting open, but anchor back to the existing proof-gated structure:
+After Damiano's voice correction, the stricter version should be softened: 35% and 50:50 can be considered only as unit-specific retained-profit economics if they unlock real properties; 70:30 remains a no.
+
+Original conservative stance: warm but firm. Keep the meeting open, but anchor back to the existing proof-gated structure:
 
 - Acquisition-only: around 18% of Lux Oasis retained net profit from the specific unit, for a defined period.
 - Acquisition plus active operations: around 25% while he actively operates and is accountable for the unit.
