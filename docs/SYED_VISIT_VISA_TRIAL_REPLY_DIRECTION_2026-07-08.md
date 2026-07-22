@@ -89,6 +89,31 @@ Current recommended proposal to Syed:
 - Reject 70:30.
 - Discuss visa only after proof; if visa happens, reduce to 20-25% acquisition-only or 35-40% A-to-Z.
 
+Final structured message prepared for Damiano on 2026-07-22:
+
+```text
+Hi Syed,
+
+Thank you for the detailed reply, and no problem at all on the delay.
+
+I understand your point clearly. The main objective for Lux Oasis is to bring in real properties and build strong owner relationships, so I am open to a structure where you have strong upside when you personally bring and convert those opportunities.
+
+The structure I am comfortable discussing is based on Lux Oasis retained net profit from the specific units you personally source, after owner payout and direct unit costs. It would not be based on the full property profit or a broad split of the company's management income.
+
+For a freelance structure, without visa or fixed salary, I am open to discussing the following:
+
+- If you personally source the property, build the landlord relationship, help negotiate and bring the unit to signature, we can discuss up to 35% of Lux Oasis retained net profit from that unit.
+- If you also take real A-to-Z responsibility for that unit, including owner relationship, onboarding, operations coordination, guest/cleaning/maintenance follow-up and performance, we can discuss up to 50% of Lux Oasis retained net profit from that unit while you are actively managing it.
+
+I cannot agree to a general 70:30 split, because Lux Oasis still carries the licence, brand, systems, compliance, payment/admin layer, operating costs, owner responsibility and guest risk.
+
+If later we move into a visa or company-sponsored structure, then the percentages would need to be lower because the company would also be carrying fixed cost and sponsorship responsibility. In that case, we can review a structure around 20-25% for acquisition-only, or 35-40% for full A-to-Z management, depending on the unit economics and responsibility.
+
+For now, I think the cleanest way is to meet when I am back, review a few real unit examples together, and agree a structure that gives you strong upside for bringing and managing properties while keeping Lux Oasis commercially sustainable.
+
+I believe there is potential, but I want the structure to be clear, unit-specific and commercially healthy for both sides before we move forward.
+```
+
 ## Latest Commercial Counter - 2026-07-22
 
 Syed sent a follow-up apologising for the delay and restating that he still believes his proposed structure is fair:
