@@ -4,6 +4,49 @@ Status: internal draft for Damiano. Not sent.
 Business: Lux Oasis Holiday Homes LLC.
 Person: Syed Imran.
 
+## Latest Commercial Counter - 2026-07-22
+
+Syed sent a follow-up apologising for the delay and restating that he still believes his proposed structure is fair:
+
+- 35% of the company's management share for acquisition-only where he sources, builds landlord relationship, negotiates and brings the unit into Lux Oasis.
+- 50:50 of the company's management share for acquisition plus complete A-to-Z management.
+- New / stronger ask: 70:30 on the company's earned commission / management income from properties he independently introduces through his own network, with 70% to him and 30% to Lux Oasis.
+- He is open to meeting when Damiano returns and wants the commercial structure agreed upfront.
+
+Judgement: professional tone, but commercially too aggressive for Lux Oasis at this stage. Do not accept 35%, 50:50 or 70:30. These terms transfer too much of the company's retained economics before proof, while Lux Oasis still carries licence, brand, compliance, systems, owner liability, guest risk, operating cash timing and overhead.
+
+Recommended stance: warm but firm. Keep the meeting open, but anchor back to the existing proof-gated structure:
+
+- Acquisition-only: around 18% of Lux Oasis retained net profit from the specific unit, for a defined period.
+- Acquisition plus active operations: around 25% while he actively operates and is accountable for the unit.
+- Up to 30% only later for proven multi-unit A-to-Z performance where the unit economics support it.
+- Exceptional higher structures can be discussed case by case only after proof, not as the starting framework.
+- No agreement should be framed as a share of broad company management income or gross/full property profit.
+
+Draft reply for Damiano to send manually if approved:
+
+```text
+Hi Syed,
+
+Thank you for the detailed reply, and no problem on the delay.
+
+I understand your point, and I agree that sourcing, landlord relationships, negotiation, onboarding and operations all carry real value. That is exactly why I am open to a structure with meaningful upside when the contribution is proven.
+
+At the same time, I need to be clear that I cannot accept 35%, 50:50 or 70:30 as the starting structure. Lux Oasis still carries the licence, brand, systems, owner responsibility, guest risk, payment/admin layer, compliance, operating costs and company overhead. If we give away that much of the company’s retained management income before the units and working relationship are proven, the model becomes too heavy for the company.
+
+The structure I am comfortable discussing is still based on Lux Oasis retained net profit from the specific units you personally bring and help convert, after owner payout and direct unit costs.
+
+My thinking is:
+
+- acquisition-only: a defined percentage around 18% of Lux Oasis retained net profit from that unit;
+- acquisition plus active operations: around 25% while you are genuinely involved in owner relationship, onboarding, coordination, quality control and day-to-day performance;
+- stronger A-to-Z economics can be reviewed later, potentially up to 30%, once there is proof across real signed/onboarded units and the unit economics support it.
+
+If you bring an exceptional unit or a very strong owner route, I am open to reviewing that case specifically. But I do not want to agree a broad 35%, 50:50 or 70:30 rule upfront before we have tested the pipeline, the numbers and how we work together.
+
+I agree that we should discuss this properly when I am back. Let’s meet, go through examples with real unit economics, and see whether we can find a structure that gives you fair upside while keeping Lux Oasis commercially sustainable.
+```
+
 ## Today Action - 2026-07-13
 
 Latest message from Syed is a commercial counter, not only a timing reply. He says he likes the Lux Oasis vision but wants stronger economics:
@@ -19,6 +62,49 @@ Recommended stance: answer warmly, but do not accept 35%, 50:50, fixed salary, v
 Booking/revenue point: separate owner/property acquisition from short-term booking generation. For bookings he personally generates, discuss a small, trackable booking-source commission or agreed case-by-case split only where the booking is incremental, directly attributable, collected, and does not conflict with OTA/channel rules or Lux Oasis costs. Do not offer 70:30, 60:40 or 50:50 as a default.
 
 Approval needed before any external send.
+
+## PDF-Based Judgement - 2026-07-13
+
+Damiano uploaded the actual `LOHH Partnership Proposal` PDF after asking for judgement. The PDF offer is stronger and more specific than the earlier shorthand:
+
+- Acquisition-only: 18% of Lux Oasis retained net profit for 24 months from launch.
+- Acquisition + operations: 25% ongoing while the candidate actively operates the unit.
+- Full A-to-Z management: up to 30% after proven capability managing multiple units end to end.
+- If operations stop, the share returns to the 18% acquisition level.
+- If partnership ends, live-unit shares return to 18% for 3 months and then stop.
+- Per-unit launch advance is offered and recovered from first profit-share payouts.
+- Lux Oasis provides DET licence, brand, pricing/revenue systems, guest communication systems, owner reporting, payment processing, SOPs, listing/channel setup and admin support.
+- Proof period: approximately 60-90 days, target 2-3 signed units and at least 1 live/onboarding unit.
+- If proof goes well and both sides continue, move to visa sponsorship, business insurance and long-term agreement.
+- Work authorisation: no work before correct MOHRE-compliant route is confirmed.
+
+Updated judgement: the proposal is fair for Lux Oasis at this stage. Syed's reply is professional and useful, but he is negotiating hard. Do not raise the starting economics. Keep 18% / 25% / up to 30%, and if needed add only a review trigger after 2-3 signed units or 60-90 days of strong performance. Treat 35% acquisition-only and 50:50 management-share as premature before proof.
+
+Compliance correction: do not say Syed can work on his own visit visa. Before work authorisation, any interaction should stay at discussion, planning, pipeline review or legal referral level, not operational staff work.
+
+## Damiano Interpretation And Preferred Reply - 2026-07-13
+
+Damiano's read is that Syed may not have understood the two-track structure clearly enough. The reply should clarify rather than fully renegotiate:
+
+- 18% is acquisition-only: source/introduce the owner or unit, help bring it to signature, and support landlord handover/onboarding relationship. It is not full day-to-day operations and runs for 24 months from launch.
+- 25% is acquisition plus active operations: source the unit and actively help with owner relationship, onboarding, coordination, quality control, follow-up and day-to-day performance support. It continues only while he actively operates the unit.
+- Up to 30% is future proof-based A-to-Z management across multiple units, not a starting point.
+- If he wants acquisition-only, responsibility is lighter and percentage is lower. If he wants higher upside, it comes with active operational responsibility and proof over time.
+- Personally sourced bookings should be handled separately only if incremental, attributable, collected and compliant with owner/platform rules.
+
+Preferred reply angle: warm clarification, not defensive rebuttal. Avoid accepting 35% / 50:50. Avoid implying work can start on visit visa.
+
+## Latest Redraft Direction - 2026-07-13
+
+Damiano asked to redraft with a narrow 35% exception:
+
+- Keep the same clarification that Lux Oasis is not expecting Syed to do everything under one fixed percentage.
+- 18% remains acquisition-only for source/signature/handover support.
+- 25% remains acquisition plus active operations.
+- Up to 30% remains proven A-to-Z management across multiple units.
+- If Syed needs an operations helper under the A-to-Z model, that helper should normally be paid/managed from Syed's commission/share unless Lux Oasis separately approves a different unit-specific arrangement.
+- For exceptional units, especially strong Palm or premium properties where forecasted Lux Oasis retained profit clearly supports it, a higher structure potentially up to 35% can be discussed case by case, but only where Syed genuinely sources, closes, onboards and manages the unit A-to-Z. This is not the standard starting point for acquisition-only or every unit.
+- Personally sourced bookings remain separate, only if incremental, attributable, collected and compliant with owner/platform rules.
 
 ## Recommended Reply To Latest Counter
 
