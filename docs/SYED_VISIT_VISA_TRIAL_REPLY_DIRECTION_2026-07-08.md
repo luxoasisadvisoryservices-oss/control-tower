@@ -120,6 +120,26 @@ I cannot agree to a general 70:30 split in your favour, because Lux Oasis still 
 For now, I think the cleanest way is to meet when I am back, review real unit examples together, and agree a structure that gives you strong upside for bringing and managing properties while keeping Lux Oasis commercially sustainable.
 ```
 
+Shorter active version requested by Damiano on 2026-07-22:
+
+```text
+Hi Syed,
+
+Thank you for the detailed reply, and no problem on the delay.
+
+I understand your point. If the structure is freelance-based, with no visa or fixed salary, I am open to discussing stronger upside for the properties you personally bring.
+
+For properties you source and bring to signature, we can discuss 35% of Lux Oasis retained net profit from that unit. If you also manage the unit A-to-Z, we can discuss up to 50% while you are actively managing it.
+
+This would let you work flexibly and build a strong network of property opportunities, including through your own owner and agent relationships.
+
+If later we move to a visa or company-sponsored structure, then the structure needs to be more conservative because Lux Oasis carries fixed cost and responsibility. In that case, we would look closer to 30% for acquisition-only or 40% for full A-to-Z management.
+
+I cannot agree to a general 70:30 split in your favour. Everything should be unit-specific and based on Lux Oasis retained net profit after owner payout and direct unit costs.
+
+Let's meet when I am back and review real examples together so we can agree something clear and commercially fair for both sides.
+```
+
 Final structured message prepared for Damiano on 2026-07-22:
 
 ```text
