@@ -1,10 +1,16 @@
 # JBR Acquisition Tracker
 
+# 22 Jul 2026 Rimal 3 contact route recovered and sent
+
+Recovered the direct Edgars Laucenieks route from the raw public Property Finder agent/broker pages after the readable pages hid contact details. Contact recovered: `e.laucenieks@inside.estate`; raw page also exposed `+971508903505`, but no WhatsApp outreach was sent.
+
+Sent the approved Lux Oasis Holiday Homes revenue-share opener by Gmail from `luxoasiscoo@gmail.com` to `e.laucenieks@inside.estate` for Rimal 3 listing `107302602`, subject `Rimal 3 furnished 1BR - owner interest in holiday-home management`. Gmail sent ID `19f88fc10b39d63c`, thread `19f88fc10b39d63c`. Status: reply watch.
+
 # 21 Jul 2026 Rimal 3 route verification
 
-Verified the fresh Rimal 3 lead from the public Property Finder route. Listing `107302602` is `Bright Elegant | Furnished Apartment | Vacant`: AED 110,000/year, 1BR, 2 baths, 928 sqft, furnished, available from 25 Jun 2026. Agent shown on the readable public page: Edgars Laucenieks, Inside Premium Properties. Status: approval-ready only; no outbound contact made. Next action after approval: send the short Lux Oasis DTCM-licensed JBR revenue-share opener and track response.
+Verified the fresh Rimal 3 lead from the public Property Finder route. Listing `107302602` is `Bright Elegant | Furnished Apartment | Vacant`: AED 110,000/year, 1BR, 2 baths, 928 sqft, furnished, available from 25 Jun 2026. Agent shown on the readable public page: Edgars Laucenieks, Inside Premium Properties. At the time of verification it was approval-ready only with no outbound contact made; the direct email was recovered and sent on 2026-07-22.
 
-Damiano approved sending on 2026-07-21. Direct send remains blocked because no direct email, WhatsApp number or usable contact-form route was recovered from the readable Property Finder page or raw fetch. Next action: recover direct route from portal/browser/manual contact path, then send the approved opener.
+Damiano approved sending on 2026-07-21. This blocker was cleared on 2026-07-22 when the direct email route was recovered and the opener was sent. Current next action: monitor for Edgars / Inside Premium reply.
 
 # 18 Jul reply sweep, 15:04 Dubai
 
@@ -747,7 +753,7 @@ WhatsApp: +971 56 390 3074
 | Sadaf 7 | Furnished 2BR, vacant, sea view, JBR comparison lane | Bayut public route snippets | Strong current 2BR comparison lane, not contacted | Keep in the Sadaf 7 watchlist |
 | Rimal 1 | Furnished 2BR, full Marina view, AED 119,999 | Bayut public route | Strong secondary JBR 2BR route, not contacted | Hold as a backup 2BR lane |
 | Shams 1 | Furnished 2BR, sea view, AED 130,000 | Bayut via Betterhomes - Dubai Marina | Strong premium 2BR route, not contacted | Keep as a premium comparison lane |
-| Rimal 3 | Furnished 1BR, marina view, AED 110,000 | [Property Finder listing](https://www.propertyfinder.ae/en/rent/dubai/apartments-for-rent-jumeirah-beach-residence-rimal-rimal-3.html) | New qualified public route, not contacted | Verify the direct agent route before any approval-based outreach |
+| Rimal 3 | Furnished 1BR, marina view, AED 110,000 | [Property Finder listing](https://www.propertyfinder.ae/en/rent/dubai/apartments-for-rent-jumeirah-beach-residence-rimal-rimal-3.html) | Qualified public route, sent to Edgars / Inside Premium on 22 Jul | Reply watch |
 | Murjan 2 | Converted 2BR, sea view, fully furnished, AED 109,990 | [Property Finder listing](https://www.propertyfinder.ae/en/ltp/high-floor-apartments-for-rent-in-jumeirah-beach-residence) | New complementary public route, not contacted | Compare against the existing Murjan shortlist before contact |
 
 ## Fresh public-source research, 30 Jun 2026

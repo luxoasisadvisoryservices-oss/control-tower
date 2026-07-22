@@ -2,13 +2,15 @@
 
 Created: 2026-07-21
 Owner: COO Agent
-Status: Partly sent / partly blocked
+Status: Sent / reply watch
 
 First batch: Rimal 3 JBR route plus Salman Irshad, Lidya Belmokhtar, Joseph Maksoud, Nikunj Bajpai and MD Ahmed.
 
 Candidate batch was handed off to Lin in Slack `#linkedin` on 2026-07-21 after Damiano approval. Slack message ID: `1784625885.126519`.
 
-Rimal 3 direct outbound has not been sent because the readable public route exposes the agent name and agency, but not a direct email, WhatsApp number or usable contact form route in this runtime.
+Rimal 3 direct outbound was sent on 2026-07-22 after the direct email route was recovered from the raw public Property Finder agent/broker pages.
+
+Send status: sent from `luxoasiscoo@gmail.com` to `e.laucenieks@inside.estate`, subject `Rimal 3 furnished 1BR - owner interest in holiday-home management`, Gmail sent ID `19f88fc10b39d63c`, thread `19f88fc10b39d63c`. Current status: reply watch.
 
 ## Rimal 3
 

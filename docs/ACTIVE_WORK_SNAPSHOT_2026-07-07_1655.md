@@ -37,7 +37,7 @@ Boundary:
 - no DM;
 - no income guarantee.
 
-### 2. ORL Milestone 1 Repo Discovery And Safe Dev Setup
+### 2. ORL Monthly Report API Path
 
 Source files:
 
@@ -47,13 +47,11 @@ Source files:
 
 Status:
 
-- Waiting on Damiano to run the Hetzner ORL context discovery step in Claude Code and bring back the safe dev setup proposal.
+- Waiting on Eriel / PriceLabs API reply before wiring the official fetched data into RevenueState and the existing report payload.
 
 Current next action:
 
-- Open Claude Code on the Hetzner ORL context and inspect the current bot/server location, user and folder, installed tooling, and safe dev layout.
-- Propose the `/srv/orl-dev`, `/srv/orl-staging` and `/srv/orl-production` folders plus the exact files to create or copy.
-- Wait for approval before touching production or making changes.
+- Wire the official fetched data into `RevenueState` and the existing report payload so the daily brief, chat, monthly PDF, and recommendation ledger all use the same source-traceable API data.
 
 ### 3. Wednesday LinkedIn BD Calls
 
