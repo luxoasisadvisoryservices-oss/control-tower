@@ -89,6 +89,37 @@ Current recommended proposal to Syed:
 - Reject 70:30.
 - Discuss visa only after proof; if visa happens, reduce to 20-25% acquisition-only or 35-40% A-to-Z.
 
+Damiano refinement on 2026-07-22:
+
+- Freelance / no visa / acquisition-only: 35% to Syed and 65% to Lux Oasis of Lux Oasis retained net profit from that specific property.
+- Freelance / no visa / A-to-Z management: 50% / 50% only while Syed actively manages that unit.
+- Visa / company-sponsored / acquisition-only: reduce Syed by at least 5 points, to 30% Syed and 70% Lux Oasis.
+- Visa / company-sponsored / A-to-Z management: 40% Syed and 60% Lux Oasis.
+- No 70:30 in Syed's favour.
+
+Updated active message:
+
+```text
+Hi Syed,
+
+Thank you for the detailed reply, and no problem at all on the delay.
+
+I understand your point clearly. The main objective for Lux Oasis is to bring in real properties and build strong owner relationships, so I am open to a structure where you have strong upside when you personally bring and convert those opportunities.
+
+The structure would need to be based on Lux Oasis retained net profit from the specific units you personally source, after owner payout and direct unit costs. It would not be based on full property profit or a broad split of company management income.
+
+If we structure this on a freelance basis, without visa or fixed salary, I am open to discussing:
+
+- Acquisition-only: if you personally source the property, build the landlord relationship, help negotiate and bring the unit to signature, we can discuss 35% of Lux Oasis retained net profit from that unit.
+- Acquisition plus A-to-Z management: if you also actively manage the owner relationship, onboarding, operations coordination, guest/cleaning/maintenance follow-up and unit performance, we can discuss 50% of Lux Oasis retained net profit from that unit while you are actively managing it.
+
+If later we move into a visa or company-sponsored structure, then the percentages would need to adjust because Lux Oasis would also carry fixed cost and sponsorship responsibility. In that case, the structure would be closer to 30% for acquisition-only, or 40% for full A-to-Z management, depending on the unit economics and responsibility.
+
+I cannot agree to a general 70:30 split in your favour, because Lux Oasis still carries the licence, brand, systems, compliance, payment/admin layer, owner responsibility, guest risk and operating costs.
+
+For now, I think the cleanest way is to meet when I am back, review real unit examples together, and agree a structure that gives you strong upside for bringing and managing properties while keeping Lux Oasis commercially sustainable.
+```
+
 Final structured message prepared for Damiano on 2026-07-22:
 
 ```text
