@@ -1,5 +1,14 @@
 # JBR Acquisition Tracker
 
+# 24 Jul 2026 Jumeirah Gate Tower 2 and Golf Tower 3 sends, 15:18 Dubai
+
+Fresh Gmail/Spam/All Mail recovery after the 24 Jul Property Finder forwards exposed two clean direct routes that fit the current approved lane:
+
+- Jumeirah Gate Tower 2 / Address JBR premium furnished 1BR route, all-bills-included presentation; direct email recovered for Vicky Bhambhani / Union Square House, `vicky@ushre.com`.
+- Golf Tower 3 / The Views golf-course-view furnished 1BR route; direct email recovered for Aaron Parkins / Allsopp & Allsopp, `aaron@allsoppandallsopp.com`.
+
+Sent approved-pattern Lux Oasis revenue-share openers from `luxoasiscoo@gmail.com` with Gmail IDs `19f93d8f90b303b0` and `19f93d8fae4534bd`. Status: reply watch. No WhatsApp outreach sent.
+
 # 22 Jul 2026 Rimal 3 contact route recovered and sent
 
 Recovered the direct Edgars Laucenieks route from the raw public Property Finder agent/broker pages after the readable pages hid contact details. Contact recovered: `e.laucenieks@inside.estate`; raw page also exposed `+971508903505`, but no WhatsApp outreach was sent.
