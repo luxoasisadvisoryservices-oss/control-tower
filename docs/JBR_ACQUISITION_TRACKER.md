@@ -1,6 +1,6 @@
 # JBR Acquisition Tracker
 
-# 27 Jul 2026 Bahar 6 JBR outreach sent, 12:10 Dubai
+# 27 Jul 2026 Bahar 6 JBR outreach sent, 16:10 Dubai
 
 Fresh Gmail/Spam/All Mail recovery on the latest Property Finder batch exposed two clean unsent Bahar 6 revenue-share routes in the 85k band. Sent the approved Lux Oasis opener from `luxoasiscoo@gmail.com` to `mohamed.s.9505229@gmail.com` for REIM Real Estate Brokerage / Mohamed Salah, Gmail message ID `19fa37c2c60595dc`, thread `19fa37c2c60595dc`. Sent the same approved opener to `lowri.scrivens@bhomes.com` for Betterhomes / Lowri Carys Scrivens, Gmail message ID `19fa37c2f70d4b76`, thread `19fa37c2f70d4b76`. Both routes were Bahar 6 1BR at AED 85,000/year. Status: reply watch.
 
