@@ -1,5 +1,13 @@
 # JBR Acquisition Tracker
 
+# 27 Jul 2026 JBR outbound blocked, 19:16 Dubai
+
+Reviewed the current worker and state files against the live tracker. `scripts/jbr_outbound_agent_email_worker.mjs` only contains ten hardcoded routes, and every one of them already has a matching record in `memory/jbr-agent-outbound-state.json.sent`, so there is no eligible not-contacted direct-email lead left to send from the current worker queue.
+
+The remaining unsent JBR rows in the tracker are research-only public-route notes under `Public landlord-route research leads`. Their `Current status` / `Next action` fields still say things like `not contacted`, `verify email/WhatsApp from public listing pages`, or `compare against the existing shortlist before contact`, so they are not yet direct-email send targets.
+
+No Gmail/OAuth send was attempted. The exact blocker is the exhausted worker `leads` array in `scripts/jbr_outbound_agent_email_worker.mjs` plus the tracker fields above, which leave no clean approved direct-email route available right now.
+
 # 27 Jul 2026 Bahar 6 JBR outreach sent, 16:10 Dubai
 
 Fresh Gmail/Spam/All Mail recovery on the latest Property Finder batch exposed two clean unsent Bahar 6 revenue-share routes in the 85k band. Sent the approved Lux Oasis opener from `luxoasiscoo@gmail.com` to `mohamed.s.9505229@gmail.com` for REIM Real Estate Brokerage / Mohamed Salah, Gmail message ID `19fa37c2c60595dc`, thread `19fa37c2c60595dc`. Sent the same approved opener to `lowri.scrivens@bhomes.com` for Betterhomes / Lowri Carys Scrivens, Gmail message ID `19fa37c2f70d4b76`, thread `19fa37c2f70d4b76`. Both routes were Bahar 6 1BR at AED 85,000/year. Status: reply watch.
