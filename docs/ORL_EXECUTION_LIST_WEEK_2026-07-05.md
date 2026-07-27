@@ -19,7 +19,7 @@ The week should stay simple:
 
 ## Step 1 - Now: Report Desk Build
 
-Action: paste the brief titled `BUILD: the report desk, any report on demand in chat` into Claude Code.
+Action: build the mocked, read-only PriceLabs connector scaffold in packages/connectors/pricelabs_rm.
 
 What it does:
 
