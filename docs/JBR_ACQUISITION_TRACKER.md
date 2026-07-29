@@ -1,5 +1,9 @@
 # JBR Acquisition Tracker
 
+# 28 Jul 2026 reply sweep, 11:05 Dubai
+
+Fresh Gmail/OAuth reply sweep with `node scripts/check_jbr_replies_expanded.mjs` searched 80 queries across 67 threads and found 0 new external human replies after the current watermark. Fresh Gmail/property recovery sweep with `node scripts/gmail_property_recovery.mjs` returned 52 candidate messages, but the newest hit was still the 27 Jul Bahar 6 send and there were 0 inbound property leads on or after 27 Jul. Refreshed `memory/jbr-acquisition-replies.json` lastScan to `2026-07-28T07:05:00Z`. No reply draft or Telegram handoff was needed.
+
 # 27 Jul 2026 JBR outbound blocked, 19:16 Dubai
 
 Reviewed the current worker and state files against the live tracker. `scripts/jbr_outbound_agent_email_worker.mjs` only contains ten hardcoded routes, and every one of them already has a matching record in `memory/jbr-agent-outbound-state.json.sent`, so there is no eligible not-contacted direct-email lead left to send from the current worker queue.
