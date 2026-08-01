@@ -26,6 +26,15 @@ Instagram pack correction:
 - Visuals should look like premium Instagram creative for a real STR advisory ecosystem.
 - NanoBanana/Gemini image generation is not configured in this runtime yet; improved visuals are being generated through the configured image provider until that API route is available.
 
+Improved visual concepts:
+
+- Slack upload remains blocked by missing `files:write`.
+- Improved visual concepts were saved into Control Tower docs so Lin can download/open them from links:
+  - `docs/social/lux-oasis-advisory/2026-08-01/instagram-concept-sheet-v2-1.png`
+  - `docs/social/lux-oasis-advisory/2026-08-01/instagram-concept-sheet-v2-2.png`
+  - `docs/social/lux-oasis-advisory/2026-08-01/instagram-concept-sheet-v2-3.png`
+- Treat these as creative direction/contact sheets. They are better than the first rough visuals, but Lin should split/recreate them into individual 4:5 Instagram posts before publishing.
+
 ## Asset Files
 
 - Monday / Oasis Revenue Lab visual: `assets/social/lux-oasis-advisory/2026-08-01/orl-monday-revenue-lab.png`
