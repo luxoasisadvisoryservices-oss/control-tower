@@ -34,6 +34,7 @@ Improved visual concepts:
   - `docs/social/lux-oasis-advisory/2026-08-01/instagram-concept-sheet-v2-2.png`
   - `docs/social/lux-oasis-advisory/2026-08-01/instagram-concept-sheet-v2-3.png`
 - Treat these as creative direction/contact sheets. They are better than the first rough visuals, but Lin should split/recreate them into individual 4:5 Instagram posts before publishing.
+- Raw visual links posted to CEO Strategy `#social-media-`, message `1785577813.113959`.
 
 ## Asset Files
 
