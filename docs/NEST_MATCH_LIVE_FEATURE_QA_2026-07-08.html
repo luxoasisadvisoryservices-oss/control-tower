@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nest Match Live Feature QA</title>
+  <style>
+    :root { color-scheme: light; --ink: #18211d; --muted: #5f6862; --line: #d8dfd8; --soft: #f4f6f2; --accent: #2f6f5e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f8f5; color: var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(880px, calc(100% - 28px)); margin: 0 auto; padding: 28px 0 44px; }
+    header { border: 1px solid var(--line); background: white; padding: 28px; border-radius: 8px; margin-bottom: 18px; }
+    .kicker { color: var(--accent); font-weight: 700; text-transform: uppercase; font-size: 12px; letter-spacing: .04em; }
+    h1 { margin: 8px 0 10px; font-size: clamp(28px, 4vw, 42px); line-height: 1.05; letter-spacing: 0; }
+    .subtitle { max-width: 680px; color: var(--muted); font-size: 17px; }
+    article { border: 1px solid var(--line); background: white; padding: 30px; border-radius: 8px; }
+    h1 + p, h2 + p, h3 + p { margin-top: 8px; }
+    h2 { margin: 30px 0 8px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 23px; letter-spacing: 0; }
+    h3 { margin: 24px 0 8px; font-size: 18px; letter-spacing: 0; color: #24362f; }
+    p { margin: 12px 0; }
+    ul { margin: 10px 0 16px; padding-left: 20px; }
+    li { margin: 6px 0; }
+    blockquote { margin: 16px 0; padding: 14px 18px; background: var(--soft); border-left: 4px solid var(--accent); color: #26342d; }
+    blockquote p { margin: 6px 0; }
+    code { font-family: "SFMono-Regular", Consolas, monospace; font-size: .94em; background: var(--soft); padding: 2px 5px; border-radius: 4px; }
+    @media print {
+      body { background: white; }
+      main { width: auto; padding: 0; }
+      header, article { border: 0; border-radius: 0; }
+      header { border-bottom: 1px solid var(--line); }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">Lux Oasis Advisory & Services LLC</div>
+      <h1>Nest Match Live Feature QA</h1>
+      <div class="subtitle">QA notes for the live feature target.</div>
+    </header>
+    <article>
+      <h1>Nest Match Live Feature QA - 2026-07-08</h1>
+<h2>Verdict</h2>
+<p>Improved, but not accepted as fully delivered yet.</p>
+<p>After Damiano asked to try the agent Gmail inbox, I retested with real reachable email aliases under the connected Gmail account. This corrected the earlier email-confirmation finding: the app still shows a Supabase <code>send-email</code> edge function <code>401</code> warning in the browser console, but the confirmation email does arrive in Gmail and the confirmation link works.</p>
+<p>The confirmed host and confirmed service-provider accounts can log in. Two-sided text messaging now works. Inventory Board posting also works for a basic host-side availability post.</p>
+<p>However, the full live-today feature set is still not accepted because the mutual review path does not unlock end to end, attachments fail, service-provider browse crashes for hosts, pricing role tabs are wrong, and payment success routes are still unsafe by direct URL.</p>
+<h2>What Now Passes</h2>
+<h3>Email Confirmation</h3>
+<ul>
+<li>Host registration reached <code>/auth/check-email</code>.</li>
+<li>Confirmation email arrived from <code>Nest-Match &lt;noreply@send.nest-match.com&gt;</code>.</li>
+<li>Confirmation link opened and activated the host account.</li>
+<li>Service-provider registration also produced a confirmation email.</li>
+<li>Service-provider confirmation link opened and activated the service-provider account.</li>
+<li>Both accounts logged into their dashboards.</li>
+</ul>
+<p>Note: the browser console still logs <code>send-email</code> returning <code>401</code>, but the email arrives anyway. This should be cleaned up because it creates false QA noise.</p>
+<h3>Role-Based Accounts</h3>
+<ul>
+<li>Host/operator account creation works with confirmation.</li>
+<li>Service-provider account creation works with confirmation.</li>
+<li>Dashboards load with role-aware navigation.</li>
+<li>Landlord/owner, agency and admin were not fully retested in this pass.</li>
+</ul>
+<h3>Direct Messaging</h3>
+<p>Status: text messaging passes for host to service provider.</p>
+<p>Test completed:</p>
+<ul>
+<li>Host opened Messages.</li>
+<li>Host searched <code>Nest Provider QA</code>.</li>
+<li>Host selected the provider.</li>
+<li>Host sent a text message.</li>
+<li>Provider logged in and saw the message in inbox.</li>
+<li>Provider opened the conversation and replied.</li>
+<li>Host logged in and saw the provider reply.</li>
+</ul>
+<h3>Inventory Board</h3>
+<p>Status: basic host-side flow passes.</p>
+<p>Test completed:</p>
+<ul>
+<li>Host opened <code>/inventory-board/post</code>.</li>
+<li>Host selected <code>I have a unit</code>.</li>
+<li>Posted a JBR 1BR test availability at AED 450.</li>
+<li>App created a detail page for the post.</li>
+<li>Post appeared in <code>/inventory-board/my-postings</code>.</li>
+<li>Test post was withdrawn afterwards so fake active supply is not left live.</li>
+</ul>
+<h2>What Still Fails Or Is Not Accepted</h2>
+<h3>Verified Mutual-Confirmation Review System</h3>
+<p>Status: code evidence present, end-to-end not accepted.</p>
+<p>The live bundle contains implementation evidence for:</p>
+<ul>
+<li><code>mark_collaboration_complete</code></li>
+<li><code>submit_collaboration_review</code></li>
+<li><code>release_stale_collaboration_reviews</code></li>
+<li><code>Mark as completed</code></li>
+<li><code>Confirm collaboration</code></li>
+<li><code>Leave review</code></li>
+<li>blind review copy: <code>Your review is blind... until both are submitted (or 7 days pass).</code></li>
+</ul>
+<p>But the real UI test did not reach review unlock:</p>
+<ul>
+<li>Host and provider could message each other.</li>
+<li><code>/connections</code> still showed <code>Connections 0</code> for both accounts.</li>
+<li>No <code>Mark as completed</code>, <code>Confirm collaboration</code> or <code>Leave review</code> controls appeared in the live connection page.</li>
+</ul>
+<p>Current issue: messaging creates a conversation/match toast, but it does not appear to create or expose an accepted <code>connection</code> record needed by the review system.</p>
+<h3>Attachments</h3>
+<p>Status: fails.</p>
+<p>The message composer has a hidden file input, but sending a photo attachment failed.</p>
+<p>Observed error:</p>
+<p><code>Failed to send null value in column &quot;content&quot; of relation &quot;messages&quot; violates not-null constraint</code></p>
+<p>Provider did not receive the image preview. Attachments are not accepted yet.</p>
+<h3>Browse Service Providers</h3>
+<p>Status: fails/crashes.</p>
+<p>Host route <code>/browse-service-providers</code> crashes with:</p>
+<p><code>cannot add postgres_changes callbacks for realtime:connections-... after subscribe()</code></p>
+<p>Alternative route <code>/service-providers</code> loads but says:</p>
+<ul>
+<li><code>Error Failed to fetch service providers</code></li>
+<li><code>No service providers found</code></li>
+</ul>
+<p>This happened even after creating and confirming a service-provider account.</p>
+<h3>Browse Pages Sorted Premium, Pro, Free</h3>
+<p>Status: not proven.</p>
+<p>Because service-provider browse crashes and directory fetch fails, I could not verify role browse sorting by Premium, Pro, Free.</p>
+<h3>Pricing Role Tabs</h3>
+<p>Status: wrong.</p>
+<p>Pricing page shows correct broad plan language, including Pro 25 new contacts/month, Premium unlimited new contacts with fair-use anti-spam, and messages unlimited once connected.</p>
+<p>But clicking Operators, Service Providers and Agents still keeps showing Host plan cards:</p>
+<ul>
+<li><code>Host Free</code></li>
+<li><code>Host Pro</code></li>
+<li><code>Host Premium</code></li>
+</ul>
+<h3>Stripe / Subscription Success Routes</h3>
+<p>Status: unsafe until fixed.</p>
+<p>Direct success routes are still reachable:</p>
+<ul>
+<li><code>/purchase/success</code> shows <code>Purchase Successful</code> by direct URL.</li>
+<li><code>/checkout-success</code> shows <code>Payment Successful</code> by direct URL.</li>
+<li><code>/boost/success</code> correctly redirects to login.</li>
+</ul>
+<p><code>/purchase/success</code> and <code>/checkout-success</code> must be session-gated.</p>
+<h3>Contracts Hub</h3>
+<p>Status: partial.</p>
+<p>Logged-in host can open Contracts Hub and see template-library/legal copy. Full generation, tier limits and document output were not fully retested in this pass.</p>
+<h3>Public Profiles With Portfolio, Photos, Ratings, Reviews</h3>
+<p>Status: not fully proven.</p>
+<p>Service-provider portfolio data was entered during signup, but the provider did not appear in the browse/service-provider directory, so I could not verify a public profile with portfolio photos, ratings and reviews from normal discovery.</p>
+<h3>City Isolation</h3>
+<p>Status: partial, not proven.</p>
+<p>Inventory Board shows Dubai market and JBR posting flow. City-isolated browsing across Dubai/Abu Dhabi was not proven.</p>
+<h3>Admin Moderation</h3>
+<p>Status: not tested.</p>
+<p>No admin account was available in this pass.</p>
+<h2>Fix Order For Lovable/Oval</h2>
+<ul>
+<li>Fix <code>/browse-service-providers</code> realtime crash.</li>
+<li>Make confirmed service providers appear in the directory/search with correct profile links.</li>
+<li>Make messaging-created relationships create or expose the accepted connection required for <code>/connections</code>.</li>
+<li>Prove the review flow from accepted connection through completed collaboration, confirmation, blind review and profile reveal.</li>
+<li>Fix attachment send so photo/file messages can be inserted without violating <code>messages.content</code> not-null constraints.</li>
+<li>Fix pricing role tabs so Service Providers and Agents do not show Host card labels.</li>
+<li>Gate <code>/purchase/success</code> and <code>/checkout-success</code> behind a real checkout session.</li>
+<li>Re-test landlord/owner, agency and admin accounts.</li>
+</ul>
+<h2>Correct Current Product Status</h2>
+<p>Nest Match is no longer just a public skeleton. Confirmed signup, role dashboards, two-sided text messaging and basic Inventory Board posting are now working in a real browser test.</p>
+<p>But the key new trust feature is not accepted yet:</p>
+<p><code>The mutual-confirmation review system exists in code, but the live user path does not yet reach an accepted connection where both sides can complete collaboration and leave reviews.</code></p>
+    </article>
+  </main>
+</body>
+</html>

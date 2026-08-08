@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nest Match Production Scaling Readiness</title>
+  <style>
+    :root { color-scheme: light; --ink: #18211d; --muted: #5f6862; --line: #d8dfd8; --soft: #f4f6f2; --accent: #2f6f5e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f8f5; color: var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(880px, calc(100% - 28px)); margin: 0 auto; padding: 28px 0 44px; }
+    header { border: 1px solid var(--line); background: white; padding: 28px; border-radius: 8px; margin-bottom: 18px; }
+    .kicker { color: var(--accent); font-weight: 700; text-transform: uppercase; font-size: 12px; letter-spacing: .04em; }
+    h1 { margin: 8px 0 10px; font-size: clamp(28px, 4vw, 42px); line-height: 1.05; letter-spacing: 0; }
+    .subtitle { max-width: 680px; color: var(--muted); font-size: 17px; }
+    article { border: 1px solid var(--line); background: white; padding: 30px; border-radius: 8px; }
+    h1 + p, h2 + p, h3 + p { margin-top: 8px; }
+    h2 { margin: 30px 0 8px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 23px; letter-spacing: 0; }
+    h3 { margin: 24px 0 8px; font-size: 18px; letter-spacing: 0; color: #24362f; }
+    p { margin: 12px 0; }
+    ul { margin: 10px 0 16px; padding-left: 20px; }
+    li { margin: 6px 0; }
+    blockquote { margin: 16px 0; padding: 14px 18px; background: var(--soft); border-left: 4px solid var(--accent); color: #26342d; }
+    blockquote p { margin: 6px 0; }
+    code { font-family: "SFMono-Regular", Consolas, monospace; font-size: .94em; background: var(--soft); padding: 2px 5px; border-radius: 4px; }
+    @media print {
+      body { background: white; }
+      main { width: auto; padding: 0; }
+      header, article { border: 0; border-radius: 0; }
+      header { border-bottom: 1px solid var(--line); }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">Lux Oasis Advisory & Services LLC</div>
+      <h1>Nest Match Production Scaling Readiness</h1>
+      <div class="subtitle">Production readiness and scaling notes.</div>
+    </header>
+    <article>
+      <h1>Nest Match Production Scaling Readiness - 2026-07-10</h1>
+<h2>Current Stack Confirmation</h2>
+<p>Damiano confirmed on 2026-07-10, then corrected at 11:22 Dubai:</p>
+<ul>
+<li>GitHub is connected.</li>
+<li>Stripe is connected.</li>
+<li>The production database/Supabase path is not fully connected yet because the paid Supabase plan is being deferred until there is more real traffic or a stronger need for production-grade persistence.</li>
+</ul>
+<p>This means Nest Match has code ownership and payment setup moving in the right direction, but the database foundation is not yet a finished production assumption. The immediate question is no longer whether Lovable alone can scale. The question is when to activate the paid Supabase/production database path and then harden data, auth, permissions, storage and monitoring before real traffic.</p>
+<h2>Current View</h2>
+<p>Lovable should remain the fast product-build layer for private beta and iteration.</p>
+<p>The real foundation must be:</p>
+<ul>
+<li>owned/synced GitHub code;</li>
+<li>owned Supabase project and database, upgraded when real beta traffic or production-readiness requires it;</li>
+<li>clean role-based schema;</li>
+<li>correct Row Level Security policies;</li>
+<li>real Stripe checkout/session validation;</li>
+<li>backups, logs and monitoring;</li>
+<li>a migration path to normal developer workflow if Lovable becomes limiting.</li>
+</ul>
+<h2>Production Readiness Checklist</h2>
+<p>Before real client traffic:</p>
+<ul>
+<li>Confirm GitHub sync is active and current.</li>
+<li>Confirm the current database state: free/prototype Supabase only vs paid production Supabase.</li>
+<li>Upgrade Supabase only when traffic, persistent user data, backups, RLS QA, or launch credibility justify the monthly cost.</li>
+<li>Review database schema for users, roles, profiles, inventory, messages, reviews, connections, subscriptions and admin/moderation.</li>
+<li>Confirm Row Level Security policies for every table by role: landlord, operator/host, agent, service provider and admin.</li>
+<li>Confirm Stripe checkout success pages require a verified checkout/session/payment state and cannot be reached by direct URL.</li>
+<li>Confirm webhook handling for subscription/payment events.</li>
+<li>Confirm storage rules for profile photos, portfolio files, message attachments and documents.</li>
+<li>Add monitoring/logging for auth errors, database errors, message failures, payment failures and upload failures.</li>
+<li>Create staging/test accounts for every role and run end-to-end QA.</li>
+<li>Document migration/export path: how a developer can take the GitHub repo and Supabase project forward outside Lovable if needed.</li>
+</ul>
+<h2>Exact Lovable / Oval Ask</h2>
+<p>Ask Lovable/Oval:</p>
+<blockquote>
+<p>GitHub and Stripe are connected. Supabase/the production database is not being upgraded yet because we are avoiding the paid plan until there is real traffic or a clear production need. Please confirm what database/auth/storage is currently active, what will break or remain limited before the Supabase upgrade, and what exact steps are needed when we decide to upgrade. Also confirm GitHub sync is current, Stripe success pages and webhooks are session-verified, and the app can be migrated/self-hosted from the synced repo if Lovable becomes limiting. List the scaling risks across database, auth, messaging, payments, storage, rate limits, monitoring and logs.</p>
+</blockquote>
+<h2>Operating Decision</h2>
+<p>Continue building in Lovable for now. Do not slow down private beta. Do not pay for Supabase just to feel &quot;ready&quot; before there is traffic. But do not start broad traffic until the database upgrade decision is made, the production-readiness checklist is answered, and the current P0 issues are fixed.</p>
+    </article>
+  </main>
+</body>
+</html>

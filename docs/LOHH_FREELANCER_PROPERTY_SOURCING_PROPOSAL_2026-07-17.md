@@ -6,6 +6,16 @@ Prepared for: [Candidate Name]
 Date: [Date]  
 Status: Commercial proposal for discussion only
 
+## 2026-08-08 Campaign Update
+
+For the current LinkedIn BD expansion push, Damiano instructed Lin to write to more people about a 20% commission.
+
+Use this as the current outreach-specific commercial hook:
+
+**20% of Lux Oasis retained net profit for 12 months from launch** on any property the person personally introduces that is accepted, signs, launches and generates collected revenue.
+
+This remains conditional commission only. It is not salary, visa sponsorship, broker appointment, guaranteed income or authority to represent Lux Oasis commercially.
+
 This proposal is for people who can introduce suitable property owners, landlords, agents or investors to Lux Oasis Holiday Homes LLC, but who do not want a salary, employment, visa sponsorship or an operating role inside the company.
 
 It is separate from the Lux Oasis acquisition and operations partner proposal. That fuller proposal is for people who want to source, close, onboard and operate properties under a more active commercial structure.
@@ -25,11 +35,11 @@ The role is simple: introduce qualified property opportunities to Lux Oasis. If 
 
 ## 2. Recommended Freelancer Commission
 
-For the active LinkedIn freelancer sourcing push, the recommended structure is:
+For a pure freelancer / finder role, the recommended structure is:
 
-**20% of Lux Oasis retained net profit for 12 months from the unit launch date.**
+**15% of Lux Oasis retained net profit for 12 months from the unit launch date.**
 
-This gives the freelancer a clean recurring upside while keeping Lux Oasis protected. The freelancer is not taking salary risk, visa responsibility, owner-retention responsibility, guest operations, daily maintenance, pricing, reporting or compliance workload.
+This is the best default because it gives the freelancer real upside while keeping Lux Oasis protected. The freelancer is not taking salary risk, visa responsibility, owner-retention responsibility, guest operations, daily maintenance, pricing, reporting or compliance workload.
 
 For exceptional cases, Lux Oasis may extend the commission period to **18 months**, but only when:
 
@@ -147,18 +157,18 @@ No work should be done in a way that breaches UAE law, real estate brokerage rul
 
 Short version:
 
-> Lux Oasis Holiday Homes is expanding its Dubai short-term rental portfolio and we are looking for freelance property sourcers with real owner, landlord or agent access. If you introduce a suitable property that signs with Lux Oasis, launches and generates revenue, you earn 20% of Lux Oasis retained net profit from that property for 12 months. This is not a salary or visa role. It is a freelancer / commission route where you can build your own portfolio of introduced properties and create recurring monthly income from each successful unit. We are mainly focused on JBR, Palm Jumeirah, Dubai Marina and Downtown. If you have access to owners or serious property routes in these areas, we can speak.
+> We are growing Lux Oasis Holiday Homes in Dubai and are open to working with freelancers who can introduce suitable property owners or landlord routes. For a pure property-introduction role, we can offer 15% of Lux Oasis retained net profit for 12 months on any property you personally introduce that signs, launches and generates revenue. No salary or visa structure is required for this freelancer route. If you have real owner or agent access in JBR or Palm, we can discuss.
 
 More selective version:
 
-> Lux Oasis Holiday Homes is expanding its managed-property portfolio in Dubai. We are looking for freelancers or commercial introducers with real owner, landlord or agent access in JBR, Palm Jumeirah, Dubai Marina and Downtown. This is not a salary role and not a visa role. For qualified introductions that lead to a signed and live Lux Oasis unit, the freelancer commission is 20% of Lux Oasis retained net profit for 12 months from launch. Strong direct-owner routes may be considered for a longer commission period case by case.
+> Lux Oasis Holiday Homes is expanding its managed-property portfolio in Dubai. We are looking for freelancers or commercial introducers with real owner, landlord or agent access in JBR and Palm Jumeirah. This is not a salary role and not a visa role. For qualified introductions that lead to a signed and live Lux Oasis unit, the freelancer commission is 15% of Lux Oasis retained net profit for 12 months from launch. Strong direct-owner routes may be considered for a longer commission period case by case.
 
 ## 11. Best Commercial Position
 
 Use this as the default:
 
-- **20% for 12 months** for the active LinkedIn freelancer offer.
-- **20% for up to 18 months** only for exceptional direct-owner routes or unusually strong properties.
+- **15% for 12 months** for pure introductions.
+- **15% for up to 18 months** only for exceptional direct-owner routes or unusually strong properties.
 - Keep **18-25%+** for people who are doing more than freelance sourcing: close support, onboarding, owner management and operations.
 
 This lets Lux Oasis widen the LinkedIn search without overpaying passive introducers or weakening the economics needed to reach the AED 50,000 monthly operating-profit target.

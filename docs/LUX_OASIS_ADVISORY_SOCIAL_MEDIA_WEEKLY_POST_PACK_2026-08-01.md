@@ -1,8 +1,14 @@
 # Lux Oasis Advisory Social Media Weekly Post Pack - 2026-08-01
 
-Purpose: first Monday / Wednesday / Friday content pack for Lux Oasis Advisory & Services LLC.
+Purpose: first Monday / Wednesday / Friday content pack for Lux Oasis Advisory & Services LLC, with separate Instagram and LinkedIn versions.
 
 Operating rule: these are draft-ready posts for Lin to copy, place into the right account and prepare as drafts. Do not publish before Damiano review.
+
+Platform rule:
+
+- Instagram: shorter, visual-first, clear CTA and hashtags.
+- LinkedIn: more descriptive, founder/business ecosystem angle, clearer problem-solution context, fewer hashtags and a stronger B2B tone.
+- Lin should not paste the exact same text on both platforms.
 
 Umbrella positioning:
 
@@ -161,6 +167,95 @@ Hashtags:
 Lin note:
 
 Do not present Nest Match as a small feature under ORL or Conviva. It is its own marketplace/network project, still under the Lux Oasis Advisory & Services LLC umbrella.
+
+## LinkedIn Versions
+
+These are LinkedIn-ready versions of the same weekly themes. They should be used on the Lux Oasis Advisory & Services LLC LinkedIn page, not copied word-for-word from Instagram.
+
+### Monday LinkedIn - Oasis Revenue Lab
+
+Lux Oasis Advisory & Services LLC is building a short-term-rental ecosystem around the operational problems we see every day in Dubai.
+
+One of the first products inside that ecosystem is Oasis Revenue Lab.
+
+Many short-term-rental operators already have data. They may use pricing tools, PMS reports, OTA calendars, owner statements and market dashboards. The real gap is often not the existence of data. The gap is turning that data into consistent revenue judgement.
+
+Oasis Revenue Lab is being built to support that layer:
+
+- pricing and calendar review;
+- occupancy and gap-night interpretation;
+- owner-ready reporting;
+- tracked recommendations;
+- clearer decisions on what needs attention now and what can wait.
+
+The aim is not to make generic revenue promises. The aim is to build a practical operating layer that helps operators and owners understand the revenue position of a property and decide what to do next.
+
+For operators, owners or partners working in short-term rentals, this is one of the core directions we are building under Lux Oasis Advisory & Services LLC.
+
+CTA:
+
+If you operate or own short-term-rental assets and want to review pricing, calendar strategy or revenue reporting, connect with Lux Oasis Advisory & Services LLC.
+
+LinkedIn hashtags:
+
+`#OasisRevenueLab #LuxOasisAdvisory #ShortTermRental #RevenueManagement #DubaiRealEstate #HospitalityTech`
+
+### Wednesday LinkedIn - Conviva
+
+Guest communication in short-term rentals is not only about replying quickly.
+
+Speed matters, but accuracy matters more.
+
+A guest might ask about access, parking, building rules, amenities, maintenance, check-out, luggage, visitors or a problem inside the apartment. A fast answer that is not grounded in the actual property knowledge can create more risk than silence.
+
+That is the problem behind Conviva, one of the products being built inside the Lux Oasis Advisory & Services LLC ecosystem.
+
+Conviva is being designed as supervised guest-operations support for short-term-rental operators. The direction is practical:
+
+- answer from property-specific knowledge;
+- use the operator's rules and approved information;
+- escalate when the question is risky or unclear;
+- keep the human operator in control where judgement is needed.
+
+The goal is not uncontrolled autonomous messaging. The goal is better guest operations with more structure, better knowledge and cleaner escalation.
+
+For operators managing multiple apartments, guest communication becomes harder to control as the portfolio grows. Conviva is being built around that exact operating pain.
+
+CTA:
+
+If guest communication is becoming harder to manage across your short-term-rental portfolio, follow Lux Oasis Advisory & Services LLC as we build this product direction.
+
+LinkedIn hashtags:
+
+`#Conviva #LuxOasisAdvisory #GuestExperience #ShortTermRental #HospitalityOperations #PropTech`
+
+### Friday LinkedIn - Nest Match
+
+The short-term-rental market depends on coordination.
+
+Operators need owners, agents, cleaners, maintenance teams, suppliers, designers and service providers. Owners need trusted execution routes. Service providers need serious operators. Agents need credible partners. Everyone relies on WhatsApp, referrals, fragmented conversations and scattered spreadsheets.
+
+That coordination layer is still messy.
+
+Nest Match is being built as the marketplace and network layer inside the Lux Oasis Advisory & Services LLC umbrella.
+
+It is a standalone project, but it sits above and cross-connects the wider ecosystem:
+
+- Oasis Revenue Lab helps with revenue decisions;
+- Conviva helps with guest operations;
+- Nest Match connects operators, owners, agents and service providers around opportunities and execution.
+
+The long-term idea is to make short-term-rental coordination cleaner, more visible and easier to trust.
+
+This is not only a technology idea. It comes from the operational reality of running, sourcing, preparing and scaling short-term-rental properties.
+
+CTA:
+
+If you are an operator, owner, agent or service provider in the Dubai short-term-rental ecosystem, follow Lux Oasis Advisory & Services LLC as we build Nest Match and the wider Advisory ecosystem.
+
+LinkedIn hashtags:
+
+`#NestMatch #LuxOasisAdvisory #ShortTermRental #DubaiRealEstate #PropTech #RealEstateNetwork`
 
 ## Weekly Posting Rhythm
 

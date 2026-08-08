@@ -14,6 +14,7 @@ CEO Strategy repost completed:
 - Full kickoff: `#all-ceo-strategy-and-businesses` / `C0AMEUCGZL1`, message `1785573315.814249`.
 - Execution note: CEO Strategy `#social-media-` / `C0BMFEUN80L`, message `1785573316.344399`.
 - Positioning correction posted: Advisory board message `1785573620.151909`, CEO/business board message `1785573620.588769`, CEO Strategy social-media message `1785573621.035669`.
+- Website set handoff posted 2026-08-03: Lin/social-media execution message `1785766972.322779` in CEO Strategy `#social-media-` / `C0BMFEUN80L`; Advisory team announcement `1785766972.773509` in `#lux-aosis-advisory-and-serivces` / `C0B1XHNEHGE`.
 
 ## Company Positioning
 
@@ -42,6 +43,24 @@ Lux Oasis Renovation / Interiors: STR-readiness, apartment refresh planning, set
 Control Tower / agent operating layer: internal founder-plus-agent operating-system proof, not yet broad public SaaS positioning.
 
 Libis / name to confirm: do not create public copy until the product name and meaning are confirmed.
+
+## Current Public Website Set
+
+Confirmed by Damiano and checked live on 2026-08-03:
+
+- Lux Oasis Advisory hub: `https://luxoasisadvisory.com`
+- Oasis Revenue Lab: `https://www.oasisrevenuelab.com`
+- Conviva: `https://www.conviva.live`
+- Lux Oasis Renovation: `https://www.luxoasisrenovations.com`
+
+Website analysis:
+
+- All four returned HTTP 200 and loaded in browser without main-viewport console errors.
+- Lux Oasis Advisory is the parent credibility site. Use it for company ecosystem, LinkedIn profile, partner context and "what Lux Oasis Advisory & Services LLC is" posts.
+- Oasis Revenue Lab is the clearest commercial offer for LinkedIn: daily revenue intelligence, pricing, PriceLabs, STR operator decision-making.
+- Conviva is the strongest immediate product story for social: WhatsApp guest communication, unit-level knowledge, Chatwoot/human handover and operational relief.
+- Lux Oasis Renovation is polished and premium, but social captions should make the offer explicit: Dubai STR renovation project management, not contracting, from scope/design to guest-ready handover.
+- The four pages should be presented as one Lux Oasis Advisory & Services LLC ecosystem, not four disconnected brands.
 
 ## First Post Queue For Lin
 

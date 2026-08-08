@@ -3,21 +3,23 @@
 Owner: Main COO Agent  
 Business: Lux Oasis Holiday Homes / Oasis Revenue Lab  
 Markets: Rome and Milan  
-Status: Research and draft outreach only until Damiano approves sends
+Status: Research and draft outreach only. No external sends until Damiano approves the operator and final wording.
 
 Active worker: OpenClaw cron `c33dea31-8eea-4b8a-8f2e-1ed60e60cba0`, `Airbnb Italy Acquisition Agent`, daily 10:30 Asia/Dubai, isolated run, Telegram report on completion. First manual run enqueued 2026-07-30.
 
 ## Positioning
 
-Lux Oasis does not position this offer as replacing the host's operations. The pitch is to work alongside hosts and property managers to increase revenue and improve listing performance.
+International correction from 2026-08-08: Lux Oasis does not operate locally in Italy. Italy outreach should not imply that Lux Oasis Holiday Homes will become the local operator or manage the unit on the ground. The target is local hosts, co-hosts and small operators who can use or eventually offer the Oasis Revenue Lab / Oasis Guest Lab package.
+
+The pitch is to work alongside local hosts and operators to increase revenue, improve listing performance, and support guest communication quality through Lux Oasis Advisory products/services.
 
 Collaboration options:
 
-- Revenue Management consulting only.
-- Airbnb Co-Host access for pricing, calendar strategy and listing optimisation.
-- Collaboration with the existing team while they keep guest communication and daily operations.
-- Operational best-practice support from Lux Oasis' Dubai Airbnb experience.
-- Custom partnership based on the operator's needs.
+- Oasis Revenue Lab revenue/pricing/listing-performance review.
+- Oasis Guest Lab supervised guest communication / WhatsApp / reply-quality support.
+- Collaboration with the existing host/co-host/operator while they keep local guest communication and daily operations unless they choose to use Guest Lab support.
+- Operator best-practice support from Lux Oasis' Dubai Airbnb experience.
+- Custom product/service partnership based on the operator's needs.
 
 Why Lux Oasis:
 
@@ -26,7 +28,46 @@ Why Lux Oasis:
 - Damiano is part of the PriceLabs Expert Program.
 - Focus on ADR, occupancy and RevPAR, supported by data and real hosting experience.
 
-Primary conversion objective: book a 20-30 minute free consultation call with Damiano to review one listing, show revenue opportunities, explain PriceLabs value, apply Dubai lessons to Italy and propose the right collaboration model.
+Primary conversion objective: book a 20-30 minute free consultation call with Damiano to review one listing, show revenue opportunities, explain PriceLabs value, apply Dubai lessons to Italy, and test whether the host/co-host/operator could use or later offer Oasis Revenue Lab / Oasis Guest Lab.
+
+## 2026-08-05 Session Log
+
+- Outreach stays paused for this session and no messages were sent.
+- `memory_search` was unavailable because the OpenAI token expired, so this pass relied on existing CRM and public evidence only.
+- Rome remains the priority market.
+- Large/public operators remain parked or backup only.
+
+## 2026-08-07 Session Log
+
+- Current run state checked in the workspace.
+- Outreach remains paused and no emails or messages were sent.
+- No replies, meetings, or drafts were created in this pass.
+- Verified public-evidence prospects confirmed in this pass: Rome `Maison del Colosseo / Casa all'Ombra del Colosseo` and Milan `HOD'A suites / HOD'A Milano zen apartment`.
+- CRM, control-tower notes, and today’s memory file were updated with the paused / research-only state.
+
+## 2026-08-08 Session Log
+
+- Resumed the Airbnb Italy / co-host acquisition lane after Damiano asked to get back to work.
+- Recovered the 2026-08-03 targeting correction from memory: do not target professional property-management or revenue-management operators; focus on small host-style profiles with weak commercial setup.
+- Public verification refreshed for `Maison del Colosseo` and `HOD'A suites`.
+- Created draft-only approval pack: `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-08-08.md`.
+- Drafts prepared: 2. Emails sent: 0. Replies received: 0. Meetings booked: 0.
+- External send remains approval-gated.
+
+## 2026-08-08 Session Log - Public Evidence Refresh
+
+- Refreshed the Rome-first, Milan-second shortlist with public-evidence prospects: `Rome Trastevere Home / Trastevere Home family brand`, `Mama's Home Rome / Mama House`, `Foresteria MILO - MARTINI's Home, Milano`, and parked `I-Host` as market-map only.
+- Kept the paused-outreach guardrail intact: no sends, no replies, no meetings, and no approval-ready marking in this run.
+- Pricing verification is still partially blocked by public-access limits, so the notes stay research-first until direct verification improves.
+- Future draft notes must include the exact Airbnb listing URL in the opening line so the reviewed property is unambiguous.
+
+## Top Prospects / Blockers / Next Run Focus
+
+- Top prospects: Rome `Rome Trastevere Home / Trastevere Home family brand` and `Mama's Home Rome / Mama House`; Milan `Foresteria MILO - MARTINI's Home, Milano` as the current Milan fit, with `I-Host` parked only.
+- Blockers: public-access limits still partially block pricing and calendar verification; no approvals, sends, or approval-ready marking.
+- Next run focus: keep Rome first and Milan second, continue sourcing only small host-style operators, keep `I-Host` parked as market-map only, and require the exact Airbnb listing URL in any future draft note.
+- Keep first contact collaborative and concise, with one listing-level observation per prospect.
+- Session record is mirrored in today’s memory log so the paused-outreach state and top prospects are retained in both places.
 
 ## Reply Routing
 
@@ -37,7 +78,7 @@ Approved Damiano reply/notification emails:
 
 Outreach drafts should make the reply path clear through one of those addresses. If any outreach is sent from another mailbox, contact form, LinkedIn, Instagram or another route, record that route in the CRM and ensure any reply is surfaced to Damiano at one of the approved emails.
 
-If a reply arrives in any other inbox or platform, update the CRM and notify Damiano. Do not leave replies trapped in the sending route. Forwarding or sending reply notifications remains approval-gated unless a standing approved internal route exists.
+If a reply arrives in any other inbox or platform, update the CRM and notify Damiano. Do not leave replies trapped in the sending route. Standing route from Damiano on 2026-08-03: for any sheet host or newly found Rome/Milan host who replies to ORL Italy outreach, surface/forward the reply to `damiano@luxoasisadvisory.com` and make sure Damiano is in the email loop before any substantive next response.
 
 Additional operational value:
 
@@ -144,20 +185,91 @@ If the exact Airbnb profile/listing is not verified, keep the row as `needs Airb
 | 2026-07-30 | Milan | Travel Inside | Unknown | Public property-manager page: `https://travelinside.org/en/property-manager/` | Website/contact page mentions call or email, but no email verified in first pass | No | Must direct/surface replies to `damiano@luxoasisholidayhomes.com` or `damiano@luxoasisadvisory.com` | Research-only until direct contact route and listing count are verified | Their page mentions dynamic price management based on events and demand, so the angle should be a one-listing PriceLabs/revenue opportunity audit, not generic co-hosting | Not drafted | Not sent | Not scheduled | Not scheduled | Need direct email/contact form and listing evidence before qualifying. |
 | 2026-07-30 | Rome | Charme Holidays | Around 10 Airbnb listings visible in search snippet | Airbnb host profile: `https://www.airbnb.com/users/show/12820106`; example listing snippets from Airbnb search results | No public contact found yet | No | Must direct/surface replies to `damiano@luxoasisholidayhomes.com` or `damiano@luxoasisadvisory.com` | Potentially close to ideal target; needs contact-route verification | Search snippets show multiple listings with mixed review scores and several presentation/maintenance comments, so the angle may be listing-quality and conversion improvement | Not drafted | Not sent | Not scheduled | Not scheduled | Continue source search before adding to outreach batch. |
 | 2026-07-30 | Rome | Alex / co-host Giovanni, Casa di Testaccio | At least 1-2 public Airbnb listings found in snippets; full portfolio unverified | Target example from Damiano: `https://www.airbnb.com.br/rooms/1392021667917248508`; web-search result: `https://www.airbnb.com/rooms/1392021667917248508`; related snippet: `https://www.airbnb.com.sg/rooms/1137621275611528188` | Airbnb message route only; no public off-Airbnb contact found yet | No | Must direct/surface replies to `damiano@luxoasisholidayhomes.com` or `damiano@luxoasisadvisory.com` | Target-style reference, not qualified outreach lead until host portfolio and contact route are verified | Strong reference for target type: Rome apartment, 5 guests, 2 bedrooms, 3 beds, 1 bath, rating 4.96, host Alex with 12 years hosting and co-host Giovanni. Observation angle should be checked manually from photos/calendar/pricing before drafting. | Not drafted | Not sent | Not scheduled | Not scheduled | Public fetch exposed only title; search snippets added host/listing basics. Needs deeper Airbnb/browser review and contact-route search. |
+| 2026-08-07 | Rome | Maison del Colosseo / Casa all'Ombra del Colosseo | 1 apartment page reviewed | `21 Via del Cardello, 00184 Rome`; apartment page with second floor, no elevator, 1 bedroom, 1 bathroom, living room with sofa bed, kitchen, microwave, induction hob and kettle | `info@maisondelcolosseo.com`; `+39 3484082106` | Yes, public evidence refreshed 2026-08-08 | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Qualified / small-operator fit | Strong Colosseum/Monti location and simple one-apartment direct-booking setup; audit angle is pricing, calendar and listing conversion | Drafted 2026-08-08 in `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-08-08.md` | Not sent | Not scheduled | Not scheduled | Send requires Damiano approval. |
+| 2026-08-07 | Milan | HOD'A suites / HOD'A Milano zen apartment | 3 Airbnb listing results plus site evidence | Site says HOD'A suites / temporary nest in Milan; public Airbnb results show Zen, Warm and Design apartments in NoLo, each 1-bedroom style | `welcome@hodamilano.eu`; `+39 340 316 9754` | Yes, public evidence refreshed 2026-08-08 | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Qualified / small-operator fit | Coherent design concept across similar NoLo apartments; audit angle is pricing/calendar strategy across comparable units | Drafted 2026-08-08 in `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-08-08.md` | Not sent | Not scheduled | Not scheduled | Airbnb direct fetch redirected, so draft uses public search evidence and should be reviewed before send. |
+| 2026-08-08 | Rome | Rome Trastevere Home / Trastevere Home family brand | Small family-led portfolio with repeated Trastevere / central Rome listing pattern | Public contact page `https://rometrasteverehome.com/en/contact-us`; Airbnb listing `https://www.airbnb.com/rooms/1233096106608512080`; site listing set and Instagram snippets | `info@rometrasteverehome.com`; `services@rometrasteverehome.com`; `+39 3488078101` | Yes | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Qualified / small operator fit | Strong location and repetitive functional listing language suggest a family/operator-led brand with room for sharper pricing discipline; keep pricing as blocked until directly verified | Not drafted | Not sent | Not scheduled | Not scheduled | Rome-first lead from the 2026-08-08 run; keep exact listing link near the opening of any future draft. |
+| 2026-08-08 | Rome | Mama's Home Rome / Mama House | Multiple near-identical Rome listings with repeated location-led naming | Public contact page `https://www.mamashomerome.com/contacts`; Airbnb listings `https://www.airbnb.com/rooms/3346444`, `https://www.airbnb.com/rooms/602123151327706940`, `https://www.airbnb.com/rooms/674540211222102629`; snippet set also mentions Mama House Testaccio and Trastevere | `welcome@mamashomerome.com`; `+39 3341746577`; `+39 06.68308767` | Yes | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Qualified / small operator fit | Repeated titles and location-led copy suggest weak brand structure and likely room for stronger listing differentiation and pricing discipline; pricing stays blocked until directly verified | Not drafted | Not sent | Not scheduled | Not scheduled | Rome-first lead from the 2026-08-08 run; keep the opening collaborative and anchor it to one exact listing URL. |
+| 2026-08-08 | Milan | Foresteria MILO - MARTINI's Home, Milano | Small founder-led setup with 2-bedroom / 2-bath public listing signal | Airbnb evidence `https://www.airbnb.ie/rooms/1435401491904505559` and `https://www.airbnb.com/rooms/1435401491904505559`; public search results also point to Booking.com and Instagram presence | `foresteriamilo@gmail.com`; `foresteriamilo.milano@gmail.com` (partially verified from snippet) | No, partial only | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Qualified / small operator fit | Practical Ripamonti / Corvetto base and a single-operator feel; decent listing but still looks like the kind of setup that could benefit from revenue management and listing optimisation | Not drafted | Not sent | Not scheduled | Not scheduled | Milan second from the 2026-08-08 run; public contact is only partially verified. |
+| 2026-08-08 | Milan | I-Host | Public company-style lead with broader operator footprint | `info@ihostsrl.com`; `ihostsrl@legalmail.it`; phone numbers from public company contact snippets | `info@ihostsrl.com`; `ihostsrl@legalmail.it`; phone numbers from public company snippets | Yes | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Parked / market-map only | Too company-like for the first batch, so keep as a market-map or backup reference only | Not drafted | Not sent | Not scheduled | Not scheduled | Backup only, not a first-batch send candidate. |
+
+## 2026-08-08 Session Log
+
+- Resumed the Airbnb Italy / co-host acquisition lane and added the fresh Rome-first, Milan-second small-operator leads from this run.
+- Qualified leads from this pass: Rome `Rome Trastevere Home / Trastevere Home family brand`, Rome `Mama's Home Rome / Mama House`, and Milan `Foresteria MILO - MARTINI's Home, Milano`.
+- Parked backlog note added for Milan company-style lead `I-Host`.
+- No sends, no approval-ready marking, and no external percentages or commission language were added.
+- Pricing verification remains partly blocked by public-access limits, so the next pass should stay on public evidence and small operator targets only.
+- Keep any future draft opening with the exact listing link and a single collaborative observation.
+
+## 2026-08-08 Top Prospects / Blockers / Next Run Focus
+
+- Top prospects: Rome `Rome Trastevere Home / Trastevere Home family brand` and Rome `Mama's Home Rome / Mama House`; Milan backup `Foresteria MILO - MARTINI's Home, Milano`.
+- Blockers: pricing and calendar verification are still partly blocked by public-access limits; the Milan contact route is only partially verified.
+- Next run focus: continue sourcing only small operator leads, keep Rome first and Milan second, and leave I-Host parked as market-map only.
+
+## 2026-08-08 Lead-Generation Result Snapshot
+
+- Hosts analysed: 4
+- Qualified leads found: 3
+- Verified emails found: 2 fully verified, 1 partial
+- Emails drafted: 0
+- Emails sent: 0
+- Replies received: 0
+- Meetings booked: 0
+- High-potential prospects needing Damiano: `Rome Trastevere Home / Trastevere Home family brand`; `Mama's Home Rome / Mama House`; `Foresteria MILO - MARTINI's Home, Milano`
+- Blockers: pricing verification still depends on public-access evidence; the Milan contact route is only partially verified
+- Next run focus: keep sourcing small host-style Rome/Milan leads only, with Rome first and Milan second
+
+## 2026-08-05 Top Prospects / Blockers / Next Run
+
+- Top prospects: `CS Termini Nazionale Apartments` in Rome, `Radrizzani Srl / Milano City Apartments` in Milan.
+- Blockers: public-access limits are still preventing strong pricing/calendar reads; `memory_search` was unavailable due `token_expired`.
+- Next run focus: keep outreach paused, verify whether either top prospect offers a cleaner public contact route or stronger listing evidence, and continue treating big/public operators as parked references unless a better fit appears.
+
+## 2026-08-07 Top Prospects / Blockers / Next Run
+
+- Top prospects updated: `Maison del Colosseo / Casa all'Ombra del Colosseo` in Rome, `HOD'A suites / HOD'A Milano zen apartment` in Milan.
+- Blockers unchanged: public-access limits still prevent strong pricing and calendar reads.
+- Next run focus: keep outreach paused, continue source-only review, and only promote a prospect if the public contact route and listing evidence improve.
 
 ## 2026-07-30 Lead-Generation Result Snapshot
 
-- Total Rome/Milan entries on file today: 4.
+- This CRM is a curated active subset. The full review sheet currently has 30 rows, 0 approved, and remains the source of truth.
+- Active Rome/Milan entries on file in this CRM: 4.
 - Verified public contact route: ROMAC / Stay ROMAC, with `hello@stayromac.com` and `+39 06 8745 0447` from the public contact page. Status: market-map / possible strategic lead, likely above the ideal small-operator range.
 - Partially verified / not yet sendable: Travel Inside, with public property-manager evidence only. Status: research-only until a direct contact route and listing count are verified.
 - Public Airbnb evidence only: Charme Holidays, with around 10 listings visible in search snippets. Status: potential lead, but contact-route verification is still missing.
-- Reference-only, not qualified: Alex / co-host Giovanni, Casa di Testaccio. Status: target-style example only, with Airbnb message route and no public off-Airbnb contact found yet.
-- Blockers: no additional public off-Airbnb contact details were verified for the Milan lead or the two Rome leads beyond ROMAC, so no outreach was drafted or sent.
+- Reference-only, not qualified: Alex / co-host Giovanni, Casa di Testaccio. Status: target-style example only, with Airbnb message route and no public off-Airbnb contact found yet. No outreach until Damiano reviews host/property fit and approves final wording.
+- Blockers: no additional public off-Airbnb contact details were verified for the Milan lead or the two Rome leads beyond ROMAC, so no outreach was drafted or sent. Every operator still requires Damiano approval before entering any send batch.
+
+## 2026-08-07 Lead-Generation Result Snapshot
+
+- Hosts analysed: 2
+- Qualified leads found: 2
+- Verified emails found: 2
+- Emails drafted: 0
+- Emails sent: 0
+- Replies received: 0
+- Meetings booked: 0
+- High-potential prospects needing Damiano: `Maison del Colosseo / Casa all'Ombra del Colosseo`; `HOD'A suites / HOD'A Milano zen apartment`
+- Analysis notes prepared: Rome property at `21 Via del Cardello, 00184 Rome` is a second-floor, no-elevator one-bedroom with one bathroom, living room sofa bed, kitchen, microwave, induction hob and kettle; Milan property at `Via Nicola d'Apulia 11, 20125 Milano` is a 1-bedroom, 1-bath, 2-guest zen apartment with site and Airbnb evidence aligned.
+- Blockers: stronger pricing and calendar verification still depends on public-access evidence.
+- Next run focus: keep outreach paused, confirm any remaining contact-route details, and decide whether either prospect merits a draft once the public evidence is complete.
+
+## 2026-08-08 Draft Snapshot
+
+- Prospects moved from qualified to draft-ready: 2
+- Draft emails prepared: 2
+- Emails sent: 0
+- Approval pack: `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-08-08.md`
+- Approval needed: send or edit Maison del Colosseo and HOD'A suites emails.
+- HOD'A caveat: direct Airbnb fetch redirected, so evidence is based on public search results plus the public HOD'A site.
 
 ## Outreach Rules
 
 - Subject: `Possiamo aumentare i ricavi dei vostri Airbnb`
 - Every email must include one specific observation from the host's actual listings.
+- Future draft notes must always name the exact Airbnb listing URL in the first line or opening sentence.
 - Position Lux Oasis as a Revenue Management and Airbnb Growth Partner, not a replacement property manager.
 - Mention Dubai market experience, PriceLabs, listing optimisation, photo order, calendar strategy and conversion improvement.
 - Add operational support only when useful: digital guest guides, guest messaging, check-in/check-out, SOPs, workflow efficiency and automation.
@@ -407,6 +519,27 @@ Keep as send gate:
 
 ## 2026-07-31 Approval Gate Correction
 
+## 2026-08-07 Session Note
+
+- Session date/time: 2026-08-07 10:30 Asia/Dubai
+- Hosts analysed: Maison del Colosseo / Casa all'Ombra del Colosseo (Rome) and HOD'A Milano zen apartment (Milan)
+- Qualified leads: 2
+- Verified emails: `info@maisondelcolosseo.com`, `welcome@hodamilano.eu`
+- Analysis notes prepared: yes
+- Drafts prepared: 0
+- Emails sent: 0
+- Replies received: 0
+- Meetings booked: 0
+- Top prospects: Maison del Colosseo, HOD'A suites
+- Parked public/company leads: RomeLoft, I-Host, GuestHost / Maison Colosseo family, but not first-batch targets
+- Blockers: sends paused; no external outreach until analysis and Damiano approval
+- Next run focus: static pricing and photo-order review, then approval-ready draft wording
+
+### Prospect Details
+
+- Rome: Maison del Colosseo / Casa all'Ombra del Colosseo, 21 Via del Cardello, 00184 Rome, `info@maisondelcolosseo.com`, `+39 3484082106`, second floor, no elevator, 1 bedroom, 1 bathroom, living room with sofa bed, kitchen with microwave, induction hob, kettle.
+- Milan: HOD'A suites / HOD'A Milano zen apartment, Via Nicola d'Apulia 11, 20125 Milano, `welcome@hodamilano.eu`, `+39 340 316 9754`, suites/nest in Milan, 1 bedroom, 1 bathroom, 2 guests.
+
 Damiano clarified that he must approve all operators before they enter the email batch.
 
 Sheet update:
@@ -447,3 +580,76 @@ Updated count after Rome merge:
 - Rome rows: 16.
 - Milan rows: 14.
 - Approved operators: 0.
+
+## 2026-08-03 ORL Outreach Send Log
+
+Damiano approved starting a small ORL outreach test after updating the Italian email wording and attribution rule. First batch sent from Gmail via the workspace OAuth account; no duplicate sent messages were found before sending.
+
+| lead | recipient | subject | Gmail message ID | status | note |
+|---|---|---|---|---|---|
+| Casa Minerva al Pantheon | `info@minervarome.com` | `2-3 osservazioni su Casa Minerva al Pantheon` | `19fc7bd8981e9adc` | Sent 2026-08-03 | Used `https://www.minervarome.com/` as the reviewed public listing/site link. |
+| HouseinMilano | `houseinmilano@gmail.com` | `2-3 osservazioni sui vostri appartamenti a Milano` | `19fc7bd8d426cc22` | Sent 2026-08-03 | Used `https://www.houseinmilano.com/en/apartments-in-milan-vacation-rental-short-term-accommodation/` as the reviewed portfolio link. |
+
+Current first-batch rule:
+
+- Wait for replies before widening too fast.
+- Do not resend Roam Rome, Casa Minerva or HouseinMilano.
+- Use the corrected ORL attribution: Lux Oasis Holiday Homes is the Dubai Airbnb operator/credential; Oasis Revenue Lab is the Revenue Management division, sender, consulting deliverer and biller via Lux Oasis Advisory & Services FZE.
+- If no reply appears after a few business days, prepare one light follow-up for Damiano review before sending. Reply-check cron: `de7750b3-2696-4971-bd9e-38ccb845d99c` for 2026-08-06 10:00 Asia/Dubai.
+
+## 2026-08-03 Targeting Correction And Corrected Batch
+
+Damiano corrected the target segment after Casa Minerva replied directly that they do the same job. Do not treat professional operators, property managers, revenue-management-style businesses, large portfolios or market-map rows as the main ORL Italy target.
+
+Correct target:
+
+- small owner/host-style rows;
+- excellent location;
+- weak/static/old-school commercial setup;
+- quote-first, fixed-price or unclear seasonal pricing signals;
+- poor/disorganised listing quality or likely weak conversion;
+- no evidence that the prospect already runs revenue management, analytics, dynamic pricing or the same advisory service.
+
+Corrected second batch sent:
+
+| lead | recipient | subject | Gmail message ID | status | why this fit |
+|---|---|---|---|---|---|
+| Majo Houses | `info@majohouses.com` | `2-3 osservazioni su Majo Houses` | `19fc7cd4a5cf88f3` | Sent 2026-08-03 | Two visible Rome properties, quote-first/old-school booking signal, good location. |
+| Vantaggio Suites & Apartments | `info@vantaggiobnb.it` | `2-3 osservazioni su Vantaggio Suites & Apartments` | `19fc7cd4c7ac46f1` | Sent 2026-08-03 | Two Vatican-area apartments, small portfolio, good location. |
+| Stay in Rome / Boutique Apartments | `info@stay-in-rome.com` | `2-3 osservazioni sui vostri appartamenti a Roma` | `19fc7cd4f7dbe2c1` | Sent 2026-08-03 | Two central boutique apartments near Trevi / Spanish Steps, old-school rates/booking presentation. |
+| Rome Boutique Apartments / Marzia & Federico | `romeboutiqueapartments@gmail.com` | `2-3 osservazioni su Rome Boutique Apartments` | `19fc7cd5087256be` | Sent 2026-08-03 | Small family-run Prati/Vatican portfolio, likely optimisation upside. |
+| FCR Rome Apartments | `info@fcrromeapartments.it` | `2-3 osservazioni sui vostri appartamenti a Roma` | `19fc7cd52b88d13a` | Sent 2026-08-03 | Three Rome apartments in strong areas; small enough for pricing/calendar/listing review. |
+
+Do not widen beyond this corrected batch until replies are reviewed.
+
+## 2026-08-03 Third Batch After Sheet Review
+
+Damiano asked to continue through the sheet for other Rome/Milan Airbnb hosts that look poorly managed commercially, not revenue-management/customer-sector operators. Third narrow batch sent:
+
+| lead | recipient | subject | Gmail message ID | status | why this fit |
+|---|---|---|---|---|---|
+| Rome Trastevere Home | `info@rometrasteverehome.com` | `2-3 osservazioni sui vostri appartamenti a Trastevere` | `19fc7d8e70ff9a97` | Sent 2026-08-03 | Trastevere location, direct-booking/old-school presentation, small local host feel. |
+| YourSuiteRome | `Info@yoursuiterome.com` | `2-3 osservazioni sui vostri appartamenti a Roma` | `19fc7d8e9eeee6e0` | Sent 2026-08-03 | Historic-centre Rome apartments, strong locations, still small enough for commercial optimisation review. |
+| Navigli Apartments | `orsini.leti@gmail.com` | `2-3 osservazioni sui vostri appartamenti sui Navigli` | `19fc7d8e90c3e85e` | Sent 2026-08-03 | Milan Navigli location, small apartment set, public owner-style email route. |
+
+Parked / held for now:
+
+- Rental in Rome, FromHometoRome, Heart Milan, EasyHomes and MilanInFlat: may have contact routes, but read more professional/operator-side or need sharper proof before sending under Damiano's corrected rule.
+- Rows with no public off-Airbnb contact remain research-only.
+
+## 2026-08-03 Recurring Search / Outreach Lane
+
+Damiano's voice-note instruction: Rome and Milan are large markets with many more mature hosts; keep searching and running the lane until ORL gets clients.
+
+Recurring job:
+
+- Cron ID: `2e85c5bd-7f7c-41b7-b1bd-44dfb2a5df0e`
+- Cadence: every 2 days at 14:00 Asia/Dubai
+- Limit: up to 5 new sends per run
+- Target: small owner/host-style Rome/Milan STR listings in strong locations with weak/static/old-school commercial setup
+- Exclude: professional property managers, revenue-management businesses, large/polished operators, market-map rows, duplicate contacts, Casa Minerva, HouseinMilano and any other wrong-segment prospects
+- Required each run: verify off-Airbnb contact, one specific observation, Gmail duplicate check, CRM/Control Tower/memory update, concise Telegram result
+
+Reusable workflow proposal created: `orl-italy-host-outreach-20260803-43282154b6` (pending).
+
+Reply-routing update, 2026-08-03: recurring outreach cron `2e85c5bd-7f7c-41b7-b1bd-44dfb2a5df0e` and reply-check cron `de7750b3-2696-4971-bd9e-38ccb845d99c` now require replies to be surfaced/forwarded to `damiano@luxoasisadvisory.com`, with CRM status updated for where the reply landed and whether Damiano was notified/included.
