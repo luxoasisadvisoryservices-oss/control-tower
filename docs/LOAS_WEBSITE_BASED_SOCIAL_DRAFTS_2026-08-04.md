@@ -6,7 +6,7 @@ Source websites checked live:
 
 - Lux Oasis Advisory: https://luxoasisadvisory.com
 - Oasis Revenue Lab: https://www.oasisrevenuelab.com
-- Conviva: https://www.conviva.live
+- Oasis Guest Lab: old bridge domain until oasisguestlab.ai is live
 - Lux Oasis Renovation: https://www.luxoasisrenovations.com
 
 ## Positioning
@@ -17,7 +17,7 @@ Use this distinction:
 
 - Lux Oasis Advisory: parent ecosystem and credibility.
 - Oasis Revenue Lab: revenue management, PriceLabs strategy, daily Telegram revenue analyst and floor-price protection.
-- Conviva: AI-powered WhatsApp guest communication, unit-specific knowledge, Chatwoot monitoring and human handover.
+- Oasis Guest Lab: AI-powered WhatsApp guest communication, unit-specific knowledge, Chatwoot monitoring and human handover.
 - Lux Oasis Renovation: Dubai STR renovation project management, not contracting, from scope/design to guest-ready handover.
 
 ## LinkedIn Drafts
@@ -31,7 +31,7 @@ The work starts from real hospitality operations, not theory: live properties, p
 Our ecosystem is developing across four connected areas:
 
 - Oasis Revenue Lab for revenue management and daily pricing intelligence.
-- Conviva for AI-powered guest communication and human handover.
+- Oasis Guest Lab for AI-powered guest communication and human handover.
 - Nest Match for coordination between owners, operators and service providers.
 - Lux Oasis Renovation for STR-ready renovation project management.
 
@@ -47,13 +47,13 @@ Oasis Revenue Lab is being built as a revenue-management layer for STR operators
 
 Not a generic dashboard. A practical revenue analyst built around real operator decisions.
 
-### 3. Conviva
+### 3. Oasis Guest Lab
 
 Guest communication breaks down when the answer depends on unit-specific details.
 
 Where is the AC guide? What is the exact access step? What should be escalated? Which cases need a human?
 
-Conviva gives each holiday home its own intelligent communication layer. Guests message on WhatsApp, operators monitor through Chatwoot, routine questions can be handled quickly, and important cases can be handed to a human.
+Oasis Guest Lab gives each holiday home its own intelligent communication layer. Guests message on WhatsApp, operators monitor through Chatwoot, routine questions can be handled quickly, and important cases can be handed to a human.
 
 The direction is not blind automation. It is supervised guest operations with memory, structure and escalation.
 
@@ -81,11 +81,11 @@ Your prices should not be guessed once a month.
 
 Oasis Revenue Lab is built around daily revenue checks, PriceLabs strategy, floor-price protection and practical operator judgement.
 
-### Conviva
+### Oasis Guest Lab
 
 Guest messages should not depend on memory, screenshots and late-night panic.
 
-Conviva is a WhatsApp-native guest communication layer with unit-specific knowledge, Chatwoot monitoring and human handover.
+Oasis Guest Lab is a WhatsApp-native guest communication layer with unit-specific knowledge, Chatwoot monitoring and human handover.
 
 ### Renovation
 

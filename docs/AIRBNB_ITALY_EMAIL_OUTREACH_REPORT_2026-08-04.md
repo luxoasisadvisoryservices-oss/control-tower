@@ -64,3 +64,7 @@ The next outreach should be smaller and more evidence-led:
 - avoid professional operators and polished companies;
 - prepare approval-ready drafts only for the strongest Rome leads;
 - do not send more until Damiano approves the next batch.
+
+## Latest Verified Prospects
+
+Revenue-management-first note for 2026-08-15: Al 7 Rooms in Rome (4.61 rating, bottom 10% of eligible listings, central guest house with automatic code check-ins, no breakfast, cleaning every other day) and Cozy Bruno in Milan (4.29 rating, 35 reviews, bottom 10% of eligible listings, host Andrea with 11 years hosting) remain relevant verified prospects for outreach analysis.

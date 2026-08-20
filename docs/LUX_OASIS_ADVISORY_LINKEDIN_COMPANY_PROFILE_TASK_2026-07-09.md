@@ -4,7 +4,7 @@ Status: next-week task for Lin. Do not publish posts or ads without Damiano appr
 
 Objective: create the LinkedIn company page for Lux Oasis Advisory & Services LLC so the business has a clean official profile before product advertising starts.
 
-Use for: Oasis Revenue Lab, Conviva, Nest Match, Mission Control / Control Tower and Lux Oasis Renovation / advisory services.
+Use for: Oasis Revenue Lab, Oasis Guest Lab, Nest Match, Mission Control / Control Tower and Lux Oasis Renovation / advisory services.
 
 Keep separate from Lux Oasis Holiday Homes LLC, which remains the holiday-home operating and owner-acquisition company.
 
@@ -20,7 +20,7 @@ Lux Oasis Advisory & Services LLC builds practical tools and advisory systems fo
 
 Our work combines real holiday-home operating experience with AI-enabled guest operations, revenue management, marketplace infrastructure, renovation support and founder operating systems.
 
-Current product and service lines include Oasis Revenue Lab, Conviva, Nest Match, Mission Control and Lux Oasis Renovation.
+Current product and service lines include Oasis Revenue Lab, Oasis Guest Lab, Nest Match, Mission Control and Lux Oasis Renovation.
 
 We focus on useful execution, clear reporting and supervised automation, not generic AI hype.
 

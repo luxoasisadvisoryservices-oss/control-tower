@@ -1,3 +1,55 @@
+# 2026-08-18 JBR outbound blocked, 19:22 Dubai
+
+Fresh Gmail/Spam/All Mail recovery found no clean unsent approved JBR direct-email lead. The fresh Property Finder alerts were `1a01490ef9e13a5d`, `1a01490fe581da57`, `1a01491236d4efc7`, `1a014911e74cffc3`, `1a0149127fdc01f5`, `1a01491288e94429`, `1a0141bb81a00406`, `1a0141c54b2e4ff0`, `1a0141e43565b234`, `1a0141f0cf6693fd`, `1a006b34a9f15a5d`, `1a00bd995b8c9613` and `1a00bd9b9ea7797c`, which resolved to The Views, Golf Towers, Tanaro, Sparkle Towers and Palm Jumeirah rather than a clean JBR direct-agent route. The worker queue remains exhausted and no outbound email was sent.
+
+Exact blocker: no new qualifying JBR direct agent email was exposed; the fresh alerts were parked or out of scope and the hardcoded worker routes remain already marked sent in `memory/jbr-agent-outbound-state.json`.
+
+# 15 Aug 2026 JBR outbound blocked, 11:20 Dubai
+
+Fresh Gmail/Spam/All Mail recovery found no clean unsent approved JBR direct-email lead. The only post-watermark property alert was `1a0018cf0c69d375` (`FW: New properties added in Palm Jumeirah`), which is outside JBR, plus the unrelated Airbnb forward `19ff4f1114db0d88` and the already-sent JBR / Marina owner-intro send `19ff0824d5349da4`. No furnished JBR 1-2BR management route was exposed, the worker queue remains exhausted, and no outbound email was sent.
+
+Exact blocker: the fresh alerts did not expose a new sendable direct agent email in JBR; the worker queue remains exhausted because all hardcoded JBR routes are already marked sent in `memory/jbr-agent-outbound-state.json`.
+
+# 11 Aug 2026 reply sweep and public-source refresh, 15:07 Dubai
+
+Fresh Gmail/OAuth sweep across the June 19-20 outreach set, the 3 Jul forwarded-alert batch, the named public contacts, and the JBR subject terms found no genuinely new external human replies after the current watermark. The only candidate threads remained the Murjan 2 decline and the `prioritydubbaiuae@gmail.com` mailer-daemon bounce, so no new reply fingerprints were added and no Damiano notification was needed. `memory/jbr-acquisition-replies.json` lastScan was refreshed to `2026-08-11T11:07:44Z`.
+
+Fresh public-source research refreshed the live JBR comparison lanes:
+
+- Bahar 6: furnished 1BR at AED 84,999/year, 761 sqft, Marina view, via DDA Real Estate / Mari Dagundaridze.
+- Murjan 2: furnished 1BR at AED 100,000/year, available from 7 Aug, partial sea and Marina view, via REDS Real Estate Broker / Habib.
+- Murjan 1: furnished 1BR at AED 100,000/year, Marina view, via SPICA Real Estate / Maiyar Mohamad Alkak.
+- Rimal 4: furnished 1BR at AED 120,000/year, full sea view, via Linda's Real Estate / Angelica Gaite.
+- Jumeirah Gate Tower 1: furnished 1BR at AED 8,000 monthly, Marina View Balcony, via Mint Stay Homes Rental / Carla Sanchez.
+- Rimal 1: furnished 2BR at AED 11,500 monthly, Marina and sea views, via Awie Tan.
+
+Sparkle Tower stays parked and non-JBR remains excluded unless scope is expanded.
+
+# 9 Aug 2026 reply sweep and public-source refresh, 19:05 Dubai
+
+Fresh Gmail/OAuth sweep across the June 19-20 outreach set, the 3 Jul forwarded-alert batch, the named public contacts, and the JBR subject terms found no genuinely new external human replies after the current watermark. The only candidate threads remained the Murjan 2 decline and the `prioritydubbaiuae@gmail.com` mailer-daemon bounce, so no new reply fingerprints were added and no Damiano notification was needed. `memory/jbr-acquisition-replies.json` lastScan was refreshed to `2026-08-09T15:05:41Z`.
+
+Fresh public-source research keeps the useful JBR comparison lanes live:
+
+- Bahar 6: furnished 1BR at AED 84,999/year, Marina view, 761 sqft. Public route visible via DDA Real Estate / Mari Dagundaridze.
+- Bahar 6: furnished 1BR at AED 80,000/year, 761 sqft. Public route visible via betterhomes / Sumayla Ishrat Ali.
+- Rimal 3: furnished 1BR at AED 115,000/year, prime beachfront location, 929 sqft. Public route visible via Property Finder / Edgars Laucenieks.
+- Jumeirah Gate Tower 1: furnished 1BR at AED 160,000/year, Marina view, 706 sqft. Public route visible via PRIME CASPIAN REAL ESTATE / Shokhina Davliatova.
+- Sadaf 7: furnished 2BR at AED 110,000/year and a separate upgraded 2BR at AED 225,000/year. Public routes visible via Bayut and City Star Real Estate Broker.
+- Rimal 6: furnished 2BR at AED 164,888/year, full sea view, 1,422 sqft. Public route visible via Luxbridge International Realty / Figo Fernandes.
+
+Sparkle Tower stays parked and non-JBR remains excluded unless scope is explicitly expanded.
+
+# 9 Aug 2026 JBR outbound blocked, 14:xx Dubai
+
+Fresh Gmail/Spam/All Mail sweep for the 9 Aug cron window found no clean unsent approved JBR direct-email lead. The only new Property Finder forwards were portal alerts for Sparkle Towers, Tanaro / The Views, and The Fairways / The Views style stock. Those are outside the current JBR direct-email lane or remain parked under the existing scope rules, and they did not expose any new safe direct agent email route. `check_jbr_replies_expanded.mjs` also returned `newReplyCount: 0`, so there was no reply-driven reason to reopen a lane.
+
+Exact blocker: the worker queue in `scripts/jbr_outbound_agent_email_worker.mjs` is still exhausted and all hardcoded JBR routes remain marked sent in `memory/jbr-agent-outbound-state.json`; the fresh mailbox alerts did not add a new qualifying direct-email recipient, so nothing was sent.
+
+# 9 Aug 2026 reply sweep, 11:03 Dubai
+
+Fresh Gmail/OAuth sweep across the June 19-20 outreach set, the 3 Jul forwarded-alert batch, the named public contacts, and the JBR subject terms found no genuinely new external human replies after the current watermark. The only candidate threads remained the Murjan 2 decline and the `prioritydubbaiuae@gmail.com` mailer-daemon bounce, so no new reply fingerprints were added and no Damiano notification was needed. `memory/jbr-acquisition-replies.json` lastScan was refreshed to `2026-08-09T11:03:20Z`.
+
 # 7 Aug 2026 reply sweep and public-source refresh, 15:05 Dubai
 
 Fresh Gmail/OAuth sweep across the June 19-20 outreach set, the 3 Jul forwarded-alert batch, the named public contacts, and the JBR subject terms found no new external human replies after the current watermark. The only candidate threads remained the already-known Murjan 2 decline and the `prioritydubbaiuae@gmail.com` mailer-daemon bounce, so no new reply fingerprints were added and no Damiano notification was needed. `memory/jbr-acquisition-replies.json` lastScan was refreshed to `2026-08-07T11:05:37Z`.

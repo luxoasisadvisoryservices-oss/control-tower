@@ -2,7 +2,7 @@
 
 Owner: Main COO Agent  
 Business: Oasis Revenue Lab / Lux Oasis Advisory & Services FZE  
-Status: Draft-only. Do not send without Damiano approval.
+Status: Sent on 2026-08-09 after Damiano directly instructed the agent to send emails and get meetings.
 
 ## Context
 
@@ -76,10 +76,12 @@ Damiano Pesciaioli
 
 ## Approval Card
 
-Action: Send the two draft emails above to `info@maisondelcolosseo.com` and `welcome@hodamilano.eu`.
+Action: Sent the two draft emails above to `info@maisondelcolosseo.com` and `welcome@hodamilano.eu` on 2026-08-09.
 
 Reason: Both fit the corrected small-host / weak-commercial-setup lane better than large operators, and each email uses one public listing observation.
 
 Risk: Low-medium. It is external outreach, and the HOD'A evidence is public-search based because Airbnb direct fetch redirected.
 
-Approve? Yes / No / Edit
+Result:
+- Maison del Colosseo Gmail ID: `19fe5454ff9a7ca0`
+- HOD'A Milano Gmail ID: `19fe545509b38bcc`

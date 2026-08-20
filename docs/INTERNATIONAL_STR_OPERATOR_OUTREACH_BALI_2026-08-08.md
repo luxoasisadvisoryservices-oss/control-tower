@@ -63,6 +63,32 @@ These are not send-ready. Each needs contact verification, portfolio size check,
 | BaliSuperHost | 500+ villa scale in snippets | Avoid first | Too large for first wave. |
 | Smaller Airbtics rows: Moria Villa Management, Only Stays, Zoe Villas Management, Friede Property Management, Zenguest Bali, Wananta Living | Reported around 19-24 listings in snippet | Candidate pool | Needs direct source verification, websites/contact, and exact observation. |
 
+## 2026-08-15 Corrective Research Batch
+
+Reason for batch: Damiano corrected the morning reporting and reminded that Bali revenue-management outreach should keep moving as an ongoing commercial lane.
+
+Status: research verified, no external outreach sent.
+
+Counts:
+
+- Bali companies found/reviewed: 9
+- Rows added below: 6
+- Contact routes verified: 4 direct routes, 2 form/website routes only
+- Drafts sent: 0
+- Meetings booked: 0
+- Tracker updated: yes, this file and `INTERNATIONAL_STR_OPERATOR_OUTREACH_BALI_2026-08-15.csv`
+
+| Date | Lead | Bali area / scale signal | Contact route | ORL / OGL angle | Status | Next action |
+|---|---|---|---|---|---|---|
+| 2026-08-15 | Azeroth PM | Bali short-term rental management; Canggu, Berawa, Pererenan, Seminyak, Uluwatu, Ubud and Sanur pages; page says PriceLabs / Beyond, owner portal and net reporting | `info@azerothpm.com`; `booking@azerothpm.com`; WhatsApp/phone `+62 811 3801 4100`, sales `+62 811 3801 4200` | Strong benchmark/channel target: already speaks dynamic pricing, net revenue and reporting, so outreach should be a peer revenue-management exchange or tool/channel partnership, not basic education | Research verified / draft not sent | Draft a short peer note around PriceLabs/Beyond, owner reporting and Dubai STR benchmark comparison |
+| 2026-08-15 | Individual Bali Villas / Individual Bali Hospitality | Bali villa marketing and full management; page claims AI-driven dynamic pricing, owner portal, forecasts, guest support and SOPs | `info@individualbalivillas.com`; phone from search result `+62 811 399513`; website contact form | Possible channel prospect: they already package marketing/full management, so ORL angle is external revenue audit/reporting layer for one villa, plus Oasis Guest Lab as guest-message QA | Research verified / draft not sent | Verify exact current email/phone from site or social before any send |
+| 2026-08-15 | Kingswood Bali Villas | Canggu case-study operator; page claims 3BR Canggu villa moved from under 40% occupancy to 85% after pricing, marketing and guest-experience changes | Website/property-management page; direct email not cleanly extracted in fetch; search result showed WhatsApp/phone/email icons only | Revenue-case benchmark: useful for market language and possibly a peer conversation, but contact route needs cleanup | Research verified / no clean contact | Find clean email/WhatsApp before draft |
+| 2026-08-15 | Bali Villa Management / PT Bali Villa Management | Denpasar-based villa management and holiday-rental marketing; public contact page verified | `info@balivillamanagement.com`; office `+62 361 9004777`; reservations `+62 361 9004778` | Possible older-school operator: pitch should focus on pricing/listing/reporting second opinion, not generic villa management | Research verified / draft not sent | Prepare one concise revenue-review opener after checking portfolio size |
+| 2026-08-15 | Short Stay Bali / Tertata Jelas MGMT | Page says 70+ villas, 2 resorts, 90 staff, dynamic pricing, owner portal, Marriott Homes & Villas, monthly financial reports | Website contact path only from fetched page; contact URL needs manual recovery because `/contact` returned 404 but site menu exposes Contact | Strong market-map/channel lead; likely too mature for first cold sales but useful for ORL positioning and partner benchmarking | Research verified / contact route incomplete | Recover contact page or social route, then benchmark only unless a clear partner angle appears |
+| 2026-08-15 | Balitecture / Spacious Bali management | Page says 80+ villas, 85% average occupancy, dynamic pricing, monthly financial reporting, 20% fee, owner consultation route | Website enquiry form / consultation page; offices in Bali and Hong Kong | Mature operator/benchmark: potential partner or market intelligence call, not first weak-host target | Research verified / form route | Keep as benchmark; only draft if we want a peer/operator revenue discussion |
+
+Working conclusion: Bali is not a one-host amateur market from these first results. The visible operators are already selling dynamic pricing and owner reporting. The better first commercial path is either (1) small villa operators below this tier, still to be sourced, or (2) a peer/channel offer to operators who already understand revenue management but may want external audits, PriceLabs review, owner reporting, or guest-message QA.
+
 ## Draft Angle A - Oasis Revenue Lab
 
 Subject idea:

@@ -12,13 +12,13 @@ Platform rule:
 
 Umbrella positioning:
 
-Lux Oasis Advisory & Services LLC is the umbrella ecosystem for short-term-rental clients. Conviva and Oasis Revenue Lab are direct offers inside it. Nest Match is its own standalone project sitting above/cross-connecting the ecosystem as the marketplace/network layer, while still under the Advisory umbrella.
+Lux Oasis Advisory & Services LLC is the umbrella ecosystem for short-term-rental clients. Oasis Guest Lab and Oasis Revenue Lab are direct offers inside it. Nest Match is its own standalone project sitting above/cross-connecting the ecosystem as the marketplace/network layer, while still under the Advisory umbrella.
 
 Slack delivery:
 
 - Pack summary: CEO Strategy Advisory board `#lux-aosis-advisory-and-serivces` / `C0B1XHNEHGE`, message `1785576065.425559`.
 - Monday ORL caption: message `1785576126.239859`.
-- Wednesday Conviva caption: message `1785576126.700789`.
+- Wednesday Oasis Guest Lab caption: message `1785576126.700789`.
 - Friday Nest Match caption: message `1785576127.146479`.
 - Slack image upload blocked: `missing_scope files:write`. Images sent to Damiano on Telegram as messages `6630`, `6631`, `6632`.
 
@@ -45,7 +45,7 @@ Improved visual concepts:
 ## Asset Files
 
 - Monday / Oasis Revenue Lab visual: `assets/social/lux-oasis-advisory/2026-08-01/orl-monday-revenue-lab.png`
-- Wednesday / Conviva visual: `assets/social/lux-oasis-advisory/2026-08-01/conviva-wednesday-guest-ops.png`
+- Wednesday / Oasis Guest Lab visual: `assets/social/lux-oasis-advisory/2026-08-01/conviva-wednesday-guest-ops.png`
 - Friday / Nest Match visual: `assets/social/lux-oasis-advisory/2026-08-01/nest-match-friday-ecosystem.png`
 
 ## Monday - Oasis Revenue Lab
@@ -87,7 +87,7 @@ Lin note:
 
 Use the Price Lab Expert Dashboard QR as the scan-to-message CTA when creating the visual/story version. Do not add guaranteed revenue, profit or occupancy claims.
 
-## Wednesday - Conviva
+## Wednesday - Oasis Guest Lab
 
 Theme: guest operations with control, knowledge and escalation.
 
@@ -99,9 +99,9 @@ Suggested overlay headline:
 
 Caption:
 
-Another part of the Lux Oasis Advisory & Services LLC ecosystem is Conviva.
+Another part of the Lux Oasis Advisory & Services LLC ecosystem is Oasis Guest Lab.
 
-Conviva is being built for short-term-rental guest operations, where speed matters, but guessing is dangerous.
+Oasis Guest Lab is being built for short-term-rental guest operations, where speed matters, but guessing is dangerous.
 
 A guest may ask something simple:
 
@@ -113,7 +113,7 @@ A guest may ask something simple:
 
 The real challenge is not only answering quickly. The challenge is answering from the correct property knowledge, using the operator's rules, and escalating when the answer is unclear or risky.
 
-That is the direction behind Conviva: supervised guest-operations support for STR operators, grounded in unit knowledge and human approval where needed.
+That is the direction behind Oasis Guest Lab: supervised guest-operations support for STR operators, grounded in unit knowledge and human approval where needed.
 
 CTA:
 
@@ -121,11 +121,11 @@ If you operate short-term rentals and guest communication is becoming hard to co
 
 Hashtags:
 
-`#Conviva #LuxOasisAdvisory #GuestExperience #ShortTermRental #DubaiHospitality #HolidayHomesDubai #GuestOperations #PropTech #AIForHospitality #STR`
+`#OasisGuestLab #LuxOasisAdvisory #GuestExperience #ShortTermRental #DubaiHospitality #HolidayHomesDubai #GuestOperations #PropTech #AIForHospitality #STR`
 
 Lin note:
 
-Do not position Conviva as fully autonomous guest messaging. Position it as supervised support with knowledge base and escalation.
+Do not position Oasis Guest Lab as fully autonomous guest messaging. Position it as supervised support with knowledge base and escalation.
 
 ## Friday - Nest Match
 
@@ -154,7 +154,7 @@ Nest Match is being built around that coordination problem.
 
 The long-term idea is simple: create a more useful connection layer between operators, owners, agents, service providers and property opportunities.
 
-It supports the same ecosystem as Oasis Revenue Lab and Conviva, but it should be presented as the bigger marketplace/network project, not just an add-on.
+It supports the same ecosystem as Oasis Revenue Lab and Oasis Guest Lab, but it should be presented as the bigger marketplace/network project, not just an add-on.
 
 CTA:
 
@@ -166,7 +166,7 @@ Hashtags:
 
 Lin note:
 
-Do not present Nest Match as a small feature under ORL or Conviva. It is its own marketplace/network project, still under the Lux Oasis Advisory & Services LLC umbrella.
+Do not present Nest Match as a small feature under ORL or Oasis Guest Lab. It is its own marketplace/network project, still under the Lux Oasis Advisory & Services LLC umbrella.
 
 ## LinkedIn Versions
 
@@ -200,7 +200,7 @@ LinkedIn hashtags:
 
 `#OasisRevenueLab #LuxOasisAdvisory #ShortTermRental #RevenueManagement #DubaiRealEstate #HospitalityTech`
 
-### Wednesday LinkedIn - Conviva
+### Wednesday LinkedIn - Oasis Guest Lab
 
 Guest communication in short-term rentals is not only about replying quickly.
 
@@ -208,9 +208,9 @@ Speed matters, but accuracy matters more.
 
 A guest might ask about access, parking, building rules, amenities, maintenance, check-out, luggage, visitors or a problem inside the apartment. A fast answer that is not grounded in the actual property knowledge can create more risk than silence.
 
-That is the problem behind Conviva, one of the products being built inside the Lux Oasis Advisory & Services LLC ecosystem.
+That is the problem behind Oasis Guest Lab, one of the products being built inside the Lux Oasis Advisory & Services LLC ecosystem.
 
-Conviva is being designed as supervised guest-operations support for short-term-rental operators. The direction is practical:
+Oasis Guest Lab is being designed as supervised guest-operations support for short-term-rental operators. The direction is practical:
 
 - answer from property-specific knowledge;
 - use the operator's rules and approved information;
@@ -219,7 +219,7 @@ Conviva is being designed as supervised guest-operations support for short-term-
 
 The goal is not uncontrolled autonomous messaging. The goal is better guest operations with more structure, better knowledge and cleaner escalation.
 
-For operators managing multiple apartments, guest communication becomes harder to control as the portfolio grows. Conviva is being built around that exact operating pain.
+For operators managing multiple apartments, guest communication becomes harder to control as the portfolio grows. Oasis Guest Lab is being built around that exact operating pain.
 
 CTA:
 
@@ -227,7 +227,7 @@ If guest communication is becoming harder to manage across your short-term-renta
 
 LinkedIn hashtags:
 
-`#Conviva #LuxOasisAdvisory #GuestExperience #ShortTermRental #HospitalityOperations #PropTech`
+`#OasisGuestLab #LuxOasisAdvisory #GuestExperience #ShortTermRental #HospitalityOperations #PropTech`
 
 ### Friday LinkedIn - Nest Match
 
@@ -242,7 +242,7 @@ Nest Match is being built as the marketplace and network layer inside the Lux Oa
 It is a standalone project, but it sits above and cross-connects the wider ecosystem:
 
 - Oasis Revenue Lab helps with revenue decisions;
-- Conviva helps with guest operations;
+- Oasis Guest Lab helps with guest operations;
 - Nest Match connects operators, owners, agents and service providers around opportunities and execution.
 
 The long-term idea is to make short-term-rental coordination cleaner, more visible and easier to trust.
@@ -261,7 +261,7 @@ LinkedIn hashtags:
 
 Monday: Oasis Revenue Lab.
 
-Wednesday: Conviva.
+Wednesday: Oasis Guest Lab.
 
 Friday: Nest Match.
 

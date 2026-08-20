@@ -24,17 +24,17 @@ Public positioning:
 
 > Lux Oasis Advisory & Services LLC builds practical tools, AI workflows and operating systems for short-term-rental operators, owners and service providers in Dubai.
 
-Use this company for Oasis Revenue Lab, Conviva, Nest Match, Control Tower / agent operating layer, Lux Oasis Renovation / Interiors, and advisory/product infrastructure.
+Use this company for Oasis Revenue Lab, Oasis Guest Lab, Nest Match, Control Tower / agent operating layer, Lux Oasis Renovation / Interiors, and advisory/product infrastructure.
 
 Do not confuse this with Lux Oasis Holiday Homes LLC, which is the holiday-home management and operating proof business.
 
-Positioning correction from Damiano on 2026-08-01: Lux Oasis Advisory & Services LLC is the umbrella ecosystem for short-term-rental clients. Conviva and Oasis Revenue Lab are client offers inside it. Nest Match is a project on its own and sits above/cross-connects the ecosystem as the marketplace/network layer, while still belonging under the Lux Oasis Advisory & Services LLC umbrella.
+Positioning correction from Damiano on 2026-08-01: Lux Oasis Advisory & Services LLC is the umbrella ecosystem for short-term-rental clients. Oasis Guest Lab and Oasis Revenue Lab are client offers inside it. Nest Match is a project on its own and sits above/cross-connects the ecosystem as the marketplace/network layer, while still belonging under the Lux Oasis Advisory & Services LLC umbrella.
 
 ## Ecosystem Explanation
 
 Oasis Revenue Lab: revenue-management intelligence, PriceLabs review, owner-ready reporting, pricing judgement and action plans. Use the Price Lab Expert Dashboard QR/link as a scan-to-message CTA, not as a revenue promise.
 
-Conviva: supervised WhatsApp guest-ops assistant grounded in property-specific knowledge, with human escalation when needed.
+Oasis Guest Lab: supervised WhatsApp guest-ops assistant grounded in property-specific knowledge, with human escalation when needed.
 
 Nest Match: standalone marketplace and coordination project sitting above/cross-connecting the STR ecosystem for operators, service providers, owners, agents and property routes.
 
@@ -50,7 +50,7 @@ Confirmed by Damiano and checked live on 2026-08-03:
 
 - Lux Oasis Advisory hub: `https://luxoasisadvisory.com`
 - Oasis Revenue Lab: `https://www.oasisrevenuelab.com`
-- Conviva: `https://www.conviva.live`
+- Oasis Guest Lab: old bridge domain until oasisguestlab.ai is live
 - Lux Oasis Renovation: `https://www.luxoasisrenovations.com`
 
 Website analysis:
@@ -58,7 +58,7 @@ Website analysis:
 - All four returned HTTP 200 and loaded in browser without main-viewport console errors.
 - Lux Oasis Advisory is the parent credibility site. Use it for company ecosystem, LinkedIn profile, partner context and "what Lux Oasis Advisory & Services LLC is" posts.
 - Oasis Revenue Lab is the clearest commercial offer for LinkedIn: daily revenue intelligence, pricing, PriceLabs, STR operator decision-making.
-- Conviva is the strongest immediate product story for social: WhatsApp guest communication, unit-level knowledge, Chatwoot/human handover and operational relief.
+- Oasis Guest Lab is the strongest immediate product story for social: WhatsApp guest communication, unit-level knowledge, Chatwoot/human handover and operational relief.
 - Lux Oasis Renovation is polished and premium, but social captions should make the offer explicit: Dubai STR renovation project management, not contracting, from scope/design to guest-ready handover.
 - The four pages should be presented as one Lux Oasis Advisory & Services LLC ecosystem, not four disconnected brands.
 
@@ -66,14 +66,14 @@ Website analysis:
 
 1. Company introduction post: what Lux Oasis Advisory & Services LLC is.
 2. Oasis Revenue Lab explainer: QR / Price Lab Expert Dashboard scan-to-message CTA.
-3. Conviva problem/solution post: guest messaging with property-specific knowledge and escalation.
+3. Oasis Guest Lab problem/solution post: guest messaging with property-specific knowledge and escalation.
 4. Nest Match ecosystem post: cleaner coordination between owners, operators, service providers and property routes.
 
 ## First Company Introduction Draft
 
 > Lux Oasis Advisory & Services LLC is building an operating ecosystem for Dubai short-term rentals.
 >
-> From revenue management through Oasis Revenue Lab, to guest operations with Conviva, to marketplace and service-provider coordination through Nest Match, the goal is simple: help operators, owners and partners make better decisions, reduce manual chaos and run stronger short-term-rental businesses.
+> From revenue management through Oasis Revenue Lab, to guest operations with Oasis Guest Lab, to marketplace and service-provider coordination through Nest Match, the goal is simple: help operators, owners and partners make better decisions, reduce manual chaos and run stronger short-term-rental businesses.
 >
 > This is being built from real operating pain inside the Lux Oasis ecosystem: pricing decisions, guest communication, property readiness, owner reporting, service-provider coordination and daily execution.
 >

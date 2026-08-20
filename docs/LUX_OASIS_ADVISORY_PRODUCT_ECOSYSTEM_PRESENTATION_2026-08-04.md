@@ -7,7 +7,7 @@ Audience: banker, funding partner, advisor, operator, beta user, commercial part
 Practical tools, AI workflows and operating systems for short-term-rental operators.
 
 Core products:
-- Conviva
+- Oasis Guest Lab
 - Oasis Revenue Lab
 - Nest Match
 
@@ -33,11 +33,11 @@ Lux Oasis Advisory turns real operating pain from holiday homes into reusable se
 - marketplace coordination;
 - operating dashboards and agent workflows.
 
-## Slide 4 - Conviva
+## Slide 4 - Oasis Guest Lab
 
 Supervised guest communication for short-term-rental operators.
 
-Conviva helps operators manage WhatsApp-style guest operations using property-specific knowledge and escalation.
+Oasis Guest Lab helps operators manage WhatsApp-style guest operations using property-specific knowledge and escalation.
 
 It is designed to:
 - answer common guest questions from unit knowledge;
@@ -80,7 +80,7 @@ Dubai is the first proof market. The product should be global-capable, but liqui
 
 Each product solves a different daily STR pain.
 
-- Conviva: guest operations and communication.
+- Oasis Guest Lab: guest operations and communication.
 - Oasis Revenue Lab: revenue decisions and owner reporting.
 - Nest Match: market coordination and trusted network.
 
@@ -92,7 +92,7 @@ The shared advantage is that each product is built from real Lux Oasis operating
 
 The ecosystem is real, but each product has different readiness.
 
-Conviva:
+Oasis Guest Lab:
 - Hostaway/data path is no longer the main blocker.
 - Dashboard add/edit, property-info structure and final polish still need completion before stronger public demo.
 
@@ -108,7 +108,7 @@ Nest Match:
 
 Start service-led, then productise what repeats.
 
-Conviva:
+Oasis Guest Lab:
 - controlled pilot for 1-5 units;
 - supervised guest-ops support;
 - per-unit monthly pricing after proof.
@@ -152,7 +152,7 @@ Funding should support proof and controlled growth.
 
 Good use:
 - product safety fixes and QA;
-- Conviva demo/proof pack;
+- Oasis Guest Lab demo/proof pack;
 - ORL data truth and report loop;
 - Nest Match controlled beta infrastructure;
 - tightly targeted customer discovery and beta onboarding.
@@ -168,7 +168,7 @@ Bad use:
 Support a proof-led STR product ecosystem.
 
 Near-term priorities:
-- finish Conviva demo readiness;
+- finish Oasis Guest Lab demo readiness;
 - build ORL daily decision and owner-report loop;
 - fix Nest Match P0 launch blockers;
 - run controlled beta and pilot conversations;
@@ -176,4 +176,4 @@ Near-term priorities:
 
 One-line answer:
 
-Lux Oasis Advisory builds practical operating products for short-term-rental operators: Conviva for guest operations, Oasis Revenue Lab for revenue decisions, and Nest Match for marketplace coordination.
+Lux Oasis Advisory builds practical operating products for short-term-rental operators: Oasis Guest Lab for guest operations, Oasis Revenue Lab for revenue decisions, and Nest Match for marketplace coordination.
