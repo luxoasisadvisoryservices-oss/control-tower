@@ -85,3 +85,48 @@ Risk: Low-medium. It is external outreach, and the HOD'A evidence is public-sear
 Result:
 - Maison del Colosseo Gmail ID: `19fe5454ff9a7ca0`
 - HOD'A Milano Gmail ID: `19fe545509b38bcc`
+
+## Follow-up Draft - 2026-08-22
+
+Status: Draft only. Not sent.
+Scope: Light follow-up for the 2026-08-09 batch. Keep the no-resend list intact and keep the reply path on `damiano@luxoasisadvisory.com`.
+
+### Prospect 1 - FromHometoRome / FHTR
+
+Opening line must include the exact listing link first: `https://www.airbnb.com/rooms/11203141`
+
+```text
+Buongiorno,
+
+torno su questo annuncio: https://www.airbnb.com/rooms/11203141.
+Wanderlust mi sembra ancora una base molto interessante; con un taglio leggero e collaborativo, credo possa valere la pena guardare insieme dove ci sono piccoli margini su prezzo, calendario e presentazione, soprattutto nei periodi di domanda più forte a Roma.
+
+Se vi va, preparo volentieri una breve analisi gratuita con 2-3 osservazioni pratiche e poi, se utile, la condividiamo in una chiamata di 20 minuti.
+
+Vi interessa?
+
+Cordiali saluti,
+Damiano Pesciaioli
+Founder, Lux Oasis Holiday Homes
+Oasis Revenue Lab
+```
+
+### Prospect 2 - EasyHomes S.r.l. / easyhomes
+
+Opening line must include the exact listing link first: `https://www.airbnb.com/rooms/32534097`
+
+```text
+Buongiorno,
+
+torno su questo annuncio: https://www.airbnb.com/rooms/32534097.
+La combinazione Duomo / Brera / Porta Venezia resta molto coerente; con un approccio semplice e collaborativo, penso possa essere utile confrontare prezzi, calendario e posizionamento tra unita simili per vedere dove c'e ancora spazio di miglioramento.
+
+Se vi va, preparo volentieri una breve analisi gratuita con 2-3 osservazioni pratiche e poi, se utile, la condividiamo in una chiamata di 20 minuti.
+
+Vi interessa?
+
+Cordiali saluti,
+Damiano Pesciaioli
+Founder, Lux Oasis Holiday Homes
+Oasis Revenue Lab
+```

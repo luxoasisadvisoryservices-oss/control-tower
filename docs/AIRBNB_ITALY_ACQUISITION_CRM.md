@@ -28,6 +28,14 @@ Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Co
 - Reply routing remains unchanged: any real reply should still surface to `damiano@luxoasisadvisory.com`.
 - No stronger Rome/Milan lead displaced the current shortlist in this state check, so keep the existing evidence-backed prospects and wording rather than duplicating or broadening the send set.
 
+## 2026-08-22 Run Note
+
+- The 2026-08-09 outbound batch is still reply-free, so the 10-day follow-up window remains open.
+- The next concrete action is a light follow-up draft for Damiano review only, not a send.
+- Keep the existing sent-batch exclusions intact: `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, and `Mama's Home Rome` stay on the no-resend list.
+- Reply routing remains `damiano@luxoasisadvisory.com`.
+- The strongest existing shortlist remains `FromHometoRome / FHTR` and `EasyHomes`, plus `Rome Trastevere Home` and `Mama's Home Rome` as existing shortlisted prospects.
+
 Active worker: OpenClaw cron `c33dea31-8eea-4b8a-8f2e-1ed60e60cba0`, `Airbnb Italy Acquisition Agent`, daily 10:30 Asia/Dubai, isolated silent run. Telegram only for approval-ready drafts/batches, real replies/meetings, hard blockers, or a specific Damiano decision. First manual run enqueued 2026-07-30.
 
 ## Positioning
