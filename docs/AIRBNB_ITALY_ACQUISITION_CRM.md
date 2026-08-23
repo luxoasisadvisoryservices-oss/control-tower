@@ -5,6 +5,14 @@ Business: Lux Oasis Holiday Homes / Oasis Revenue Lab
 Markets: Rome and Milan  
 Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Continue research and draft outreach only for new prospects unless Damiano approves or directly instructs a send.
 
+## 2026-08-23 Run Note
+
+- The 2026-08-09 outbound batch is still reply-free on the current check.
+- A corrected light follow-up draft package has been prepared for the four sent prospects: `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, and `Mama's Home Rome`.
+- Keep the fixed no-resend exclusions intact: `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, and `Mama's Home Rome`.
+- Reply routing remains `damiano@luxoasisadvisory.com`.
+- No stronger Rome/Milan prospect was added in this run, so no new CRM rows were created.
+
 ## 2026-08-17 Run Note
 
 - Memory search was unavailable in this run because the upstream context returned `token_expired`, so this pass stayed on file state and public evidence only.
