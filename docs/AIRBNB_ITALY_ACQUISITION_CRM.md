@@ -5,6 +5,10 @@ Business: Lux Oasis Holiday Homes / Oasis Revenue Lab
 Markets: Rome and Milan  
 Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Continue research and draft outreach only for new prospects unless Damiano approves or directly instructs a send.
 
+## 2026-08-24 Run Note
+
+- Today's check found the 2026-08-09 batch still reply-free, no stronger Rome/Milan prospect was added, reply routing remains `damiano@luxoasisadvisory.com`, and no new CRM rows were created.
+
 ## 2026-08-23 Run Note
 
 - The 2026-08-09 outbound batch is still reply-free on the current check.
