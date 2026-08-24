@@ -1,24 +1,24 @@
 # ORL Micro-Host Targeting Correction - 2026-08-24
 
-Purpose: correct the Dubai ORL outreach target after Damiano clarified that even small/mid-size operators are too broad for the current revenue-management wedge.
+Purpose: correct the Dubai ORL outreach target after Damiano clarified that large operators are too broad for the current revenue-management wedge, but serious small hosts with roughly 10-20 listings can still be good targets.
 
 Status: source-of-truth correction for the next ORL Dubai outreach batch. No external outreach sent.
 
 ## Damiano Correction
 
-Do not prioritise 200-listing operators or larger holiday-home companies for the first ORL revenue-management outreach.
+Do not prioritise 200-listing operators or large holiday-home companies for the first ORL revenue-management outreach. A host with 10-20 listings can still be acceptable if they are founder-led or visibly operationally close to their pricing, and the listing/calendar/pricing setup looks improvable.
 
 Target:
 
 - individual Airbnb hosts;
 - micro-hosts with 1-2 listings;
-- small curated hosts with around 1-3 listings when they look founder-led;
+- small curated hosts with around 3-20 listings when they look founder-led or hands-on;
 - visible cases where the listing/pricing looks off and a free PriceLabs/revenue-manager review can be useful.
 
 Avoid for now:
 
-- large operators;
-- companies with tens or hundreds of listings;
+- large operators, especially 100-200+ listing managers;
+- large mixed-city holiday-home companies where the decision-maker is distant from unit-level pricing;
 - generic holiday-home-management companies;
 - operator websites where no specific Airbnb/listing link and host scale are verified.
 
@@ -48,7 +48,7 @@ For the next Dubai ORL batch, each row must include:
 1. Airbnb host/profile link.
 2. Exact Airbnb listing link.
 3. Host visible listing count or scale estimate.
-4. Why this is a micro-host/small-host fit.
+4. Why this is a micro-host/small-host fit, or why a 10-20 listing host is still hands-on enough to approach.
 5. One visible pricing/listing observation.
 6. Contact route status.
 7. Draft email only after the above is filled.
@@ -65,7 +65,7 @@ I came across this listing of yours:
 
 I am Damiano Pesciaioli, founder of Oasis Revenue Lab in Dubai. I also operate Lux Oasis Holiday Homes, and I am a certified revenue manager and PriceLabs Expert Partner.
 
-I am reaching out to a small number of Dubai hosts with one or a few listings where I think a short revenue-management review could be useful.
+I am reaching out to a small number of Dubai hosts and boutique operators where I think a short revenue-management review could be useful.
 
 For this listing, I can check the next 30-60 days for free: pricing, booking-window risk, open-night gaps, minimum-stay logic and whether the current setup in PriceLabs could be improved.
 
@@ -82,6 +82,6 @@ https://www.oasisrevenuelab.com
 
 ## Operational Change
 
-The previously corrected 5-operator batch (Aparts, BNW, Heaven Crest, Mi Casa, Oak) is no longer the recommended first wave. Keep it as a secondary operator/reference batch only.
+The previously corrected 5-operator batch (Aparts, BNW, Heaven Crest, Mi Casa, Oak) is no longer the recommended first wave. Keep it as a secondary operator/reference batch only. Do not exclude a lead just because it has 10-20 listings; exclude it when it is clearly a large 100-200+ listing operator, a generic company target, or lacks an exact Airbnb listing/profile/pricing observation.
 
-Next useful work: build a micro-host batch of 10 Dubai Airbnb listings using the host/profile + listing + visible-pricing-observation format above.
+Next useful work: build a Dubai Airbnb batch of 10-20 small-host leads using the host/profile + listing + visible-pricing-observation format above.
