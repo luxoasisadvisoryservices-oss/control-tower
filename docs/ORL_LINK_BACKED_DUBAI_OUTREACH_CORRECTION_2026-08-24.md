@@ -2,7 +2,9 @@
 
 Purpose: correct the 2026-08-22 Dubai ORL copy-paste outreach pack after Damiano flagged that each email must first name the specific holiday-home/listing link intended for review.
 
-Status: draft-only. No external company was contacted by the agent. Revised drafts were sent to Damiano on Telegram for review/copy-paste.
+Status: superseded as the recommended first wave by `ORL_MICRO_HOST_TARGETING_CORRECTION_2026-08-24.md`. No external company was contacted by the agent. The operator links below remain useful as reference/operator batch material only.
+
+2026-08-24 second correction: Damiano clarified that even the 5 cleaned operator targets are not the best first ORL wedge. The priority is now individual Airbnb hosts or micro-hosts with 1-2 listings, plus small curated hosts around 1-3 listings when the listing/pricing looks visibly off. Avoid 200-listing operators and larger holiday-home companies for the first revenue-management outreach.
 
 ## Rule
 
@@ -12,7 +14,7 @@ Status: draft-only. No external company was contacted by the agent. Revised draf
 - Explain that if the operator already uses PriceLabs, they can add Damiano as a revenue-manager partner for one listing so he can check whether any pricing improvement is visible.
 - No automatic changes, no guaranteed uplift, and no pricing promises.
 
-## Clean First Batch
+## Clean Operator Batch, Now Secondary
 
 1. Aparts.ae
    - To: `tiffany@aparts.ae`
@@ -43,7 +45,7 @@ Status: draft-only. No external company was contacted by the agent. Revised draf
    - Listing: `https://oakholidays.com/en/properties/spacious-2-bedroom-apartment-jbr-beach-marina`
    - Reason: JBR Beach / Marina listing, closest to Lux Oasis operating knowledge.
 
-## Hold / Remove From This Batch
+## Hold / Remove From Operator Batch
 
 - Avanza Vacations: remove from Dubai batch; live site is Lake Norman / North Carolina, not Dubai.
 - DAIFY: site confirms holiday-home management but no specific public listing link was recovered.
