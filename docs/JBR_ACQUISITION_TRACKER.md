@@ -1,3 +1,7 @@
+# 2026-08-27 reply sweep, 15:07 Dubai
+
+Fresh Gmail/OAuth sweep across the June 19-20 outreach set, the 3 Jul forwarded-alert batch, the named public contacts, and the JBR subject terms found no genuinely new external human replies after the current watermark. The only in-scope candidate threads remained the already-known Murjan 2 decline and the `prioritydubbaiuae@gmail.com` mailer-daemon bounce, so no new reply fingerprints were added, no tracker lead row changed, and no Telegram notification is needed.
+
 # 2026-08-18 JBR outbound blocked, 19:22 Dubai
 
 Fresh Gmail/Spam/All Mail recovery found no clean unsent approved JBR direct-email lead. The fresh Property Finder alerts were `1a01490ef9e13a5d`, `1a01490fe581da57`, `1a01491236d4efc7`, `1a014911e74cffc3`, `1a0149127fdc01f5`, `1a01491288e94429`, `1a0141bb81a00406`, `1a0141c54b2e4ff0`, `1a0141e43565b234`, `1a0141f0cf6693fd`, `1a006b34a9f15a5d`, `1a00bd995b8c9613` and `1a00bd9b9ea7797c`, which resolved to The Views, Golf Towers, Tanaro, Sparkle Towers and Palm Jumeirah rather than a clean JBR direct-agent route. The worker queue remains exhausted and no outbound email was sent.
