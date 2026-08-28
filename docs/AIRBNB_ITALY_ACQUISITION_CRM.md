@@ -12,6 +12,13 @@ Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Co
 - No stronger Rome/Milan prospect displaced the current shortlist in this pass, and no new CRM rows were added.
 - Reply routing remains `damiano@luxoasisadvisory.com`.
 
+## 2026-08-28 Run Note
+
+- The 2026-08-09 outbound batch is still reply-free on the current check.
+- The active follow-up draft file remains `AIRBNB_ITALY_FOLLOW_UP_DRAFTS_2026-08-23.md`, with FromHometoRome / FHTR and EasyHomes still the active pair.
+- No fresher Rome/Milan prospect displaced the current shortlist in this pass, and no new CRM rows were added.
+- Reply routing remains `damiano@luxoasisadvisory.com`.
+
 ## 2026-08-24 Run Note
 
 - Today's check found the 2026-08-09 batch still reply-free, no stronger Rome/Milan prospect was added, reply routing remains `damiano@luxoasisadvisory.com`, and no new CRM rows were created.
