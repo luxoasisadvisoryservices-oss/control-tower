@@ -1,6 +1,13 @@
 # Damiano Manual Outreach Pack - 2026-08-29
 
-Status: prepared for Damiano to copy-paste and send from his own email. No external message sent by the agent.
+Status: prepared for Damiano to copy-paste and send from his own email. Sent as four individual internal pack emails to `damiano@luxoasisadvisory.com` on 2026-08-29. No external message sent by the agent.
+
+Internal delivery IDs:
+
+- Bahar 6 / Vinod Bhojwani: Gmail `1a04c152808c5a74`
+- Murjan 2 / Saeel Raghuvir Chari: Gmail `1a04c152ba38c480`
+- FromHometoRome / FHTR: Gmail `1a04c152ce2dadde`
+- Azeroth PM: Gmail `1a04c152e07c84f8`
 
 Recommended sender:
 
