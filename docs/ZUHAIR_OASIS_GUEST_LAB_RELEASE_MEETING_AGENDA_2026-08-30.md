@@ -19,6 +19,7 @@ Damiano sent Zuhair a release follow-up after this week's Oasis Guest Lab migrat
 4. Is the dashboard still fully connected to Hostaway after the migration, including reservations, guest numbers, and unit data?
 5. Can the agent be renamed from Lisa to Lia in Chatwoot and anywhere else the name appears?
 6. Can Zuhair review the Trello list and advise the best order for remaining open items, especially tone selection, onboarding flow, and dashboard edits?
+7. What is the path for messaging-channel connections beyond WhatsApp, especially OTA inboxes such as Airbnb and Booking.com, so the agent can draft or reply there too under the agreed approval controls?
 
 ## Recommended Meeting Order
 
@@ -26,10 +27,9 @@ Damiano sent Zuhair a release follow-up after this week's Oasis Guest Lab migrat
 2. Release-critical operations: escalation routing, maintenance page use, consumables policy, and neighbourhood info.
 3. User-facing polish: rename Lisa to Lia everywhere visible and confirm Chatwoot display.
 4. Monetisation: Stripe dashboard connection scope, timing, and whether it blocks beta or only paid launch.
-5. Guest experience: translation layer timing and whether it is needed for first release.
+5. Guest experience: WhatsApp plus OTA inbox coverage, translation layer timing, and whether replies stay draft-only or can be sent inside approved channels.
 6. Trello cleanup: agree order for tone selection, onboarding flow, dashboard edits, and remaining launch tasks.
 
 ## COO View
 
-The meeting should not become a broad product brainstorm. It should answer: what is already working after migration, what blocks release, what can wait until after beta, who owns each item, and the expected date for the next usable version.
-
+The meeting should not become a broad product brainstorm. It should answer: what is already working after migration, what blocks release, which guest-message channels are in scope for beta, what can wait until after beta, who owns each item, and the expected date for the next usable version.
