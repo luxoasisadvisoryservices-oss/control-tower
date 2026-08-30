@@ -89,6 +89,26 @@ Counts:
 
 Working conclusion: Bali is not a one-host amateur market from these first results. The visible operators are already selling dynamic pricing and owner reporting. The better first commercial path is either (1) small villa operators below this tier, still to be sourced, or (2) a peer/channel offer to operators who already understand revenue management but may want external audits, PriceLabs review, owner reporting, or guest-message QA.
 
+## 2026-08-30 Fresh Bali Lead Pass
+
+Reason for pass: Damiano said all current manual-pack emails are sent and asked to look for more Bali opportunities.
+
+Status: research-only. No external outreach sent by the agent.
+
+Current outcome:
+
+- Azeroth PM is now treated as reply-watch because Damiano said all manual-pack emails were sent.
+- Five more Bali leads were checked and added to the CSV tracker.
+- Best next two are Balimmo and Villa Management Bali because both have clean contact routes and explicit revenue / optimisation / owner-reporting language.
+
+| Date | Lead | Contact route | Signal | Fit | Next action |
+|---|---|---|---|---|---|
+| 2026-08-30 | Balimmo | `hello@balimmo-management.com` | Villa management page says listings are optimised across channels, and it covers operations, revenue and guest experience | Good new ORL target | Prepare one-listing revenue-manager email |
+| 2026-08-30 | Bali Luxe Management | `info@baliluxemanagement.com`; `+6282230887516` | Structured villa management and hospitality for owners, developers and investors | Good new ORL target | Prepare revenue-review opener |
+| 2026-08-30 | Villa Management Bali | `contact@villa-management-bali.com`; WhatsApp `+62 8133 7334 871`; phone `+62 8133 7335 871` | Pricing page mentions OTA listings, dynamic pricing, guest communication and monthly financial reporting | Strong ORL target | Draft around price rules, min-stay, calendar gaps and listing presentation |
+| 2026-08-30 | Bali Estate Manager | Contact form only | Owner reporting, transparent fees, licensing/tax liaison and 24/7 operations | Useful but not clean-email ready | Recover email or use form only with approval |
+| 2026-08-30 | Nagisa Bali | `info@nagisa-bali.com`; `+62361490165` | Established luxury villa management and marketing operator | Benchmark / possible peer target | Keep behind smaller targets |
+
 ## Draft Angle A - Oasis Revenue Lab
 
 Subject idea:
