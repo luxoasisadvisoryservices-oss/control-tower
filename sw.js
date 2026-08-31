@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v590";
+const CACHE_NAME = "control-tower-v591";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -173,6 +173,9 @@ const APP_SHELL = [
   ,"./docs/nest-match-linkedin-outreach.html"
   ,"./docs/NEST_MATCH_LINKEDIN_PROVIDER_SEED_LIST_2026-08-31.csv"
   ,"./docs/NEST_MATCH_LINKEDIN_PROVIDER_OUTREACH_BOARD_2026-08-31.md"
+  ,"./docs/nest-match-full-outreach-overview.html"
+  ,"./docs/NEST_MATCH_FULL_LINKEDIN_OUTREACH_OVERVIEW_2026-08-31.csv"
+  ,"./docs/NEST_MATCH_FULL_LINKEDIN_OUTREACH_OVERVIEW_2026-08-31.md"
 ];
 
 self.addEventListener("install", (event) => {
