@@ -112,18 +112,21 @@ Added a cleaner working structure for the Nest Match outreach file:
 Purpose: keep the taxonomy, research queue, raw contacts and approval-ready outreach batches separated so the file can scale without becoming messy.
 
 
-## Company / Agency Provider Taxonomy Refresh - 2026-08-31 12:12 Dubai
+## Full Provider Taxonomy Refresh - 2026-08-31 12:12 Dubai
 
-Damiano supplied a fresh Company / Agency Providers list for Nest Match. Captured it as `NEST_MATCH_COMPANY_AGENCY_PROVIDER_TAXONOMY_2026-08-31.md`.
+Damiano supplied the fresh Company / Agency Providers continuation plus Freelancer Providers list for Nest Match. Captured it as `NEST_MATCH_COMPANY_AGENCY_PROVIDER_TAXONOMY_2026-08-31.md`.
 
 Received scope:
 
-- 12 provider groups;
-- 125 specific company/agency provider categories;
-- `Legal & Property Transactions` was received as a group heading, but no subcategories under it were included in the message.
+- Company / Agency Providers: 25 groups, 329 categories.
+- Freelancer Providers: 20 groups, 83 categories.
+- New explicit additions include Legal & Property Transactions, Mortgage/Lending/Finance, Insurance, Architecture/Design/Planning, Construction/Project Management, Inspection/Handover, Marketing/Content, Guest Services/VA, Technology/Utilities, Specialist Property Services, Professional Services, Supplies, Revenue Management, and Business Development & Acquisitions.
 
 Important reconciliation note:
 
-- The existing workbook already has 152 company provider categories from the 2026-08-20 taxonomy import.
-- Do not silently delete or overwrite those workbook categories.
-- Next step is to reconcile the 2026-08-31 supplied list against the 2026-08-20 workbook list, then update the workbook once missing/extra categories are clearly identified.
+- Before changing the workbook, a backup was saved as `NEST_MATCH_OUTREACH_MASTER_2026-08-20.before-20260831-provider-taxonomy.xlsx`.
+- The workbook taxonomy tabs were rebuilt from the 2026-08-31 canonical source:
+  - `Company Categories`: 329 rows.
+  - `Freelancer Categories`: 83 rows.
+  - `Research Queue`: 412 provider-sourcing rows.
+- Existing contact tabs were kept intact: Company Providers, Holiday Home Operators, Real Estate Agents, Landlords Owners, Outreach Batch Builder and Master Contacts.
