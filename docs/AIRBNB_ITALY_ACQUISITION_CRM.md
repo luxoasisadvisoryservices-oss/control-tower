@@ -7,6 +7,13 @@ Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Co
 
 ## 2026-08-31 Run Note
 
+- Sent 1 new Rome first-touch email to `ShortLetsRome` at `Lalli.theodoli@hotmail.com` with reply-to `damiano@luxoasisadvisory.com`; Gmail message ID `1a0574578c3703dd`.
+- Public site evidence verified: the homepage and property pages show fixed day/week/month pricing and an old-school direct-booking style, especially on `CRISPI` and `SISTINA D`.
+- No duplicate existed in the current Gmail sent state or in `memory/airbnb-italy-outreach-state.json` before the send; no new reply was found on the immediate monitor pass.
+- Reply routing remains `damiano@luxoasisadvisory.com`.
+
+## 2026-08-31 Run Note
+
 - The 2026-08-09 outbound batch is still reply-free on the current check.
 - New Rome prospect added this pass: `ShortLetsRome` (`https://shortletsrome.com/`) with public contact `Lalli.theodoli@hotmail.com` and `+39 3474145353`.
 - Strongest concrete wedge on the site is the fixed day/week/month pricing on individual Rome units like `CRISPI`, `SISTINA D`, and `CORSO`, which makes a revenue-management-first review sensible.
