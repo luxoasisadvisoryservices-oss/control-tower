@@ -32,7 +32,7 @@ Use these files from Control Tower:
 
 ## Current Approval Needed
 
-Action: Send the 5 Italy/Bali draft emails in `ORL_ITALY_BALI_OUTREACH_APPROVAL_PACK_2026-08-24.md`.
-Reason: These are the cleanest currently verified Italy/Bali routes.
+Action: Review the new Bali `24/7 revenue manager assistant` pack in `ORL_BALI_OUTREACH_FULL_AGENT_RM_PACK_2026-08-31.md`, then send only the first narrow Bali batch if Damiano approves edits and send timing.
+Reason: The Bali pack is the latest ORL outreach state and supersedes the older approval-only batch as the immediate next task.
 Risk: medium - external outreach under Damiano's name.
 Approve? Yes / No / Edit
