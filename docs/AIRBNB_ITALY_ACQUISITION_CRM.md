@@ -5,6 +5,14 @@ Business: Lux Oasis Holiday Homes / Oasis Revenue Lab
 Markets: Rome and Milan  
 Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Continue research and draft outreach only for new prospects unless Damiano approves or directly instructs a send.
 
+## 2026-08-31 Run Note
+
+- The 2026-08-09 outbound batch is still reply-free on the current check.
+- New Rome prospect added this pass: `ShortLetsRome` (`https://shortletsrome.com/`) with public contact `Lalli.theodoli@hotmail.com` and `+39 3474145353`.
+- Strongest concrete wedge on the site is the fixed day/week/month pricing on individual Rome units like `CRISPI`, `SISTINA D`, and `CORSO`, which makes a revenue-management-first review sensible.
+- A draft-only approval note was created for Damiano review; no send was made.
+- Reply routing remains `damiano@luxoasisadvisory.com`.
+
 ## 2026-08-27 Run Note
 
 - The 2026-08-09 outbound batch is still reply-free on the current check.
@@ -288,6 +296,7 @@ If the exact Airbnb profile/listing is not verified, keep the row as `needs Airb
 | 2026-08-16 | Rome | Rome City Center Apartment II | 1 listing reviewed | Airbnb `https://www.airbnb.com/rooms/1056585963163171305`; website `https://city-center-ii.italyromeapartments.com/en`; evidence: 4.55 rating, bottom 10%, 22 reviews, 3 bedrooms, 13 guests | Website only; no email verified yet | No | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Research / evidence-backed prospect | Strong central Rome scale and visible demand, but the bottom-10% signal suggests guest journey, listing conversion and pricing deserve review | Not drafted | Not sent | Not scheduled | Not scheduled | Keep as a revenue-management-first prospect until a usable contact route is verified. |
 | 2026-08-16 | Milan | NEW Luxury-On-Budget | 1 listing reviewed | Airbnb `https://www.airbnb.com/rooms/1309346927856024763`; evidence: 4.2 rating, bottom 10%, co-hosts Mattia Alessio | Airbnb profile only; co-hosts Mattia Alessio | No | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Research / evidence-backed prospect | Low rating and bottom-10% placement make this a clear audit candidate if the contact route proves usable | Not drafted | Not sent | Not scheduled | Not scheduled | Contact route still needs verification before any draft. |
 | 2026-08-16 | Milan | Cozy Bruno - Small studio apartment in Porta Venezia | 1 listing reviewed | Airbnb `https://www.airbnb.ie/rooms/10435064`; evidence: Andrea, 4.39 average rating from 505 reviews, 11 years hosting, 4.1 cleanliness, bottom 10% | Airbnb profile only; host Andrea | No | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Research / evidence-backed prospect | High review volume with cleanliness drag and bottom-10% placement make this a strong revenue-management-first audit candidate | Not drafted | Not sent | Not scheduled | Not scheduled | Keep the existing `Cozy Bruno` note intact and use this as the current evidence refresh. |
+| 2026-08-31 | Rome | ShortLetsRome / Crispi | 8 Rome units visible on homepage; focus listing `https://shortletsrome.com/513-crispi.shtml` | `Lalli.theodoli@hotmail.com`; `+39 3474145353`; homepage `https://shortletsrome.com/` | Yes | Must direct/surface replies to `damiano@luxoasisadvisory.com` | Qualified / small operator fit | Fixed day/week/month pricing on the Rome units suggests a practical revenue-management review angle, especially around seasonality and event periods | Drafted 2026-08-31 in `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-08-31.md`; not sent | Not sent | Not scheduled | Not scheduled | Keep the opening on the exact property page and one soft observation about pricing structure. |
 
 ## 2026-08-16 Airbnb Italy CRM Sweep
 
