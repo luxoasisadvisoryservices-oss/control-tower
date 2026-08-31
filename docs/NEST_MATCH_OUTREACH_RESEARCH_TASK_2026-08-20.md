@@ -110,3 +110,20 @@ Added a cleaner working structure for the Nest Match outreach file:
 - `Launch Summary`
 
 Purpose: keep the taxonomy, research queue, raw contacts and approval-ready outreach batches separated so the file can scale without becoming messy.
+
+
+## Company / Agency Provider Taxonomy Refresh - 2026-08-31 12:12 Dubai
+
+Damiano supplied a fresh Company / Agency Providers list for Nest Match. Captured it as `NEST_MATCH_COMPANY_AGENCY_PROVIDER_TAXONOMY_2026-08-31.md`.
+
+Received scope:
+
+- 12 provider groups;
+- 125 specific company/agency provider categories;
+- `Legal & Property Transactions` was received as a group heading, but no subcategories under it were included in the message.
+
+Important reconciliation note:
+
+- The existing workbook already has 152 company provider categories from the 2026-08-20 taxonomy import.
+- Do not silently delete or overwrite those workbook categories.
+- Next step is to reconcile the 2026-08-31 supplied list against the 2026-08-20 workbook list, then update the workbook once missing/extra categories are clearly identified.
