@@ -12,6 +12,14 @@ Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Co
 - No duplicate existed in the current Gmail sent state or in `memory/airbnb-italy-outreach-state.json` before the send; no new reply was found on the immediate monitor pass.
 - Reply routing remains `damiano@luxoasisadvisory.com`.
 
+## 2026-09-01 Run Note
+
+- Reply sweep on the full outbound state came back clean again: `0` new replies across the 5 tracked sent threads.
+- The 2026-08-09 batch is now beyond the follow-up window and still reply-free, so the useful next step is a light follow-up pack rather than another zero-progress state note.
+- Created a fresh follow-up draft file for the four 2026-08-09 prospects: `AIRBNB_ITALY_FOLLOW_UP_DRAFTS_2026-09-01.md`.
+- Keep the fixed no-resend exclusions intact: `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, and `Mama's Home Rome`.
+- Reply routing remains `damiano@luxoasisadvisory.com`.
+
 ## 2026-08-31 Run Note
 
 - The 2026-08-09 outbound batch is still reply-free on the current check.
