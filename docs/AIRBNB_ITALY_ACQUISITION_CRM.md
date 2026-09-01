@@ -1,9 +1,18 @@
+# 2026-09-01 14:05 Asia/Dubai Airbnb Italy discovery pass stayed parked: a fresh Rome/Milan web-search sweep found either polished/professional operators, already-excluded names, or Airbnb-only listings without a clean off-Airbnb contact route. Parked examples include `Rome Short Let Service`, `Rental in Rome`, `RomeApartments.com`, `HouseinMilano`, and the fresh Trastevere/Porta Venezia hits that still need a usable direct route. No external send was made. Reply routing remains `damiano@luxoasisadvisory.com`, and any future reply must be surfaced to Damiano before a substantive response.
+
 # Airbnb Italy Acquisition CRM
 
 Owner: Main COO Agent  
 Business: Lux Oasis Holiday Homes / Oasis Revenue Lab  
 Markets: Rome and Milan  
 Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Continue research and draft outreach only for new prospects unless Damiano approves or directly instructs a send.
+
+## 2026-09-01 Run Note
+
+- Web search refreshed the lane, but the fresh hits were either too polished, too corporate, already excluded, or lacked a clean off-Airbnb contact route.
+- Parked examples from this pass: `Rome Short Let Service`, `Rental in Rome`, `RomeApartments.com`, `HouseinMilano`, and the fresh Airbnb-only Trastevere/Milan hits that still need a usable direct route.
+- No new send was made.
+- Reply routing remains `damiano@luxoasisadvisory.com`; any reply that lands in the sending mailbox or platform must be surfaced to Damiano before the next substantive response.
 
 ## 2026-08-31 Run Note
 
