@@ -12,15 +12,15 @@ Use these files from Control Tower:
 
 2. Italy and Bali outreach approval pack
 
-- File: `ORL_ITALY_BALI_OUTREACH_APPROVAL_PACK_2026-08-24.md`
+- File: `ORL_BALI_OUTREACH_FULL_AGENT_RM_PACK_2026-08-31.md`
 - Contains: 5 draft emails ready for approval:
-  - FromHometoRome / FHTR - `info@fromhometorome.com`
-  - EasyHomes - `welcome@easyhomes.it`
-  - Azeroth PM - `info@azerothpm.com`
-  - Individual Bali Villas - `info@individualbalivillas.com`
-  - Bali Villa Management - `info@balivillamanagement.com`
-- Also contains holds/search-more rows for Italy and Bali.
-- Current state: approval needed before any external send.
+  - Balimmo - `hello@balimmo-management.com`
+  - Villa Management Bali - `contact@villa-management-bali.com`
+  - Bali Luxe Management - `info@baliluxemanagement.com`
+  - Nagisa Bali - `info@nagisa-bali.com`
+  - Bali Estate Manager - website form only unless a direct email is recovered
+- Also contains the narrowed Bali peer/channel positioning update and the current send order.
+- Current state: approval needed before any external send; do not send unless Damiano explicitly approves the exact copy and timing.
 
 3. Correction rule
 
@@ -32,7 +32,7 @@ Use these files from Control Tower:
 
 ## Current Approval Needed
 
-Action: Review the new Bali `24/7 revenue manager assistant` pack in `ORL_BALI_OUTREACH_FULL_AGENT_RM_PACK_2026-08-31.md`, then send only the first narrow Bali batch if Damiano approves edits and send timing.
+Action: Review the new Bali `24/7 revenue manager assistant` pack in `ORL_BALI_OUTREACH_FULL_AGENT_RM_PACK_2026-08-31.md`, then wait for Damiano approval before any send.
 Reason: The Bali pack is the latest ORL outreach state and supersedes the older approval-only batch as the immediate next task.
 Risk: medium - external outreach under Damiano's name.
 Approve? Yes / No / Edit
