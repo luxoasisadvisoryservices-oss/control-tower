@@ -2,19 +2,20 @@
 
 Owner: Main COO Agent  
 Business: Oasis Revenue Lab by Lux Oasis Advisory & Services LLC  
-Status: Active host-level prospecting. No external sends or platform messages without Damiano approval.
+Status: Active host and company-host prospecting. No external sends or platform messages without Damiano approval.
 
 ## Target Correction
 
-Damiano wants hosts that Oasis Revenue Lab can revenue-manage directly, not only large operators.
+Damiano wants hosts and company hosts that Oasis Revenue Lab can revenue-manage directly, the same way the Rome and Bali ORL lanes target both people and operators.
 
 Correct ICP:
 
 - Individual Airbnb / furnished-stay hosts.
 - Boutique founder-led operators.
+- Company hosts and operators with a visible portfolio.
 - Small portfolios, ideally 1-20 listings.
+- Larger companies are acceptable when the route is clean and the pitch is revenue-management help, not taking over operations.
 - Hosts with visible pricing, occupancy, calendar, ranking, review, or conversion issues.
-- Avoid generic 100-200+ unit operators unless there is a clear partnership contact and a specific revenue-review wedge.
 
 ## Market Note
 
@@ -37,13 +38,12 @@ NYC must be handled carefully. For New York City, the cleaner lane is legal 30+ 
 
 ## Suggested First Action
 
-Do not lead with the old NYC large-operator batch if the goal is host revenue management. Use a host-level first batch:
+Use a mixed host and company-host first batch:
 
-1. Prestige Retreats by email, because it has a clean route and a specific Dubai Harbour pricing/revenue angle.
-2. Inna by Houfy message, because the Manhattan furnished-stay inventory is host-level and NYC-compliance safer if framed as 30+ day furnished revenue review.
-3. EscapeStays by Houfy message, because Jersey City is a stronger Airbnb-style NYC-demand market than restricted NYC private STR.
-4. Pearl by Houfy message, because the host has long experience and larger JC inventory.
-5. Keep Sam / Maison Mante, Airvistas and Goldbest on contact-route search.
+1. NYC company-host batch already prepared: Guestable NYC, Furnished Quarters and Blueground for Business.
+2. NYC/NJ individual-host route: Inna, EscapeStays and Pearl through Houfy/manual platform route.
+3. Prestige Retreats by email, because it has a clean route and a specific Dubai Harbour pricing/revenue angle.
+4. Keep Sam / Maison Mante, Airvistas and Goldbest on contact-route search.
 
 ## Draft Angle
 
@@ -61,6 +61,7 @@ NYC / New Jersey wording:
 
 ## Next Work Queue
 
+- Continue NYC like Rome/Bali: mix people-hosts and company hosts, as long as the pitch is Oasis Revenue Lab revenue management.
 - Verify if Houfy messages can be sent from a usable business profile, or whether Damiano should use a browser/manual route.
 - Keep searching off-platform routes for Sam / Maison Mante, Airvistas, Goldbest, Simon, David, Krystof, Eduardo Jose, Khalfan, Mohammad, Alan and Antonino from the Dubai micro-host pass.
 - Expand host-level search to Bali villas and Rome/Milan small host/operators because public emails are easier to find there than NYC.
