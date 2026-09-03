@@ -147,6 +147,8 @@ Primary conversion objective: book a 20-30 minute free consultation call with Da
 - Public page evidence captured in this pass: three bedrooms, three bathrooms, Via dei Gracchi / Ottaviano metro area, Vatican-area walking distance, and check-in by appointment from 2pm to 8pm.
 - Created a new approval draft pack for Damiano review: `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-09-03.md`.
 - Reply routing remains `damiano@luxoasisadvisory.com`; no reply was found in the existing sent threads on this pass.
+- Sent the approved short first-touch email to `info@vantaggiobnb.it` with reply-to `damiano@luxoasisadvisory.com`; Gmail message/thread ID `1a066b8154e24b8f`.
+- Duplicate checks held on the current send-state file: `ShortLetsRome`, `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, and `Mama's Home Rome` were skipped as already sent.
 
 ## 2026-08-05 Session Log
 
