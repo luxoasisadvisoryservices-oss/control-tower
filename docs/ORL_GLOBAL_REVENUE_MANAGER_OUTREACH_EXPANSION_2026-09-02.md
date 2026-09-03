@@ -68,3 +68,39 @@ For NYC and Singapore, add compliance-safe wording:
 2. Keep the existing six sent ORL threads on reply watch.
 3. Keep the five Bali uniform drafts approval-ready.
 4. Run a recurring global ORL prospecting pass twice per week until the lane has 50 verified targets or Damiano pauses it.
+
+## Prospect Batch - 2026-09-03
+
+Source basis: public web signals only. No outreach sent.
+
+### NYC
+
+| Prospect | Public evidence | Why it fits | Draft angle |
+| --- | --- | --- | --- |
+| Guestable NYC | Guestable says it uses technology-driven pricing, calendar management, and performance optimization for NYC short-term rentals. | Legal/commercial STR operator with explicit revenue language. | Offer a free public listing review focused on pricing gaps, minimum-stay logic, and OTA visibility for one compliant NYC unit. |
+| Rove Travel NYC | Public NYC short-term rental content highlights compliance, real-time pricing, and guest relations. | Small-to-mid furnished/STR operator with operational complexity. | Position ORL as a second revenue brain for compliant furnished inventory, with no model or compliance changes. |
+
+### Singapore / APAC
+
+| Prospect | Public evidence | Why it fits | Draft angle |
+| --- | --- | --- | --- |
+| MetroResidences | Singapore page shows serviced apartments with minimum 3-month stays, live calendar, instant booking, and 79+ move-in ready units. | Strong serviced-apartment fit and enough scale to need commercial tuning. | Offer a peer-level revenue review of one listing or micro-portfolio: occupancy pacing, rate gaps, and conversion friction. |
+| ST Residences | Public page states a 90-day minimum stay and serviced-apartment positioning. | Compliance-safe Singapore target with flexible-stay inventory. | Frame around owner reporting, pricing discipline, and stay-length mix for legal furnished inventory. |
+| Heritage Collection | Public site shows boutique aparthotel + serviced apartment inventory, monthly rates, and 3-month stays on some units. | Smaller boutique operator with mixed short/extended stay inventory. | Offer a one-unit conversion and pricing review for a shophouse/aparthotel room or apartment. |
+| Coliwoo | Public site shows co-living serviced apartments, 6-night minimum, and multiple Singapore locations. | Mid-sized flexible-living operator with visible inventory breadth. | Position as a review of rate structure, stay-length fences, and conversion on a selected location. |
+
+### Other Market: Bali
+
+| Prospect | Public evidence | Why it fits | Draft angle |
+| --- | --- | --- | --- |
+| Villa Bali Management | Public site mentions dynamic pricing, quality listings, multi-platform visibility, monthly market research, and competitive rental rates. | Clear Bali villa-management fit with direct revenue-management need. | Offer a free public villa review on one listing, focusing on pricing cadence, calendar shape, and booking-window strategy. |
+
+### Draft Set to Prepare First
+
+1. Guestable NYC
+2. Rove Travel NYC
+3. MetroResidences
+4. ST Residences
+5. Heritage Collection
+6. Coliwoo
+7. Villa Bali Management

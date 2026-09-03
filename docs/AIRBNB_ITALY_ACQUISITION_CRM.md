@@ -140,6 +140,14 @@ Primary conversion objective: book a 20-30 minute free consultation call with Da
 - Reply monitor for the 2026-08-09 outbound batch still shows `0` new replies since the last check, so no follow-up draft is due yet.
 - Current active draft-ready set: FromHometoRome / FHTR, EasyHomes, the two Trastevere terrace Rome leads above, and Rome backup Vantaggio; keep Ray Home parked as evidence-only until a public contact route is confirmed.
 
+## 2026-09-03 Run Note
+
+- Memory search was unavailable because the embedding token expired, so this pass relied on on-disk state and live public pages only.
+- New draft-ready Rome prospect confirmed with a public contact route: `Vantaggio Suites & Apartments Roma Vaticano` (`https://www.vantaggiobnb.it/holiday-home-apartment-in-rome-for-rent-three-bedrooms/?lang=en`).
+- Public page evidence captured in this pass: three bedrooms, three bathrooms, Via dei Gracchi / Ottaviano metro area, Vatican-area walking distance, and check-in by appointment from 2pm to 8pm.
+- Created a new approval draft pack for Damiano review: `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-09-03.md`.
+- Reply routing remains `damiano@luxoasisadvisory.com`; no reply was found in the existing sent threads on this pass.
+
 ## 2026-08-05 Session Log
 
 - Outreach stays paused for this session and no messages were sent.
@@ -646,7 +654,7 @@ New useful targets / research rows added:
 
 | lead | city | fit | evidence | contact | next action |
 |---|---|---|---|---|---|
-| Vantaggio Suites & Apartments Roma Vaticano | Rome | Strong small-operator candidate | Website shows two apartments near Vatican/Ottaviano; Airbnb links surfaced for Maison/Dimora Vantaggio, but exact Airbnb host profile is not verified | `info@vantaggiobnb.it`; `+39 335 333055` | Verify exact Airbnb host/profile and pricing/photo upside before draft |
+| Vantaggio Suites & Apartments Roma Vaticano | Rome | Strong small-operator candidate | Public apartment page confirms three bedrooms and three bathrooms near Vatican / Ottaviano; Airbnb links surfaced for Maison/Dimora Vantaggio, but exact Airbnb host profile is not verified | `info@vantaggiobnb.it`; `+39 335 333055` | Draft-ready with public contact; pricing/photo upside now has a clearer page-level anchor |
 | Abrahin / Vantagio Property Management | Rome | Candidate after contact verification | Airbnb snippets show central Rome boutique apartment and host/property-manager wording pointing to Vantagio | No public email verified | Find public contact route and portfolio size |
 | Luca / Vivora central Rome co-host | Rome | Backup / slightly above target | Airbnb snippets show 16 central Rome Airbnbs and several exact listing URLs | No public contact verified | Keep backup; above preferred 2-10 band |
 | Romeloft | Rome | Parked / too premium-professional | Welkodia lists premium Centro Storico / Trastevere / Spanish Steps property manager | `contact@romeloft.com`; `+39 06 322 1430` | Market-map only unless a weak specific Airbnb listing appears |
@@ -659,7 +667,7 @@ New useful targets / research rows added:
 
 Current strongest next-action rows:
 
-- Vantaggio Suites & Apartments Roma Vaticano: small, public contact, good location, needs exact Airbnb host/profile confirmation.
+- Vantaggio Suites & Apartments Roma Vaticano: refreshed approval draft anchored on the public three-bedroom apartment page, public contact verified, central Vatican/Prati fit.
 - Andreia Oliveira / Ray Home Milan: exact Airbnb listing pattern fits 3-property target, needs public contact.
 - Luca Hosting Milan: exact Airbnb listing pattern fits small target, needs public contact.
 - Mirable Property Management: several exact Milan Airbnb listings, needs contact and size check.
