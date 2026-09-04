@@ -140,6 +140,14 @@ Primary conversion objective: book a 20-30 minute free consultation call with Da
 - Reply monitor for the 2026-08-09 outbound batch still shows `0` new replies since the last check, so no follow-up draft is due yet.
 - Current active draft-ready set: FromHometoRome / FHTR, EasyHomes, the two Trastevere terrace Rome leads above, and Rome backup Vantaggio; keep Ray Home parked as evidence-only until a public contact route is confirmed.
 
+## 2026-09-04 Run Note
+
+- Reply sweep on the six tracked sent threads stayed clean again: `0` inbound replies on `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, `Mama's Home Rome`, `ShortLetsRome`, and `Vantaggio Suites & Apartments Roma Vaticano`.
+- New draft-ready Rome prospect confirmed with a public site contact form: `Rome City Center Apartment II` (`https://city-center-ii.italyromeapartments.com/en`; Airbnb `https://www.airbnb.com/rooms/1056585963163171305`).
+- Public evidence captured this pass: central-station Rome location, 3 bedrooms, up to 13 guests, and a bottom-10% rating signal, which makes a pricing / booking-window / guest-journey review sensible.
+- Created a new approval draft pack for Damiano review: `AIRBNB_ITALY_APPROVAL_DRAFTS_2026-09-04.md`.
+- Reply routing remains `damiano@luxoasisadvisory.com`; no reply was found in the existing sent threads on this pass.
+
 ## 2026-09-03 Run Note
 
 - Memory search was unavailable because the embedding token expired, so this pass relied on on-disk state and live public pages only.
