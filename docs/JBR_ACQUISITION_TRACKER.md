@@ -1,3 +1,7 @@
+# 2026-09-05 reply sweep, 13:02 Dubai
+
+Fresh Gmail/OAuth sweep after the 5 Sep morning watermark found no genuinely new external human replies. A narrower post-watermark probe across the named public contacts and JBR subject terms also returned zero matching messages, so no new reply fingerprints were added, no tracker lead row changed, and no Telegram notification is needed.
+
 # 2026-08-27 reply sweep, 15:07 Dubai
 
 Fresh Gmail/OAuth sweep across the June 19-20 outreach set, the 3 Jul forwarded-alert batch, the named public contacts, and the JBR subject terms found no genuinely new external human replies after the current watermark. The only in-scope candidate threads remained the already-known Murjan 2 decline and the `prioritydubbaiuae@gmail.com` mailer-daemon bounce, so no new reply fingerprints were added, no tracker lead row changed, and no Telegram notification is needed.
