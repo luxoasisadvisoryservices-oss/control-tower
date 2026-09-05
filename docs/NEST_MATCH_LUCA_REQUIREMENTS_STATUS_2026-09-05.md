@@ -6,7 +6,7 @@ Memory recall note: OpenClaw memory search was unavailable because the embedding
 
 ## Executive View
 
-For tomorrow, Damiano should send Luca the repo/demo direction and tell him the Nest Match requirement items are not all "done". The website has a real beta surface, public Terms, Privacy, pricing, and Contracts Preview pages, but the formal UAE/compliance side still needs confirmation before paid or broad launch.
+For tomorrow, Damiano should send Luca the repo/demo direction and tell him the Nest Match requirement items are not all "done". The website has a real beta surface, public Terms, Privacy, pricing, and Contracts Preview pages. The Lux Oasis Advisory & Services LLC Shams licence activities look strongly aligned with Nest Match as a web portal / software / consultancy product, but the formal media-office, legal/privacy, payment and non-brokerage boundaries still need confirmation before paid or broad launch.
 
 PriceLabs is separate: Damiano is already a revenue manager / RM user with PriceLabs, so using PriceLabs for Damiano-led consultancy is aligned. The open question is whether Oasis Revenue Lab software may use, expose, summarise, or resell PriceLabs-derived data inside a product sold to other operators. That needs the actual partner/RM/API terms or written confirmation from PriceLabs.
 
@@ -33,7 +33,7 @@ Practical position for Luca:
 | Current pricing/offers page | Have, but beta | `/pricing` shows landlords free, Host Free, Host Pro AED 390/year, Host Premium AED 790/year, Host Lifetime AED 2,999 one-time. Prior audit says paid CTAs were not a reliable checkout funnel yet. |
 | Terms of Use | Have as website draft | `/terms` exists. It says Nest Match is only a marketplace/networking platform, operated by Lux Oasis Advisory & Services LLC, licence no. 2645909.01, Shams, and not a broker, property manager, payment handler, or legal advisor. Needs UAE legal review before relying on it for broad paid launch. |
 | Privacy Policy / data processing | Have as website draft | `/privacy` references UAE PDPL, account/profile/property/usage/message/payment data, Supabase, Stripe, hosting providers, user rights, retention, cross-border processing and cookies. Needs legal/privacy review and verification against actual tracking, database, scraping, outreach and provider-claim flows. |
-| Licence activity code | Partial / needs source confirmation | Terms mention Lux Oasis Advisory & Services LLC, Shams licence no. 2645909.01. Luca specifically needs the actual activity code and whether it covers a B2B marketplace/directory/matching service. |
+| Licence activity code | Strong preliminary fit | Damiano supplied the Shams licence mapping for Lux Oasis Advisory & Services LLC, valid 14 Apr 2026 to 13 Apr 2027, with him as Manager. Activities include 6312 Web portals, 6201 Computer programming, 5820 Software publishing, 4791 Retail sale over internet, and 7020 Management consultancy. This aligns well with Nest Match as a searchable B2B web portal/software platform and advisory-adjacent product, not a real-estate brokerage. |
 | Media-office permit | Missing / needs formal answer | Luca asks for this explicitly. No formal media-office answer is recorded in the current source pack. |
 | Certifications | Unknown / likely not required yet, but must verify | Luca's checklist asks what certifications are needed and when. Treat as a question for the consultant/authority, not as solved. |
 | Contracts Hub | Have preview, not legally cleared | `/contracts-preview` lists many templates and disclaimers. Existing legal-review task says do not claim lawyer-reviewed, UAE-compliant, enforceable, or legally safe until a UAE lawyer reviews exact wording. |
@@ -48,6 +48,7 @@ Practical position for Luca:
 - Live Nest Match beta website.
 - Public Terms, Privacy, Pricing, FAQ and Contracts Preview pages.
 - Lux Oasis Advisory & Services LLC licence number shown on the site: `2645909.01`, Shams.
+- Shams licence activity fit for the intended non-brokerage platform positioning: Web portals, computer programming, software publishing, online retail/digital sales and management consultancy.
 - Service-provider outreach plan and seed files.
 - Live website audit from 3 September 2026.
 - Contracts Hub legal-review task and lawyer shortlist.
@@ -56,7 +57,7 @@ Practical position for Luca:
 
 ## What Damiano Does Not Yet Have
 
-- Confirmed activity-code fit for marketplace / directory / matching / software activity.
+- Formal written confirmation/opinion that the activity-code fit is sufficient for the exact Nest Match model.
 - Formal media-office permit answer.
 - Lawyer-reviewed final Terms of Use.
 - Lawyer/privacy-reviewed final Privacy Policy and data-processing flow.
@@ -73,9 +74,9 @@ Send Luca:
 
 1. Repo/demo direction for Revenue Assist and Nest Match.
 2. `https://nest-match.com/pricing`, `https://nest-match.com/terms`, `https://nest-match.com/privacy`, and `https://nest-match.com/contracts-preview`.
-3. Tell him the licence/media-office/legal/privacy items are not final and should be treated as his WP3 checklist, not as already approved.
+3. Tell him the licence activity looks aligned for a platform/software/portal model, but the media-office/legal/privacy items are not final and should be treated as his WP3 checklist, not as already approved.
 4. Tell him PriceLabs terms are being located; until written confirmation is found, assume PriceLabs data is for Damiano's RM work and read-only analysis, not redistribution or a competing SaaS wrapper.
 
 Suggested wording:
 
-> Luca, for PriceLabs: I am already working as an RM with them, so the alignment is there for consultancy. What I still need to find/send you is the written partner/RM/API terms so we know the exact boundaries for Revenue Assist as software. Until then, please assume no PriceLabs data is redistributed or used to build a PriceLabs clone. For Nest Match, the live site has pricing, Terms, Privacy and contracts preview pages, but the licence activity, media-office answer, legal/privacy review and certifications should be treated as open checklist items for your WP3 analysis.
+> Luca, for PriceLabs: I am already working as an RM with them, so the alignment is there for consultancy. What I still need to find/send you is the written partner/RM/API terms so we know the exact boundaries for Revenue Assist as software. Until then, please assume no PriceLabs data is redistributed or used to build a PriceLabs clone. For Nest Match, the live site has pricing, Terms, Privacy and contracts preview pages. My Shams licence activities look aligned for a web-portal/software/consultancy platform, not brokerage, but media-office answer, legal/privacy review and certifications should remain open checklist items for your WP3 analysis.
