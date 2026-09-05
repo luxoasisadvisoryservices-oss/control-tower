@@ -21,7 +21,8 @@ Best parts:
 
 Main caution:
 
-- Repository and demo access should not be granted by simply replying "accepted" to the email. It should be prepared as controlled, read-only, revocable access with secrets and client data removed or isolated.
+- Damiano personally trusts Luca deeply. The repo/demo access caution is not about Luca's trustworthiness; it is normal business and technical hygiene around credentials, third-party data, client/guest data and clear repo boundaries.
+- Repository and demo access should still not be granted by simply replying "accepted" to the email. It should be prepared as controlled, read-only, revocable access with secrets and client data removed or isolated.
 
 ## What Damiano Should Do
 
@@ -77,4 +78,4 @@ Avoid open-ended equity, broad "percentage of everything", success fee before th
 
 ## Recommendation
 
-Approve the analysis phase in principle, but do not yet accept the access request in a legally broad way. The next practical step is a controlled reply and a clean, read-only access package.
+Approve the analysis phase in principle, with a warm trust-based tone. The next practical step is a controlled reply and a clean, read-only access package. Frame the access limits as standard repo hygiene, not as a concern about Luca.
