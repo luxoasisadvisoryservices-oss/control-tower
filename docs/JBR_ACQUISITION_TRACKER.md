@@ -1,3 +1,9 @@
+# 2026-09-05 JBR outbound blocked, 17:10 Dubai
+
+Fresh Gmail/Spam/All Mail recovery for this run did not expose a new clean approved-pattern direct-email route for a clearly fitting JBR furnished 1-2BR opportunity or equivalent holiday-home management lead. The mailbox window stayed on the same out-of-scope Golf Towers / Sparkle Towers property alerts and already-processed property noise, so `scripts/jbr_outbound_agent_email_worker.mjs` still has no qualifying not-contacted public listing-agent or agency email to send to.
+
+Exact blocker: no qualifying not-contacted public listing-agent or agency email surfaced in the fresh scan, and the worker queue remains exhausted.
+
 # 2026-09-05 reply sweep, 13:02 Dubai
 
 Fresh Gmail/OAuth sweep after the 5 Sep morning watermark found no genuinely new external human replies. A narrower post-watermark probe across the named public contacts and JBR subject terms also returned zero matching messages, so no new reply fingerprints were added, no tracker lead row changed, and no Telegram notification is needed.
