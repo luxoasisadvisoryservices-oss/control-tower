@@ -7,6 +7,14 @@ Business: Lux Oasis Holiday Homes / Oasis Revenue Lab
 Markets: Rome and Milan  
 Status: First outbound batch sent on Damiano's 2026-08-09 direct instruction. Continue research and draft outreach only for new prospects unless Damiano approves or directly instructs a send.
 
+## 2026-09-05 Run Note
+
+- Reply sweep on the six tracked sent threads stayed clean again: `0` inbound replies on `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, `Mama's Home Rome`, `ShortLetsRome`, and `Vantaggio Suites & Apartments Roma Vaticano`.
+- The 2026-08-09 batch remains reply-free, so the useful next action is a fresh light follow-up pack rather than a dead-end status note.
+- Created a refreshed follow-up draft file for the four no-resend prospects: `AIRBNB_ITALY_FOLLOW_UP_DRAFTS_2026-09-05.md`.
+- Keep the fixed no-resend exclusions intact: `Maison del Colosseo`, `HOD'A Milano`, `Rome Trastevere Home`, and `Mama's Home Rome`.
+- Reply routing remains `damiano@luxoasisadvisory.com`.
+
 ## 2026-09-01 Run Note
 
 - Web search refreshed the lane, but the fresh hits were either too polished, too corporate, already excluded, or lacked a clean off-Airbnb contact route.
