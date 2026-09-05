@@ -34,7 +34,8 @@ Practical position for Luca:
 | Terms of Use | Have as website draft | `/terms` exists. It says Nest Match is only a marketplace/networking platform, operated by Lux Oasis Advisory & Services LLC, licence no. 2645909.01, Shams, and not a broker, property manager, payment handler, or legal advisor. Needs UAE legal review before relying on it for broad paid launch. |
 | Privacy Policy / data processing | Have as website draft | `/privacy` references UAE PDPL, account/profile/property/usage/message/payment data, Supabase, Stripe, hosting providers, user rights, retention, cross-border processing and cookies. Needs legal/privacy review and verification against actual tracking, database, scraping, outreach and provider-claim flows. |
 | Licence activity code | Strong preliminary fit | Damiano supplied the Shams licence mapping for Lux Oasis Advisory & Services LLC, valid 14 Apr 2026 to 13 Apr 2027, with him as Manager. Activities include 6312 Web portals, 6201 Computer programming, 5820 Software publishing, 4791 Retail sale over internet, and 7020 Management consultancy. This aligns well with Nest Match as a searchable B2B web portal/software platform and advisory-adjacent product, not a real-estate brokerage. |
-| Media-office permit | Missing / needs formal answer | Luca asks for this explicitly. No formal media-office answer is recorded in the current source pack. |
+| Free-zone vs Dubai mainland operation | Needs PRO/counsel confirmation | The Shams licence activities look aligned for a digital platform, but Nest Match is Dubai-first while the company is a Sharjah free-zone LLC. Confirm whether a Shams company can operate this B2B digital portal for Dubai users without additional mainland setup, and what activities would trigger a different requirement. |
+| Media-office permit | Likely covered for portal operation, needs Shams confirmation for ads | Shams licence activity 6312 includes web portals / portal-media site activity, which supports the platform/content operation. Still confirm with Shams or PRO before paid advertising, public media campaigns, or stronger publisher/media claims. |
 | Certifications | Unknown / likely not required yet, but must verify | Luca's checklist asks what certifications are needed and when. Treat as a question for the consultant/authority, not as solved. |
 | Contracts Hub | Have preview, not legally cleared | `/contracts-preview` lists many templates and disclaimers. Existing legal-review task says do not claim lawyer-reviewed, UAE-compliant, enforceable, or legally safe until a UAE lawyer reviews exact wording. |
 | Provider/user access rules | Partial | Terms say users must hold required licences and permits. Prior product/audit files include verification badges and contact limits, but verification standard and review-dispute process still need final operating rules. |
@@ -58,7 +59,8 @@ Practical position for Luca:
 ## What Damiano Does Not Yet Have
 
 - Formal written confirmation/opinion that the activity-code fit is sufficient for the exact Nest Match model.
-- Formal media-office permit answer.
+- PRO/counsel confirmation on Shams free-zone vs Dubai-mainland operation for a Dubai-first B2B digital platform.
+- Shams/PRO confirmation on whether the existing web-portal/media-site activity covers normal platform content and what changes if paid advertising starts.
 - Lawyer-reviewed final Terms of Use.
 - Lawyer/privacy-reviewed final Privacy Policy and data-processing flow.
 - Final consent model for scraped/pre-filled provider pages and profile claiming.
@@ -74,9 +76,9 @@ Send Luca:
 
 1. Repo/demo direction for Revenue Assist and Nest Match.
 2. `https://nest-match.com/pricing`, `https://nest-match.com/terms`, `https://nest-match.com/privacy`, and `https://nest-match.com/contracts-preview`.
-3. Tell him the licence activity looks aligned for a platform/software/portal model, but the media-office/legal/privacy items are not final and should be treated as his WP3 checklist, not as already approved.
+3. Tell him the licence activity looks aligned for a platform/software/portal model, but the free-zone vs mainland, media-office/ads, legal/privacy items are not final and should be treated as his WP3 checklist, not as already approved.
 4. Tell him PriceLabs terms are being located; until written confirmation is found, assume PriceLabs data is for Damiano's RM work and read-only analysis, not redistribution or a competing SaaS wrapper.
 
 Suggested wording:
 
-> Luca, for PriceLabs: I am already working as an RM with them, so the alignment is there for consultancy. What I still need to find/send you is the written partner/RM/API terms so we know the exact boundaries for Revenue Assist as software. Until then, please assume no PriceLabs data is redistributed or used to build a PriceLabs clone. For Nest Match, the live site has pricing, Terms, Privacy and contracts preview pages. My Shams licence activities look aligned for a web-portal/software/consultancy platform, not brokerage, but media-office answer, legal/privacy review and certifications should remain open checklist items for your WP3 analysis.
+> Luca, for PriceLabs: I am already working as an RM with them, so the alignment is there for consultancy. What I still need to find/send you is the written partner/RM/API terms so we know the exact boundaries for Revenue Assist as software. Until then, please assume no PriceLabs data is redistributed or used to build a PriceLabs clone. For Nest Match, the live site has pricing, Terms, Privacy and contracts preview pages. My Shams licence activities look aligned for a web-portal/software/consultancy platform, not brokerage, but please keep the Shams free-zone vs Dubai-mainland angle, media-office/ads answer, legal/privacy review and certifications as open checklist items for your WP3 analysis.
