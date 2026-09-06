@@ -37,6 +37,12 @@ The signed NHNCD access request is part of the package, but it does not by itsel
 
 ## Next 3-Day Plan
 
+Visible Telegram reminders are scheduled for 09:35 Dubai on each plan day:
+
+- Monday 7 September: `a8fdf72f-f9e7-4af2-b9fd-d02560dd2426`
+- Tuesday 8 September: `3e791842-6d52-4243-b49d-7ea8f89e43a6`
+- Wednesday 9 September: `d7b1cc54-9235-439d-8e1d-34d2bebd7101`
+
 ### Monday 7 September 2026
 
 Agent-owned:
