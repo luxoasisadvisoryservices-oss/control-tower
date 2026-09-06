@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v646";
+const CACHE_NAME = "control-tower-v649";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -8,6 +8,7 @@ const APP_SHELL = [
   "./docs/SPRINGS_FLIP_CHECK_2026-08-21.md",
   "./docs/MARKET_RESEARCH_NEST_MATCH_ORL_GUEST_LAB_2026-08-22.md",
   "./docs/ZUHAIR_CUSTOM_CONVIVA_REBUILD_MEETING_NOTES_2026-08-23.md",
+  "./docs/ZUHAIR_CHECKIN_BRIEF_2026-09-06.md",
   "./docs/LOHH_Revenue_Share_Staffing_Model_2026-07-02.pdf",
   "./docs/LOHH_Acquisition_Ops_Partner_Term_Sheet_2026-07-03.pdf",
   "./docs/LOHH_Scaling_Roadmap_2026-07-05.pdf",
@@ -22,6 +23,7 @@ const APP_SHELL = [
   "./docs/LUCA_NHNCD_ACTION_PLAN_REVIEW_2026-09-05.md",
   "./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md",
   "./docs/LUCA_SEND_HERE_PACK_2026-09-06.md",
+  "./docs/AIRBNB_ITALY_APPROVAL_DRAFTS_2026-09-06.md",
   "./docs/LOHH_TUESDAY_FOCUS_2026-07-07.md",
   "./docs/LOHH_GOOGLE_BUSINESS_PROFILE_MONTHLY_REVIEW_WORKFLOW_2026-07-07.md",
   "./docs/LOHH_EBITDA_PERFORMANCE_REVIEW_2026-07-07.md",
