@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v637";
+const CACHE_NAME = "control-tower-v638";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -21,6 +21,7 @@ const APP_SHELL = [
   "./docs/LUCA_ADVISORY_PRODUCTS_MEETING_BRIEF_2026-09-04.md",
   "./docs/LUCA_NHNCD_ACTION_PLAN_REVIEW_2026-09-05.md",
   "./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md",
+  "./docs/LUCA_SEND_HERE_PACK_2026-09-06.md",
   "./docs/LOHH_TUESDAY_FOCUS_2026-07-07.md",
   "./docs/LOHH_GOOGLE_BUSINESS_PROFILE_MONTHLY_REVIEW_WORKFLOW_2026-07-07.md",
   "./docs/LOHH_EBITDA_PERFORMANCE_REVIEW_2026-07-07.md",

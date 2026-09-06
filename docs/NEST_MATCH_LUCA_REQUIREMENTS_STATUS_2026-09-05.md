@@ -34,7 +34,7 @@ Practical position for Luca:
 | Terms of Use | Have as website draft | `/terms` exists. It says Nest Match is only a marketplace/networking platform, operated by Lux Oasis Advisory & Services LLC, licence no. 2645909.01, Shams, and not a broker, property manager, payment handler, or legal advisor. Needs UAE legal review before relying on it for broad paid launch. |
 | Privacy Policy / data processing | Have as website draft | `/privacy` references UAE PDPL, account/profile/property/usage/message/payment data, Supabase, Stripe, hosting providers, user rights, retention, cross-border processing and cookies. Needs legal/privacy review and verification against actual tracking, database, scraping, outreach and provider-claim flows. |
 | Licence activity code | Strong preliminary fit | Damiano supplied the Shams licence mapping for Lux Oasis Advisory & Services LLC, valid 14 Apr 2026 to 13 Apr 2027, with him as Manager. Activities include 6312 Web portals, 6201 Computer programming, 5820 Software publishing, 4791 Retail sale over internet, and 7020 Management consultancy. This aligns well with Nest Match as a searchable B2B web portal/software platform and advisory-adjacent product, not a real-estate brokerage. |
-| Free-zone vs Dubai mainland operation | Needs PRO/counsel confirmation | The Shams licence activities look aligned for a digital platform, but Nest Match is Dubai-first while the company is a Sharjah free-zone LLC. Confirm whether a Shams company can operate this B2B digital portal for Dubai users without additional mainland setup, and what activities would trigger a different requirement. |
+| Free-zone vs Dubai mainland operation | Stronger but still confirm before broad launch | Shams' own FAQ says a Shams company can invoice clients anywhere in the UAE. That supports Nest Match charging UAE/Dubai users for platform subscriptions from the Shams entity. Still confirm with PRO/counsel because invoicing is not the same as being authorised to carry out regulated Dubai real-estate activity. Nest Match should remain a software/web-portal subscription product, not brokerage, property management, deal negotiation, commission collection, or user-to-user payment handling. |
 | Media-office permit | Likely covered for portal operation, needs Shams confirmation for ads | Shams licence activity 6312 includes web portals / portal-media site activity, which supports the platform/content operation. Still confirm with Shams or PRO before paid advertising, public media campaigns, or stronger publisher/media claims. |
 | Certifications | Unknown / likely not required yet, but must verify | Luca's checklist asks what certifications are needed and when. Treat as a question for the consultant/authority, not as solved. |
 | Contracts Hub | Have preview, not legally cleared | `/contracts-preview` lists many templates and disclaimers. Existing legal-review task says do not claim lawyer-reviewed, UAE-compliant, enforceable, or legally safe until a UAE lawyer reviews exact wording. |
@@ -59,7 +59,7 @@ Practical position for Luca:
 ## What Damiano Does Not Yet Have
 
 - Formal written confirmation/opinion that the activity-code fit is sufficient for the exact Nest Match model.
-- PRO/counsel confirmation on Shams free-zone vs Dubai-mainland operation for a Dubai-first B2B digital platform.
+- PRO/counsel confirmation on the exact boundary between a Shams company invoicing UAE/Dubai users for platform subscriptions and any Dubai mainland regulated real-estate activity. Shams public FAQ supports UAE-wide invoicing, but this should still be confirmed for the Nest Match model before broad paid launch.
 - Shams/PRO confirmation on whether the existing web-portal/media-site activity covers normal platform content and what changes if paid advertising starts.
 - Lawyer-reviewed final Terms of Use.
 - Lawyer/privacy-reviewed final Privacy Policy and data-processing flow.
@@ -82,3 +82,22 @@ Send Luca:
 Suggested wording:
 
 > Luca, for PriceLabs: I am already working as an RM with them, so the alignment is there for consultancy. What I still need to find/send you is the written partner/RM/API terms so we know the exact boundaries for Revenue Assist as software. Until then, please assume no PriceLabs data is redistributed or used to build a PriceLabs clone. For Nest Match, the live site has pricing, Terms, Privacy and contracts preview pages. My Shams licence activities look aligned for a web-portal/software/consultancy platform, not brokerage, but please keep the Shams free-zone vs Dubai-mainland angle, media-office/ads answer, legal/privacy review and certifications as open checklist items for your WP3 analysis.
+
+## 2026-09-06 Mainland / Shams Research Update
+
+Damiano said "Maryland thing"; treated as the Shams free-zone vs Dubai-mainland question from the Luca thread.
+
+Finding:
+
+- Shams' public FAQ explicitly says Shams companies can invoice clients anywhere in the UAE.
+- This is helpful for Nest Match because it supports a Shams company selling platform subscriptions to Dubai/UAE users.
+- Dubai Land Department's real-estate licensing application page separately lists real-estate activities and says free-zone licences need NOC handling through the relevant authority for real-estate licensing. So the risk is not "can Lux Oasis Advisory invoice Dubai users"; the risk is whether Nest Match's conduct crosses into regulated real-estate activity.
+
+Practical conclusion:
+
+Nest Match can be positioned to Luca as a Shams-licensed web portal/software/subscription platform with good preliminary support for UAE-wide invoicing. Do not tell Luca this is fully legally cleared. The final check is narrower now: confirm with PRO/counsel that Nest Match's exact flows stay outside Dubai real-estate brokerage/property-management licensing, especially if the platform starts taking success fees, negotiating deals, collecting commissions, managing property obligations, or handling user-to-user payments.
+
+Source notes:
+
+- Shams FAQ: "Can I invoice clients anywhere in the UAE? Yes."
+- Dubai Land Department real-estate licensing application: real-estate activities use Trakheesi / DLD licensing workflows and free-zone licences require NOC handling for applicable real-estate licences.
