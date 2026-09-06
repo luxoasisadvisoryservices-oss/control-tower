@@ -75,7 +75,7 @@ Damiano needed:
 Agent-owned:
 - Build the Luca handover pack: approved authority-email status, PriceLabs status, GitHub Read status, demo-token status, Guest Lab doc status and Nest Match legal/privacy gaps.
 - Finalise the Nest Match alignment checklist: FAQ, Terms, verification badges, contact-consent rules, pricing, VAT, renewals, cancellations, trials, Lifetime limits and landlord-free entitlements.
-- Check whether `nestmates.com` belongs to Damiano's business before it is included in Luca's review.
+- Confirm Nest Match domain and brand ownership before it is included in Luca's review; current working domain is `nest-match.com`.
 - Set the weekly Luca call frame and track his A/B/C analyses toward 18 September.
 
 Damiano needed:
@@ -91,7 +91,7 @@ Damiano needed:
 5. Align Nest Match FAQ, Terms, verification badges and contact-consent rules.
 6. Verify privacy claims against actual storage, deletion, analytics and data-sharing behaviour.
 7. Confirm live pricing, VAT, renewals, cancellations, trials, Lifetime limits and landlord-free entitlements.
-8. Clarify whether `nestmates.com` belongs to Damiano's business before including it in any review.
+8. Confirm Nest Match domain and brand ownership before including it in any review; current working domain is `nest-match.com`.
 
 ## Later / With Luca
 
