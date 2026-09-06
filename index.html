@@ -252,6 +252,99 @@
       color: var(--muted);
     }
 
+    .command-deck {
+      display: grid;
+      grid-template-columns: 1.1fr repeat(4, minmax(0, 0.72fr));
+      gap: 10px;
+      margin-bottom: 18px;
+    }
+
+    .command-card {
+      text-align: left;
+      min-height: 104px;
+      padding: 13px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .command-card strong,
+    .command-card span {
+      display: block;
+    }
+
+    .command-card strong {
+      font-size: 14px;
+    }
+
+    .command-card span {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.35;
+    }
+
+    .command-card.primary {
+      background: #17201c;
+      color: #fff;
+      border-color: #17201c;
+    }
+
+    .command-card.primary span {
+      color: rgba(255, 255, 255, 0.76);
+    }
+
+    .focus-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+      align-items: stretch;
+    }
+
+    .focus-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      padding: 14px;
+      min-height: 150px;
+      border-top: 4px solid var(--line);
+      font-size: 13px;
+    }
+
+    .focus-card.green { border-top-color: var(--green); }
+    .focus-card.amber { border-top-color: var(--amber); }
+    .focus-card.violet { border-top-color: var(--violet); }
+    .focus-card.blue { border-top-color: var(--blue); }
+
+    .focus-card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+      letter-spacing: 0;
+    }
+
+    .focus-card p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .focus-card ul {
+      margin: 8px 0 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .link-row {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-top: 10px;
+    }
+
     .score-row {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -917,12 +1010,18 @@
       scroll-margin-top: 88px;
     }
 
+    .dashboard-overview-only.is-hidden {
+      display: none;
+    }
+
     @media (max-width: 920px) {
       .hero,
       .grid,
       .lane-grid,
       .sharp-grid,
       .action-board,
+      .command-deck,
+      .focus-grid,
       .business-split,
       .state-grid,
       .subbrand-grid,
@@ -992,7 +1091,7 @@
         bottom: 0;
         z-index: 30;
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         gap: 6px;
         padding: 8px 10px calc(8px + env(safe-area-inset-bottom));
         background: rgba(255, 255, 255, 0.96);
@@ -1016,12 +1115,13 @@
         <div class="app-mark" aria-hidden="true">CT</div>
         <div class="brand-copy">
           <strong>Damiano Control Tower</strong>
-          <em class="brand-update">Updated <span data-publish-stamp>06 Sep 2026 20:45 Dubai</span></em>
+          <em class="brand-update">Updated <span data-publish-stamp>06 Sep 2026 20:52 Dubai</span></em>
           <span>COO cockpit for money, blockers, owners and execution.</span>
         </div>
       </div>
       <div class="nav-actions" aria-label="Dashboard views">
         <button class="active" type="button" data-tab="overview">Overview</button>
+        <button type="button" data-tab="luca">Luca</button>
         <button type="button" data-tab="execution">To Do</button>
         <button type="button" data-tab="timeline">Follow-Up</button>
         <button type="button" data-tab="agents">Agents</button>
@@ -1029,7 +1129,7 @@
       </div>
       <div class="nav-meta" aria-label="Last published update">
         <strong>Live update</strong>
-        <span data-publish-stamp>06 Sep 2026 20:45 Dubai</span>
+        <span data-publish-stamp>06 Sep 2026 20:52 Dubai</span>
       </div>
     </div>
   </header>
@@ -1043,30 +1143,43 @@
       <span class="pill violet">PWA v7</span>
     </section>
 
-    <section class="hero">
+    <section class="command-deck" aria-label="Quick sections">
+      <button class="command-card primary active" type="button" data-tab="overview">
+        <strong>Today</strong>
+        <span>CEO view: priority, active work, blockers and what needs a decision.</span>
+      </button>
+      <button class="command-card" type="button" data-tab="luca">
+        <strong>Luca / NHNCD</strong>
+        <span>3-day partnership plan, reminders, access guardrails and PDF.</span>
+      </button>
+      <button class="command-card" type="button" data-tab="execution">
+        <strong>Work Queue</strong>
+        <span>To do, waiting, watch and company split.</span>
+      </button>
+      <button class="command-card" type="button" data-tab="agents">
+        <strong>Agents</strong>
+        <span>What is running, blocked or parked.</span>
+      </button>
+      <button class="command-card" type="button" data-tab="files">
+        <strong>Files</strong>
+        <span>PDFs, trackers, decks and working notes.</span>
+      </button>
+    </section>
+
+    <section class="hero dashboard-overview-only">
       <div class="hero-main">
         <div>
           <div class="eyebrow">Mission Control · North Star</div>
-          <h1>One screen for what matters now.</h1>
-          <p>Telegram stays short. Control Tower holds the detail. Today&apos;s verified update: Oasis 2 checkout cleaning is operationally confirmed, Joey&apos;s 5-star review reply reminder is scheduled for Lin, Abana&apos;s carpet-cleaning reminder is queued, and the Luca / NHNCD partnership lane now has a next-3-day execution plan with 09:35 Dubai reminders on 7, 8 and 9 September. The partnership remains controlled: read-only access, tenant-scoped demo evidence, authority clarifications and legal/privacy checks before launch claims or commercial commitments.</p>
+          <h1>Today&apos;s operating picture.</h1>
+          <p>Oasis 2 is operationally closed, review and carpet-cleaning reminders are queued, and Luca / NHNCD now has a controlled 3-day partnership plan. Use the buttons above to jump straight to the section you need.</p>
         </div>
         <div class="score-row">
           <div class="score"><b>1</b><span>Oasis 2 checkout confirmed</span></div>
           <div class="score"><b>1</b><span>Joey review reminder scheduled</span></div>
           <div class="score"><b>1</b><span>Carpet-cleaning reminder scheduled</span></div>
-          <div class="score"><b>1</b><span>Murjan 2 Hostaway follow-through</span></div>
-          <div class="score"><b>1</b><span>ORL PDF published</span></div>
-          <div class="score"><b>1</b><span>Airbnb Italy watch refreshed</span></div>
-          <div class="score"><b>0</b><span>Fresh JBR direct routes found</span></div>
-          <div class="score"><b>0</b><span>External sends from the agent today</span></div>
-          <div class="score"><b>1</b><span>Hostaway source blocked</span></div>
-          <div class="score"><b>4</b><span>ORL host-style prospects surfaced</span></div>
-          <div class="score"><b>1</b><span>LOAS Luca brief captured</span></div>
-          <div class="score"><b>1</b><span>Pankaj reminder added</span></div>
           <div class="score"><b>1</b><span>Luca partnership lane active</span></div>
-          <div class="score"><b>3</b><span>Luca plan days split</span></div>
           <div class="score"><b>3</b><span>Luca Telegram reminders set</span></div>
-          <div class="score"><b>Green</b><span>Internal-only updates so far</span></div>
+          <div class="score"><b>0</b><span>External sends from the agent today</span></div>
         </div>
       </div>
 
@@ -1084,6 +1197,78 @@
           <li><strong>Asset</strong><span><a href="./docs/LIN_SIMPLE_DAILY_RESEARCH_TRACKER_2026-09-01.xlsx" target="_blank" rel="noopener">Open the simplified Lin tracker</a></span></li>
         </ul>
       </aside>
+    </section>
+
+    <section data-view="luca">
+      <section class="panel">
+        <div class="section-title">
+          <h2>Luca / NHNCD Partnership</h2>
+          <span class="stamp">7-9 Sep execution plan</span>
+        </div>
+        <div class="focus-grid">
+          <article class="focus-card violet">
+            <h3>State</h3>
+            <p>Controlled first analysis phase for Oasis Revenue Lab, Nest Match and limited Guest Lab material. Read-only, tenant-scoped and no unnecessary client or guest data.</p>
+            <div class="link-row">
+              <button class="file-action" type="button" data-file-download data-file-url="./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.pdf">Get PDF</button>
+              <button class="file-action" type="button" data-file-download data-file-url="./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.md">Get tracker</button>
+            </div>
+          </article>
+          <article class="focus-card green">
+            <h3>Reminders</h3>
+            <ul>
+              <li>Mon 7 Sep, 09:35 Dubai: drafts and access checks.</li>
+              <li>Tue 8 Sep, 09:35 Dubai: approved sends only and authority route prep.</li>
+              <li>Wed 9 Sep, 09:35 Dubai: Luca handover pack and final checklist.</li>
+            </ul>
+          </article>
+          <article class="focus-card amber">
+            <h3>Damiano Needed</h3>
+            <ul>
+              <li>Approve or edit Shams/media-office draft.</li>
+              <li>Approve or edit PriceLabs draft.</li>
+              <li>Choose whether to offer Luca 22 or 23 September first.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="section-title">
+          <h2>3-Day Action Board</h2>
+          <span class="stamp">Click Files for full docs</span>
+        </div>
+        <div class="business-todo-grid">
+          <article class="biz-todo-card support">
+            <div class="biz-title"><h3>Monday 7 Sep</h3><span class="pill violet">Prepare</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>Agent</strong><ul><li>Draft Shams/media-office follow-up.</li><li>Draft PriceLabs use-specific email.</li><li>Prepare DLD/DET clarification pack.</li><li>Check `LC-NHNCD` GitHub Read scope.</li></ul></div>
+              <div class="biz-lane"><strong>Damiano</strong><ul><li>Approve/edit Shams draft.</li><li>Approve/edit PriceLabs draft.</li><li>Pick 22 or 23 Sep first for Luca.</li></ul></div>
+            </div>
+          </article>
+          <article class="biz-todo-card support">
+            <div class="biz-title"><h3>Tuesday 8 Sep</h3><span class="pill amber">Route</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>Agent</strong><ul><li>Send approved drafts only.</li><li>Turn DLD/DET pack into clean route.</li><li>Prepare Zuhair Guest Lab docs request.</li><li>Recheck app-store application status.</li></ul></div>
+              <div class="biz-lane"><strong>Damiano</strong><ul><li>Confirm DLD/DET route once wording is ready.</li><li>Confirm Zuhair docs route or provide docs.</li></ul></div>
+            </div>
+          </article>
+          <article class="biz-todo-card support">
+            <div class="biz-title"><h3>Wednesday 9 Sep</h3><span class="pill blue">Package</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>Agent</strong><ul><li>Build Luca handover pack.</li><li>Finalise Nest Match checklist.</li><li>Confirm Nest Match domain and brand ownership.</li><li>Frame weekly Luca call.</li></ul></div>
+              <div class="biz-lane"><strong>Damiano</strong><ul><li>Choose final call slot if Luca proposes options.</li><li>Keep final commercial scope parked pending analysis and legal review.</li></ul></div>
+            </div>
+          </article>
+          <article class="biz-todo-card support">
+            <div class="biz-title"><h3>Guardrails</h3><span class="pill red">No shortcuts</span></div>
+            <div class="biz-lanes">
+              <div class="biz-lane"><strong>Allowed</strong><ul><li>Drafts, trackers, source checks, internal packs.</li><li>Read-only verification where access exists.</li></ul></div>
+              <div class="biz-lane"><strong>Approval</strong><ul><li>No external email, authority submission, repo grant, demo activation, legal approval or commercial commitment without exact approval.</li></ul></div>
+            </div>
+          </article>
+        </div>
+      </section>
     </section>
 
     <section data-view="overview" class="visible">
@@ -2146,6 +2331,7 @@
 
   <nav class="mobile-tabbar" aria-label="Mobile dashboard views">
     <button class="active" type="button" data-tab="overview">Overview</button>
+    <button type="button" data-tab="luca">Luca</button>
     <button type="button" data-tab="execution">To Do</button>
     <button type="button" data-tab="timeline">Follow-Up</button>
     <button type="button" data-tab="agents">Agents</button>
@@ -2203,12 +2389,14 @@
 
     const buttons = Array.from(document.querySelectorAll("[data-tab]"));
     const views = Array.from(document.querySelectorAll("[data-view]"));
+    const overviewOnly = Array.from(document.querySelectorAll(".dashboard-overview-only"));
 
     buttons.forEach((button) => {
       button.addEventListener("click", () => {
         const tab = button.dataset.tab;
         buttons.forEach((item) => item.classList.toggle("active", item.dataset.tab === tab));
         views.forEach((view) => view.classList.toggle("visible", view.dataset.view === tab));
+        overviewOnly.forEach((section) => section.classList.toggle("is-hidden", tab !== "overview"));
         const activeView = document.querySelector(`[data-view="${tab}"]`);
         if (activeView) {
           activeView.scrollIntoView({ block: "start", behavior: "smooth" });
