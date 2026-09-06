@@ -35,6 +35,47 @@ The signed NHNCD access request is part of the package, but it does not by itsel
 7. Follow up on App Store and Google Play developer applications.
 8. Keep collaboration responsibilities and compensation open until Luca's initial analysis is received.
 
+## Next 3-Day Plan
+
+### Monday 7 September 2026
+
+Agent-owned:
+- Prepare draft follow-up email for Shams/media office covering activities, Dubai/mainland operation, subscriptions and sponsored visibility.
+- Prepare draft PriceLabs email about hosted AI service, authorised customer APIs and client reports.
+- Prepare DLD/DET clarification question pack for retained property features, Night Board and non-brokerage positioning.
+- Check GitHub invitations for `LC-NHNCD`, verify Read-only scope where source access is available, and list which OS components are clean enough to share.
+- Confirm Joey Bronner review reminder runs for Lin at 10:00 Dubai and keep Hostaway/checkout cron health visible.
+
+Damiano needed:
+- Approve or edit the Shams/media-office email before it is sent.
+- Approve or edit the PriceLabs email before it is sent.
+- Tell me whether Luca should be offered 22 or 23 September first for the Dubai meeting.
+
+### Tuesday 8 September 2026
+
+Agent-owned:
+- Send approved Shams and PriceLabs drafts only if Damiano has approved the exact wording.
+- Turn the DLD/DET question pack into the cleanest authority/counsel route and keep the submission draft ready.
+- Ask/prepare the Zuhair Guest Lab documentation request, limited to shareable docs and excluding guest data, credentials and unnecessary repo access.
+- Recheck App Store / Google Play developer application status and log blockers.
+- Retain Revenue Lab dashboard evidence for isolation, read-only access, tenant scope, data sharing and spending limits.
+
+Damiano needed:
+- Confirm whether to proceed with the DLD/DET clarification route once the exact wording is ready.
+- Confirm whether I can ask Zuhair for the shareable Guest Lab docs, or send me the docs if he already gave them to you.
+
+### Wednesday 9 September 2026
+
+Agent-owned:
+- Build the Luca handover pack: approved authority-email status, PriceLabs status, GitHub Read status, demo-token status, Guest Lab doc status and Nest Match legal/privacy gaps.
+- Finalise the Nest Match alignment checklist: FAQ, Terms, verification badges, contact-consent rules, pricing, VAT, renewals, cancellations, trials, Lifetime limits and landlord-free entitlements.
+- Check whether `nestmates.com` belongs to Damiano's business before it is included in Luca's review.
+- Set the weekly Luca call frame and track his A/B/C analyses toward 18 September.
+
+Damiano needed:
+- Choose final weekly-call slot if Luca proposes options.
+- Do not approve final commercial scope, compensation or liability language until Luca's written analysis and UAE legal review are in.
+
 ## Technical-Agent Queue
 
 1. Confirm Luca accepted GitHub invitations, verify Read permissions and identify the OS components to share.
