@@ -101,3 +101,32 @@ Source notes:
 
 - Shams FAQ: "Can I invoice clients anywhere in the UAE? Yes."
 - Dubai Land Department real-estate licensing application: real-estate activities use Trakheesi / DLD licensing workflows and free-zone licences require NOC handling for applicable real-estate licences.
+
+## 2026-09-06 Browse / Brokerage Wording Check
+
+Damiano asked whether "Browse properties" should become "Browse landlords", "Browse opportunities", or similar to reduce brokerage risk.
+
+Finding from the live site:
+
+- Current public copy still uses broad real-estate language including "B2B property marketplace", "Everything property", "Owners choose who sells, rents or manages", and routes such as `/browse-properties`.
+- The legal footer and Terms correctly say Nest Match is not a broker, property manager, contractor, payment handler, legal advisor, or party to user agreements.
+- The safer product language should bring the interface closer to an opportunity/network board, not a property sales/rental portal.
+
+Recommendation:
+
+- Replace "Browse properties" with "Browse opportunities" as the main neutral CTA.
+- Use "Opportunity Board" for the main browse surface.
+- Use category filters inside it: Owner opportunities, Operator requests, Service projects, Agent mandates, Night Board.
+- Avoid "Browse landlords" as the main label because it sounds like a lead list of people and could weaken the permission-based privacy positioning.
+- Keep "property" as a descriptive object inside posts where needed, but avoid making the primary navigation sound like a public property portal.
+
+Preferred wording:
+
+- Main CTA: "Browse opportunities"
+- Nav / page title: "Opportunity Board"
+- Landlord-facing CTA: "Post an owner opportunity"
+- Operator-facing CTA: "Find owner opportunities"
+- Service-provider CTA: "Find service projects"
+- Agent CTA: "Find mandates and introductions"
+
+This is not a complete legal fix by itself, but it helps the platform argument: Nest Match facilitates permission-based professional opportunities and introductions rather than advertising property listings as a broker.
