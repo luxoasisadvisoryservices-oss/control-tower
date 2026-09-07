@@ -6,7 +6,7 @@ Purpose: update Trello with what is done, what was decided, and what needs to mo
 
 ## Trello Board Summary
 
-Oasis Guest Lab is moving from generic guest-reply setup toward a dashboard-controlled operator assistant. The dashboard walkthrough confirmed the current assistant configuration, maintenance ticket view and integration direction. Rollout to Lin should wait until the remaining dashboard controls, ticket-memory tests, translation, Hostaway / Chatwoot inbox flow and inquiry-status confusion are solved.
+Oasis Guest Lab is moving from generic guest-reply setup toward a dashboard-controlled operator assistant. The dashboard walkthrough confirmed the current assistant configuration, maintenance ticket view and integration direction. Damiano has now supplied the fuller policy-settings scope for Lia. Rollout to Lin should wait until the essential policy controls, ticket-memory tests, translation, Hostaway / Chatwoot inbox flow and inquiry-status confusion are solved.
 
 ## Done / Confirmed
 
@@ -26,7 +26,7 @@ Oasis Guest Lab is moving from generic guest-reply setup toward a dashboard-cont
 - Staff routing should be based on request type: maintenance, service, cleaning and other operational categories.
 - Hostaway inbox should feed into Chatwoot and be labelled by OTA, including Airbnb and Booking.com.
 - Inquiries must not appear as normal pre-arrival bookings because that confuses operations.
-- Lin rollout comes after the dashboard additions and memory/integration tests are confirmed.
+- Lin rollout comes after the dashboard additions, essential policy controls and memory/integration tests are confirmed.
 
 ## Now / Next 7 Days
 
@@ -36,13 +36,41 @@ Outcome: Dashboard supports optional custom policy fields for operator-specific 
 
 Owner: Zuhair.
 
-Next action: Add editable policy boxes for deposit, extra guests, pets and breakage charges, based on the Lux Oasis Advisory & Services policy list.
+Next action: Replace the small policy-box idea with configurable policy modules that can apply company-wide or only to selected properties/bookings. Each module needs: rule, fees, conditions, Lia authority level, exceptions/waivers, team-alert trigger and preferred wording/example reply.
 
 Due / review date: Review before Lin rollout.
 
 Blocker: Needs Damiano / Lux Oasis policy tone and final policy list.
 
 Business value: Lets Oasis Guest Lab answer boundary questions from real operator rules instead of guessing.
+
+First-version essential options:
+
+- Security deposits: required yes/no, amount, booking scope, collection/release conditions, exception approval and deduction approval.
+- Extra guests and visitors: guest limit, visitor rules, extra-person fee, child exemption and approval requirement.
+- Pets: allowed, prohibited or approval-only, with restrictions, pet fee, extra cleaning charge and deposit.
+- Damage, breakages and missing items: waived items, chargeable items, approved prices and review-before-charge threshold.
+- Lost keys, access cards and lockouts: replacement fees, after-hours fee, identity check, available assistance and exceptions.
+- Smoking, noise and parties: restrictions, quiet hours, warning wording, applicable charges and team-alert trigger.
+- Refunds, discounts and compensation: no independent offer unless configured; define situation, limit and approval requirement.
+- Cancellations and booking changes: extensions, shortened stays, cancellations and property changes; separate what Lia can explain, request or confirm.
+- Payments: approved methods, balances, deadlines, instalment requests and disputed charges.
+- Security, access and privacy: who may receive access instructions, verification, third-party access and unknown-number handling.
+- Media in Lia conversations: approved photos/videos/documents/location pins, incoming media handling, voice-note forwarding and restrictions on sensitive material/access details.
+- Company defaults versus custom rules versus no restrictions, so the dashboard does not make a missing rule look like permission.
+
+Later-version options:
+
+- Building and community rules by property: parking, pool, gym, deliveries, visitors and shared facilities.
+- Photography and filming: personal photos, commercial shoots, creators, outside photographers/crew, restricted areas, privacy rules, extra fees and deposits.
+- Add-a-policy option for operator-specific rules that do not fit predefined categories.
+- Deeper tone controls: response length, language, greetings, emoji style, preferred phrases, complaint handling and whether Lia suggests alternatives when declining.
+
+Existing settings to update with the same control model:
+
+- Check-in/check-out, consumable top-ups, luggage, unavailable services and cleaning should all use the same structure: company default, property/booking override, rule, fee, Lia authority, waivers, team alert and example wording.
+- The promise to replace missing or broken items must be configurable, not hardcoded.
+- Operators should choose whether a declined request alerts the team.
 
 ### Card: Add Cleaning Routing And Multi-Contact Staff Routing
 

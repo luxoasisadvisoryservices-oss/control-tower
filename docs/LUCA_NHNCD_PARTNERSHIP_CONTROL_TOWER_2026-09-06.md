@@ -19,14 +19,14 @@ The signed NHNCD access request is part of the package, but it does not by itsel
 - Luca should create his own BotFather Telegram demo bot and privately supply token/username before activation.
 - GitHub invitation to `LC-NHNCD` is reported sent/read-only, but acceptance and repo coverage still need verification.
 - Nest Match is presented as a B2B professional opportunity/network platform, not a brokerage.
-- Nest Match launch still needs Shams/media-office, DLD/DET, UAE legal, privacy, consent and wording checks.
+- Nest Match launch still needs the Shams/media-office reply, DLD/DET, UAE legal, privacy, consent and wording checks. Media-office/licensing clarification email was sent on 7 September 2026.
 - PriceLabs public-policy research is complete, but a specific email to PriceLabs is still needed for the hosted AI service, authorised customer APIs and client reporting.
 - Guest Lab repository access is not required now. Shareable docs should be obtained from Zuhair first, with no guest data or unnecessary credentials.
 - Compensation, responsibilities, equity, bonus or exit structure remain parked until Luca's written initial analysis.
 
 ## Active Work Queue
 
-1. Follow up with Shams/media office in the existing email thread: confirm relevant activities, Dubai/mainland operation, subscriptions and sponsored visibility.
+1. Wait for Shams/media-office reply to the sent Nest Match licensing email: relevant activities, Dubai/mainland operation, subscriptions and sponsored visibility are now formally asked but not cleared.
 2. Email PriceLabs about the exact hosted AI service, authorised customer APIs and client reports.
 3. Obtain DLD/DET clarification for Nest Match retained property features and Night Board.
 4. Approve Nest Match final commercial scope and wording only after UAE legal review of liability, licensing and privacy provisions.
@@ -46,14 +46,14 @@ Visible Telegram reminders are scheduled for 09:35 Dubai on each plan day:
 ### Monday 7 September 2026
 
 Agent-owned:
-- Prepare draft follow-up email for Shams/media office covering activities, Dubai/mainland operation, subscriptions and sponsored visibility.
+- Shams/media-office email has been sent; monitor for reply and keep paid subscriptions/promoted placement uncleared until written guidance is received.
 - Prepare draft PriceLabs email about hosted AI service, authorised customer APIs and client reports.
 - Prepare DLD/DET clarification question pack for retained property features, Night Board and non-brokerage positioning.
 - Check GitHub invitations for `LC-NHNCD`, verify Read-only scope where source access is available, and list which OS components are clean enough to share.
 - Confirm Joey Bronner review reminder runs for Lin at 10:00 Dubai and keep Hostaway/checkout cron health visible.
 
 Damiano needed:
-- Approve or edit the Shams/media-office email before it is sent.
+- No action on the Shams/media-office email now; wait for the authority reply.
 - Approve or edit the PriceLabs email before it is sent.
 - Tell me whether Luca should be offered 22 or 23 September first for the Dubai meeting.
 
