@@ -20,14 +20,14 @@ The signed NHNCD access request is part of the package, but it does not by itsel
 - GitHub invitation to `LC-NHNCD` is reported sent/read-only, but acceptance and repo coverage still need verification.
 - Nest Match is presented as a B2B professional opportunity/network platform, not a brokerage.
 - Nest Match launch still needs the Shams/media-office reply, DLD/DET, UAE legal, privacy, consent and wording checks. Media-office/licensing clarification email was sent on 7 September 2026.
-- PriceLabs public-policy research is complete, but a specific email to PriceLabs is still needed for the hosted AI service, authorised customer APIs and client reporting.
+- PriceLabs public-policy research is complete, and Damiano sent the specific email to Eriel / PriceLabs on 7 September 2026 covering the hosted AI service, authorised customer APIs, third-party AI processing and authorised client reporting. This is now a reply-watch item, not a draft task.
 - Guest Lab repository access is not required now. Shareable docs should be obtained from Zuhair first, with no guest data or unnecessary credentials.
 - Compensation, responsibilities, equity, bonus or exit structure remain parked until Luca's written initial analysis.
 
 ## Active Work Queue
 
 1. Wait for Shams/media-office reply to the sent Nest Match licensing email: relevant activities, Dubai/mainland operation, subscriptions and sponsored visibility are now formally asked but not cleared.
-2. Email PriceLabs about the exact hosted AI service, authorised customer APIs and client reports.
+2. Wait for Eriel / PriceLabs to reply to Damiano's 7 September email about the exact hosted AI service, authorised customer APIs, third-party AI processing and client reports.
 3. Obtain DLD/DET clarification for Nest Match retained property features and Night Board.
 4. Approve Nest Match final commercial scope and wording only after UAE legal review of liability, licensing and privacy provisions.
 5. Get Zuhair's existing Guest Lab documentation and forward only shareable materials to Luca.
@@ -47,20 +47,20 @@ Visible Telegram reminders are scheduled for 09:35 Dubai on each plan day:
 
 Agent-owned:
 - Shams/media-office email has been sent; monitor for reply and keep paid subscriptions/promoted placement uncleared until written guidance is received.
-- Prepare draft PriceLabs email about hosted AI service, authorised customer APIs and client reports.
+- PriceLabs email has been sent by Damiano; monitor for Eriel's reply and keep the commercial setup uncleared until PriceLabs confirms terms / approval path in writing.
 - Prepare DLD/DET clarification question pack for retained property features, Night Board and non-brokerage positioning.
 - Check GitHub invitations for `LC-NHNCD`, verify Read-only scope where source access is available, and list which OS components are clean enough to share.
 - Confirm Joey Bronner review reminder runs for Lin at 10:00 Dubai and keep Hostaway/checkout cron health visible.
 
 Damiano needed:
 - No action on the Shams/media-office email now; wait for the authority reply.
-- Approve or edit the PriceLabs email before it is sent.
+- No action on PriceLabs now; wait for Eriel's reply.
 - Tell me whether Luca should be offered 22 or 23 September first for the Dubai meeting.
 
 ### Tuesday 8 September 2026
 
 Agent-owned:
-- Send approved Shams and PriceLabs drafts only if Damiano has approved the exact wording.
+- Keep Shams/media-office and PriceLabs on reply watch; do not treat either as clearance until written replies land.
 - Turn the DLD/DET question pack into the cleanest authority/counsel route and keep the submission draft ready.
 - Ask/prepare the Zuhair Guest Lab documentation request, limited to shareable docs and excluding guest data, credentials and unnecessary repo access.
 - Recheck App Store / Google Play developer application status and log blockers.
@@ -73,7 +73,7 @@ Damiano needed:
 ### Wednesday 9 September 2026
 
 Agent-owned:
-- Build the Luca handover pack: approved authority-email status, PriceLabs status, GitHub Read status, demo-token status, Guest Lab doc status and Nest Match legal/privacy gaps.
+- Build the Luca handover pack: Shams/media-office sent-and-waiting status, PriceLabs sent-and-waiting status, GitHub Read status, demo-token status, Guest Lab doc status and Nest Match legal/privacy gaps.
 - Finalise the Nest Match alignment checklist: FAQ, Terms, verification badges, contact-consent rules, pricing, VAT, renewals, cancellations, trials, Lifetime limits and landlord-free entitlements.
 - Confirm Nest Match domain and brand ownership before it is included in Luca's review; current working domain is `nest-match.com`.
 - Set the weekly Luca call frame and track his A/B/C analyses toward 18 September.

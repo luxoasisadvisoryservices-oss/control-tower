@@ -6,7 +6,7 @@ Purpose: update Trello with what is done, what was decided, and what needs to mo
 
 ## Trello Board Summary
 
-Oasis Guest Lab is moving from generic guest-reply setup toward a dashboard-controlled operator assistant. The dashboard walkthrough confirmed the current assistant configuration, maintenance ticket view and integration direction. Damiano has now supplied the fuller policy-settings scope for Lia. Rollout to Lin should wait until the essential policy controls, ticket-memory tests, translation, Hostaway / Chatwoot inbox flow and inquiry-status confusion are solved.
+Oasis Guest Lab is moving from generic guest-reply setup toward a dashboard-controlled operator assistant. The dashboard walkthrough confirmed the current assistant configuration, maintenance ticket view and integration direction. Damiano has now supplied the fuller policy-settings scope for Lia. Rollout to Lin should wait until the essential policy controls, automated guest-journey messages, ticket-memory tests, translation, Hostaway / Chatwoot inbox flow and inquiry-status confusion are solved.
 
 ## Done / Confirmed
 
@@ -85,6 +85,20 @@ Due / review date: Review before Lin rollout.
 Blocker: Needs final staff-routing model and contact ownership.
 
 Business value: Reduces manual escalation and prevents guest issues from going to the wrong person.
+
+### Card: Finish Automated Guest-Journey Messages
+
+Outcome: Automated pre-arrival, check-in, in-stay, checkout and review-request messages are completed, configurable and safe to use in the dashboard flow.
+
+Owner: Zuhair.
+
+Next action: Finish the automated message sequence with channel labels, timing rules, property/booking overrides, pause/manual-review controls and clear escalation when data is missing or a guest replies with a non-routine issue.
+
+Due / review date: Release-critical before Lin rollout.
+
+Blocker: Needs final policy/tone list and a QA pass against real Hostaway reservations / Chatwoot conversations.
+
+Business value: Lets Oasis Guest Lab run the repeatable guest communication journey without Lin manually triggering every standard message.
 
 ### Card: Test Ticket Memory And Recurring-Issue Recall
 
@@ -188,6 +202,6 @@ Business value: Avoids launching outreach on weak infrastructure.
 ## Recommended Trello Lists
 
 - Done / Confirmed: dashboard basics, per-reservation override decision, Chatwoot notes decommission decision, ticket views, autopilot active.
-- Now / Zuhair: custom policy boxes, cleaning/multi-contact routing, ticket memory tests, translation, Hostaway inbox to Chatwoot, inquiry status, rebrand/UI, security fixes.
+- Now / Zuhair: custom policy boxes, automated guest-journey messages, cleaning/multi-contact routing, ticket memory tests, translation, Hostaway inbox to Chatwoot, inquiry status, rebrand/UI, security fixes.
 - Waiting on Damiano: subdomain credentials, policy tone/list, test examples, Lin rollout timing.
 - Blocked / External: Meta tech provider proof path, Hostaway/Chatwoot integration access if not available.
