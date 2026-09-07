@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zuhair / Oasis Guest Lab Trello Update</title>
+  <style>
+    :root { color-scheme: light; --ink: #18211d; --muted: #5f6862; --line: #d8dfd8; --soft: #f4f6f2; --accent: #2f6f5e; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f8f5; color: var(--ink); font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    main { width: min(880px, calc(100% - 28px)); margin: 0 auto; padding: 28px 0 44px; }
+    header { border: 1px solid var(--line); background: white; padding: 28px; border-radius: 8px; margin-bottom: 18px; }
+    .kicker { color: var(--accent); font-weight: 700; text-transform: uppercase; font-size: 12px; letter-spacing: .04em; }
+    h1 { margin: 8px 0 10px; font-size: clamp(28px, 4vw, 42px); line-height: 1.05; letter-spacing: 0; }
+    .subtitle { max-width: 680px; color: var(--muted); font-size: 17px; }
+    article { border: 1px solid var(--line); background: white; padding: 30px; border-radius: 8px; }
+    h1 + p, h2 + p, h3 + p { margin-top: 8px; }
+    h2 { margin: 30px 0 8px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 23px; letter-spacing: 0; }
+    h3 { margin: 24px 0 8px; font-size: 18px; letter-spacing: 0; color: #24362f; }
+    p { margin: 12px 0; }
+    ul { margin: 10px 0 16px; padding-left: 20px; }
+    li { margin: 6px 0; }
+    blockquote { margin: 16px 0; padding: 14px 18px; background: var(--soft); border-left: 4px solid var(--accent); color: #26342d; }
+    blockquote p { margin: 6px 0; }
+    code { font-family: "SFMono-Regular", Consolas, monospace; font-size: .94em; background: var(--soft); padding: 2px 5px; border-radius: 4px; }
+    @media print {
+      body { background: white; }
+      main { width: auto; padding: 0; }
+      header, article { border: 0; border-radius: 0; }
+      header { border-bottom: 1px solid var(--line); }
+      a { color: inherit; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="kicker">Lux Oasis Advisory & Services LLC</div>
+      <h1>Zuhair / Oasis Guest Lab Trello Update</h1>
+      <div class="subtitle">Board-ready done, decisions, next actions and blockers from the 7 September dashboard walkthrough.</div>
+    </header>
+    <article>
+      <h1>Zuhair / Oasis Guest Lab Trello Update - 2026-09-07</h1>
+<p>Source: Damiano's 7 Sep transcript summary from the assistant dashboard walkthrough with Zohair Hadi / Zuhair.</p>
+<p>Purpose: update Trello with what is done, what was decided, and what needs to move soon before rollout to Lin.</p>
+<h2>Trello Board Summary</h2>
+<p>Oasis Guest Lab is moving from generic guest-reply setup toward a dashboard-controlled operator assistant. The dashboard walkthrough confirmed the current assistant configuration, maintenance ticket view and integration direction. Damiano has now supplied the fuller policy-settings scope for Lia. Rollout to Lin should wait until the essential policy controls, ticket-memory tests, translation, Hostaway / Chatwoot inbox flow and inquiry-status confusion are solved.</p>
+<h2>Done / Confirmed</h2>
+<ul>
+<li>Assistant dashboard exists and covers assistant name, company, check-in and checkout, policies, tone, language and sign-off.</li>
+<li>Per-reservation overrides will replace Chatwoot notes.</li>
+<li>Chatwoot notes should be decommissioned as the source of operational side notes.</li>
+<li>Autopilot mode is active, with the agent replying to guests directly.</li>
+<li>Maintenance tickets show open, in-progress and all-ticket views.</li>
+<li>Closing a ticket removes it from the active view while retaining the history.</li>
+<li>Staff numbers added directly to the agent are ignored; routing should be configured by request type instead.</li>
+<li>Property marketplace is nearly done, with security fixes still pending before the outreach system.</li>
+</ul>
+<h2>Decisions Made</h2>
+<ul>
+<li>Dashboard becomes the control layer for assistant behaviour, policies, overrides and routing.</li>
+<li>Per-reservation changes should be managed inside the dashboard, not in Chatwoot notes.</li>
+<li>Staff routing should be based on request type: maintenance, service, cleaning and other operational categories.</li>
+<li>Hostaway inbox should feed into Chatwoot and be labelled by OTA, including Airbnb and Booking.com.</li>
+<li>Inquiries must not appear as normal pre-arrival bookings because that confuses operations.</li>
+<li>Lin rollout comes after the dashboard additions, essential policy controls and memory/integration tests are confirmed.</li>
+</ul>
+<h2>Now / Next 7 Days</h2>
+<h3>Card: Add Custom Policy Boxes</h3>
+<p>Outcome: Dashboard supports optional custom policy fields for operator-specific rules.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Replace the small policy-box idea with configurable policy modules that can apply company-wide or only to selected properties/bookings. Each module needs: rule, fees, conditions, Lia authority level, exceptions/waivers, team-alert trigger and preferred wording/example reply.</p>
+<p>Due / review date: Review before Lin rollout.</p>
+<p>Blocker: Needs Damiano / Lux Oasis policy tone and final policy list.</p>
+<p>Business value: Lets Oasis Guest Lab answer boundary questions from real operator rules instead of guessing.</p>
+<p>First-version essential options:</p>
+<ul>
+<li>Security deposits: required yes/no, amount, booking scope, collection/release conditions, exception approval and deduction approval.</li>
+<li>Extra guests and visitors: guest limit, visitor rules, extra-person fee, child exemption and approval requirement.</li>
+<li>Pets: allowed, prohibited or approval-only, with restrictions, pet fee, extra cleaning charge and deposit.</li>
+<li>Damage, breakages and missing items: waived items, chargeable items, approved prices and review-before-charge threshold.</li>
+<li>Lost keys, access cards and lockouts: replacement fees, after-hours fee, identity check, available assistance and exceptions.</li>
+<li>Smoking, noise and parties: restrictions, quiet hours, warning wording, applicable charges and team-alert trigger.</li>
+<li>Refunds, discounts and compensation: no independent offer unless configured; define situation, limit and approval requirement.</li>
+<li>Cancellations and booking changes: extensions, shortened stays, cancellations and property changes; separate what Lia can explain, request or confirm.</li>
+<li>Payments: approved methods, balances, deadlines, instalment requests and disputed charges.</li>
+<li>Security, access and privacy: who may receive access instructions, verification, third-party access and unknown-number handling.</li>
+<li>Media in Lia conversations: approved photos/videos/documents/location pins, incoming media handling, voice-note forwarding and restrictions on sensitive material/access details.</li>
+<li>Company defaults versus custom rules versus no restrictions, so the dashboard does not make a missing rule look like permission.</li>
+</ul>
+<p>Later-version options:</p>
+<ul>
+<li>Building and community rules by property: parking, pool, gym, deliveries, visitors and shared facilities.</li>
+<li>Photography and filming: personal photos, commercial shoots, creators, outside photographers/crew, restricted areas, privacy rules, extra fees and deposits.</li>
+<li>Add-a-policy option for operator-specific rules that do not fit predefined categories.</li>
+<li>Deeper tone controls: response length, language, greetings, emoji style, preferred phrases, complaint handling and whether Lia suggests alternatives when declining.</li>
+</ul>
+<p>Existing settings to update with the same control model:</p>
+<ul>
+<li>Check-in/check-out, consumable top-ups, luggage, unavailable services and cleaning should all use the same structure: company default, property/booking override, rule, fee, Lia authority, waivers, team alert and example wording.</li>
+<li>The promise to replace missing or broken items must be configurable, not hardcoded.</li>
+<li>Operators should choose whether a declined request alerts the team.</li>
+</ul>
+<h3>Card: Add Cleaning Routing And Multi-Contact Staff Routing</h3>
+<p>Outcome: Maintenance, service and cleaning requests route to the right contacts.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Add cleaning as a routing option and allow multiple contacts per request type.</p>
+<p>Due / review date: Review before Lin rollout.</p>
+<p>Blocker: Needs final staff-routing model and contact ownership.</p>
+<p>Business value: Reduces manual escalation and prevents guest issues from going to the wrong person.</p>
+<h3>Card: Test Ticket Memory And Recurring-Issue Recall</h3>
+<p>Outcome: Agent recalls recurring property issues and per-guest complaint history.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Test whether closed and historic tickets influence future replies, especially repeated maintenance issues and repeat guest complaints.</p>
+<p>Due / review date: Run test before enabling broader autopilot use.</p>
+<p>Blocker: Needs test cases from real Lux Oasis tickets.</p>
+<p>Business value: Makes the assistant operationally useful, not just a one-message reply bot.</p>
+<h3>Card: Finish Translation Feature</h3>
+<p>Outcome: Assistant can handle guest language flow reliably.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Finish and test translation so reply language can remain blank to mimic the guest's language unless overridden.</p>
+<p>Due / review date: Review before Lin rollout.</p>
+<p>Blocker: Needs live test across common guest languages.</p>
+<p>Business value: Improves guest experience without Lin manually rewriting routine replies.</p>
+<h3>Card: Integrate Hostaway Inbox Into Chatwoot</h3>
+<p>Outcome: Airbnb, Booking.com and other OTA inbox messages flow through Chatwoot with clear labels.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Pipe Hostaway inbox into Chatwoot and label conversations per OTA.</p>
+<p>Due / review date: Release-critical.</p>
+<p>Blocker: Confirm Hostaway inbox access and Chatwoot mapping.</p>
+<p>Business value: Centralises guest operations and makes OTA messages usable in the same assistant workflow.</p>
+<h3>Card: Add Inquiry, Not Booked Status</h3>
+<p>Outcome: Inquiries stop appearing as real pre-arrival bookings.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Add an explicit <code>Inquiry - not booked</code> status and adjust dashboard/Chatwoot logic so inquiries are visually separate from reservations.</p>
+<p>Due / review date: Release-critical.</p>
+<p>Blocker: Need to test current Hostaway inquiry payloads.</p>
+<p>Business value: Prevents Lin and Damiano from treating non-booked leads as confirmed guests.</p>
+<h3>Card: Rebrand And Update Dashboard UI</h3>
+<p>Outcome: Dashboard uses the current Oasis Guest Lab / Lux Oasis Advisory naming and looks ready for operator use.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Rebrand and polish the dashboard UI before showing it to Lin or external operators.</p>
+<p>Due / review date: Before Lin rollout.</p>
+<p>Blocker: Needs final copy/name treatment from Damiano if not already applied.</p>
+<p>Business value: Makes the product feel credible enough for demos and operator onboarding.</p>
+<h3>Card: Finish Security Fixes Before Outreach System</h3>
+<p>Outcome: Property marketplace and outreach system are not rolled out while security fixes remain open.</p>
+<p>Owner: Zuhair.</p>
+<p>Next action: Complete pending security fixes, then reconnect to the outreach-system release path.</p>
+<p>Due / review date: Before any broader outreach.</p>
+<p>Blocker: Needs exact security checklist from Zuhair.</p>
+<p>Business value: Avoids launching outreach on weak infrastructure.</p>
+<h2>Waiting On Damiano / Lux Oasis Advisory</h2>
+<ul>
+<li>Send subdomain credentials.</li>
+<li>Send final policy tone and policy list.</li>
+<li>Provide concrete policy examples for deposit, extra guests, pets and breakage charges.</li>
+<li>Provide a few real ticket-memory test cases if needed.</li>
+<li>Confirm when Lin should see the dashboard after Zuhair finishes the release-critical items.</li>
+</ul>
+<h2>Blockers / Risks</h2>
+<ul>
+<li>Meta tech provider approval is still blocked because the free-zone licence does not show a number. Zuhair will try a Virgin invoice as proof.</li>
+<li>Inquiry status is currently misleading because inquiries appear like pre-arrival bookings.</li>
+<li>Autopilot is active, so policy accuracy, routing and escalation controls are more urgent than cosmetic UI work.</li>
+<li>Trello direct update was blocked in this runtime until Trello connector access is authorised.</li>
+</ul>
+<h2>Recommended Trello Lists</h2>
+<ul>
+<li>Done / Confirmed: dashboard basics, per-reservation override decision, Chatwoot notes decommission decision, ticket views, autopilot active.</li>
+<li>Now / Zuhair: custom policy boxes, cleaning/multi-contact routing, ticket memory tests, translation, Hostaway inbox to Chatwoot, inquiry status, rebrand/UI, security fixes.</li>
+<li>Waiting on Damiano: subdomain credentials, policy tone/list, test examples, Lin rollout timing.</li>
+<li>Blocked / External: Meta tech provider proof path, Hostaway/Chatwoot integration access if not available.</li>
+</ul>
+    </article>
+  </main>
+</body>
+</html>
