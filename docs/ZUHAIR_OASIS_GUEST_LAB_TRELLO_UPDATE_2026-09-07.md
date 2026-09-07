@@ -156,6 +156,14 @@ Blocker: Need to test current Hostaway inquiry payloads.
 
 Business value: Prevents Lin and Damiano from treating non-booked leads as confirmed guests.
 
+### Card: Review / Update The Edit Section In The Properties Dashboard
+
+Owner: Zuhair.
+
+Status: To do.
+
+Next action: Review and update the edit section in the properties dashboard, as requested by Damiano. Confirm the specific changes needed before implementation.
+
 ### Card: Rebrand And Update Dashboard UI
 
 Outcome: Dashboard uses the current Oasis Guest Lab / Lux Oasis Advisory naming and looks ready for operator use.
