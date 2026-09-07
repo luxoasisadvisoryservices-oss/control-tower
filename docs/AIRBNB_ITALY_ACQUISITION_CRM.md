@@ -3,6 +3,8 @@
 # 2026-09-05 14:03 Asia/Dubai Airbnb Italy corrected small-host lane sent two new first-touch emails: FromHometoRome / FHTR to `info@fromhometorome.com` and EasyHomes to `welcome@easyhomes.it`. Both used specific property links and one soft observation. Reply routing remains `damiano@luxoasisadvisory.com`. Parked this run: Rental in Rome, Heart Milan Apartments and MilanInFlat.
 # 2026-09-01 14:05 Asia/Dubai Airbnb Italy discovery pass stayed parked: a fresh Rome/Milan web-search sweep found either polished/professional operators, already-excluded names, or Airbnb-only listings without a clean off-Airbnb contact route. Parked examples include `Rome Short Let Service`, `Rental in Rome`, `RomeApartments.com`, `HouseinMilano`, and the fresh Trastevere/Porta Venezia hits that still need a usable direct route. No external send was made. Reply routing remains `damiano@luxoasisadvisory.com`, and any future reply must be surfaced to Damiano before a substantive response.
 
+# 2026-09-07 10:33 Asia/Dubai Airbnb Italy reply monitor checked the six tracked sent threads and found `0` new replies again. Created a new light follow-up draft for `ShortLetsRome / Crispi` in `AIRBNB_ITALY_FOLLOW_UP_DRAFTS_2026-09-07.md` because the 2026-08-31 send is now due for a soft nudge. No external email was sent in this pass, and `Vantaggio Suites & Apartments Roma Vaticano` remains on monitor only.
+
 # Airbnb Italy Acquisition CRM
 
 Owner: Main COO Agent  
