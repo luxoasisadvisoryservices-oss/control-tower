@@ -45,6 +45,12 @@
 
       <section class="view active" data-view="overview" aria-labelledby="viewTitle">
         <div class="flow-strip" aria-label="Operating sequence" id="flowStrip"></div>
+        <section class="runtime-snapshot" aria-labelledby="runtimeTitle">
+          <div class="runtime-head"><div><p class="eyebrow">Verified production state</p><h2 id="runtimeTitle">Hermes runtime snapshot</h2><p id="runtimeSummary"></p></div><span class="verified-pill" id="runtimeVerified"></span></div>
+          <div class="runtime-metrics" id="runtimeMetrics"></div>
+          <div class="service-strip" id="serviceStrip" aria-label="Verified service checks"></div>
+          <p class="runtime-note" id="runtimeNote"></p>
+        </section>
         <div class="section-heading"><div><p class="eyebrow">Decision surface</p><h2>What matters now</h2></div><button class="text-button" data-view-target="tasks">Open work queue →</button></div>
         <div class="overview-grid">
           <div class="primary-stack"><div id="attentionList" class="attention-list"></div></div>
@@ -88,7 +94,11 @@
       <section class="view" data-view="team">
         <div class="section-heading"><div><p class="eyebrow">Assignment map</p><h2>People & agents</h2><p>Named ownership without simulated online presence. Assignment states come from the static snapshot.</p></div></div>
         <div id="teamBoard" class="team-board"></div>
-        <div class="callout"><strong>Runtime truth</strong><p>Hermes is the main agent. Current profile runtime jobs were not verified as running for this artifact, so old worker definitions are preserved in the legacy archive—not shown as live agents.</p></div>
+        <div class="runtime-boards">
+          <section class="panel"><div class="panel-head"><h3>Configured workers</h3><span>Enabled, not necessarily running now</span></div><div id="workerBoard" class="worker-board"></div></section>
+          <section class="panel hold-panel"><div class="panel-head"><h3>Held jobs</h3><span id="holdCount"></span></div><div id="holdBoard" class="hold-board"></div></section>
+        </div>
+        <div class="callout"><strong>Runtime truth</strong><p>This is a dated, read-only production snapshot—not live telemetry. “Enabled” means configured to run on schedule; it does not mean a worker is executing now. Business task statuses remain independent of the completed Hermes migration.</p></div>
       </section>
 
       <section class="view" data-view="files">

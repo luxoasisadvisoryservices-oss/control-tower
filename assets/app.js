@@ -32,8 +32,20 @@
     const attention = data.tasks.find(t => t.status === "Blocked");
     const damiano = data.tasks.find(t => t.needsDamiano && t.status !== "Completed");
     const next = data.tasks.find(t => t.status === "Not Started");
-    const steps = [["Happened",happened?.title,"Verified 7 Sep"],["Happening",happening?.title,project(happening?.project)?.short],["Attention",attention?.title,project(attention?.project)?.short],["Needs Damiano",damiano?.title,project(damiano?.project)?.short],["Next",next?.title,project(next?.project)?.short]];
+    const steps = [["Happened",happened?.title,"Verified 8 Sep"],["Happening",happening?.title,project(happening?.project)?.short],["Attention",attention?.title,project(attention?.project)?.short],["Needs Damiano",damiano?.title,project(damiano?.project)?.short],["Next",next?.title,project(next?.project)?.short]];
     $("#flowStrip").innerHTML = steps.map(([a,b,c])=>`<div class="flow-step"><small>${esc(a)}</small><strong title="${esc(b)}">${esc(b)}</strong><span>${esc(c)}</span></div>`).join("");
+  }
+
+  function renderRuntime() {
+    const r = data.runtime;
+    $("#runtimeSummary").innerHTML = `<strong>${esc(r.title)}</strong><br>${esc(r.summary)}`;
+    $("#runtimeVerified").textContent = `Verified ${r.verified}`;
+    $("#runtimeMetrics").innerHTML = r.metrics.map(m=>`<div class="runtime-metric"><strong>${esc(m.value)}</strong><span>${esc(m.label)}</span><small>${esc(m.detail)}</small></div>`).join("");
+    $("#serviceStrip").innerHTML = r.services.map(s=>`<span class="service-state ${slug(s.state)}"><b>${esc(s.name)}</b>${esc(s.state)}</span>`).join("");
+    $("#runtimeNote").textContent = `${r.note} Configuration count checked ${r.configChecked}.`;
+    $("#workerBoard").innerHTML = r.workers.map(w=>`<div class="worker-row"><span><strong>${esc(w.name)}</strong><small>${esc(w.detail)}</small></span><b>${esc(w.count)}</b></div>`).join("");
+    $("#holdCount").textContent = `${r.metrics.find(m=>m.label==="Paused jobs").value} paused`;
+    $("#holdBoard").innerHTML = r.holds.map(h=>`<div class="hold-row"><span><strong>${esc(h.title)}</strong><small>${esc(h.detail)}</small></span><span class="hold-state">${h.count === null ? "" : `${esc(h.count)} · `}${esc(h.state)}</span></div>`).join("");
   }
 
   function renderOverview() {
@@ -107,7 +119,7 @@
   function init() {
     $("#snapshotText").textContent = `${data.snapshot} · ${data.sourceNote}`;
     $("#snapshotSide").textContent = data.snapshot;
-    renderFlow(); renderOverview(); renderAttention();
+    renderFlow(); renderRuntime(); renderOverview(); renderAttention();
     populateSelect("#projectStatusFilter", data.statuses);
     populateSelect("#projectFilter", data.projects.map(p=>({value:p.id,label:p.short})));
     populateSelect("#statusFilter", data.statuses);
