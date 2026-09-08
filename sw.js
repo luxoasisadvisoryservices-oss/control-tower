@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v701-runtime-snapshot";
+const CACHE_NAME = "control-tower-v702-safe-area-header";
 const APP_SHELL = [
   "./",
   "./index.html",
