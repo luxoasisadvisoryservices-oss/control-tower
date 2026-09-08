@@ -1,35 +1,7 @@
 window.CONTROL_TOWER_DATA = {
-  snapshot: "08 Sep 2026, 10:05 Dubai",
-  sourceNote: "Static business view plus a verified, dated Hermes production snapshot. This is not live telemetry.",
-  runtime: {
-    verified: "08 Sep 2026, 09:09 Dubai",
-    configChecked: "08 Sep 2026, 10:05 Dubai",
-    title: "Safe production scope complete · Hermes ON · OpenClaw OFF",
-    summary: "Phase 1 is complete for the verified safe-production scope. Business work is not complete, and paused write paths remain paused.",
-    metrics: [
-      {label:"Enabled schedules",value:"28",detail:"27 business workers + 1 backup"},
-      {label:"Paused jobs",value:"11",detail:"Holds remain enforced"},
-      {label:"Completed test",value:"1",detail:"Telegram delivery; no duplicate poller"},
-      {label:"External-write holds",value:"7",detail:"Approval or bounded-path gates"}
-    ],
-    services: [
-      {name:"Hostaway",state:"PASS"},{name:"Slack",state:"PASS"},{name:"Telegram",state:"PASS"},{name:"Backup",state:"PASS"},{name:"Gmail",state:"PARTIAL"}
-    ],
-    note: "Gmail is partial after HTTP 429 on bounded JBR and ORL checks. No retries were forced. Business wall clocks remain Asia/Dubai; routine jobs use mini/sol pins with zero Astra jobs.",
-    workers: [
-      {name:"Stage A · Operations",count:9,detail:"Bounded Hostaway, inquiry, reservation and Lin follow-through paths"},
-      {name:"Stage B · Control",count:5,detail:"Briefing, watcher and Control Tower reporting lanes"},
-      {name:"Stage C · Business",count:13,detail:"Research, audit, ORL, growth and one remaining Luca reminder"},
-      {name:"Backup",count:1,detail:"Daily 03:17 Dubai; latest restricted restore verification passed"},
-      {name:"Stage D · External writes",count:0,detail:"No broad external-write stage activated"}
-    ],
-    holds: [
-      {title:"External-write jobs",count:7,state:"Approval held",detail:"Five Stage D write paths plus two broad Slack operations paths remain off."},
-      {title:"Gmail-backed reply checks",count:2,state:"Technical hold",detail:"JBR and ORL workers stopped after HTTP 429; do not hammer the source."},
-      {title:"Luca one-time reminders",count:1,state:"No replay",detail:"The 8 Sep reminder completed; the 9 Sep reminder remains configured. Do not reschedule expired children."},
-      {title:"Next approval action",count:null,state:"Needs Damiano",detail:"Clarify narrow send/forward/mailbox authority and Italy outreach scope before any held write path is considered."}
-    ]
-  },
+  snapshot: window.CONTROL_TOWER_RUNTIME_SNAPSHOT.capturedAt,
+  sourceNote: "Static business view plus a timestamped runtime/audit snapshot. This is not live telemetry.",
+  runtime: window.CONTROL_TOWER_RUNTIME_SNAPSHOT,
   statuses: ["Not Started", "In Progress", "Waiting", "Blocked", "Review", "Completed"],
   projects: [
     {
@@ -90,11 +62,11 @@ window.CONTROL_TOWER_DATA = {
     {
       id: "mission", name: "Mission Control", short: "Mission Control", status: "In Progress", priority: "P2", owner: "Hermes", team: ["Hermes", "Damiano"], updated: "08 Sep 2026",
       summary: "Internal control surface for portfolio execution and a dated view of verified Hermes production state.",
-      progress: {done: 2, total: 5}, latest: "Phase 1 safe-production scope is complete. The dashboard now separates configured schedules, paused holds and business task truth without presenting fake live telemetry.",
-      completed: ["Static Control Tower prototype retained with full legacy archive", "Hermes Phase 1 safe-production scope verified"],
-      current: ["Keep business statuses evidence-led", "Keep runtime holds and source health visible"],
+      progress: {done: 1, total: 5}, latest: "Phase 1 is partial. Luna and the repaired guest-operation tests passed; safe internal automation is restored. Telegram unattended delivery and fresh post-restart messaging exchange remain unverified. See the timestamped runtime snapshot, not this static project summary, for counts.",
+      completed: ["Static Control Tower prototype retained with full legacy archive"],
+      current: ["Show sanitized failure classes and current held paths", "Keep bounded component evidence separate from phase health", "Keep runtime source timestamps visible"],
       next: ["Resolve only the narrow external-write approvals that Damiano wants activated", "Define connector strategy and first beta-user profile"],
-      blockers: ["Seven external-write jobs remain held", "Gmail-backed JBR and ORL checks are rate-limited", "Product scope, connector strategy and pricing are undecided"],
+      blockers: ["Telegram unattended verification failed on the stale Desktop scheduler; gateway-only local execution now passes", "Fresh post-restart end-user messaging exchange remains unverified", "Isolated Gmail rate limits and worker dependencies remain held", "External-write and policy holds remain enforced"],
       decisions: ["Only verified source-backed updates belong in the current view"],
       docs: [["Original detailed archive","./legacy.html"]]
     },
@@ -132,8 +104,8 @@ window.CONTROL_TOWER_DATA = {
     {id:"t19",title:"Send Shams/media-office and PriceLabs emails",project:"luca",status:"Completed",priority:"P1",owner:"Damiano",needsDamiano:false,detail:"Both were sent on 7 September and moved to reply watch.",doc:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.md"}
   ],
   activity: [
-    {date:"08 Sep 2026",type:"Happened",project:"mission",title:"Hermes safe-production scope verified",body:"Hermes is on, OpenClaw is off, Hostaway/Slack/Telegram passed, backup restore verification passed, and Gmail remained partial after bounded HTTP 429 checks."},
-    {date:"08 Sep 2026",type:"Attention",project:"mission",title:"Seven external-write jobs remain held",body:"No broad write stage was activated. Narrow send/mailbox authority, Italy scope and broad Slack operation boundaries still require explicit clearance."},
+    {date:"08 Sep 2026",type:"Attention",project:"mission",title:"Phase 1 safe internal recovery remains partial",body:"Luna passed, guest operations passed 38 regression and 10 adversarial checks, and the stale Desktop ticker was stopped. Gateway-only local scheduling passed. Telegram unattended delivery remains unverified; Gmail and intentional holds remain paused."},
+    {date:"08 Sep 2026",type:"Attention",project:"mission",title:"External-write and policy holds remain enforced",body:"No broad write stage was activated. Narrow send/mailbox authority, Italy scope and broad Slack operation boundaries still require explicit clearance."},
     {date:"07 Sep 2026",type:"Happened",project:"guestlab",title:"Properties dashboard edit task added",body:"Zuhair owns the new To do item; exact requested changes must be confirmed before implementation.",doc:"./docs/ZUHAIR_OASIS_GUEST_LAB_TRELLO_UPDATE_2026-09-07.md"},
     {date:"07 Sep 2026",type:"Happened",project:"luca",title:"Shams and PriceLabs emails sent",body:"Both lanes moved to written-reply watch; neither is pending approval."},
     {date:"07 Sep 2026",type:"Happened",project:"lohh",title:"Oasis 2 checkout cleaning confirmed",body:"Joey/Oasis 2 same-day checkout follow-up was closed from Damiano’s confirmation."},
@@ -147,8 +119,8 @@ window.CONTROL_TOWER_DATA = {
     {name:"Lin",initials:"LI",role:"Operations · property, profile and follow-up confirmations",assignments:["lohh","guestlab","nest"],state:"Historical assignment snapshot"},
     {name:"Zuhair",initials:"ZH",role:"Product implementation · Oasis Guest Lab",assignments:["guestlab","luca"],state:"Historical assignment snapshot"},
     {name:"Luca",initials:"LU",role:"External technical collaborator · controlled analysis",assignments:["luca"],state:"Historical assignment snapshot"},
-    {name:"Hermes",initials:"HE",role:"Main agent · research, preparation and control-layer tracking",assignments:["lohh","orl","nest","luca","mission","renovation"],state:"Production ON · verified 08 Sep 09:09 Dubai"},
-    {name:"Lia",initials:"LA",role:"Guest assistant product agent",assignments:["guestlab"],state:"Reported autopilot active · not live-verified"}
+    {name:"Hermes",initials:"HE",role:"Main agent · research, preparation and control-layer tracking",assignments:["lohh","orl","nest","luca","mission","renovation"],state:"Runtime configured · health shown in dated snapshot"},
+    {name:"Lia",initials:"LA",role:"Guest assistant product agent",assignments:["guestlab"],state:"Reported product-agent status · not live-verified"}
   ],
   files: [
     {group:"Current",name:"Zuhair / Oasis Guest Lab Trello update",meta:"7 Sep · Markdown",url:"./docs/ZUHAIR_OASIS_GUEST_LAB_TRELLO_UPDATE_2026-09-07.md"},

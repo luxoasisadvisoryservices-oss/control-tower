@@ -1,9 +1,10 @@
-const CACHE_NAME = "control-tower-v702-safe-area-header";
+const CACHE_NAME = "control-tower-v703-truthful-runtime-snapshot";
 const APP_SHELL = [
   "./",
   "./index.html",
   "./legacy.html",
   "./assets/styles.css",
+  "./assets/runtime-snapshot.js",
   "./assets/data.js",
   "./assets/app.js",
   "./manifest.json",

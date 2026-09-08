@@ -39,12 +39,13 @@
   function renderRuntime() {
     const r = data.runtime;
     $("#runtimeSummary").innerHTML = `<strong>${esc(r.title)}</strong><br>${esc(r.summary)}`;
-    $("#runtimeVerified").textContent = `Verified ${r.verified}`;
+    $("#runtimeVerified").textContent = `Captured ${r.capturedAt}`;
     $("#runtimeMetrics").innerHTML = r.metrics.map(m=>`<div class="runtime-metric"><strong>${esc(m.value)}</strong><span>${esc(m.label)}</span><small>${esc(m.detail)}</small></div>`).join("");
-    $("#serviceStrip").innerHTML = r.services.map(s=>`<span class="service-state ${slug(s.state)}"><b>${esc(s.name)}</b>${esc(s.state)}</span>`).join("");
-    $("#runtimeNote").textContent = `${r.note} Configuration count checked ${r.configChecked}.`;
+    $("#serviceStrip").innerHTML = r.services.map(s=>`<span class="service-state ${slug(s.state)}" title="${esc(s.detail || "")}"><b>${esc(s.name)}</b>${esc(s.state)}</span>`).join("");
+    $("#runtimeFailures").innerHTML = r.failures.length ? `<details class="runtime-failures" open><summary>${esc(r.failures.length)} enabled jobs failed their latest recorded run</summary><ul>${r.failures.map(f=>`<li><strong>${esc(f.name)}</strong><span>${esc(f.lastRunAt || "Run time unknown")}</span><code>${esc(f.error)}</code></li>`).join("")}</ul></details>` : `<p class="runtime-no-failures">No enabled job has a latest recorded failure in this snapshot.</p>`;
+    $("#runtimeNote").textContent = r.note;
     $("#workerBoard").innerHTML = r.workers.map(w=>`<div class="worker-row"><span><strong>${esc(w.name)}</strong><small>${esc(w.detail)}</small></span><b>${esc(w.count)}</b></div>`).join("");
-    $("#holdCount").textContent = `${r.metrics.find(m=>m.label==="Paused jobs").value} paused`;
+    $("#holdCount").textContent = `${r.pausedCount} paused`;
     $("#holdBoard").innerHTML = r.holds.map(h=>`<div class="hold-row"><span><strong>${esc(h.title)}</strong><small>${esc(h.detail)}</small></span><span class="hold-state">${h.count === null ? "" : `${esc(h.count)} · `}${esc(h.state)}</span></div>`).join("");
   }
 

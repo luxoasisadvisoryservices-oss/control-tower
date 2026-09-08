@@ -10,6 +10,7 @@
   <link rel="icon" href="./icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icon.svg">
   <link rel="stylesheet" href="./assets/styles.css">
+  <script src="./assets/runtime-snapshot.js" defer></script>
   <script src="./assets/data.js" defer></script>
   <script src="./assets/app.js" defer></script>
 </head>
@@ -46,9 +47,10 @@
       <section class="view active" data-view="overview" aria-labelledby="viewTitle">
         <div class="flow-strip" aria-label="Operating sequence" id="flowStrip"></div>
         <section class="runtime-snapshot" aria-labelledby="runtimeTitle">
-          <div class="runtime-head"><div><p class="eyebrow">Verified production state</p><h2 id="runtimeTitle">Hermes runtime snapshot</h2><p id="runtimeSummary"></p></div><span class="verified-pill" id="runtimeVerified"></span></div>
+          <div class="runtime-head"><div><p class="eyebrow">Timestamped static evidence</p><h2 id="runtimeTitle">Hermes runtime snapshot</h2><p id="runtimeSummary"></p></div><span class="verified-pill" id="runtimeVerified"></span></div>
           <div class="runtime-metrics" id="runtimeMetrics"></div>
           <div class="service-strip" id="serviceStrip" aria-label="Verified service checks"></div>
+          <div id="runtimeFailures"></div>
           <p class="runtime-note" id="runtimeNote"></p>
         </section>
         <div class="section-heading"><div><p class="eyebrow">Decision surface</p><h2>What matters now</h2></div><button class="text-button" data-view-target="tasks">Open work queue →</button></div>
