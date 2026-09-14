@@ -8,27 +8,29 @@
 - **Branch:** `master`
 - **Specified commit:** [`da485b8`](https://github.com/luxoasisadvisoryservices-oss/orl/commit/da485b8)
 
-## User request (verbatim)
+## Damiano-provided handoff
 
-> Can you add this task in ORL control tower to Zuhair to get this?
-
-## Damiano-reported technical handoff (verbatim)
-
-> Remote https://github.com/luxoasisadvisoryservices-oss/orl.git Branch master workingtreeclean nothinguncommitted lastcommit da485b8 (2026-09-14 14:46 UTC) booking-intel lead/LOSvsnorms7daypickup inferredtripprofile notifications+dashboard pushedGitHub allsessionwindowpricechecks Channel&Segment view ownerRMoverview bookingintel committedpushed.
+> - Remote: https://github.com/luxoasisadvisoryservices-oss/orl.git
+> - Branch: master
+> - Working tree: clean — nothing uncommitted
+> - Last commit: da485b8 (2026-09-14 14:46 UTC) — the booking-intel work (lead/LOS vs norms, 7-day pickup, inferred trip profile in notifications + dashboard), pushed to GitHub.
+>
+> Everything from today's session — window price-checks, Channel & Segment view, owner RM overview, booking intel — is committed and pushed.
 
 The clean-working-tree and pushed-to-GitHub statements above are Damiano-reported. Control Tower did not independently verify the private ORL repository state.
 
-## Ask for Zuhair
+## Steps for Zuhair
 
-1. Retrieve `master` from the repository and confirm the checked-out revision is `da485b8`.
-2. Review these four reported feature groups:
-   - `booking-intel` — `lead/LOSvsnorms7daypickup`;
-   - `inferredtripprofile`;
-   - `notifications+dashboard`;
-   - `allsessionwindowpricechecks`, `Channel&Segment view`, `ownerRMoverview`, and `bookingintel`.
-3. Confirm receipt.
-4. Run the appropriate build and tests, then report the commands run, results, and any issues or blockers found.
+1. Pull `master` from the repository.
+2. Confirm the checked-out revision is `da485b8`.
+3. Review these four feature groups:
+   - Window price-checks
+   - Channel & Segment view
+   - Owner RM overview
+   - Booking intel: lead/LOS vs norms, 7-day pickup, and inferred trip profile in notifications and the dashboard
+4. Confirm receipt.
+5. Run the appropriate build and tests, then report the commands run, results, and any issues or blockers.
 
 ## Scope boundary
 
-This is a get-code, pull, review, and test task only. Do **not** deploy ORL and do **not** treat this task as authority to change live pricing.
+This is a pull, review, and test task only. Do **not** deploy ORL and do **not** treat this task as authority to change live pricing.
