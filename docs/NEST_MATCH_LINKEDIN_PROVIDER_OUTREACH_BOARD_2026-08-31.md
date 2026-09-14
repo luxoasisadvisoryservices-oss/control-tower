@@ -7,7 +7,7 @@ Internal research board only. No outreach has been sent. **Use only the 42-row D
 - Source rows audited: **71**
 - Dubai-ready (identity verified + Dubai coverage confirmed): **42**
 - Holds: **29** (28 unverified identity/route, 1 non-Dubai)
-- Geography audit: **44 Dubai confirmed**, **1 non-Dubai**, **26 unverified**
+- Geography audit: **44 Dubai confirmed**, **1 UAE-broader/not Dubai-confirmed**, **1 non-Dubai**, **25 geography-unverified**
 - LinkedIn identity audit: **43 verified**, **28 unverified**
 - Corrected company profile links retained: **22**
 
