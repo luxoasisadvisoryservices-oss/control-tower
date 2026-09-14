@@ -38,15 +38,15 @@ window.CONTROL_TOWER_DATA = {
       docs: [["Hybrid positioning","./docs/ORL_HYBRID_REVENUE_MANAGER_POSITIONING_2026-07-29.md"],["PriceLabs research","./docs/ORL_PRICELABS_VIDEO_RESEARCH_REVENUE_MANAGEMENT_CONSULTANCY_2026-09-04.md"]]
     },
     {
-      id: "nest", name: "Nest Match", short: "Nest Match", status: "Waiting", priority: "P2", owner: "Damiano", team: ["Damiano", "Hermes", "Lin"], updated: "07 Sep 2026",
+      id: "nest", name: "Nest Match", short: "Nest Match", status: "Waiting", priority: "P2", owner: "Damiano", team: ["Damiano", "Hermes", "Lin"], updated: "14 Sep 2026",
       summary: "Global-capable STR professional marketplace launching city by city, with Dubai as the first controlled-beta market.",
-      progress: null, latest: "Media-office/licensing email was sent and is waiting for reply. Provider outreach assets exist but remain approval-gated.",
-      completed: ["Provider taxonomy and outreach master created", "Full outreach overview and LinkedIn provider board prepared"],
-      current: ["Licensing/media-office reply watch", "Profile polish confirmation from Lin", "Legal/privacy and wording alignment"],
+      progress: null, latest: "All 71 provider-source rows were re-audited for identity and explicit Dubai coverage: 42 are Dubai-ready and 29 are held. No outreach was sent.",
+      completed: ["Provider taxonomy and outreach master created", "71-row identity and Dubai-coverage audit completed", "42-row Dubai-ready provider queue published"],
+      current: ["Use only the 42-row Dubai-ready queue", "Licensing/media-office reply watch", "Profile polish confirmation from Lin", "Legal/privacy and wording alignment"],
       next: ["Resolve registration and role-flow gates", "Verify payment-success safety and logged-in role paths before launch"],
-      blockers: ["Written licensing guidance not received", "Controlled-beta QA and legal/privacy review remain open"],
-      decisions: ["Seed supply first", "Do not market an empty shell", "Launch liquidity city by city"],
-      docs: [["Full outreach overview","./docs/nest-match-full-outreach-overview.html"],["Requirements status","./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md"]]
+      blockers: ["29 provider-source rows are held: 28 unverified targets/routes and 1 non-Dubai company", "Written licensing guidance not received", "Controlled-beta QA and legal/privacy review remain open"],
+      decisions: ["Only verified-identity rows with explicit Dubai coverage enter the queue", "Seed supply first", "Do not market an empty shell", "Launch liquidity city by city"],
+      docs: [["Dubai provider outreach board","./docs/nest-match-dubai-provider-outreach.html"],["Requirements status","./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md"]]
     },
     {
       id: "luca", name: "Luca / NHNCD Collaboration", short: "Luca / NHNCD", status: "In Progress", priority: "P2", owner: "Luca", team: ["Luca", "Damiano", "Hermes", "Zuhair"], updated: "07 Sep 2026",
@@ -126,7 +126,7 @@ window.CONTROL_TOWER_DATA = {
     {group:"Current",name:"Zuhair / Oasis Guest Lab Trello update",meta:"7 Sep · Markdown",url:"./docs/ZUHAIR_OASIS_GUEST_LAB_TRELLO_UPDATE_2026-09-07.md"},
     {group:"Current",name:"Luca / NHNCD partnership tracker",meta:"6 Sep · Markdown",url:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.md"},
     {group:"Current",name:"Luca / NHNCD partnership PDF",meta:"6 Sep · PDF",url:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.pdf"},
-    {group:"Projects",name:"Nest Match full outreach overview",meta:"Interactive HTML",url:"./docs/nest-match-full-outreach-overview.html"},
+    {group:"Projects",name:"Nest Match Dubai provider outreach",meta:"42 ready · 29 held · 71 audited",url:"./docs/nest-match-dubai-provider-outreach.html"},
     {group:"Projects",name:"ORL PriceLabs research",meta:"4 Sep · Markdown",url:"./docs/ORL_PRICELABS_VIDEO_RESEARCH_REVENUE_MANAGEMENT_CONSULTANCY_2026-09-04.md"},
     {group:"Projects",name:"Lin simple daily research tracker",meta:"Excel",url:"./docs/LIN_SIMPLE_DAILY_RESEARCH_TRACKER_2026-09-01.xlsx"},
     {group:"Archive",name:"Original Control Tower — full detailed history",meta:"Byte-preserved legacy page",url:"./legacy.html"}
