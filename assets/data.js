@@ -40,11 +40,11 @@ window.CONTROL_TOWER_DATA = {
     {
       id: "nest", name: "Nest Match", short: "Nest Match", status: "Waiting", priority: "P2", owner: "Damiano", team: ["Damiano", "Hermes", "Lin"], updated: "14 Sep 2026",
       summary: "Global-capable STR professional marketplace launching city by city, with Dubai as the first controlled-beta market.",
-      progress: null, latest: "All 71 provider-source rows were re-audited for identity and explicit Dubai coverage: 42 are Dubai-ready and 29 are held. No outreach was sent.",
+      progress: null, latest: "All 71 provider-source rows were re-audited: 42 are Dubai-ready and 29 are held. Hermes has sent 0 outreach messages; external/manual sends are unverified. Packet job 8548e1c182e2 is configured for weekdays at 09:00 Dubai, next 15 Sep, with no recorded run or delivery.",
       completed: ["Provider taxonomy and outreach master created", "71-row identity and Dubai-coverage audit completed", "42-row Dubai-ready provider queue published"],
-      current: ["Use only the 42-row Dubai-ready queue", "Licensing/media-office reply watch", "Profile polish confirmation from Lin", "Legal/privacy and wording alignment"],
-      next: ["Resolve registration and role-flow gates", "Verify payment-success safety and logged-in role paths before launch"],
-      blockers: ["29 provider-source rows are held: 28 unverified targets/routes and 1 non-Dubai company", "Written licensing guidance not received", "Controlled-beta QA and legal/privacy review remain open"],
+      current: ["Use only the 42-row Dubai-ready queue", "Keep 29 held rows excluded", "Packet job configured but not yet delivered", "Licensing/media-office reply watch"],
+      next: ["Verify the first scheduled packet result after 15 Sep 09:00 Dubai without treating configuration as delivery", "Resolve registration and role-flow gates", "Verify payment-success safety and logged-in role paths before launch"],
+      blockers: ["29 provider-source rows are held: 28 unverified targets/routes and 1 non-Dubai company", "No packet execution or delivery is recorded", "Written licensing guidance not received", "Controlled-beta QA and legal/privacy review remain open"],
       decisions: ["Only verified-identity rows with explicit Dubai coverage enter the queue", "Seed supply first", "Do not market an empty shell", "Launch liquidity city by city"],
       docs: [["Dubai provider outreach board","./docs/nest-match-dubai-provider-outreach.html"],["Requirements status","./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md"]]
     },
@@ -60,9 +60,9 @@ window.CONTROL_TOWER_DATA = {
       docs: [["Partnership tracker","./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.md"],["Partnership PDF","./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.pdf"]]
     },
     {
-      id: "mission", name: "Mission Control", short: "Mission Control", status: "In Progress", priority: "P2", owner: "Hermes", team: ["Hermes", "Damiano"], updated: "08 Sep 2026",
+      id: "mission", name: "Mission Control", short: "Mission Control", status: "In Progress", priority: "P2", owner: "Hermes", team: ["Hermes", "Damiano"], updated: "14 Sep 2026",
       summary: "Internal control surface for portfolio execution and a dated view of verified Hermes production state.",
-      progress: {done: 1, total: 5}, latest: "Phase 1 is partial. Luna and the repaired guest-operation tests passed; safe internal automation is restored. Telegram unattended delivery and fresh post-restart messaging exchange remain unverified. See the timestamped runtime snapshot, not this static project summary, for counts.",
+      progress: {done: 1, total: 5}, latest: "At the 14 Sep 10:42 Dubai inspection, the cron gateway was running with 13 enabled definitions: 10 latest OK, 2 latest failed and 1 never run. The two latest failures are shown in the runtime panel. This is point-in-time evidence, not continuous health.",
       completed: ["Static Control Tower prototype retained with full legacy archive"],
       current: ["Show sanitized failure classes and current held paths", "Keep bounded component evidence separate from phase health", "Keep runtime source timestamps visible"],
       next: ["Resolve only the narrow external-write approvals that Damiano wants activated", "Define connector strategy and first beta-user profile"],

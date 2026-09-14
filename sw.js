@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v705-nest-match-dubai-audit";
+const CACHE_NAME = "control-tower-v706-overview-20260914";
 const APP_SHELL = [
   "./",
   "./index.html",
