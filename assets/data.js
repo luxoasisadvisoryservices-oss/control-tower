@@ -40,12 +40,12 @@ window.CONTROL_TOWER_DATA = {
     {
       id: "nest", name: "Nest Match", short: "Nest Match", status: "Waiting", priority: "P2", owner: "Damiano", team: ["Damiano", "Hermes", "Lin"], updated: "14 Sep 2026",
       summary: "Global-capable STR professional marketplace launching city by city, with Dubai as the first controlled-beta market.",
-      progress: null, latest: "All 71 provider-source rows were re-audited: 42 are Dubai-ready and 29 are held. Hermes has sent 0 outreach messages; external/manual sends are unverified. Packet job 8548e1c182e2 is configured for weekdays at 09:00 Dubai, next 15 Sep, with no recorded run or delivery.",
-      completed: ["Provider taxonomy and outreach master created", "71-row identity and Dubai-coverage audit completed", "42-row Dubai-ready provider queue published"],
-      current: ["Use only the 42-row Dubai-ready queue", "Keep 29 held rows excluded", "Packet job configured but not yet delivered", "Licensing/media-office reply watch"],
+      progress: null, latest: "The active provider queue is now 23 verified Dubai contacts across five live Nest Match categories: 19 companies and 4 named individual freelancers. Categories are capped at five; Interior & Renovation and Photography & Media remain honest 4/5 shortfalls. Hermes has sent 0 outreach messages.",
+      completed: ["Live provider taxonomy checked against Nest Match", "Former 42-company active queue archived locally", "23-contact category-led Dubai queue published"],
+      current: ["Use only the 23-row curated queue", "Prepare one provider per category first", "Keep old bulk and uncertain rows inactive", "Licensing/media-office reply watch"],
       next: ["Verify the first scheduled packet result after 15 Sep 09:00 Dubai without treating configuration as delivery", "Resolve registration and role-flow gates", "Verify payment-success safety and logged-in role paths before launch"],
-      blockers: ["29 provider-source rows are held: 28 unverified targets/routes and 1 non-Dubai company", "No packet execution or delivery is recorded", "Written licensing guidance not received", "Controlled-beta QA and legal/privacy review remain open"],
-      decisions: ["Only verified-identity rows with explicit Dubai coverage enter the queue", "Seed supply first", "Do not market an empty shell", "Launch liquidity city by city"],
+      blockers: ["Interior & Renovation and Photography & Media each have one unfilled slot", "Written licensing guidance not received", "Controlled-beta QA and legal/privacy review remain open"],
+      decisions: ["Freelancer is a provider type, not a service category", "Cap each active category at five", "Only verified-identity rows with explicit Dubai coverage enter the queue", "Launch liquidity city by city"],
       docs: [["Dubai provider outreach board","./docs/nest-match-dubai-provider-outreach.html"],["Requirements status","./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md"]]
     },
     {
@@ -126,7 +126,7 @@ window.CONTROL_TOWER_DATA = {
     {group:"Current",name:"Zuhair / Oasis Guest Lab Trello update",meta:"7 Sep · Markdown",url:"./docs/ZUHAIR_OASIS_GUEST_LAB_TRELLO_UPDATE_2026-09-07.md"},
     {group:"Current",name:"Luca / NHNCD partnership tracker",meta:"6 Sep · Markdown",url:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.md"},
     {group:"Current",name:"Luca / NHNCD partnership PDF",meta:"6 Sep · PDF",url:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.pdf"},
-    {group:"Projects",name:"Nest Match Dubai provider outreach",meta:"42 ready · 29 held · 71 audited",url:"./docs/nest-match-dubai-provider-outreach.html"},
+    {group:"Projects",name:"Nest Match Dubai provider outreach",meta:"23 curated · 5 categories · 4 freelancers",url:"./docs/nest-match-dubai-provider-outreach.html"},
     {group:"Projects",name:"ORL PriceLabs research",meta:"4 Sep · Markdown",url:"./docs/ORL_PRICELABS_VIDEO_RESEARCH_REVENUE_MANAGEMENT_CONSULTANCY_2026-09-04.md"},
     {group:"Projects",name:"Lin simple daily research tracker",meta:"Excel",url:"./docs/LIN_SIMPLE_DAILY_RESEARCH_TRACKER_2026-09-01.xlsx"},
     {group:"Archive",name:"Original Control Tower — full detailed history",meta:"Byte-preserved legacy page",url:"./legacy.html"}
