@@ -27,13 +27,13 @@ window.CONTROL_TOWER_DATA = {
       docs: [["7 Sep Trello update","./docs/ZUHAIR_OASIS_GUEST_LAB_TRELLO_UPDATE_2026-09-07.md"],["Custom rebuild notes","./docs/ZUHAIR_CUSTOM_CONVIVA_REBUILD_MEETING_NOTES_2026-08-23.md"]]
     },
     {
-      id: "orl", name: "Oasis Revenue Lab", short: "ORL", status: "In Progress", priority: "P1", owner: "Damiano", team: ["Damiano", "Hermes"], updated: "14 Sep 2026",
+      id: "orl", name: "Oasis Revenue Lab", short: "ORL", status: "In Progress", priority: "P1", owner: "Damiano", team: ["Damiano", "Hermes"], updated: "15 Sep 2026",
       summary: "Dubai-first managed revenue prospecting. The verified queue targets 100 total unique Dubai STR operators/hosts before later geography lanes.",
-      progress: {done: 15, total: 100}, latest: "15 eligible Dubai prospects are source-backed in the canonical ledger; 85 remain. Azure Vacation Homes and GxDubai are held/excluded. Proof-backed prospect sends remain 0.",
+      progress: {done: 100, total: 100}, latest: "100 unique eligible Dubai prospects are source-backed in the canonical ledger; 0 remain. Azure Vacation Homes and GxDubai are held/excluded. Proof-backed prospect sends remain 0.",
       completed: ["Hybrid revenue-manager positioning documented", "PriceLabs/RevLabs research PDF published", "Dubai 100 qualification spec and stable-ID board created"],
-      current: ["Daily Luna research toward 100 verified Dubai prospects", "Preserve assigned outreach and proof-backed send/reply states separately"],
-      next: ["Continue Dubai research until 100 or a genuine source blocker", "Keep later NYC, Bali and Italy lanes queued"],
-      blockers: ["85 verified Dubai prospects remain", "Azure Vacation Homes remains excluded on compliance hold", "GxDubai needs exact current public inventory proof", "No proof-backed prospect sends or replies"],
+      current: ["Maintain the completed 100-prospect Dubai queue", "Preserve assigned outreach and proof-backed send/reply states separately"],
+      next: ["Refresh due Dubai records without expanding the completed target", "Keep later NYC, Bali and Italy lanes queued"],
+      blockers: ["Azure Vacation Homes remains excluded on compliance hold", "GxDubai needs exact current public inventory proof", "No proof-backed prospect sends or replies"],
       decisions: ["Use Luna for routine ORL research", "Sell judgement and accountability, not generic AI access", "No unsupported performance, PriceLabs or revenue claims"],
       docs: [["Dubai 100 prospect board","./docs/orl-dubai-100-prospects.html"],["Dubai 100 CSV","./docs/ORL_DUBAI_100_PROSPECTS.csv"],["Hybrid positioning","./docs/ORL_HYBRID_REVENUE_MANAGER_POSITIONING_2026-07-29.md"],["PriceLabs research","./docs/ORL_PRICELABS_VIDEO_RESEARCH_REVENUE_MANAGEMENT_CONSULTANCY_2026-09-04.md"]]
     },
@@ -113,7 +113,7 @@ window.CONTROL_TOWER_DATA = {
     {date:"07 Sep 2026",type:"Happening",project:"guestlab",title:"Guest Lab release scope expanded",body:"Policy controls, automated messages, routing, ticket memory, translation and inquiry status are now explicit."},
     {date:"07 Sep 2026",type:"Attention",project:"lohh",title:"JBR acquisition remains blocked",body:"No clean unsent approved direct-email route appeared in the latest source evidence."},
     {date:"07 Sep 2026",type:"Attention",project:"nest",title:"Licensing reply pending",body:"The media-office email is sent; monetization and promoted placement remain uncleared."},
-    {date:"14 Sep 2026",type:"Happened",project:"orl",title:"Dubai 100 research began",body:"A Luna web-research run inserted 7 new candidates; strict QA held GxDubai for missing current public inventory proof. The eligible Dubai queue is 15/100; Azure remains held and proof-backed sends remain 0.",doc:"./docs/orl-dubai-100-prospects.html"},
+    {date:"15 Sep 2026",type:"Happened",project:"orl",title:"Dubai 100 verified queue completed",body:"Bounded Luna web-research sessions brought the eligible Dubai queue to 100 unique source-backed prospects. Azure and GxDubai remain held/excluded; proof-backed sends remain 0.",doc:"./docs/orl-dubai-100-prospects.html"},
     {date:"04 Sep 2026",type:"Happened",project:"orl",title:"PriceLabs / RevLabs research published",body:"Research note and PDF were completed and preserved in the file archive.",doc:"./docs/ORL_PRICELABS_VIDEO_RESEARCH_REVENUE_MANAGEMENT_CONSULTANCY_2026-09-04.md"}
   ],
   people: [
@@ -129,8 +129,8 @@ window.CONTROL_TOWER_DATA = {
     {group:"Current",name:"Luca / NHNCD partnership tracker",meta:"6 Sep · Markdown",url:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.md"},
     {group:"Current",name:"Luca / NHNCD partnership PDF",meta:"6 Sep · PDF",url:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.pdf"},
     {group:"Projects",name:"Nest Match Dubai provider outreach",meta:"23 curated · 5 categories · 4 freelancers",url:"./docs/nest-match-dubai-provider-outreach.html"},
-    {group:"Projects",name:"ORL Dubai 100 prospects",meta:"15 eligible · 85 remaining · browser-only contacted markers",url:"./docs/orl-dubai-100-prospects.html"},
-    {group:"Projects",name:"ORL Dubai 100 CSV",meta:"15 verified eligible rows",url:"./docs/ORL_DUBAI_100_PROSPECTS.csv"},
+    {group:"Projects",name:"ORL Dubai 100 prospects",meta:"100 eligible · 0 remaining · browser-only contacted markers",url:"./docs/orl-dubai-100-prospects.html"},
+    {group:"Projects",name:"ORL Dubai 100 CSV",meta:"100 verified eligible rows",url:"./docs/ORL_DUBAI_100_PROSPECTS.csv"},
     {group:"Projects",name:"ORL PriceLabs research",meta:"4 Sep · Markdown",url:"./docs/ORL_PRICELABS_VIDEO_RESEARCH_REVENUE_MANAGEMENT_CONSULTANCY_2026-09-04.md"},
     {group:"Projects",name:"Lin simple daily research tracker",meta:"Excel",url:"./docs/LIN_SIMPLE_DAILY_RESEARCH_TRACKER_2026-09-01.xlsx"},
     {group:"Archive",name:"Original Control Tower — full detailed history",meta:"Byte-preserved legacy page",url:"./legacy.html"}
