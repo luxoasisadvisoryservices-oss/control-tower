@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v706-overview-20260914";
+const CACHE_NAME = "control-tower-v709-useful-videos-20260920";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -6,6 +6,7 @@ const APP_SHELL = [
   "./assets/styles.css",
   "./assets/runtime-snapshot.js",
   "./assets/data.js",
+  "./assets/curated-videos.js",
   "./assets/app.js",
   "./manifest.json",
   "./icon.svg",

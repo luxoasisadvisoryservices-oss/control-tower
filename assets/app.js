@@ -18,7 +18,7 @@
       b.classList.toggle("active", active);
       if (b.classList.contains("nav-item")) active ? b.setAttribute("aria-current","page") : b.removeAttribute("aria-current");
     });
-    const labels = {overview:"Overview",attention:"Needs Attention",projects:"Projects",activity:"Recent Activity",tasks:"Tasks / Actions",team:"Team Board",files:"Files & Archive"};
+    const labels = {overview:"Overview",attention:"Needs Attention",projects:"Projects",activity:"Recent Activity",tasks:"Tasks / Actions",team:"Team Board",videos:"Useful Videos",files:"Files & Archive"};
     $("#viewTitle").textContent = labels[valid];
     document.title = `${labels[valid]} · Control Tower`;
     if (updateHash) history.replaceState(null, "", `#${valid}`);
@@ -107,6 +107,12 @@
     $("#fileList").innerHTML = groups.map(g=>`<section class="file-group"><h3>${esc(g)}</h3><div>${data.files.filter(f=>f.group===g).map(f=>`<div class="file-row"><strong>${esc(f.name)}</strong><span>${esc(f.meta)}</span><a href="${esc(f.url)}" target="_blank" rel="noopener">Open ↗</a></div>`).join("")}</div></section>`).join("");
   }
 
+  function renderVideos() {
+    const videos = Array.isArray(window.CONTROL_TOWER_CURATED_VIDEOS) ? window.CONTROL_TOWER_CURATED_VIDEOS : [];
+    $("#videoCount").textContent = `${videos.length} saved`;
+    $("#videoGrid").innerHTML = videos.length ? videos.map(video=>`<article class="video-card"><div class="video-card-head"><span class="platform-pill">${esc(video.platform)}</span><span class="review-pill">${esc(video.reviewStatus)}</span></div><h3>${esc(video.title)}</h3><dl><div><dt>Speaker</dt><dd>@${esc(video.speakerHandle)}</dd></div><div><dt>Review status</dt><dd>${esc(video.reviewStatus)}</dd></div></dl>${video.notes ? `<p class="video-notes">${esc(video.notes)}</p>` : ""}<a class="video-source" href="${esc(video.url)}" target="_blank" rel="noopener noreferrer">Open original on ${esc(video.platform)} ↗</a></article>`).join("") : `<div class="empty-state"><strong>No saved videos</strong><p>Add entries to the curated video data file.</p></div>`;
+  }
+
   function openProject(id) {
     const p = project(id); if (!p) return;
     const sections = [["Latest",[p.latest]],["Completed",p.completed],["Current",p.current],["Next",p.next],["Blockers",p.blockers],["Decisions",p.decisions]];
@@ -126,7 +132,7 @@
     populateSelect("#statusFilter", data.statuses);
     populateSelect("#priorityFilter", ["P1","P2","P3"]);
     populateSelect("#ownerFilter", [...new Set(data.tasks.map(t=>t.owner))].sort());
-    renderProjects(); renderTasks(); renderTeam(); renderFiles();
+    renderProjects(); renderTasks(); renderTeam(); renderVideos(); renderFiles();
     $("#activityView").innerHTML = renderActivityRows(data.activity);
     document.addEventListener("click", e => {
       const nav = e.target.closest("[data-view-target]"); if (nav) setView(nav.dataset.viewTarget);

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./assets/styles.css">
   <script src="./assets/runtime-snapshot.js" defer></script>
   <script src="./assets/data.js" defer></script>
+  <script src="./assets/curated-videos.js" defer></script>
   <script src="./assets/app.js" defer></script>
 </head>
 <body>
@@ -26,6 +27,7 @@
         <button class="nav-item" data-view-target="activity"><span aria-hidden="true">↺</span>Recent Activity</button>
         <button class="nav-item" data-view-target="tasks"><span aria-hidden="true">✓</span>Tasks / Actions</button>
         <button class="nav-item" data-view-target="team"><span aria-hidden="true">◎</span>Team Board</button>
+        <button class="nav-item" data-view-target="videos"><span aria-hidden="true">▶</span>Useful Videos</button>
         <button class="nav-item" data-view-target="files"><span aria-hidden="true">▱</span>Files & Archive</button>
       </nav>
       <div class="sidebar-foot">
@@ -103,6 +105,11 @@
         <div class="callout"><strong>Runtime truth</strong><p>This is a dated, read-only production snapshot—not live telemetry. “Enabled” means configured to run on schedule; it does not mean a worker is executing now. Business task statuses remain independent of the completed Hermes migration.</p></div>
       </section>
 
+      <section class="view" data-view="videos">
+        <div class="section-heading"><div><p class="eyebrow">Curated portfolio</p><h2>Useful Videos</h2><p>Saved source links for later review. No video files are downloaded or embedded here.</p></div><span id="videoCount" class="result-count"></span></div>
+        <div id="videoGrid" class="video-grid" aria-live="polite"></div>
+      </section>
+
       <section class="view" data-view="files">
         <div class="section-heading"><div><p class="eyebrow">Source material</p><h2>Files & archive</h2><p>Current working documents plus the byte-preserved original dashboard and detailed history.</p></div></div>
         <div id="fileList" class="file-list"></div>
@@ -116,6 +123,7 @@
     <button data-view-target="projects"><span>◇</span>Projects</button>
     <button data-view-target="tasks"><span>✓</span>Tasks</button>
     <button data-view-target="team"><span>◎</span>Team</button>
+    <button data-view-target="videos"><span>▶</span>Videos</button>
   </nav>
 
   <dialog id="projectDialog" class="project-dialog" aria-labelledby="dialogTitle"><div id="projectDetail"></div></dialog>
