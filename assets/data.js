@@ -1,8 +1,29 @@
 window.CONTROL_TOWER_DATA = {
+  dataVersion: "2026-10-25-nest-match-public-brief-1",
+  dataUpdatedAt: "2026-10-25",
+  dataUpdateLabel: "25 Oct 2026 · public-safe Nest Match brief",
   snapshot: window.CONTROL_TOWER_RUNTIME_SNAPSHOT.capturedAt,
-  sourceNote: "Static business view plus a timestamped runtime/audit snapshot. This is not live telemetry.",
+  sourceNote: "Dated static business records. Nest Match was updated 25 Oct 2026; other projects retain their original source dates. This is not live telemetry.",
   runtime: window.CONTROL_TOWER_RUNTIME_SNAPSHOT,
   statuses: ["Not Started", "In Progress", "Waiting", "Blocked", "Review", "Completed"],
+  nestMatchBrief: {
+    asOf: "2026-10-25",
+    evidence: "User-reported on 25 Oct 2026; not independently verified by Control Tower.",
+    state: "Dubai live experience reported stable. Payments, subscriptions, invoices and admin were reported audited and fixed this week.",
+    focus: "Outreach is starting manually. Lead with the permanent Free plan, profile directory, connections and messaging, using two role templates.",
+    plans: [
+      "Provider: AED 29 monthly / AED 290 annual for Pro; AED 59 monthly / AED 590 annual for Premium.",
+      "Operator / agent: AED 39 monthly / AED 390 annual for Pro; AED 79 monthly / AED 790 annual for Premium.",
+      "Free is permanent. Pro includes 3 managed responses per month. Premium includes 6 managed responses per month.",
+      "30-day free Pro trial; paid subscription afterwards. This is separate from, and does not expire, the permanent Free plan."
+    ],
+    safeguards: [
+      "No beta offer is represented.",
+      "No automated outreach is authorised; prepared profiles and pending follow-ups are described without identities.",
+      "Managed request matching requires a professional to confirm both the requested service and service area.",
+      "No leads or jobs are promised. AI request assistance and a native app are not claimed as live."
+    ]
+  },
   projects: [
     {
       id: "lohh", name: "Lux Oasis Holiday Homes", short: "LOHH", status: "In Progress", priority: "P1", owner: "Damiano", team: ["Damiano", "Lin", "Hermes"], updated: "07 Sep 2026",
@@ -38,14 +59,14 @@ window.CONTROL_TOWER_DATA = {
       docs: [["Dubai 100 prospect board","./docs/orl-dubai-100-prospects.html"],["Dubai 100 CSV","./docs/ORL_DUBAI_100_PROSPECTS.csv"],["Hybrid positioning","./docs/ORL_HYBRID_REVENUE_MANAGER_POSITIONING_2026-07-29.md"],["PriceLabs research","./docs/ORL_PRICELABS_VIDEO_RESEARCH_REVENUE_MANAGEMENT_CONSULTANCY_2026-09-04.md"]]
     },
     {
-      id: "nest", name: "Nest Match", short: "Nest Match", status: "Waiting", priority: "P2", owner: "Damiano", team: ["Damiano", "Hermes", "Lin"], updated: "14 Sep 2026",
-      summary: "Global-capable STR professional marketplace launching city by city, with Dubai as the first controlled-beta market.",
-      progress: null, latest: "The active provider queue is now 23 verified Dubai contacts across five live Nest Match categories: 19 companies and 4 named individual freelancers. Categories are capped at five; Interior & Renovation and Photography & Media remain honest 4/5 shortfalls. Hermes has sent 0 outreach messages.",
-      completed: ["Live provider taxonomy checked against Nest Match", "Former 42-company active queue archived locally", "23-contact category-led Dubai queue published"],
-      current: ["Use only the 23-row curated queue", "Prepare one provider per category first", "Keep old bulk and uncertain rows inactive", "Licensing/media-office reply watch"],
-      next: ["Verify the first scheduled packet result after 15 Sep 09:00 Dubai without treating configuration as delivery", "Resolve registration and role-flow gates", "Verify payment-success safety and logged-in role paths before launch"],
-      blockers: ["Interior & Renovation and Photography & Media each have one unfilled slot", "Written licensing guidance not received", "Controlled-beta QA and legal/privacy review remain open"],
-      decisions: ["Freelancer is a provider type, not a service category", "Cap each active category at five", "Only verified-identity rows with explicit Dubai coverage enter the queue", "Launch liquidity city by city"],
+      id: "nest", name: "Nest Match", short: "Nest Match", status: "In Progress", priority: "P2", owner: "Damiano", team: ["Damiano", "Hermes", "Lin"], updated: "25 Oct 2026",
+      summary: "Dubai marketplace reported stable, with manual outreach starting around a permanent Free entry plan; this status is user-reported and not independently verified.",
+      progress: null, latest: "Payments, subscriptions, invoices and admin were reported audited and fixed this week. Public positioning now leads with the permanent Free plan, profile directory, connections and messaging, plus two role templates.",
+      completed: ["Payments, subscriptions, invoices and admin tools reported audited and fixed in the 25 October brief; not independently verified by Control Tower"],
+      current: ["Start manual outreach without automated sending", "Use prepared profiles and follow up without publishing identities", "Require professionals to confirm service and area before managed request matching"],
+      next: ["Measure outreach responses without promising leads or jobs", "Keep Free permanent and describe the 30-day free Pro trial with paid subscription afterwards", "Keep Event Radar private and require authenticated access before connecting any event source"],
+      blockers: ["25 October operational claims are user-reported and not independently verified", "No automated outreach is authorised", "Event Radar authenticated access is not implemented or connected"],
+      decisions: ["Lead with permanent Free, directory, connections and messaging", "Provider pricing: AED 29/59 monthly and AED 290/590 annual", "Operator/agent pricing: AED 39/79 monthly and AED 390/790 annual", "Pro includes 3 managed responses per month; Premium includes 6 per month", "Do not claim beta offers, promised leads/jobs, AI request help or a live native app"],
       docs: [["Dubai provider outreach board","./docs/nest-match-dubai-provider-outreach.html"],["Requirements status","./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md"]]
     },
     {

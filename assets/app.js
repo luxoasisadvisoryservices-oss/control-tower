@@ -9,6 +9,7 @@
   const initials = name => name.split(/\s|\//).filter(Boolean).slice(0,2).map(x=>x[0]).join("").toUpperCase();
   const status = value => `<span class="status ${slug(value)}">${esc(value)}</span>`;
   const doc = (url, text = "Source ↗") => url ? `<a class="doc-link" href="${esc(url)}" target="_blank" rel="noopener">${esc(text)}</a>` : "";
+  const REFRESH_INTERVAL_MS = 60 * 60 * 1000;
 
   function setView(name, updateHash = true) {
     const valid = $(`[data-view="${name}"]`) ? name : "overview";
@@ -18,7 +19,7 @@
       b.classList.toggle("active", active);
       if (b.classList.contains("nav-item")) active ? b.setAttribute("aria-current","page") : b.removeAttribute("aria-current");
     });
-    const labels = {overview:"Overview",attention:"Needs Attention",projects:"Projects",activity:"Recent Activity",tasks:"Tasks / Actions",team:"Team Board",videos:"Useful Videos",files:"Files & Archive"};
+    const labels = {overview:"Overview",attention:"Needs Attention",projects:"Projects",activity:"Recent Activity",tasks:"Tasks / Actions",team:"Team Board",videos:"Useful Videos","event-radar":"Event Radar",files:"Files & Archive"};
     $("#viewTitle").textContent = labels[valid];
     document.title = `${labels[valid]} · Control Tower`;
     if (updateHash) history.replaceState(null, "", `#${valid}`);
@@ -47,6 +48,73 @@
     $("#workerBoard").innerHTML = r.workers.map(w=>`<div class="worker-row"><span><strong>${esc(w.name)}</strong><small>${esc(w.detail)}</small></span><b>${esc(w.count)}</b></div>`).join("");
     $("#holdCount").textContent = `${r.pausedCount} paused`;
     $("#holdBoard").innerHTML = r.holds.map(h=>`<div class="hold-row"><span><strong>${esc(h.title)}</strong><small>${esc(h.detail)}</small></span><span class="hold-state">${h.count === null ? "" : `${esc(h.count)} · `}${esc(h.state)}</span></div>`).join("");
+  }
+
+  function sourceDateLabel(value) {
+    if (!value) return "Unknown";
+    const parts = value.split("-").map(Number);
+    if (parts.length !== 3 || parts.some(Number.isNaN)) return value;
+    return new Intl.DateTimeFormat("en-GB", {day:"numeric",month:"short",year:"numeric",timeZone:"UTC"}).format(new Date(Date.UTC(parts[0], parts[1] - 1, parts[2])));
+  }
+
+  function freshnessMessage() {
+    const captured = new Date(data.runtime.capturedAt);
+    const ageHours = (Date.now() - captured.getTime()) / 3600000;
+    if (!Number.isFinite(ageHours)) return "Runtime capture date could not be read. The page remains a static snapshot.";
+    if (ageHours > 24) return `Runtime evidence is stale: captured ${captured.toLocaleString([], {dateStyle:"medium",timeStyle:"short"})}. Refresh checks only for newly published static files; it does not query Hermes or private Event Radar data.`;
+    return "Static files are less than 24 hours old, but they are still not live telemetry.";
+  }
+
+  function renderFreshness() {
+    $("#lastDataUpdate").textContent = data.dataUpdateLabel || sourceDateLabel(data.dataUpdatedAt);
+    $("#dataFreshnessWarning").textContent = freshnessMessage();
+  }
+
+  function publishedVersion(text, pattern) {
+    return text.match(pattern)?.[1] || null;
+  }
+
+  async function checkForDataUpdates() {
+    const button = $("#refreshData");
+    button.disabled = true;
+    button.textContent = "Checking…";
+    try {
+      const token = Date.now();
+      const options = {cache:"no-store", headers:{"Cache-Control":"no-cache"}};
+      const [dataResponse, runtimeResponse] = await Promise.all([
+        fetch(`./assets/data.js?check=${token}`, options),
+        fetch(`./assets/runtime-snapshot.js?check=${token}`, options)
+      ]);
+      if (!dataResponse.ok || !runtimeResponse.ok) throw new Error(`HTTP ${dataResponse.status}/${runtimeResponse.status}`);
+      const [dataText, runtimeText] = await Promise.all([dataResponse.text(), runtimeResponse.text()]);
+      const remoteDataVersion = publishedVersion(dataText, /dataVersion:\s*["']([^"']+)["']/);
+      const remoteRuntimeCapture = publishedVersion(runtimeText, /["']capturedAt["']:\s*["']([^"']+)["']/);
+      const newerPublishedFiles = remoteDataVersion !== data.dataVersion || remoteRuntimeCapture !== data.runtime.capturedAt;
+      $("#lastDataCheck").textContent = new Date().toLocaleString([], {dateStyle:"medium",timeStyle:"medium"});
+      if (newerPublishedFiles) {
+        $("#dataFreshnessWarning").textContent = "Newer published static data is available. Reload the page to display it; no live or private system was queried.";
+        button.textContent = "Reload latest";
+        button.disabled = false;
+        button.dataset.reload = "true";
+        return;
+      }
+      button.dataset.reload = "false";
+      $("#dataFreshnessWarning").textContent = `No newer published static files were found. ${freshnessMessage()}`;
+    } catch (error) {
+      $("#lastDataCheck").textContent = new Date().toLocaleString([], {dateStyle:"medium",timeStyle:"medium"});
+      $("#dataFreshnessWarning").textContent = "Refresh check failed. Displayed data was not changed and may be stale.";
+    } finally {
+      if (button.dataset.reload !== "true") {
+        button.disabled = false;
+        button.textContent = "Refresh now";
+      }
+    }
+  }
+
+  function renderNestMatchStatus() {
+    const brief = data.nestMatchBrief;
+    if (!brief) return;
+    $("#nestMatchStatus").innerHTML = `<div class="nest-match-head"><div><p class="eyebrow">Latest business brief · ${esc(sourceDateLabel(brief.asOf))}</p><h2>Nest Match</h2></div><span class="reported-pill">User-reported</span></div><p class="nest-match-evidence">${esc(brief.evidence)}</p><div class="nest-match-grid"><div><strong>Status</strong><p>${esc(brief.state)}</p></div><div><strong>Go-to-market focus</strong><p>${esc(brief.focus)}</p></div><div><strong>Published plans</strong><ul>${brief.plans.map(item=>`<li>${esc(item)}</li>`).join("")}</ul></div><div><strong>Guardrails</strong><ul>${brief.safeguards.map(item=>`<li>${esc(item)}</li>`).join("")}</ul></div></div>`;
   }
 
   function renderOverview() {
@@ -116,7 +184,7 @@
   function openProject(id) {
     const p = project(id); if (!p) return;
     const sections = [["Latest",[p.latest]],["Completed",p.completed],["Current",p.current],["Next",p.next],["Blockers",p.blockers],["Decisions",p.decisions]];
-    $("#projectDetail").innerHTML = `<header class="dialog-head"><div><p class="eyebrow">${esc(p.priority)} · Updated ${esc(p.updated)}</p><h2 id="dialogTitle">${esc(p.name)}</h2>${status(p.status)}<p>${esc(p.summary)}</p></div><button class="close-dialog" aria-label="Close project details">×</button></header>${p.progress?`<div class="detail-progress"><div class="progress-track"><div class="progress-fill" style="width:${p.progress.done/p.progress.total*100}%"></div></div><small>${p.progress.done}/${p.progress.total} tracked tasks complete · this is not overall project progress</small></div>`:`<div class="detail-progress"><small>Overall project progress is unknown; no percentage has been inferred.</small></div>`}<div class="detail-grid">${sections.map(([name,items])=>`<section class="detail-section"><h3>${name}</h3>${items.length?`<ul>${items.map(i=>`<li>${esc(i)}</li>`).join("")}</ul>`:`<p>No verified item in this snapshot.</p>`}</section>`).join("")}</div>${p.docs.length?`<div class="detail-docs">${p.docs.map(([name,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(name)} ↗</a>`).join("")}</div>`:""}`;
+    $("#projectDetail").innerHTML = `<header class="dialog-head"><div><p class="eyebrow">${esc(p.priority)} · Updated ${esc(p.updated)}</p><h2 id="dialogTitle">${esc(p.name)}</h2>${status(p.status)}<p>${esc(p.summary)}</p></div><button class="close-dialog" aria-label="Close project details">×</button></header>${p.id === "nest" ? `<div class="detail-progress"><small>25 October status is user-reported and not independently verified. No automated outreach, lead/job promise, AI request assistance, live native app or public Event Radar feed is implied.</small></div>` : p.progress?`<div class="detail-progress"><div class="progress-track"><div class="progress-fill" style="width:${p.progress.done/p.progress.total*100}%"></div></div><small>${p.progress.done}/${p.progress.total} tracked tasks complete · this is not overall project progress</small></div>`:`<div class="detail-progress"><small>Overall project progress is unknown; no percentage has been inferred.</small></div>`}<div class="detail-grid">${sections.map(([name,items])=>`<section class="detail-section"><h3>${name}</h3>${items.length?`<ul>${items.map(i=>`<li>${esc(i)}</li>`).join("")}</ul>`:`<p>No verified item in this snapshot.</p>`}</section>`).join("")}</div>${p.docs.length?`<div class="detail-docs">${p.docs.map(([name,url])=>`<a href="${esc(url)}" target="_blank" rel="noopener">${esc(name)} ↗</a>`).join("")}</div>`:""}`;
     const dialog = $("#projectDialog"); dialog.showModal(); $(".close-dialog",dialog).addEventListener("click",()=>dialog.close());
   }
 
@@ -124,9 +192,9 @@
   function closeMenu() { $(".sidebar").classList.remove("open"); $("#mobileScrim").hidden=true; $("#menuButton").setAttribute("aria-expanded","false"); }
 
   function init() {
-    $("#snapshotText").textContent = `${data.snapshot} · ${data.sourceNote}`;
-    $("#snapshotSide").textContent = data.snapshot;
-    renderFlow(); renderRuntime(); renderOverview(); renderAttention();
+    $("#snapshotText").textContent = `${data.dataUpdateLabel} · runtime captured ${data.snapshot} · ${data.sourceNote}`;
+    $("#snapshotSide").textContent = `Data ${sourceDateLabel(data.dataUpdatedAt)}`;
+    renderFreshness(); renderNestMatchStatus(); renderFlow(); renderRuntime(); renderOverview(); renderAttention();
     populateSelect("#projectStatusFilter", data.statuses);
     populateSelect("#projectFilter", data.projects.map(p=>({value:p.id,label:p.short})));
     populateSelect("#statusFilter", data.statuses);
@@ -143,11 +211,14 @@
     $("#resetFilters").addEventListener("click",resetTasks);
     $("#projectStatusFilter").addEventListener("change",renderProjects);
     $("#searchTrigger").addEventListener("click",()=>{setView("tasks");$("#taskSearch").focus()});
+    $("#refreshData").addEventListener("click",()=>$("#refreshData").dataset.reload === "true" ? location.reload() : checkForDataUpdates());
     $("#menuButton").addEventListener("click",()=>$(".sidebar").classList.contains("open")?closeMenu():openMenu());
     $("#mobileScrim").addEventListener("click",closeMenu);
     $("#projectDialog").addEventListener("click", e => { if(e.target === $("#projectDialog")) $("#projectDialog").close(); });
     document.addEventListener("keydown", e => { if(e.key==="/" && !/input|select|textarea/i.test(document.activeElement.tagName)){e.preventDefault();setView("tasks");$("#taskSearch").focus()} if(e.key==="Escape") closeMenu(); });
     setView(location.hash.slice(1)||"overview", false);
+    checkForDataUpdates();
+    window.setInterval(checkForDataUpdates, REFRESH_INTERVAL_MS);
     if ("serviceWorker" in navigator && location.protocol.startsWith("http")) window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));
   }
   document.readyState === "loading" ? document.addEventListener("DOMContentLoaded",init) : init();

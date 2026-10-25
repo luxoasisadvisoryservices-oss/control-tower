@@ -1,4 +1,4 @@
-const CACHE_NAME = "control-tower-v709-useful-videos-20260920";
+const CACHE_NAME = "control-tower-v710-refresh-radar-nest-20261025";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -26,6 +26,11 @@ self.addEventListener("activate", event => {
 
 self.addEventListener("fetch", event => {
   if (event.request.method !== "GET") return;
+  const url = new URL(event.request.url);
+  if (url.searchParams.has("check")) {
+    event.respondWith(fetch(new Request(event.request, {cache:"no-store"})));
+    return;
+  }
   event.respondWith(fetch(new Request(event.request, {cache:"reload"})).then(response => {
     if (response.ok) caches.open(CACHE_NAME).then(cache => cache.put(event.request, response.clone()));
     return response;

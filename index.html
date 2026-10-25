@@ -28,6 +28,7 @@
         <button class="nav-item" data-view-target="tasks"><span aria-hidden="true">✓</span>Tasks / Actions</button>
         <button class="nav-item" data-view-target="team"><span aria-hidden="true">◎</span>Team Board</button>
         <button class="nav-item" data-view-target="videos"><span aria-hidden="true">▶</span>Useful Videos</button>
+        <button class="nav-item" data-view-target="event-radar"><span aria-hidden="true">◉</span>Event Radar</button>
         <button class="nav-item" data-view-target="files"><span aria-hidden="true">▱</span>Files & Archive</button>
       </nav>
       <div class="sidebar-foot">
@@ -44,9 +45,17 @@
         <button class="search-trigger" id="searchTrigger" aria-label="Search tasks"><span>Search tasks</span><kbd>/</kbd></button>
       </header>
 
-      <div class="snapshot-banner"><strong>Snapshot</strong><span id="snapshotText"></span><a href="./legacy.html">Open full legacy history ↗</a></div>
+      <section class="data-freshness" aria-label="Data freshness">
+        <div><strong>Last data update</strong><span id="lastDataUpdate"></span></div>
+        <div><strong>Last checked</strong><span id="lastDataCheck">Not checked this session</span></div>
+        <button class="reset-button" id="refreshData" type="button">Refresh now</button>
+        <p id="dataFreshnessWarning" class="freshness-warning" role="status" aria-live="polite"></p>
+      </section>
+      <div class="snapshot-banner"><strong>Dated source set</strong><span id="snapshotText"></span><a href="./legacy.html">Open full legacy history ↗</a></div>
 
       <section class="view active" data-view="overview" aria-labelledby="viewTitle">
+        <div class="stale-overview-warning" role="note"><strong>Historical portfolio queue</strong><span>Other portfolio records retain their original September source dates. Treat them as dated records, not current operating status. The Nest Match brief is the only 25 October business update in this build.</span></div>
+        <section id="nestMatchStatus" class="nest-match-status" aria-label="Nest Match status"></section>
         <div class="flow-strip" aria-label="Operating sequence" id="flowStrip"></div>
         <section class="runtime-snapshot" aria-labelledby="runtimeTitle">
           <div class="runtime-head"><div><p class="eyebrow">Timestamped static evidence</p><h2 id="runtimeTitle">Hermes runtime snapshot</h2><p id="runtimeSummary"></p></div><span class="verified-pill" id="runtimeVerified"></span></div>
@@ -110,6 +119,15 @@
         <div id="videoGrid" class="video-grid" aria-live="polite"></div>
       </section>
 
+      <section class="view" data-view="event-radar">
+        <div class="section-heading"><div><p class="eyebrow">Private integration status</p><h2>Event Radar</h2><p>Event Radar must remain private when implemented.</p></div><span class="not-connected-pill">PRIVATE ACCESS REQUIRED</span></div>
+        <section class="panel event-radar-empty" aria-label="Event Radar private access status">
+          <strong>Authenticated private access is required</strong>
+          <p>No event source is connected in this public build. This page does not query an event database and does not show sample, synthetic or cached records as real events.</p>
+          <p>Implement Event Radar only behind authenticated private access with approved read-only permissions. It must remain private; do not expose an event feed or event records on the public site.</p>
+        </section>
+      </section>
+
       <section class="view" data-view="files">
         <div class="section-heading"><div><p class="eyebrow">Source material</p><h2>Files & archive</h2><p>Current working documents plus the byte-preserved original dashboard and detailed history.</p></div></div>
         <div id="fileList" class="file-list"></div>
@@ -124,6 +142,7 @@
     <button data-view-target="tasks"><span>✓</span>Tasks</button>
     <button data-view-target="team"><span>◎</span>Team</button>
     <button data-view-target="videos"><span>▶</span>Videos</button>
+    <button data-view-target="event-radar"><span>◉</span>Radar</button>
   </nav>
 
   <dialog id="projectDialog" class="project-dialog" aria-labelledby="dialogTitle"><div id="projectDetail"></div></dialog>
