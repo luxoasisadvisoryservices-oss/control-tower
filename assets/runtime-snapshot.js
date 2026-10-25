@@ -2,25 +2,25 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
   "schemaVersion": 2,
   "phase1State": "ATTENTION",
   "phase1Detail": "Fresh bounded scheduler summary plus approved public-safe business facts. No prompts, contacts, private operational records, credentials, or raw errors are included.",
-  "capturedAt": "2026-10-25T15:41:57+04:00",
-  "jobsSourceModifiedAt": "2026-10-25T15:41:39+04:00",
-  "auditAt": "2026-10-25T15:41:57+04:00",
-  "verified": "2026-10-25T15:41:57+04:00",
-  "configChecked": "2026-10-25T15:41:57+04:00",
+  "capturedAt": "2026-10-25T15:43:44+04:00",
+  "jobsSourceModifiedAt": "2026-10-25T15:43:42+04:00",
+  "auditAt": "2026-10-25T15:43:44+04:00",
+  "verified": "2026-10-25T15:43:44+04:00",
+  "configChecked": "2026-10-25T15:43:44+04:00",
   "title": "Control Tower freshness: attention · 3 latest scheduler failures",
-  "summary": "23 schedules enabled as configuration: 20 latest OK, 3 latest failed, 0 never run. Business source: APPROVED. Latest-result evidence is not continuous health.",
-  "enabledCount": 23,
+  "summary": "25 schedules enabled as configuration: 20 latest OK, 3 latest failed, 2 never run. Business source: APPROVED. Latest-result evidence is not continuous health.",
+  "enabledCount": 25,
   "pausedCount": 24,
   "completedCount": 0,
   "jobHealth": {
     "ok": 20,
     "error": 3,
-    "neverRun": 0
+    "neverRun": 2
   },
   "metrics": [
     {
       "label": "Enabled schedules",
-      "value": "23",
+      "value": "25",
       "detail": "Configured on; not a health signal"
     },
     {
@@ -35,7 +35,7 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
     },
     {
       "label": "Never run",
-      "value": "0",
+      "value": "2",
       "detail": "Enabled jobs with no result"
     }
   ],
@@ -86,7 +86,7 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
     },
     {
       "name": "No recorded run",
-      "count": 0,
+      "count": 2,
       "detail": "Enabled but health unknown"
     },
     {
@@ -129,5 +129,5 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
     ],
     "detail": "Loaded from an explicitly approved allowlisted public-safe source; fact dates are source dates, not check times."
   },
-  "note": "Static public-safe snapshot checked 2026-10-25T15:41:57+04:00. Scheduler source modified 2026-10-25T15:41:39+04:00. Business fact source dates are preserved and are not advanced when facts are unchanged. This is not live telemetry."
+  "note": "Static public-safe snapshot checked 2026-10-25T15:43:44+04:00. Scheduler source modified 2026-10-25T15:43:42+04:00. Business fact source dates are preserved and are not advanced when facts are unchanged. This is not live telemetry."
 };
