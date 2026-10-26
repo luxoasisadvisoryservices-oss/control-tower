@@ -2,11 +2,11 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
   "schemaVersion": 2,
   "phase1State": "ATTENTION",
   "phase1Detail": "Fresh bounded scheduler summary plus approved public-safe business facts. No prompts, contacts, private operational records, credentials, or raw errors are included.",
-  "capturedAt": "2026-10-27T00:05:41+04:00",
-  "jobsSourceModifiedAt": "2026-10-27T00:05:39+04:00",
-  "auditAt": "2026-10-27T00:05:41+04:00",
-  "verified": "2026-10-27T00:05:41+04:00",
-  "configChecked": "2026-10-27T00:05:41+04:00",
+  "capturedAt": "2026-10-27T01:05:41+04:00",
+  "jobsSourceModifiedAt": "2026-10-27T01:05:39+04:00",
+  "auditAt": "2026-10-27T01:05:41+04:00",
+  "verified": "2026-10-27T01:05:41+04:00",
+  "configChecked": "2026-10-27T01:05:41+04:00",
   "title": "Control Tower freshness: attention · 2 latest scheduler failures",
   "summary": "24 schedules enabled as configuration: 22 latest OK, 2 latest failed, 0 never run. Business source: APPROVED. Latest-result evidence is not continuous health.",
   "enabledCount": 24,
@@ -59,7 +59,7 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
   "failures": [
     {
       "name": "Scheduled worker failure",
-      "lastRunAt": "2026-10-26T23:50:45.136159+04:00",
+      "lastRunAt": "2026-10-27T00:51:45.182420+04:00",
       "error": "Execution failure; private detail withheld"
     },
     {
@@ -124,5 +124,5 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
     ],
     "detail": "Loaded from an explicitly approved allowlisted public-safe source; fact dates are source dates, not check times."
   },
-  "note": "Static public-safe snapshot checked 2026-10-27T00:05:41+04:00. Scheduler source modified 2026-10-27T00:05:39+04:00. Business fact source dates are preserved and are not advanced when facts are unchanged. This is not live telemetry."
+  "note": "Static public-safe snapshot checked 2026-10-27T01:05:41+04:00. Scheduler source modified 2026-10-27T01:05:39+04:00. Business fact source dates are preserved and are not advanced when facts are unchanged. This is not live telemetry."
 };
