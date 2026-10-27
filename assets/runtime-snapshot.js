@@ -2,19 +2,19 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
   "schemaVersion": 2,
   "phase1State": "ATTENTION",
   "phase1Detail": "Fresh bounded scheduler summary plus approved public-safe business facts. No prompts, contacts, private operational records, credentials, or raw errors are included.",
-  "capturedAt": "2026-10-27T15:05:39+04:00",
-  "jobsSourceModifiedAt": "2026-10-27T15:05:38+04:00",
-  "auditAt": "2026-10-27T15:05:39+04:00",
-  "verified": "2026-10-27T15:05:39+04:00",
-  "configChecked": "2026-10-27T15:05:39+04:00",
-  "title": "Control Tower freshness: attention · 3 latest scheduler failures",
-  "summary": "24 schedules enabled as configuration: 21 latest OK, 3 latest failed, 0 never run. Business source: APPROVED. Latest-result evidence is not continuous health.",
+  "capturedAt": "2026-10-27T16:05:39+04:00",
+  "jobsSourceModifiedAt": "2026-10-27T16:05:38+04:00",
+  "auditAt": "2026-10-27T16:05:39+04:00",
+  "verified": "2026-10-27T16:05:39+04:00",
+  "configChecked": "2026-10-27T16:05:39+04:00",
+  "title": "Control Tower freshness: attention · 2 latest scheduler failures",
+  "summary": "24 schedules enabled as configuration: 22 latest OK, 2 latest failed, 0 never run. Business source: APPROVED. Latest-result evidence is not continuous health.",
   "enabledCount": 24,
   "pausedCount": 24,
   "completedCount": 1,
   "jobHealth": {
-    "ok": 21,
-    "error": 3,
+    "ok": 22,
+    "error": 2,
     "neverRun": 0
   },
   "metrics": [
@@ -25,12 +25,12 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
     },
     {
       "label": "Latest OK",
-      "value": "21",
+      "value": "22",
       "detail": "Enabled jobs only"
     },
     {
       "label": "Latest failed",
-      "value": "3",
+      "value": "2",
       "detail": "Enabled jobs only; private details withheld"
     },
     {
@@ -59,12 +59,7 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
   "failures": [
     {
       "name": "Scheduled worker failure",
-      "lastRunAt": "2026-10-27T15:00:38.706527+04:00",
-      "error": "Execution failure; private detail withheld"
-    },
-    {
-      "name": "Scheduled worker failure",
-      "lastRunAt": "2026-10-27T14:04:44.085496+04:00",
+      "lastRunAt": "2026-10-27T15:05:43.999117+04:00",
       "error": "Execution failure; private detail withheld"
     },
     {
@@ -76,12 +71,12 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
   "workers": [
     {
       "name": "Latest recorded OK",
-      "count": 21,
+      "count": 22,
       "detail": "Enabled schedules; latest result only"
     },
     {
       "name": "Latest recorded failure",
-      "count": 3,
+      "count": 2,
       "detail": "Enabled schedules; private details withheld"
     },
     {
@@ -129,5 +124,5 @@ window.CONTROL_TOWER_RUNTIME_SNAPSHOT = {
     ],
     "detail": "Loaded from an explicitly approved allowlisted public-safe source; fact dates are source dates, not check times."
   },
-  "note": "Static public-safe snapshot checked 2026-10-27T15:05:39+04:00. Scheduler source modified 2026-10-27T15:05:38+04:00. Business fact source dates are preserved and are not advanced when facts are unchanged. This is not live telemetry."
+  "note": "Static public-safe snapshot checked 2026-10-27T16:05:39+04:00. Scheduler source modified 2026-10-27T16:05:38+04:00. Business fact source dates are preserved and are not advanced when facts are unchanged. This is not live telemetry."
 };
