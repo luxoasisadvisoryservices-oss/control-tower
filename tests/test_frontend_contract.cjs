@@ -17,7 +17,15 @@ test('data freshness distinguishes source update time from check time', () => {
   assert.match(js, /60\s*\*\s*60\s*\*\s*1000/);
   assert.match(js, /dataUpdatedAt/);
   assert.match(js, /capturedAt/);
-  assert.match(data, /dataVersion:\s*["']2026-10-25-nest-match-public-brief-1["']/);
+  assert.match(data, /dataVersion:\s*["']2026-11-02-pricelabs-review-1["']/);
+  const context = {window: {CONTROL_TOWER_RUNTIME_SNAPSHOT: {capturedAt: 'test'}}};
+  require('node:vm').runInNewContext(data, context);
+  const review = context.window.CONTROL_TOWER_DATA.projects.find(p => p.id === 'pricelabs-review');
+  assert.equal(review.status, 'Review');
+  assert.equal(review.progress, null);
+  assert.match(review.latest, /not evidence/);
+  assert.ok(fs.existsSync(path.join(root, review.docs[0][1])));
+  assert.equal(context.window.CONTROL_TOWER_DATA.projects.find(p => p.id === 'orl').updated, '15 Sep 2026');
   assert.doesNotMatch(js, /lastDataUpdate[^\n]*(new Date|Date\.now)/);
 });
 

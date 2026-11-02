@@ -1,9 +1,9 @@
 window.CONTROL_TOWER_DATA = {
-  dataVersion: "2026-10-25-nest-match-public-brief-1",
-  dataUpdatedAt: "2026-10-25",
-  dataUpdateLabel: "25 Oct 2026 · public-safe Nest Match brief",
+  dataVersion: "2026-11-02-pricelabs-review-1",
+  dataUpdatedAt: "2026-11-02",
+  dataUpdateLabel: "2 Nov 2026 · PriceLabs review summary",
   snapshot: window.CONTROL_TOWER_RUNTIME_SNAPSHOT.capturedAt,
-  sourceNote: "Dated static business records. Nest Match was updated 25 Oct 2026; other projects retain their original source dates. This is not live telemetry.",
+  sourceNote: "PriceLabs review summary added 2 Nov 2026: proposed checks, not an account audit or implementation. Nest Match retains its 25 Oct source date; all other project records retain their original dates. This is not live business telemetry.",
   runtime: window.CONTROL_TOWER_RUNTIME_SNAPSHOT,
   statuses: ["Not Started", "In Progress", "Waiting", "Blocked", "Review", "Completed"],
   nestMatchBrief: {
@@ -25,6 +25,17 @@ window.CONTROL_TOWER_DATA = {
     ]
   },
   projects: [
+    {
+      id: "pricelabs-review", name: "ORL · PriceLabs review", short: "PriceLabs review", status: "Review", priority: "P1", owner: "Damiano", team: ["Damiano", "Hermes"], updated: "02 Nov 2026",
+      summary: "Three priorities: reconcile final guest prices, evaluate an owner revenue-estimator page, and strengthen ORL reporting and safeguards.",
+      progress: null, latest: "Video transcript review summarised. This is a proposed checklist, not evidence that live pricing, integrations or account features have been audited or changed.",
+      completed: ["Video review summary prepared; implementation remains unstarted"],
+      current: ["Review base/minimum/maximum rates, overrides, discounts, minimum stays and sync quality", "Trace PriceLabs → PMS → booking channel → guest checkout → net proceeds", "Evaluate the Revenue Estimator widget separately from booking-rate and search-demand integrations"],
+      next: ["Test representative stay lengths, lead times, seasons and guest counts; explain every final-price difference", "Choose the estimator website/domain and verify activation, lead capture, privacy, usage limits and full recurring costs", "Prioritise owner reports, comparable-property selection, exception alerts and approval/readback controls"],
+      blockers: ["Live account configuration, PMS feature support and roadmap availability not verified", "Widget/API/RE Pro subscriptions, taxes, overages and partner entitlements require confirmation", "No website/domain selected for implementation"],
+      decisions: ["Estimated revenue is not guaranteed income or owner profit", "No pricing writes, paid activation, website integration or outreach authorised by this summary", "Other project dates and Event Radar connection status are unchanged"],
+      docs: [["PriceLabs review · summary and checklist", "./docs/pricelabs-review-2026-11-02.html"]]
+    },
     {
       id: "lohh", name: "Lux Oasis Holiday Homes", short: "LOHH", status: "In Progress", priority: "P1", owner: "Damiano", team: ["Damiano", "Lin", "Hermes"], updated: "07 Sep 2026",
       summary: "Apartment growth and guest operations, with JBR acquisition blocked and current operations on controlled follow-through.",
