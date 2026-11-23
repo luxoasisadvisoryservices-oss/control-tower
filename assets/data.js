@@ -1,9 +1,9 @@
 window.CONTROL_TOWER_DATA = {
-  dataVersion: "2026-11-02-pricelabs-review-1",
-  dataUpdatedAt: "2026-11-02",
-  dataUpdateLabel: "2 Nov 2026 · PriceLabs review summary",
+  dataVersion: "2026-11-23-nest-tenant-roadmap-1",
+  dataUpdatedAt: "2026-11-23",
+  dataUpdateLabel: "23 Nov 2026 · Nest Match roadmap entry",
   snapshot: window.CONTROL_TOWER_RUNTIME_SNAPSHOT.capturedAt,
-  sourceNote: "PriceLabs review summary added 2 Nov 2026: proposed checks, not an account audit or implementation. Nest Match retains its 25 Oct source date; all other project records retain their original dates. This is not live business telemetry.",
+  sourceNote: "Nest Match tenant pilot added to the roadmap 23 Nov 2026, not implemented. The Nest Match operating brief remains dated 25 Oct 2026; other operating records retain their source dates. This is not live business telemetry.",
   runtime: window.CONTROL_TOWER_RUNTIME_SNAPSHOT,
   statuses: ["Not Started", "In Progress", "Waiting", "Blocked", "Review", "Completed"],
   nestMatchBrief: {
@@ -75,7 +75,7 @@ window.CONTROL_TOWER_DATA = {
       progress: null, latest: "Payments, subscriptions, invoices and admin were reported audited and fixed this week. Public positioning now leads with the permanent Free plan, profile directory, connections and messaging, plus two role templates.",
       completed: ["Payments, subscriptions, invoices and admin tools reported audited and fixed in the 25 October brief; not independently verified by Control Tower"],
       current: ["Start manual outreach without automated sending", "Use prepared profiles and follow up without publishing identities", "Require professionals to confirm service and area before managed request matching"],
-      next: ["Measure outreach responses without promising leads or jobs", "Keep Free permanent and describe the 30-day free Pro trial with paid subscription afterwards", "Keep Event Radar private and require authenticated access before connecting any event source"],
+      next: ["Near-term roadmap: tenant pilot for home services and rental-agent requests (planned, not live)","Measure outreach responses without promising leads or jobs", "Keep Free permanent and describe the 30-day free Pro trial with paid subscription afterwards", "Keep Event Radar private and require authenticated access before connecting any event source"],
       blockers: ["25 October operational claims are user-reported and not independently verified", "No automated outreach is authorised", "Event Radar authenticated access is not implemented or connected"],
       decisions: ["Lead with permanent Free, directory, connections and messaging", "Provider pricing: AED 29/59 monthly and AED 290/590 annual", "Operator/agent pricing: AED 39/79 monthly and AED 390/790 annual", "Pro includes 3 managed responses per month; Premium includes 6 per month", "Do not claim beta offers, promised leads/jobs, AI request help or a live native app"],
       docs: [["Dubai provider outreach board","./docs/nest-match-dubai-provider-outreach.html"],["Requirements status","./docs/NEST_MATCH_LUCA_REQUIREMENTS_STATUS_2026-09-05.md"]]
@@ -134,7 +134,8 @@ window.CONTROL_TOWER_DATA = {
     {id:"t17",title:"Keep Renovation opportunity-gated",project:"renovation",status:"Waiting",priority:"P3",owner:"Hermes",needsDamiano:false,detail:"Activate only for a verified unit or owner lead."},
     {id:"t18",title:"Close Joey/Oasis 2 review handling",project:"lohh",status:"Completed",priority:"P2",owner:"Lin",needsDamiano:false,detail:"Closed in the current source; no active task remains."},
     {id:"t19",title:"Send Shams/media-office and PriceLabs emails",project:"luca",status:"Completed",priority:"P1",owner:"Damiano",needsDamiano:false,detail:"Both were sent on 7 September and moved to reply watch.",doc:"./docs/LUCA_NHNCD_PARTNERSHIP_CONTROL_TOWER_2026-09-06.md"},
-    {id:"orl-da485b8-zuhair-review",title:"Zuhair — pull and review latest ORL updates (da485b8)",project:"orl",status:"Not Started",priority:"P1",owner:"Zuhair",needsDamiano:false,detail:"Damiano reports master at da485b8 is clean and pushed. Retrieve that commit, review the four feature groups, then confirm receipt and report build/test results and issues. Review only—do not deploy or change live pricing.",doc:"./docs/ORL_ZUHAIR_REVIEW_DA485B8_2026-09-14.md"}
+    {id:"orl-da485b8-zuhair-review",title:"Zuhair — pull and review latest ORL updates (da485b8)",project:"orl",status:"Not Started",priority:"P1",owner:"Zuhair",needsDamiano:false,detail:"Damiano reports master at da485b8 is clean and pushed. Retrieve that commit, review the four feature groups, then confirm receipt and report build/test results and issues. Review only—do not deploy or change live pricing.",doc:"./docs/ORL_ZUHAIR_REVIEW_DA485B8_2026-09-14.md"},
+    {id:"nest-tenant-pilot",title:"Tenant pilot: home services and rental-agent requests",project:"nest",status:"Not Started",priority:"P2",owner:"Damiano",needsDamiano:false,detail:"Near-term roadmap only. Plan a small invited pilot so tenants can request home services or ask an agent to help find a rental. No release date is committed."}
   ],
   activity: [
     {date:"08 Sep 2026",type:"Attention",project:"mission",title:"Phase 1 safe internal recovery remains partial",body:"Luna passed, guest operations passed 38 regression and 10 adversarial checks, and the stale Desktop ticker was stopped. Gateway-only local scheduling passed. Telegram unattended delivery remains unverified; Gmail and intentional holds remain paused."},
